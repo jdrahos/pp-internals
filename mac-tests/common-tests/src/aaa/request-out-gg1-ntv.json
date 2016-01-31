@@ -1,0 +1,47 @@
+{
+  "ver": 1,
+  "assets": [
+    {
+      "id": 1,
+      "required": 1,
+      "title": {
+        "len": 150
+      }
+    },
+    {
+      "id": 2,
+      "required": 1,
+      "img": {
+        "hmin": 100,
+        "wmin": 100,
+        "type": 3
+      }
+    },
+    {
+      "id": 6,
+      "required": 1,
+      "data": {
+        "type": 2,
+        "len": 200
+      }
+    },
+    {
+      "id": 15,
+      "required": 0,
+      "data": {
+        "type": 11
+      }
+    },
+    {
+      "id": 5,
+      "required": 0,
+      "data": {
+        "type": 1
+      }
+    }
+  ],
+  "layout": 3,
+  "adunit": 3,
+  "plcmtcnt": 1,
+  "seq": 0
+}

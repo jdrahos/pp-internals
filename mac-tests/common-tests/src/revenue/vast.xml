@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VAST version="2.0">
+    <Ad id="12345">
+        <InLine>
+            <AdSystem version="1.0">SpotXchange</AdSystem>
+            <AdTitle><![CDATA[Sample VAST]]></AdTitle>
+            <Impression>http://sample.com</Impression>
+            <Description><![CDATA[A sample VAST feed]]></Description>
+            <Creatives>
+                <Creative sequence="1" id="1">
+                    <Linear>
+                        <Duration>00:00:30</Duration>
+                        <TrackingEvents>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough><![CDATA[http://sample.com/openrtbtest]]></ClickThrough>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" bitrate="256" width="640" height="480" type="video/mp4"><![CDATA[http://sample.com/video.mp4]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

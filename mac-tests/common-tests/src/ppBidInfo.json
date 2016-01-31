@@ -1,0 +1,78 @@
+{
+  "viewProb": 5,
+  "qdaScore": 10,
+  "geoData": {
+    "areaCode": "2",
+    "city": "legocity",
+    "country": "",
+    "latitude": "",
+    "longitude": "",
+    "state": "",
+    "postalCode": "",
+    "bandwidth": "",
+    "sic": "",
+    "domain": "",
+    "cityCode": 0,
+    "metroCode": ""
+  },
+  "edBidResponse": {
+    "r": {
+      "wincpm": 0.00,
+      "fee": 0.10,
+      "bidcpm": 0.50,
+      "extBidcpm": 0.00,
+      "floor": 0.00,
+      "c": "",
+      "nurl": "",
+      "winnerType": "PASSBACK",
+      "cookie": ""
+    },
+    "log": []
+  },
+  "xt3Response": {
+    "Url": "",
+    "domainCtx": false,
+    "ContentType": "",
+    "ServerName": "",
+    "TextLength": 0,
+    "HtmlLength": 0,
+    "lang": "",
+    "langISO": "",
+    "languageId": 0,
+    "langCode": "",
+    "Cache": false,
+    "ElapsedTime": 0,
+    "Count": 0,
+    "TopChannel": {
+      "name": "",
+      "level": 0,
+      "score": 0.0,
+      "id": 0,
+      "pathIds": [],
+      "pathNames": [],
+      "taxonomy": ""
+    },
+    "ChResults": [],
+    "NamedEntities": [],
+    "MainKwList": [],
+    "PosKwList": [],
+    "NegKwList": [],
+    "SearchEngKw": [],
+    "SentimentScore": 0.0,
+    "NumAds": 0,
+    "ContentQA": {
+      "qualityScore": 0,
+      "adultScore": 0,
+      "numLinks": 0,
+      "numImports": 0,
+      "numMedia": 0,
+      "pageRank": 0,
+      "impressionQuality": 0.0,
+      "adViewability": 0.0
+    },
+    "Status": "FULL_CACHED",
+    "SentimentKeywords": [],
+    "NegativeEntities": [],
+    "PositiveEntities": []
+  }
+}

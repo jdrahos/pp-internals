@@ -1,0 +1,63 @@
+{
+  "badv": [],
+  "bcat": [],
+  "device": {
+    "devicetype": 1,
+    "geo": {
+      "city": "NEW YORK",
+      "country": "USA",
+      "lat": 40.81703,
+      "lon": -73.94247,
+      "metro": "501",
+      "region": "NY",
+      "type": 2,
+      "zip": "10021"
+    },
+    "ip": "199.96.107.158",
+    "os": "IPHONE",
+    "osv": "9.1",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 [FBAN/FBIOS;FBAV/45.0.0.45.96;FBBV/18289579;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.1;FBSS/2; FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5]"
+  },
+  "id": "R0OBoHCp6WZe",
+  "imp": [
+    {
+      "bidfloorcur": "USD",
+      "id": "R0OBoHCp6WZe",
+      "instl": 0,
+      "native": {
+        "battr": [
+          3,
+          4,
+          5
+        ],
+        "request": "{\"ver\":1,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":70}},{\"id\":2,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":3,\"required\":1,\"img\":{\"h\":250,\"w\":300,\"type\":3}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":30}}],\"layout\":4,\"plcmtcnt\":1,\"seq\":0}",
+        "ver": "1"
+      },
+      "secure": 0
+    }
+  ],
+  "site": {
+    "cat": [
+      "79",
+      "3",
+      "301",
+      "80",
+      "81",
+      "61"
+    ],
+    "domain": "pressroomvip.com",
+    "id": "6787",
+    "page": "http://www.pressroomvip.com/g/celebrities-who-play-straight-but-are-actually-gay/2/?ipp=3&utm_source=fb&utm_medium=CelebPlayStraigNewUSBlendedWebclickL&utm_campaign=social-p",
+    "pagecat": [
+      "IAB1-2"
+    ],
+    "publisher": {
+      "domain": "pressroomvip.com",
+      "id": "558530.16022"
+    }
+  },
+  "tmax": 105,
+  "user": {
+    "id": "CvEy25-BGltL8qYJrrg2Qw"
+  }
+}

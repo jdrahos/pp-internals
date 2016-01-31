@@ -1,0 +1,1 @@
+wget --post-file=predict.json --header="Content-Type: application/json" http://10.201.15.19/predict-service/predict/multimodel

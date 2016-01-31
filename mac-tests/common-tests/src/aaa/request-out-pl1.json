@@ -1,0 +1,54 @@
+{
+  "badv": [],
+  "bcat": [],
+  "device": {
+    "devicetype": 2,
+    "geo": {
+      "city": "HENDERSON",
+      "country": "USA",
+      "lat": 35.9577,
+      "lon": -115.1586,
+      "metro": "839",
+      "region": "NV",
+      "type": 2,
+      "zip": "89074"
+    },
+    "ip": "23.89.223.76",
+    "os": "WINDOWS",
+    "osv": "WINDOWS7",
+    "ua": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36"
+  },
+  "id": "7J4gfaJiv8Yv",
+  "imp": [
+    {
+      "bidfloorcur": "USD",
+      "id": "7J4gfaJiv8Yv",
+      "instl": 0,
+      "native": {
+        "battr": [],
+        "request": "{\"ver\":1,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":65}},{\"id\":2,\"required\":1,\"img\":{\"hmin\":200,\"wmin\":200,\"type\":3}},{\"id\":3,\"required\":1,\"data\":{\"type\":2,\"len\":75}},{\"id\":4,\"required\":0,\"data\":{\"type\":6}},{\"id\":5,\"required\":0,\"data\":{\"type\":7}},{\"id\":6,\"required\":0,\"data\":{\"type\":11}}],\"layout\":1,\"adunit\":2,\"plcmtcnt\":1,\"seq\":0}",
+        "ver": "1"
+      },
+      "secure": 0
+    }
+  ],
+  "site": {
+    "cat": [
+      "0"
+    ],
+    "domain": "mgid.com",
+    "id": "857194",
+    "page": "http://mgid.com/mg8313.html",
+    "pagecat": [
+      "IAB24"
+    ],
+    "publisher": {
+      "domain": "mgid.com",
+      "id": "558360"
+    }
+  },
+  "tmax": 105,
+  "user": {
+    "id": ""
+  }
+}

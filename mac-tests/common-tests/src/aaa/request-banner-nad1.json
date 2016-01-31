@@ -1,0 +1,48 @@
+{
+  "id": "6560798926385889171",
+  "imp": [
+    {
+      "id": "0",
+      "banner": {
+        "w": 320,
+        "h": 50,
+        "battr": [
+          10
+        ]
+      },
+      "bidfloor": 2.211055
+    }
+  ],
+  "app": {
+    "id": "51aaa711a7d111e5ac4f22000b76e5e3",
+    "name": "High-Powered Flashlight",
+    "domain": "",
+    "cat": [
+      "IAB18-3"
+    ],
+    "bundle": "com.ihandysoft.ledflashlight.mini",
+    "publisher": {
+      "id": "16778"
+    }
+  },
+  "device": {
+    "ua": "Dalvik/1.6.0 (Linux; U; Android 4.4.4; XT1030 Build/SU6-7.3)",
+    "ip": "70.193.44.201",
+    "geo": {
+      "country": "USA",
+      "region": "",
+      "city": "",
+      "zip": "",
+      "type": 2
+    }
+  },
+  "user": {
+    "id": "-919813818"
+  },
+  "at": 2,
+  "bcat": [
+    "IAB24",
+    "IAB25",
+    "IAB26"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "native": {
+    "assets": [
+      {
+        "id": 1,
+        "title": {
+          "text": "Obama Eliminates Fee For Homeowners Who Switch To 15yr Fixed"
+        }
+      },
+      {
+        "id": 2,
+        "img": {
+          "h": 100,
+          "type": 3,
+          "url": "http://cdn.bttrack.com/a/100/100/3096907",
+          "w": 100
+        }
+      },
+      {
+        "data": {
+          "type": 2,
+          "value": "If you owe less than $625,000 on your home, use Obama's Refi Program. You'll be shocked when you see how much you can save."
+        },
+        "id": 6
+      },
+      {
+        "data": {
+          "type": 1,
+          "value": "LowerMyBills.com"
+        },
+        "id": 5
+      }
+    ],
+    "ext": {
+      "viewabilitytrackers": [
+        "http://bttrack.com/Pixel/Viewed/?data=OuJifVtEKZqw3Azm8_7tS7Pq5na3_9r6ea_vf8pRMnJyuaU_7s9pnQglAzmTfYjUTaUXgFNzll3Rp-M8Z9obhgf3gbTI_9ZHotrRNfckP63eWSAteiuhpQOJ1ZeILYCEMO2QAkqOjOLoKIeukG4fjOC_6ObTffckDzsVh4_cLt5YwaTfHvfPn6YyhTd0x67jvkeol2wberPOKw1kOdhCNfrI40-WRb1vMRXhGFZDceT-pONs7X1hTDzrsRWXokTljoinbg1z-S7_vx_JKBsXMUIEvJAacHrBU8JBHuznSlTCalh1CAwVYLnDjgT_wWKoxfVbwMfyZ7w1&method=3&percentage=1"
+      ]
+    },
+    "imptrackers": [
+      "http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3Azm6d4tWrPq5tbDD1RBC3JLfRsoiAsVTm_TAJBoZfOLBC0XXNNk8cAHNtcMiXyNqfNLl0T61AC8TXlKG-ABNQ6EtW1qN0G_J5gxHx1oBRRK0eFZ1Xqxoz_s_8PYgx11N3Yg3n0pTIcSha1M7kXl8oC_hc0FxMF0YBCSXdxOgj1xM1ChppuH3gLQi2AOZGO2BP0s5fwLQt0Q9e62t8TTfLFS05FMhuNTjfbHAigKP_f48usy75BTn2_-t-9NZItFQn3efH_XdQqHAzxDr6TuXGYNzcdn6BMNdkigoHrqLVVQSWo6zw7VXkaoO1c8OBNJclpEmszBXiunaWF0X5p9JAQy2B2huQBR7_7EbB4X6HvAfA2&type=img",
+      "//idsync.rlcdn.com/400066.gif?partner_uid=2X3mRmFZTjXY"
+    ],
+    "link": {
+      "url": "http://bttrack.com/Click/Native?data=OuJifVtEKZqw3CQ4794tWrOSLmwT76xCtE8PGn20TrIphZEALc6qMXeu63bGCeLwCFYGzOs94KYZKhZumoHhrrY4mxwChxvkwirh1321qm4urFN3o9IJOFQhMEHh8wRYWtuVb8BYK3hD7JilZCgCka8h5AZ1nBI5Hq8G0uHfy760JV3OakBGRXpytQx9B-d2sbhheW9Acuto0daDSuKAdSFeU00z97lWnEwv8uCRgHayeV7GnCw46lS66id71P3NEK9dtuC2hMqiYjzgydRPQJOIV0jqoGOFGuxHLf-AHga0dTc6NXyX9OKShqfp3jAupqP7TSjVz-FRk4b6CgN3Iu1fNAWgv8-Fy4KGaOFh_FQhzt63NUenBpxDhwtDV4gb0"
+    }
+  }
+}

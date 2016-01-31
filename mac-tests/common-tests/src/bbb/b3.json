@@ -1,0 +1,1618 @@
+{
+  "id": 31,
+  "title": "Native-DSP",
+  "originalTitle": "Native-DSP",
+  "tags": [],
+  "style": "dark",
+  "timezone": "browser",
+  "editable": true,
+  "hideControls": false,
+  "sharedCrosshair": false,
+  "rows": [
+    {
+      "collapse": false,
+      "editable": true,
+      "height": "250px",
+      "panels": [
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": null,
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 16,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 2,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 3,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "refId": "A",
+              "target": "aliasSub(groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.bid_requests.hits, 7, 'sum'), 'ssp-(.*)', '\\1')",
+              "textEditor": false
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "SSP Requests",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": "Graphite",
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "height": "",
+          "id": 6,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 3,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "refId": "A",
+              "target": "aliasSub(groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.*won_bids.hits, 7, 'sum'), 'ssp-(.*)', '\\1')",
+              "textEditor": true
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "SSPs responses",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": null,
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 18,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 2,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 3,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "refId": "A",
+              "target": "groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.ed.responses.success.advertiser.*.hits, 13, 'sum')",
+              "textEditor": true
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Advertiser performance",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": "Graphite",
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "height": "",
+          "id": 12,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 3,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "refId": "A",
+              "target": "alias(scale(sum(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.ed.callTime.hits), 0.3), 'Requests 0.3')",
+              "textEditor": true
+            },
+            {
+              "refId": "B",
+              "target": "alias(sum(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.ed.timeout.hits), 'Timeout')",
+              "textEditor": true
+            },
+            {
+              "refId": "D",
+              "target": "alias(sum(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.ed.responses.bad_floor.hits), 'Bad floor')",
+              "textEditor": true
+            },
+            {
+              "refId": "C",
+              "target": "alias(scale(sum(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.ed.responses.passback.hits), 0.3), 'Passback 0.3')",
+              "textEditor": true
+            },
+            {
+              "refId": "E",
+              "target": "alias(sum(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.ed.responses.success.hits), 'Success')",
+              "textEditor": true
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "ED",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": null,
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "height": "",
+          "hideTimeOverride": false,
+          "id": 9,
+          "legend": {
+            "alignAsTable": false,
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "null",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 5,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "hide": false,
+              "refId": "A",
+              "target": "alias(scale(timeShift(sumSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.requests.success.hits), '2m'), 1), 'requests-ts')",
+              "textEditor": true
+            },
+            {
+              "hide": false,
+              "refId": "B",
+              "target": "alias(scale(sumSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.bid_requests.hits), 1), 'bid requests')",
+              "textEditor": true
+            },
+            {
+              "hide": false,
+              "refId": "I",
+              "target": "alias(scale(sumSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.bid_requests.total), 1), 'bid requests total')",
+              "textEditor": true
+            },
+            {
+              "hide": false,
+              "refId": "C",
+              "target": "alias(scale(sumSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.bid_responses.hits), 2000), 'responses 2000')",
+              "textEditor": true
+            },
+            {
+              "hide": false,
+              "refId": "D",
+              "target": "alias(scale(timeShift(sumSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.impressions.hits), '2min'), 100), 'all wons-ts 100')",
+              "textEditor": true
+            },
+            {
+              "hide": false,
+              "refId": "E",
+              "target": "alias(scale(sumSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.won_bids.hits), 10000), 'wons 10000')",
+              "textEditor": true
+            },
+            {
+              "hide": false,
+              "refId": "F",
+              "target": "alias(scale(sumSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.ed_bid_requests.hits), 1), 'ed requests')",
+              "textEditor": true
+            },
+            {
+              "hide": false,
+              "refId": "G",
+              "target": "alias(scale(sumSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.ed_bid_responses.hits), 30), 'ed responses 30')",
+              "textEditor": true
+            },
+            {
+              "hide": false,
+              "refId": "H",
+              "target": "alias(scale(sumSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.ed_won_bids.hits), 100), 'ed wons 100')",
+              "textEditor": true
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Bids",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "showTitle": false,
+      "title": "New row"
+    },
+    {
+      "collapse": false,
+      "editable": true,
+      "height": "250px",
+      "panels": [
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": "Graphite",
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "height": "",
+          "id": 2,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "null",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 3,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "hide": false,
+              "refId": "G",
+              "target": "groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.*.executionTime.hits, 9, 'sum')",
+              "textEditor": false
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Service calls",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": "Graphite",
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 11,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 3,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "refId": "A",
+              "target": "groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.$service.timeout.hits, 9, 'sum')",
+              "textEditor": false
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Service timeouts",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": "Graphite",
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 13,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 3,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "refId": "A",
+              "target": "groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.$service.failure.*.hits, 9, 'sum')",
+              "textEditor": false
+            },
+            {
+              "refId": "B",
+              "target": "aliasSub(groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.predict.responses.error*.hits, 11, 'sum'), '(.*)', 'predict-\\1')",
+              "textEditor": false
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Service failures",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": "Graphite",
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 15,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 3,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "refId": "A",
+              "target": "groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.$service.failure.*.hits, 11, 'sum')",
+              "textEditor": false
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Service failure types",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "title": "New row"
+    },
+    {
+      "collapse": false,
+      "editable": true,
+      "height": "250px",
+      "panels": [
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": "Graphite",
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "height": "",
+          "id": 3,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "null",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 4,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "hide": false,
+              "refId": "C",
+              "target": "alias(sumSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.failure.*.hits), 'request failures')",
+              "textEditor": false
+            },
+            {
+              "hide": false,
+              "refId": "D",
+              "target": "alias(sumSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.failureNotify.*.hits), 'notify failures')",
+              "textEditor": false
+            },
+            {
+              "hide": false,
+              "refId": "E",
+              "target": "alias(sumSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.clicks.{processError|parseError}.*.hits), 'clicks failures')",
+              "textEditor": false
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "General Errors",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": "Graphite",
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "height": "",
+          "id": 8,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "null",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 4,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "hide": false,
+              "refId": "A",
+              "target": "aliasSub(aliasByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.requests.success.mean, 4), 'lga-ntf(.*)', 'time-\\1')",
+              "textEditor": true
+            },
+            {
+              "hide": false,
+              "refId": "E",
+              "target": "aliasSub(aliasByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.requests.success.std_dev, 4), 'lga-ntf(.*)', 'std_dev-\\1')",
+              "textEditor": true
+            },
+            {
+              "hide": false,
+              "refId": "B",
+              "target": "alias(averageSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.requests.success.mean), 'avg response time')",
+              "textEditor": true
+            },
+            {
+              "refId": "C",
+              "target": "alias(averageSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.requests.concurrent), 'parallel requests')",
+              "textEditor": true
+            },
+            {
+              "refId": "D",
+              "target": "alias(averageSeries(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.service.parallel.mean), 'parallel tasks')"
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Response time per server",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": "Graphite",
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 10,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 4,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "refId": "A",
+              "target": "groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.$service.executionTime.mean, 9, 'avg')",
+              "textEditor": false
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Service time",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": "Graphite",
+          "editable": true,
+          "error": false,
+          "fill": 0,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "height": "",
+          "id": 20,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "null",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 4,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "hide": false,
+              "refId": "A",
+              "target": "aliasSub(groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.ed_bid_time.mean, 7, 'avg'), 'ssp-(.*)', 'time-\\1')",
+              "textEditor": true
+            },
+            {
+              "hide": true,
+              "refId": "E",
+              "target": "aliasSub(groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.ed_bid_time.std_dev, 7, 'avg'), 'ssp-(.*)', 'std_dev-\\1')",
+              "textEditor": true
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "ED Requests Response time per SSP",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": "Graphite",
+          "editable": true,
+          "error": false,
+          "fill": 0,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "height": "",
+          "id": 21,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "null",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 4,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "hide": false,
+              "refId": "A",
+              "target": "aliasSub(groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.bid_time.mean, 7, 'avg'), 'ssp-(.*)', 'time-\\1')",
+              "textEditor": true
+            },
+            {
+              "hide": true,
+              "refId": "E",
+              "target": "aliasSub(groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.bid_time.std_dev, 7, 'avg'), 'ssp-(.*)', 'std_dev-\\1')",
+              "textEditor": true
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Normal requests Response time per SSP",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": "Graphite",
+          "editable": true,
+          "error": false,
+          "fill": 0,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "height": "",
+          "id": 22,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "null",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 4,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "hide": false,
+              "refId": "A",
+              "target": "aliasSub(groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.empty_bid_time.mean, 7, 'avg'), 'ssp-(.*)', 'time-\\1')",
+              "textEditor": true
+            },
+            {
+              "hide": true,
+              "refId": "E",
+              "target": "aliasSub(groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.empty_bid_time.std_dev, 7, 'avg'), 'ssp-(.*)', 'std_dev-\\1')",
+              "textEditor": true
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Passback requests Response time per SSP",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "title": "New row"
+    },
+    {
+      "collapse": false,
+      "editable": true,
+      "height": "250px",
+      "panels": [
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": null,
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 17,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 2,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 6,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "hide": false,
+              "refId": "A",
+              "target": "aliasSub(groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.cookieMatch.{hits,miss}.hits, 10, 'sum'), '(.*)', 'cooke-match-\\1')",
+              "textEditor": false
+            },
+            {
+              "refId": "B",
+              "target": "aliasSub(groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.bid_store.{miss}.hits, 10, 'sum'), '(.*)', 'bid-store-\\1')",
+              "textEditor": true
+            },
+            {
+              "hide": false,
+              "refId": "C",
+              "target": "aliasSub(groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.audience.cache.{hits,miss}.hits, 11, 'sum'), '(.*)', 'audience-cache-\\1')",
+              "textEditor": true
+            },
+            {
+              "hide": false,
+              "refId": "D",
+              "target": "aliasSub(groupByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.audience.cache.{hits,miss}.hits, 11, 'sum'), '(.*)', 'audience-enrich-cache-\\1')",
+              "textEditor": true
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Caches",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        },
+        {
+          "aliasColors": {},
+          "bars": false,
+          "datasource": null,
+          "editable": true,
+          "error": false,
+          "fill": 1,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 19,
+          "legend": {
+            "avg": false,
+            "current": false,
+            "max": false,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": false
+          },
+          "lines": true,
+          "linewidth": 2,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 6,
+          "stack": false,
+          "steppedLine": false,
+          "targets": [
+            {
+              "refId": "B",
+              "target": "aliasByNode(monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.jvm.gc.ConcurrentMarkSweep.runs, 4)",
+              "textEditor": true
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Memory leak",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "title": "New row"
+    },
+    {
+      "title": "New row",
+      "height": "250px",
+      "editable": true,
+      "collapse": false,
+      "panels": []
+    }
+  ],
+  "time": {
+    "from": "now-3d",
+    "to": "now"
+  },
+  "timepicker": {
+    "collapse": false,
+    "enable": true,
+    "notice": false,
+    "now": true,
+    "refresh_intervals": [
+      "5s",
+      "10s",
+      "30s",
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "1d"
+    ],
+    "status": "Stable",
+    "time_options": [
+      "5m",
+      "15m",
+      "1h",
+      "6h",
+      "12h",
+      "24h",
+      "2d",
+      "7d",
+      "30d"
+    ],
+    "type": "timepicker"
+  },
+  "templating": {
+    "list": [
+      {
+        "allFormat": "wildcard",
+        "current": {
+          "tags": [],
+          "text": "All",
+          "value": "*"
+        },
+        "datasource": null,
+        "includeAll": true,
+        "label": "DC",
+        "multi": false,
+        "multiFormat": "glob",
+        "name": "dataCenter",
+        "options": [
+          {
+            "selected": true,
+            "text": "All",
+            "value": "*"
+          },
+          {
+            "selected": false,
+            "text": "LGA",
+            "value": "LGA"
+          }
+        ],
+        "query": "monitoring.NativeDSP.*",
+        "refresh_on_load": false,
+        "type": "query"
+      },
+      {
+        "allFormat": "wildcard",
+        "current": {
+          "tags": [],
+          "text": "All",
+          "value": "*"
+        },
+        "datasource": null,
+        "includeAll": true,
+        "label": "Env",
+        "multi": false,
+        "multiFormat": "glob",
+        "name": "environment",
+        "options": [
+          {
+            "selected": true,
+            "text": "All",
+            "value": "*"
+          },
+          {
+            "selected": false,
+            "text": "Production",
+            "value": "Production"
+          }
+        ],
+        "query": "monitoring.NativeDSP.$dataCenter.*",
+        "refresh_on_load": false,
+        "regex": "",
+        "type": "query"
+      },
+      {
+        "allFormat": "wildcard",
+        "current": {
+          "tags": [],
+          "text": "All",
+          "value": "*"
+        },
+        "datasource": null,
+        "includeAll": true,
+        "label": "Server",
+        "multi": true,
+        "multiFormat": "glob",
+        "name": "server",
+        "options": [
+          {
+            "selected": true,
+            "text": "All",
+            "value": "*"
+          },
+          {
+            "selected": false,
+            "text": "lga-ntf00",
+            "value": "lga-ntf00"
+          },
+          {
+            "selected": false,
+            "text": "lga-ntf01",
+            "value": "lga-ntf01"
+          },
+          {
+            "selected": false,
+            "text": "lga-ntf02",
+            "value": "lga-ntf02"
+          },
+          {
+            "selected": false,
+            "text": "lga-ntf03",
+            "value": "lga-ntf03"
+          }
+        ],
+        "query": "monitoring.NativeDSP.$dataCenter.$environment.*",
+        "refresh_on_load": false,
+        "regex": "",
+        "type": "query",
+        "useTags": false
+      },
+      {
+        "allFormat": "wildcard",
+        "current": {
+          "text": "All",
+          "value": "*"
+        },
+        "datasource": null,
+        "includeAll": true,
+        "label": "Instance",
+        "multi": false,
+        "multiFormat": "glob",
+        "name": "instance",
+        "options": [
+          {
+            "selected": true,
+            "text": "All",
+            "value": "*"
+          },
+          {
+            "selected": false,
+            "text": "instance0",
+            "value": "instance0"
+          }
+        ],
+        "query": "monitoring.NativeDSP.$dataCenter.$environment.$server.*",
+        "refresh_on_load": false,
+        "type": "query"
+      },
+      {
+        "allFormat": "wildcard",
+        "current": {
+          "text": "All",
+          "value": "*",
+          "tags": []
+        },
+        "datasource": null,
+        "hideLabel": false,
+        "includeAll": true,
+        "label": "SSP",
+        "multi": true,
+        "multiFormat": "glob",
+        "name": "ssp",
+        "options": [
+          {
+            "selected": true,
+            "text": "All",
+            "value": "*"
+          },
+          {
+            "selected": false,
+            "text": "adn",
+            "value": "adn"
+          },
+          {
+            "selected": false,
+            "text": "ds",
+            "value": "ds"
+          },
+          {
+            "selected": false,
+            "text": "gg",
+            "value": "gg"
+          },
+          {
+            "selected": false,
+            "text": "msxs",
+            "value": "msxs"
+          },
+          {
+            "selected": false,
+            "text": "nad",
+            "value": "nad"
+          },
+          {
+            "selected": false,
+            "text": "pl",
+            "value": "pl"
+          },
+          {
+            "selected": false,
+            "text": "pn",
+            "value": "pn"
+          },
+          {
+            "selected": false,
+            "text": "rvn",
+            "value": "rvn"
+          },
+          {
+            "selected": false,
+            "text": "sma",
+            "value": "sma"
+          },
+          {
+            "selected": false,
+            "text": "stx",
+            "value": "stx"
+          },
+          {
+            "selected": false,
+            "text": "tpl",
+            "value": "tpl"
+          }
+        ],
+        "query": "monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-*",
+        "refresh_on_load": false,
+        "regex": "/ssp-(.*)/",
+        "tagsQuery": "",
+        "type": "query",
+        "useTags": false
+      },
+      {
+        "allFormat": "wildcard",
+        "current": {
+          "text": "All",
+          "value": "*"
+        },
+        "datasource": "Graphite",
+        "includeAll": true,
+        "label": "Service",
+        "multi": true,
+        "multiFormat": "glob",
+        "name": "service",
+        "options": [
+          {
+            "text": "All",
+            "value": "*",
+            "selected": true
+          },
+          {
+            "text": "audience",
+            "value": "audience",
+            "selected": false
+          },
+          {
+            "text": "bid_store",
+            "value": "bid_store",
+            "selected": false
+          },
+          {
+            "text": "cookieMatch",
+            "value": "cookieMatch",
+            "selected": false
+          },
+          {
+            "text": "ed",
+            "value": "ed",
+            "selected": false
+          },
+          {
+            "text": "geo",
+            "value": "geo",
+            "selected": false
+          },
+          {
+            "text": "parse",
+            "value": "parse",
+            "selected": false
+          },
+          {
+            "text": "predict",
+            "value": "predict",
+            "selected": false
+          },
+          {
+            "text": "xt3",
+            "value": "xt3",
+            "selected": false
+          }
+        ],
+        "query": "monitoring.NativeDSP.$dataCenter.$environment.$server.$instance.rtb.ssp-$ssp.service.*",
+        "refresh_on_load": false,
+        "regex": "",
+        "type": "query"
+      }
+    ]
+  },
+  "annotations": {
+    "list": []
+  },
+  "schemaVersion": 7,
+  "version": 23,
+  "links": [
+    {
+      "icon": "external link",
+      "tags": [],
+      "targetBlank": true,
+      "title": "Native contacts",
+      "type": "link",
+      "url": "http://docs.pulse.corp/display/Product/Native+Contacts"
+    }
+  ]
+}

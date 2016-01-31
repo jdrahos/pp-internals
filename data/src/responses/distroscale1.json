@@ -1,0 +1,78 @@
+{
+  "id": "d8ec1ba5-bef7-4f49-bc96-d4f1911fa2ec",
+  "bidid": "d8ec1ba5-bef7-4f49-bc96-d4f1911fa2ec",
+  "cur": "USD",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "x3fxZifhjG2",
+          "impid": "1",
+          "price": 2.8,
+          "adid": "0",
+          "adomain": [
+            "michaels"
+          ],
+          "cid": "0",
+          "crid": "0",
+          "nurl": "http://dsp-pixel.contextweb.com/rtb/empty",
+          "ext": {
+            "native": {
+              "assets": [
+                {
+                  "id": 1,
+                  "title": {
+                    "text": "BOGO on Floral!"
+                  }
+                },
+                {
+                  "id": 2,
+                  "data": {
+                    "value": "Spring is here! Decorate & save with BOGO on Floral Accents & Containers by Ashland®.",
+                    "type": 2
+                  }
+                },
+                {
+                  "id": 3,
+                  "img": {
+                    "url": "http://cdn.bttrack.com/a/280/1/3097875",
+                    "type": 3,
+                    "w": 280,
+                    "h": 1
+                  }
+                },
+                {
+                  "id": 5,
+                  "img": {
+                    "url": "http://cdn.bttrack.com/a/60/60/3097875",
+                    "type": 1,
+                    "w": 60,
+                    "h": 60
+                  }
+                },
+                {
+                  "id": 6,
+                  "data": {
+                    "value": "Michaels",
+                    "type": 1
+                  }
+                }
+              ],
+              "ext": {
+                "viewabilitytrackers": [
+                  "http://bttrack.com/Pixel/Viewed/?data=OuJifVtEKZqw3Hx4b5qqW7MTEfKQx2wGExqi_xJAjIIYyOF5fX33thZJabi-VKV0tZXV-UMBXunGWMISc42o6Fo4dV2pYVSvN30OIV0i9M7QbRsVWI5LV5yQrRs58XxiP2pvrCoJO7Ed-d6_v1CkrqsaGJRu9rTUQwEZoeN3t9UYa9egm453hAhMvec6DO81KWvzsgemJoaW9y6p4C-h4RVK7nfdkuyrzh8cBYtP-4AVwZXyMOmNiQ2&method=3&percentage=1"
+                ]
+              },
+              "link": {
+                "url": "http://bttrack.com/Click/Native?data=OuJifVtEKZqw3Cz4eRrtW7OqevdX33scsTJdr5RBAASI_dZQhsHWHdLcq9c2-zIYahqNBay4bPKjGOQdwzTVEvl1dhdDWkAenL4jV0bVFx7YE_TAYQpez_5w8KKh_qmTZngaHpzU7jXLH24k-EHi_woaqeCGjMZ6K5gWbHhAHyBaEiigjb8YjczgmQSmcMZlao5EYROfR4pwV46VbEMRYqnl4C-CpGhp36wD4KepH5y9va0pKFM0YZwI4mOGUsvfgzPc7mkAtAHcqbdYvtabOCNuOXc9zm7ZQayO7-oazypPi1ejN5yogA2"
+              },
+              "imptrackers": [
+                "http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3Hw47x7tS7OSLoyTMjFKfB56Ea903XadyUDJVUfFUQNZPez3gWK9ugbJoN8qzk8ywpg3Rfb9LjxTd48eXvQouK63XOBAeV93H3qOwOIzAX1rHLM18z2jW_1IGm7mDWKTydNCFy2Kyx4sn3vZArYPDjMuiYaWLsWAC-kO-0OvsuP24Oxr8o3JUuHeauqL8ocykR6VX4qBmSEFCzkmmDtOnIq2Ls-x1ZF9QaR7BJiMB-QyZHn-GZGja-X2uSxPn3hohreM13oj_zrhYwDCb5VNl9wOqTvc-5V8UX8O0&type=img"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "110058A5-1BE2-4E70-B044-47188A265B69",
+  "imp": [
+    {
+      "id": "1",
+      "native": {
+        "request": "{\"layout\":3,\"adunit\":3,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":150}},{\"id\":2,\"required\":1,\"img\":{\"type\":3,\"wmin\":100,\"hmin\":100}},{\"id\":6,\"required\":1,\"data\":{\"type\":2,\"len\":200}},{\"id\":15,\"required\":0,\"data\":{\"type\":11}},{\"id\":5,\"required\":0,\"data\":{\"type\":1}}]}",
+        "ver": "1.0"
+      },
+      "tagid": "272645"
+    }
+  ],
+  "site": {
+    "id": "90688",
+    "domain": "http://floor6.com/MobWeb",
+    "page": "http://www.dose.com/entertainment/26112/Omo-Is-The-Most-Stunning-GIraffe-You-ve-Ever-Seen?utm_source=Facebook&utm_medium=WHFacebook&utm_campaign=fullhouse",
+    "ref": "http://l.facebook.com/l.php?u=http://goo.gl/uhN8su&h=VAQGPK5JN&s=1",
+    "mobile": 1,
+    "publisher": {
+      "id": "50758",
+      "ext": {
+        "name": "Pubmatic",
+        "id": "a8a9a533-1169-4c59-8d34-9b35e413fffe"
+      }
+    }
+  },
+  "device": {
+    "ua": "Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 635; Vodafone) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537",
+    "geo": {
+      "country": "GBR",
+      "region": "bfs",
+      "metro": "826035",
+      "city": "belfast",
+      "zip": "bt11 8",
+      "utcoffset": 0
+    },
+    "ip": "82.132.213.81",
+    "make": "Generic",
+    "os": "Android",
+    "osv": "4",
+    "language": "en",
+    "carrier": "Telefonica UK Limited",
+    "ext": {
+      "res": "357x595",
+      "pf": 2
+    }
+  },
+  "user": {
+    "id": "12DF83BB-181E-443B-952E-F44654441B91",
+    "geo": {
+      "country": "GBR",
+      "utcoffset": 0
+    }
+  }
+}

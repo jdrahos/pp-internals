@@ -1,0 +1,4597 @@
+{
+  "advertisers": [
+    {
+      "id": "10",
+      "name": "TestPPAdv2",
+      "default_dsp_commission": 15,
+      "deleted": true
+    },
+    {
+      "id": "11",
+      "name": "TestPPAdv2",
+      "default_dsp_commission": 15,
+      "deleted": true
+    },
+    {
+      "id": "12",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": "13",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": "14",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": "15",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": "16",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": "17",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": "18",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": "19",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": 2,
+      "name": "Test advertiser",
+      "timezone": "US/Eastern",
+      "manage_campaigns_commissions": "true",
+      "currency": "USD"
+    },
+    {
+      "id": "20",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": "21",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": "22",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": "23",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": "24",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": "25",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": "26",
+      "name": "quaker",
+      "deleted": true
+    },
+    {
+      "id": 27,
+      "name": "Integration Tests",
+      "timezone": "US/Eastern",
+      "manage_campaigns_commissions": "true",
+      "currency": "USD"
+    },
+    {
+      "id": "28",
+      "name": "DMA ",
+      "url": "http://thedma.org/",
+      "timezone": "US/Eastern",
+      "manage_campaigns_commissions": "true",
+      "currency": "USD"
+    },
+    {
+      "id": 29,
+      "name": "IAB ",
+      "timezone": "US/Eastern",
+      "manage_campaigns_commissions": "true",
+      "currency": "USD"
+    },
+    {
+      "id": 3,
+      "name": "PulsePoint",
+      "timezone": "US/Eastern",
+      "manage_campaigns_commissions": "true",
+      "currency": "USD"
+    },
+    {
+      "id": 30,
+      "name": "Houston",
+      "timezone": "US/Eastern",
+      "manage_campaigns_commissions": "true",
+      "currency": "USD"
+    },
+    {
+      "id": 31,
+      "name": "Marin",
+      "url": "http://www.visitmarin.org/",
+      "timezone": "US/Eastern",
+      "manage_campaigns_commissions": "true",
+      "currency": "USD"
+    },
+    {
+      "id": 32,
+      "name": "CA Almond Board",
+      "timezone": "US/Eastern",
+      "manage_campaigns_commissions": "true",
+      "currency": "USD"
+    },
+    {
+      "id": 4,
+      "name": "RK Demo Advertiser",
+      "timezone": "US/Eastern",
+      "manage_campaigns_commissions": "true",
+      "currency": "USD"
+    },
+    {
+      "id": "5",
+      "name": "ER - Test Advertiser",
+      "url": "http://rachitskillisaurus.com",
+      "timezone": "US/Eastern",
+      "manage_campaigns_commissions": "true",
+      "currency": "USD",
+      "deleted": true
+    },
+    {
+      "id": "6",
+      "name": "PowerInbox (email based SSP integration) - Test",
+      "url": "http://powerinbox.com/",
+      "timezone": "US/Eastern",
+      "manage_campaigns_commissions": "false",
+      "currency": "USD",
+      "max_budget": "1"
+    },
+    {
+      "id": "7",
+      "name": "Test Advertiser from API",
+      "deleted": true
+    },
+    {
+      "id": "8",
+      "name": "Test AdvertiserPP from API",
+      "deleted": true
+    },
+    {
+      "id": "9",
+      "name": "TestPPAdv",
+      "default_dsp_commission": 15,
+      "deleted": true
+    }
+  ],
+  "sites": [
+    {
+      "id": 2,
+      "advertiser_id": "2",
+      "name": "http://pulsepoint.com",
+      "click_control": "true"
+    },
+    {
+      "id": "3",
+      "advertiser_id": "2",
+      "name": "http://test.com",
+      "click_control": "true",
+      "deleted": true
+    },
+    {
+      "id": 5,
+      "advertiser_id": "28",
+      "name": "http://thedma.org/"
+    },
+    {
+      "id": 6,
+      "advertiser_id": "31",
+      "name": "http://www.visitmarin.org/"
+    },
+    {
+      "id": 4,
+      "advertiser_id": "5",
+      "name": "http://rachitskillisaurus.com"
+    }
+  ],
+  "creatives": [
+    {
+      "id": "2",
+      "advertiser_id": "2",
+      "name": "Test creative",
+      "assets": [
+        {
+          "type": "title",
+          "text": "PulsePoint test creative"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "deleted": true
+    },
+    {
+      "id": "3",
+      "advertiser_id": "2",
+      "name": "Test creative #2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1424465564-ro300-260.jpeg",
+          "image_type": "3",
+          "size": "300x260"
+        },
+        {
+          "type": "title",
+          "text": "PulsePoint test creative #2"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Sponsored text"
+        },
+        {
+          "type": "data",
+          "data_type": "3",
+          "value": "5"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": 11,
+      "advertiser_id": "21",
+      "name": "test native creative",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": 12,
+      "advertiser_id": "22",
+      "name": "test native creative",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": 13,
+      "advertiser_id": "23",
+      "name": "test native creative",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": 14,
+      "advertiser_id": "24",
+      "name": "test native creative",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": 15,
+      "advertiser_id": "25",
+      "name": "test native creative",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": 16,
+      "advertiser_id": "26",
+      "name": "test native creative",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "45",
+      "advertiser_id": "27",
+      "name": "adn1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430923790-fut.png",
+          "image_type": "3",
+          "size": "300x260"
+        },
+        {
+          "type": "title",
+          "text": "8 Trends Impacting Ad Tech In 2015"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "8 Trends Impacting Ad Tech In 2015"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "46",
+      "advertiser_id": "28",
+      "name": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/100003644.html",
+      "landing_page": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/100003644.html?utm_source=giadsnative&utm_medium=referral&utm_campaign=dma_education_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430931738-multi-channel-content-marketing-strategy.png",
+          "image_type": "3",
+          "size": "659x567"
+        },
+        {
+          "type": "title",
+          "text": "Direct Marketing In The Age Of Cross-Platform Touch Points "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Internet marketing used to be easy: You put up a website, attached a shopping cart and listed your site on Yahoo. Nowadays, things are much more complex."
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "47",
+      "advertiser_id": "28",
+      "name": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/180003809.html",
+      "landing_page": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/180003809.html?utm_source=giadsnative&utm_medium=referral&utm_campaign=dma_education_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430932019-marketing_plan.jpg",
+          "image_type": "3",
+          "size": "1732x1155"
+        },
+        {
+          "type": "title",
+          "text": "Learning The Language Of Marketing Analytics "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "The Internet is a marketer's dream, but it can also be a nightmare."
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "48",
+      "advertiser_id": "28",
+      "name": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/180003809.html",
+      "landing_page": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/180003809.html?utm_source=giadsnative&utm_medium=referral&utm_campaign=dma_education_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430932221-marketing_plan.jpg",
+          "image_type": "3",
+          "size": "1732x1155"
+        },
+        {
+          "type": "title",
+          "text": "Unpacking The Language Of Analytics"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association "
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "The Internet is a marketer's dream, but it can also be a nightmare."
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "49",
+      "advertiser_id": "28",
+      "name": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/180003809.html",
+      "landing_page": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/180003809.html?utm_source=giadsnative&utm_medium=referral&utm_campaign=dma_education_cv4",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430932722-marketing_plan.jpg",
+          "image_type": "3",
+          "size": "1732x1155"
+        },
+        {
+          "type": "title",
+          "text": "How To Use Marketing Analytics Successfully "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "The Internet is a marketer's dream, but it can also be a nightmare."
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "50",
+      "advertiser_id": "28",
+      "name": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/100003644.html",
+      "landing_page": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/100003644.html?utm_source=giadsnative&utm_medium=referral&utm_campaign=dma_education_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430932814-multi-channel-content-marketing-strategy.png",
+          "image_type": "3",
+          "size": "659x567"
+        },
+        {
+          "type": "title",
+          "text": "Your Guide To Cross-Platform Marketing "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Internet marketing used to be easy: You put up a website, attached a shopping cart and listed your site on Yahoo. Nowadays, things are much more complex."
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "51",
+      "advertiser_id": "28",
+      "name": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/100003644.html",
+      "landing_page": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/100003644.html?utm_source=giadsnative&utm_medium=referral&utm_campaign=dma_education_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430933257-multi-channel-content-marketing-strategy.png",
+          "image_type": "3",
+          "size": "659x567"
+        },
+        {
+          "type": "title",
+          "text": "Planning Your Media Strategy Cross-Platforms"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Internet marketing used to be easy: You put up a website, attached a shopping cart and listed your site on Yahoo. Nowadays, things are much more complex."
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "52",
+      "advertiser_id": "28",
+      "name": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/100003646.html",
+      "landing_page": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/100003646.html?utm_source=giadsnative&utm_medium=referral&utm_campaign=dma_education_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430933836-sem1-png.png",
+          "image_type": "3",
+          "size": "375x247"
+        },
+        {
+          "type": "title",
+          "text": "An Introduction To Search Engine Marketing "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Search engine marketing has grown in complexity and importance since its first appearance a decade ago."
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "53",
+      "advertiser_id": "28",
+      "name": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/100003646.html",
+      "landing_page": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/100003646.html?utm_source=giadsnative&utm_medium=referral&utm_campaign=dma_education_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430933894-sem1-png.png",
+          "image_type": "3",
+          "size": "375x247"
+        },
+        {
+          "type": "title",
+          "text": "The Guide To Search Engine Marketing "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Search engine marketing has grown in complexity and importance since its first appearance a decade ago."
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "54",
+      "advertiser_id": "28",
+      "name": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/100003646.html",
+      "landing_page": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/100003646.html?utm_source=giadsnative&utm_medium=referral&utm_campaign=dma_education_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430933967-sem1-png.png",
+          "image_type": "3",
+          "size": "375x247"
+        },
+        {
+          "type": "title",
+          "text": "Search Engine Marketing: What You Need To Know"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Search engine marketing has grown in complexity and importance since its first appearance a decade ago."
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "55",
+      "advertiser_id": "28",
+      "name": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/180003812.html",
+      "landing_page": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/180003812.html?utm_source=giadsnative&utm_medium=referral&utm_campaign=dma_education_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430934259-check-mark-163433_1280-jpg.jpeg",
+          "image_type": "3",
+          "size": "375x247"
+        },
+        {
+          "type": "title",
+          "text": "Instant Optimization: Beginner's Guide To A/B Testing"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Despite the huge boom in social media, one of the best ways to communicate with customers on the Internet is still one of the oldest: email."
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "56",
+      "advertiser_id": "28",
+      "name": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/180003812.html",
+      "landing_page": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/180003812.html?utm_source=giadsnative&utm_medium=referral&utm_campaign=dma_education_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430934310-check-mark-163433_1280-jpg.jpeg",
+          "image_type": "3",
+          "size": "375x247"
+        },
+        {
+          "type": "title",
+          "text": "A/B Testing: What You Need To Know"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Despite the huge boom in social media, one of the best ways to communicate with customers on the Internet is still one of the oldest: email."
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "57",
+      "advertiser_id": "28",
+      "name": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/180003812.html",
+      "landing_page": "http://dmaeducation.org/the-reading-corner/?hub=/hub/150/at/180003812.html?utm_source=giadsnative&utm_medium=referral&utm_campaign=dma_education_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430934353-check-mark-163433_1280-jpg.jpeg",
+          "image_type": "3",
+          "size": "375x247"
+        },
+        {
+          "type": "title",
+          "text": "How To A/B Test For Optimization "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Despite the huge boom in social media, one of the best ways to communicate with customers on the Internet is still one of the oldest: email."
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "17",
+      "advertiser_id": "3",
+      "name": "future2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1429708179-fut.png",
+          "image_type": "3",
+          "size": "300x260"
+        },
+        {
+          "type": "title",
+          "text": "8 Trends Impacting Ad Tech In 2015"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "8 Trends Impacting Ad Tech In 2015"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": 5,
+      "deleted": true
+    },
+    {
+      "id": "18",
+      "advertiser_id": "3",
+      "name": "stx-test",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430387491-fut.png",
+          "image_type": "3",
+          "size": "300x260"
+        },
+        {
+          "type": "title",
+          "text": "8 Trends Impacting Ad Tech In 2015"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": 0,
+      "deleted": true
+    },
+    {
+      "id": "19",
+      "advertiser_id": "3",
+      "name": "19",
+      "landing_page": "http://pulsepoint.com/news/how-to-make-programmatic-more-creative.html?utm_source=giadsnative&utm_medium=referral&utm_campaign=pulsepoint_camp2_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430923277-fut.png",
+          "image_type": "3",
+          "size": "300x260"
+        },
+        {
+          "type": "title",
+          "text": "How To Make Programmatic More Creative "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Programmatic trading has evolved to the stage where it needs buy-in from the creative agencies if it is to develop its full potential and be viewed as a dynamic creative canvas in its own right."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "www.pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1,
+      "deleted": true
+    },
+    {
+      "id": "20",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/pulsepoint-joins-google-and-linkedin.html",
+      "landing_page": "http://pulsepoint.com/news/pulsepoint-joins-google-and-linkedin.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430851088-pixalate.png",
+          "image_type": "3",
+          "size": "862x346"
+        },
+        {
+          "type": "title",
+          "text": "PulsePoint In Top 10 Ranking on Pixalate’s Global Seller Trust Index"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "A next-gen advertising technology platform, has been recognized as a top ten company in Pixalate’s Global Seller Trust Index based on inventory quality represented within the RTB (Real-Time Bidding) advertising ecosystem."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com/"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "21",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/pulsepoint-partners-with-zulu5.html",
+      "landing_page": "http://pulsepoint.com/news/pulsepoint-partners-with-zulu5.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430851324-pulsepoint_partners_with_zulu5_thmb.png",
+          "image_type": "3",
+          "size": "252x166"
+        },
+        {
+          "type": "title",
+          "text": "PulsePoint Partners with Zulu5"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "A next generation advertising technology platform, announced today their partnership with Zulu5, an online advertising monitoring and insights company, to strengthen PulsePoint’s multi-layer inventory quality tech stack across Europe."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "22",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/pulsepoint-introduces-programmatic-direct-solution-with-native-capabilities.html",
+      "landing_page": "http://pulsepoint.com/news/pulsepoint-introduces-programmatic-direct-solution-with-native-capabilities.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430851430-pulsepoint_introduces_programmatic_direct_solution_with_native_capabilities_xl.png",
+          "image_type": "3",
+          "size": "456x296"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "A next-gen advertising technology platform, today announced partnerships with native ad companies TripleLift, Sharethrough, AdsNative and Distroscale. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com\n"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "23",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/pulsepoint-launches-programmatic-direct-platform-with-native-support.html",
+      "landing_page": "http://pulsepoint.com/news/pulsepoint-launches-programmatic-direct-platform-with-native-support.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430851984-pulsepoint_launches_programmatic_direct_platform_with_native_support_xl.png",
+          "image_type": "3",
+          "size": "862x346"
+        },
+        {
+          "type": "title",
+          "text": "PulsePoint Launches Programmatic Direct Platform With Native Support"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Programmatic direct platforms are expected to command nearly half of all programmatic ad spend by 2016, per recent eMarketer estimates, and PulsePoint wants in on the action."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "24",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/women-in-business-q-a-darline-jean.html",
+      "landing_page": "http://pulsepoint.com/news/women-in-business-q-a-darline-jean.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430852157-darline_jean.jpg",
+          "image_type": "3",
+          "size": "400x440"
+        },
+        {
+          "type": "title",
+          "text": "Women In Business Q&A: Darline Jean, COO PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Programmatic direct platforms are expected to command nearly half of all programmatic ad spend by 2016, per recent eMarketer estimates, and PulsePoint wants in on the action."
+        },
+        {
+          "type": "data",
+          "data_type": "12",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "25",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/women-in-business-q-a-darline-jean.html",
+      "landing_page": "http://pulsepoint.com/news/women-in-business-q-a-darline-jean.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430852329-darline_jean.jpg",
+          "image_type": "3",
+          "size": "400x440"
+        },
+        {
+          "type": "title",
+          "text": "Darline Jean, COO of PulsePoint Talks Women In Business"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Darline Jean is Chief Operating Officer at PulsePoint. She previously spent the last decade at About.com, which she joined as vice president of finance in 2003 before serving as the e company's chief finance officer and chief operating officer before becoming president and CEO in September 2011. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": 26,
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/women-in-business-q-a-darline-jean.html?",
+      "landing_page": "http://pulsepoint.com/news/women-in-business-q-a-darline-jean.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430852511-darline_jean.jpg",
+          "image_type": "3",
+          "size": "400x440"
+        },
+        {
+          "type": "title",
+          "text": "Huffington Post Discusses Women In Business With Darline Jean"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Darline Jean is Chief Operating Officer at PulsePoint. She previously spent the last decade at About.com, which she joined as vice president of finance in 2003 before serving as the e company's chief finance officer and chief operating officer before becoming president and CEO in September 2011. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "27",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/all-aboard-the-struggle-bus-4-programmatic-problems-facing-publishers.html",
+      "landing_page": "http://pulsepoint.com/news/all-aboard-the-struggle-bus-4-programmatic-problems-facing-publishers.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430852789-programmatic_problems.png",
+          "image_type": "3",
+          "size": "427x345"
+        },
+        {
+          "type": "title",
+          "text": "4 Programmatic Problems Facing Publishers"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Buyers put a lot of faith in the publishers they choose to work with. But with more and more of their transactions taking place programmatically, they’re often asked to blindly accept the results of complex technology with few opportunities to peek under the hood."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "28",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/all-aboard-the-struggle-bus-4-programmatic-problems-facing-publishers.html",
+      "landing_page": "http://pulsepoint.com/news/all-aboard-the-struggle-bus-4-programmatic-problems-facing-publishers.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430853642-programmatic_problems.png",
+          "image_type": "3",
+          "size": "427x345"
+        },
+        {
+          "type": "title",
+          "text": "How Publishers Overcome Programmatic Problems"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Buyers put a lot of faith in the publishers they choose to work with. But with more and more of their transactions taking place programmatically, they’re often asked to blindly accept the results of complex technology with few opportunities to peek under the hood."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "29",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/all-aboard-the-struggle-bus-4-programmatic-problems-facing-publishers.html",
+      "landing_page": "http://pulsepoint.com/news/all-aboard-the-struggle-bus-4-programmatic-problems-facing-publishers.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430853709-programmatic_problems.png",
+          "image_type": "3",
+          "size": "427x345"
+        },
+        {
+          "type": "title",
+          "text": "4 Ways To Overcome Programmatic Publishers"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Buyers put a lot of faith in the publishers they choose to work with. But with more and more of their transactions taking place programmatically, they’re often asked to blindly accept the results of complex technology with few opportunities to peek under the hood."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com/"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "30",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/5-burning-buyer-questions-about-programmatic-answered.html",
+      "landing_page": "http://pulsepoint.com/news/5-burning-buyer-questions-about-programmatic-answered.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430853876-The-Big-Problems-with-Programmatic-Transparency-and-Placement-300x200.png",
+          "image_type": "3",
+          "size": "300x200"
+        },
+        {
+          "type": "title",
+          "text": "5 Buyer Questions About Programmatic Answered!"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "When it’s bad, the buyer-seller relationship feels like something out of Divorce Court. Individual interests are the only interests, the two sides see as little of each other as possible and gentlemen’s agreements are just excuses to not get things in writing."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "31",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/5-burning-buyer-questions-about-programmatic-answered.html",
+      "landing_page": "http://pulsepoint.com/news/5-burning-buyer-questions-about-programmatic-answered.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430853946-The-Big-Problems-with-Programmatic-Transparency-and-Placement-300x200.png",
+          "image_type": "3",
+          "size": "300x200"
+        },
+        {
+          "type": "title",
+          "text": "What You Can Learn About Programmatic Buying and Selling"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "When it’s bad, the buyer-seller relationship feels like something out of Divorce Court. Individual interests are the only interests, the two sides see as little of each other as possible and gentlemen’s agreements are just excuses to not get things in writing."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com/news/5-burning-buyer-questions-about-programmatic-answered.html"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": 32,
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/5-burning-buyer-questions-about-programmatic-answered.html",
+      "landing_page": "http://pulsepoint.com/news/5-burning-buyer-questions-about-programmatic-answered.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430854006-The-Big-Problems-with-Programmatic-Transparency-and-Placement-300x200.png",
+          "image_type": "3",
+          "size": "300x200"
+        },
+        {
+          "type": "title",
+          "text": "Industry Experts Answer Buyer Questions About Programmatic"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "When it’s bad, the buyer-seller relationship feels like something out of Divorce Court. Individual interests are the only interests, the two sides see as little of each other as possible and gentlemen’s agreements are just excuses to not get things in writing."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com/"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "33",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/got-a-programmatic-problem.html",
+      "landing_page": "http://pulsepoint.com/news/got-a-programmatic-problem.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430854153-programmatic_probem.jpg",
+          "image_type": "3",
+          "size": "780x585"
+        },
+        {
+          "type": "title",
+          "text": "Got A Programmatic Problem?"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Today’s programmatic marketplace can be a tangled and an often-confusing ecosystem for buyers and sellers. Throw brand safety and viewability concerns into the mix and there could be a (programmatic) problem. So what’s the solution? Well, as you’re about to find out, it depends on the problem."
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com/"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "34",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/got-a-programmatic-problem.html",
+      "landing_page": "http://pulsepoint.com/news/got-a-programmatic-problem.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430854225-programmatic_probem.jpg",
+          "image_type": "3",
+          "size": "780x585"
+        },
+        {
+          "type": "title",
+          "text": "What To Ask Your Programmatic Partners If Problems Arise"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Today’s programmatic marketplace can be a tangled and an often-confusing ecosystem for buyers and sellers. Throw brand safety and viewability concerns into the mix and there could be a (programmatic) problem. So what’s the solution? Well, as you’re about to find out, it depends on the problem."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "35",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/got-a-programmatic-problem.html",
+      "landing_page": "http://pulsepoint.com/news/got-a-programmatic-problem.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430854283-programmatic_probem.jpg",
+          "image_type": "3",
+          "size": "780x585"
+        },
+        {
+          "type": "title",
+          "text": "Understand Programmatic Problems Before They Arise "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Today’s programmatic marketplace can be a tangled and an often-confusing ecosystem for buyers and sellers. Throw brand safety and viewability concerns into the mix and there could be a (programmatic) problem. So what’s the solution? Well, as you’re about to find out, it depends on the problem."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "36",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/programmatic-tvs-pulse-grows-louder-by-the-day.html",
+      "landing_page": "http://pulsepoint.com/news/programmatic-tvs-pulse-grows-louder-by-the-day.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430854437-programmatic_tvs_xl.png",
+          "image_type": "3",
+          "size": "862x346"
+        },
+        {
+          "type": "title",
+          "text": "Programmatic TV's Pulse Grows Louder By The Day "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint\n"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "As we get closer to the thick of the Upfront season, the buzz around programmatic TV that started last fall at Advertising Week will grow louder.\n"
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "37",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/programmatic-tvs-pulse-grows-louder-by-the-day.html",
+      "landing_page": "http://pulsepoint.com/news/programmatic-tvs-pulse-grows-louder-by-the-day.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430854524-programmatic_tvs_xl.png",
+          "image_type": "3",
+          "size": "862x346"
+        },
+        {
+          "type": "title",
+          "text": "The Buzz Around Programmatic TV"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "As we get closer to the thick of the Upfront season, the buzz around programmatic TV that started last fall at Advertising Week will grow louder.\n"
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "38",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/programmatic-tvs-pulse-grows-louder-by-the-day.html",
+      "landing_page": "http://pulsepoint.com/news/programmatic-tvs-pulse-grows-louder-by-the-day.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430854592-programmatic_tvs_xl.png",
+          "image_type": "3",
+          "size": "862x346"
+        },
+        {
+          "type": "title",
+          "text": "What You Need To Know About Programmatic TV"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "As we get closer to the thick of the Upfront season, the buzz around programmatic TV that started last fall at Advertising Week will grow louder."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "39",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/brand-safety-and-the-f-word-deux.html",
+      "landing_page": "http://pulsepoint.com/news/brand-safety-and-the-f-word-deux.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430854724-brand_safety_and_the_f_word.png",
+          "image_type": "3",
+          "size": "431x345"
+        },
+        {
+          "type": "title",
+          "text": "Brand Safety And The 'F' Word "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "40",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/brand-safety-and-the-f-word-deux.html",
+      "landing_page": "http://pulsepoint.com/news/brand-safety-and-the-f-word-deux.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430854860-brand_safety_and_the_f_word.png",
+          "image_type": "3",
+          "size": "431x345"
+        },
+        {
+          "type": "title",
+          "text": "Building a Transparent Enviroment For Brand Advertising "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Transparency, brand safety and, dare I say it, fraud have been a few of the biggest buzzwords of the digital ad industry over the past year. Everyone has been talking about these issues. Everyone wants brand safe and transparent environments that are free from fraudulent activity, and rightfully so."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "41",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/brand-safety-and-the-f-word-deux.html",
+      "landing_page": "http://pulsepoint.com/news/brand-safety-and-the-f-word-deux.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430855020-brand_safety_and_the_f_word.png",
+          "image_type": "3",
+          "size": "431x345"
+        },
+        {
+          "type": "title",
+          "text": "Protecting Brands From Fraudulent Activity"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Transparency, brand safety and, dare I say it, fraud have been a few of the biggest buzzwords of the digital ad industry over the past year. Everyone has been talking about these issues. Everyone wants brand safe and transparent environments that are free from fraudulent activity, and rightfully so."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "42",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/how-to-make-programmatic-more-creative.html",
+      "landing_page": "http://pulsepoint.com/news/how-to-make-programmatic-more-creative.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv1",
+      "assets": [
+        {
+          "type": "title",
+          "text": "How To Make Programmatic More Creative "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Programmatic trading has evolved to the stage where it needs buy-in from the creative agencies if it is to develop its full potential and be viewed as a dynamic creative canvas in its own right. Brands such as Moneysupermarket, Shell, GlaxosmithKline, agencies including Havas, and various suppliers have all offered tips on how the advertising industry can move the method of trading on."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com/"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "43",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/how-to-make-programmatic-more-creative.html",
+      "landing_page": "http://pulsepoint.com/news/how-to-make-programmatic-more-creative.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv2",
+      "assets": [
+        {
+          "type": "title",
+          "text": "Brands And Agencies Offer Tips On Programmatic "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Programmatic trading has evolved to the stage where it needs buy-in from the creative agencies if it is to develop its full potential and be viewed as a dynamic creative canvas in its own right. Brands such as Moneysupermarket, Shell, GlaxosmithKline, agencies including Havas, and various suppliers have all offered tips on how the advertising industry can move the method of trading on."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "44",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/how-to-make-programmatic-more-creative.html",
+      "landing_page": "http://pulsepoint.com/news/how-to-make-programmatic-more-creative.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_camp2_cv3",
+      "assets": [
+        {
+          "type": "title",
+          "text": "How Programmatic Has Helped Brands And Agencies Build Creativity"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Programmatic trading has evolved to the stage where it needs buy-in from the creative agencies if it is to develop its full potential and be viewed as a dynamic creative canvas in its own right. Brands such as Moneysupermarket, Shell, GlaxosmithKline, agencies including Havas, and various suppliers have all offered tips on how the advertising industry can move the method of trading on."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "4",
+      "advertiser_id": "3",
+      "name": "future1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1424907048-pp_trends_300_260.png",
+          "image_type": "3",
+          "size": "300x260"
+        },
+        {
+          "type": "title",
+          "text": "8 Trends Impacting Ad Tech In 2015"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "8 Trends Impacting Ad Tech In 2015"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1,
+      "deleted": true
+    },
+    {
+      "id": "58",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/women-in-business-q-a-darline-jean.htmlUK",
+      "landing_page": "http://pulsepoint.com/news/women-in-business-q-a-darline-jean.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_uk_camp2_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430950222-darline_jean.jpg",
+          "image_type": "3",
+          "size": "400x440"
+        },
+        {
+          "type": "title",
+          "text": "Huffington Post Discusses Women In Business With Darline Jean"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint "
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Darline Jean is Chief Operating Officer at PulsePoint. She previously spent the last decade at About.com, which she joined as vice president of finance in 2003 before serving as the e company's chief finance officer and chief operating officer before becoming president and CEO in September 2011. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "59",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/5-burning-buyer-questions-about-programmatic-answered.htmlUK",
+      "landing_page": "http://pulsepoint.com/news/5-burning-buyer-questions-about-programmatic-answered.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_uk_camp2_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430950465-programmatic_problems.png",
+          "image_type": "3",
+          "size": "427x345"
+        },
+        {
+          "type": "title",
+          "text": "Industry Experts Answer Buyer Questions About Programmatic"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "When it’s bad, the buyer-seller relationship feels like something out of Divorce Court. Individual interests are the only interests, the two sides see as little of each other as possible and gentlemen’s agreements are just excuses to not get things in writing."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "60",
+      "advertiser_id": "3",
+      "name": "http://pulsepoint.com/news/pulsepoint-partners-with-zulu5.htmlUK",
+      "landing_page": "http://pulsepoint.com/news/pulsepoint-partners-with-zulu5.html?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=pulsepoint_uk_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430950741-pulsepoint_partners_with_zulu5_thmb.png",
+          "image_type": "3",
+          "size": "252x166"
+        },
+        {
+          "type": "title",
+          "text": "PulsePoint Partners with Zulu5"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "PulsePoint"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "A next generation advertising technology platform, announced today their partnership with Zulu5, an online advertising monitoring and insights company, to strengthen PulsePoint’s multi-layer inventory quality tech stack across Europe. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://pulsepoint.com/"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "61",
+      "advertiser_id": "3",
+      "name": "http://imweek.org/6-branding-tips-from-shark-tank-investor-daymond-john/",
+      "landing_page": "http://imweek.org/6-branding-tips-from-shark-tank-investor-daymond-john/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=dma_imw_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430951879-daymond_john.jpg",
+          "image_type": "3",
+          "size": "1350x633"
+        },
+        {
+          "type": "title",
+          "text": "6 Branding Tips From 'Shark Tank' Investor Daymond John"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Undeniably, Daymond John qualifies as a branding baron. John built the hip-hop-fueled FUBU clothing line into a massive global brand and built himself into a household brand as one of the investors on ABC’s Shark Tank."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://imweek.org"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "62",
+      "advertiser_id": "3",
+      "name": "http://imweek.org/6-branding-tips-from-shark-tank-investor-daymond-john/",
+      "landing_page": "http://imweek.org/6-branding-tips-from-shark-tank-investor-daymond-john/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=dma_imw_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430951961-daymond_john.jpg",
+          "image_type": "3",
+          "size": "1350x633"
+        },
+        {
+          "type": "title",
+          "text": "Shark Tank Titan Discusses Branding Your Business"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://imweek.org"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "63",
+      "advertiser_id": "3",
+      "name": "http://imweek.org/6-branding-tips-from-shark-tank-investor-daymond-john/",
+      "landing_page": "http://imweek.org/6-branding-tips-from-shark-tank-investor-daymond-john/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=dma_imw_cv4",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430952033-daymond_john.jpg",
+          "image_type": "3",
+          "size": "1350x633"
+        },
+        {
+          "type": "title",
+          "text": "Shark Tank's Daymond John Shares His Secrets To Branding"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association "
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Undeniably, Daymond John qualifies as a branding baron. John built the hip-hop-fueled FUBU clothing line into a massive global brand and built himself into a household brand as one of the investors on ABC’s Shark Tank."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://imweek.org"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "64",
+      "advertiser_id": "3",
+      "name": "http://imweek.org/serving-the-self-sufficient-mobile-customer/",
+      "landing_page": "http://imweek.org/serving-the-self-sufficient-mobile-customer/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=dma_imw_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430952141-mobile_customer_2.jpg",
+          "image_type": "3",
+          "size": "1200x798"
+        },
+        {
+          "type": "title",
+          "text": "Serving The Self-Sufficient Mobile Customer"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Who shops on mobile devices? These days, a lot of people — and more and more are indulging in m-commerce every day. According to comScore, mobile shopping was growing by 47 percent by the middle of 2014, and the growth is expected to remain strong."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://imweek.org"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "65",
+      "advertiser_id": "3",
+      "name": "http://imweek.org/serving-the-self-sufficient-mobile-customer/",
+      "landing_page": "http://imweek.org/serving-the-self-sufficient-mobile-customer/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=dma_imw_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430952167-mobile_customer_2.jpg",
+          "image_type": "3",
+          "size": "1200x798"
+        },
+        {
+          "type": "title",
+          "text": "Overcoming Marketing Challenges Of The Self-Serving Mobile Customer"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Who shops on mobile devices? These days, a lot of people — and more and more are indulging in m-commerce every day. According to comScore, mobile shopping was growing by 47 percent by the middle of 2014, and the growth is expected to remain strong."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://imweek.org"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "66",
+      "advertiser_id": "3",
+      "name": "http://imweek.org/serving-the-self-sufficient-mobile-customer/",
+      "landing_page": "http://imweek.org/serving-the-self-sufficient-mobile-customer/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=dma_imw_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430952230-mobile_customer_2.jpg",
+          "image_type": "3",
+          "size": "1200x798"
+        },
+        {
+          "type": "title",
+          "text": "How To Serve The Sophisticated Mobile Customer"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Who shops on mobile devices? These days, a lot of people — and more and more are indulging in m-commerce every day. According to comScore, mobile shopping was growing by 47 percent by the middle of 2014, and the growth is expected to remain strong."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://imweek.org"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "67",
+      "advertiser_id": "3",
+      "name": "http://imweek.org/agencies-facing-extinction-is-real-time-programmatic-marketing-the-future/",
+      "landing_page": "http://imweek.org/agencies-facing-extinction-is-real-time-programmatic-marketing-the-future/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=dma_imw_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430952305-advertising_agencies.jpg",
+          "image_type": "3",
+          "size": "1200x890"
+        },
+        {
+          "type": "title",
+          "text": "Agencies Facing Extinction: Is Real-Time, Programmatic Marketing The Future "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Programmatic advertising has been one of the hottest topics in online marketing for years now. Already in 2014, programmatic ads accounted for almost half the total display market, according to eMarketer. That number is expected to grow to 55 percent this year and will only continue to rise."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://imweek.org"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": 68,
+      "advertiser_id": "3",
+      "name": "http://imweek.org/agencies-facing-extinction-is-real-time-programmatic-marketing-the-future/",
+      "landing_page": "http://imweek.org/agencies-facing-extinction-is-real-time-programmatic-marketing-the-future/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=dma_imw_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430952369-advertising_agencies.jpg",
+          "image_type": "3",
+          "size": "1200x890"
+        },
+        {
+          "type": "title",
+          "text": "Are Advertising Agencies A Thing Of The Past?"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Programmatic advertising has been one of the hottest topics in online marketing for years now. Already in 2014, programmatic ads accounted for almost half the total display market, according to eMarketer. That number is expected to grow to 55 percent this year and will only continue to rise."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://imweek.org"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "69",
+      "advertiser_id": "3",
+      "name": "http://imweek.org/agencies-facing-extinction-is-real-time-programmatic-marketing-the-future/",
+      "landing_page": "http://imweek.org/agencies-facing-extinction-is-real-time-programmatic-marketing-the-future/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=dma_imw_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430952415-advertising_agencies.jpg",
+          "image_type": "3",
+          "size": "1200x890"
+        },
+        {
+          "type": "title",
+          "text": "How The Future Of Programmatic Advertising Is Changing The Industry"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Direct Marketing Association"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Programmatic advertising has been one of the hottest topics in online marketing for years now. Already in 2014, programmatic ads accounted for almost half the total display market, according to eMarketer. That number is expected to grow to 55 percent this year and will only continue to rise."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://imweek.org/"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "6",
+      "advertiser_id": "3",
+      "url": "nm.contextweb.com/media/1428680004-1397660967-240.jpg",
+      "name": "display",
+      "size": "300x250",
+      "moderation_status": "APPROVED",
+      "creative_type": "plain",
+      "alternative_creative_id": "false",
+      "deleted": true
+    },
+    {
+      "id": "70",
+      "advertiser_id": "3",
+      "name": "http://blog.columbia.com/how-to-holidays-on-horseback/",
+      "landing_page": "http://blog.columbia.com/how-to-holidays-on-horseback/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=columbia_camp3_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430955579-horseback.jpg",
+          "image_type": "3",
+          "size": "500x375"
+        },
+        {
+          "type": "title",
+          "text": "Holidays On Horseback "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Columbia Sportswear"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "As Winston Churchill once said, “No hour of life is wasted that is spent in the saddle.” And we agree. There’s a zen-like appeal of the quiet of the trail, the rhythmic movement of the horse, and the constantly changing view. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://blog.columbia.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "71",
+      "advertiser_id": "3",
+      "name": "http://blog.columbia.com/how-to-holidays-on-horseback/",
+      "landing_page": "http://blog.columbia.com/how-to-holidays-on-horseback/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=columbia_camp3_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430955677-horseback.jpg",
+          "image_type": "3",
+          "size": "500x375"
+        },
+        {
+          "type": "title",
+          "text": "Why You Should Take A Holiday On Horseback "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Columbia Sportswear"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "As Winston Churchill once said, “No hour of life is wasted that is spent in the saddle.” And we agree. There’s a zen-like appeal of the quiet of the trail, the rhythmic movement of the horse, and the constantly changing view. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://blog.columbia.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "72",
+      "advertiser_id": "3",
+      "name": "http://blog.columbia.com/how-to-holidays-on-horseback/",
+      "landing_page": "http://blog.columbia.com/how-to-holidays-on-horseback/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=columbia_camp3_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430955743-horseback.jpg",
+          "image_type": "3",
+          "size": "500x375"
+        },
+        {
+          "type": "title",
+          "text": "Go On A Horseback Adventure! "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Columbia Sportswear"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "As Winston Churchill once said, “No hour of life is wasted that is spent in the saddle.” And we agree. There’s a zen-like appeal of the quiet of the trail, the rhythmic movement of the horse, and the constantly changing view. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://blog.columbia.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": 73,
+      "advertiser_id": "3",
+      "name": "http://blog.columbia.com/how-to-clean-your-bike/",
+      "landing_page": "http://blog.columbia.com/how-to-clean-your-bike/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=columbia_camp3_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430955844-CleanBikeTEXT-e1429561296184.jpg",
+          "image_type": "3",
+          "size": "500x276"
+        },
+        {
+          "type": "title",
+          "text": "How To Clean Your Bike"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "With the arrival of warmer weather, many of us are finally getting out on our bikes. It’s a spectacular, time-honored ritual that signals the change of seasons–and it’s also time to apply that other time-honored tradition of spring cleaning to your two-wheeled chariot. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://blog.columbia.com/how-to-clean-your-bike/"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "74",
+      "advertiser_id": "3",
+      "name": "http://blog.columbia.com/how-to-clean-your-bike/",
+      "landing_page": "http://blog.columbia.com/how-to-clean-your-bike/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=columbia_camp3_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430955877-CleanBikeTEXT-e1429561296184.jpg",
+          "image_type": "3",
+          "size": "500x276"
+        },
+        {
+          "type": "title",
+          "text": "7 Tips On Keeping Your Bike Clean"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "With the arrival of warmer weather, many of us are finally getting out on our bikes. It’s a spectacular, time-honored ritual that signals the change of seasons–and it’s also time to apply that other time-honored tradition of spring cleaning to your two-wheeled chariot. "
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Columbia Sportswear"
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://blog.columbia.com/how-to-clean-your-bike/"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "75",
+      "advertiser_id": "3",
+      "name": "http://blog.columbia.com/how-to-clean-your-bike/",
+      "landing_page": "http://blog.columbia.com/how-to-clean-your-bike/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=columbia_camp3_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430955936-CleanBikeTEXT-e1429561296184.jpg",
+          "image_type": "3",
+          "size": "500x276"
+        },
+        {
+          "type": "title",
+          "text": "Spring Clean Your Bike"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Columbia Sportswear"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "With the arrival of warmer weather, many of us are finally getting out on our bikes. It’s a spectacular, time-honored ritual that signals the change of seasons–and it’s also time to apply that other time-honored tradition of spring cleaning to your two-wheeled chariot. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://blog.columbia.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": 76,
+      "advertiser_id": "3",
+      "name": "http://blog.columbia.com/good-to-know-babies-in-the-wild/",
+      "landing_page": "http://blog.columbia.com/good-to-know-babies-in-the-wild/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=columbia_camp3_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430956014-BabiesInTheWildTEXT.jpg",
+          "image_type": "3",
+          "size": "454x303"
+        },
+        {
+          "type": "title",
+          "text": "5 Tips For Taking Babies Camping"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "The American outdoor dream works like this: You love the outdoors. You travel to cool places and learn exceptional skills. Then you share your love of nature with someone else. Often that someone else is a child to whom you pass down your wisdom, passion, and appreciation for nature."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://blog.columbia.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "77",
+      "advertiser_id": "3",
+      "name": "http://blog.columbia.com/good-to-know-babies-in-the-wild/",
+      "landing_page": "http://blog.columbia.com/good-to-know-babies-in-the-wild/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=columbia_camp3_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430956067-BabiesInTheWildTEXT.jpg",
+          "image_type": "3",
+          "size": "454x303"
+        },
+        {
+          "type": "title",
+          "text": "Get Your Kids Out In The Wild!"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Columbia Sportswear"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "The American outdoor dream works like this: You love the outdoors. You travel to cool places and learn exceptional skills. Then you share your love of nature with someone else. Often that someone else is a child to whom you pass down your wisdom, passion, and appreciation for nature."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://blog.columbia.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "78",
+      "advertiser_id": "3",
+      "name": "http://blog.columbia.com/good-to-know-babies-in-the-wild/",
+      "landing_page": "http://blog.columbia.com/good-to-know-babies-in-the-wild/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=columbia_camp3_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430956139-BabiesInTheWildTEXT.jpg",
+          "image_type": "3",
+          "size": "454x303"
+        },
+        {
+          "type": "title",
+          "text": "Why You Should Take Your Kids Hiking"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Columbia Sportswear"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "The American outdoor dream works like this: You love the outdoors. You travel to cool places and learn exceptional skills. Then you share your love of nature with someone else. Often that someone else is a child to whom you pass down your wisdom, passion, and appreciation for nature."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://blog.columbia.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "79",
+      "advertiser_id": "3",
+      "name": "http://blog.columbia.com/chew-on-this-backcountry-greens/",
+      "landing_page": "http://blog.columbia.com/chew-on-this-backcountry-greens/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=columbia_camp3_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430956327-BackcountryGreensTEXT-e1429553480744.jpg",
+          "image_type": "3",
+          "size": "500x286"
+        },
+        {
+          "type": "title",
+          "text": "Chew On This: Backcountry Greens"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Columbia Sportswear"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Now that we’ve covered the more obvious bounty you’re likely to encounter in the backcountry (bright, edible berries that grow alongside the trail), let’s get a bit more creative. If you know what you’re looking for, treasures await in the more unlikely places—like the foliage. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://blog.columbia.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "80",
+      "advertiser_id": "3",
+      "name": "http://blog.columbia.com/chew-on-this-backcountry-greens",
+      "landing_page": "http://blog.columbia.com/chew-on-this-backcountry-greens/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=columbia_camp3_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430956369-BackcountryGreensTEXT-e1429553480744.jpg",
+          "image_type": "3",
+          "size": "500x286"
+        },
+        {
+          "type": "title",
+          "text": "5 Edible Wild Plants To Chew On "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Columbia Sportswear"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Now that we’ve covered the more obvious bounty you’re likely to encounter in the backcountry (bright, edible berries that grow alongside the trail), let’s get a bit more creative. If you know what you’re looking for, treasures await in the more unlikely places—like the foliage. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://blog.columbia.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "81",
+      "advertiser_id": "3",
+      "name": "http://blog.columbia.com/chew-on-this-backcountry-greens/",
+      "landing_page": "http://blog.columbia.com/chew-on-this-backcountry-greens/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=columbia_camp3_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430956442-BackcountryGreensTEXT-e1429553480744.jpg",
+          "image_type": "3",
+          "size": "500x286"
+        },
+        {
+          "type": "title",
+          "text": "Edible Greens On The Trail "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Columbia Sportswear"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Now that we’ve covered the more obvious bounty you’re likely to encounter in the backcountry (bright, edible berries that grow alongside the trail), let’s get a bit more creative. If you know what you’re looking for, treasures await in the more unlikely places—like the foliage. "
+        },
+        {
+          "type": "data",
+          "data_type": "12",
+          "value": "http://blog.columbia.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "82",
+      "advertiser_id": "3",
+      "name": "http://www.visitgainesville.com/football_landmarks/",
+      "landing_page": "http://www.visitgainesville.com/football_landmarks/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=gainesville_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430956667-football_landmarks.jpg",
+          "image_type": "3",
+          "size": "500x375"
+        },
+        {
+          "type": "title",
+          "text": "A Football Lover's Tour Of Gainesville Football Landmarks"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Football fans know north Florida is one of the greatest football hotbeds in the United States. Score extra points with football lovers on your Florida vacation by taking them to the football landmarks of north Florida, a region recognized around the world as a permanent factory of the nation’s very best football schools, players and coaches."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visitgainesville.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "83",
+      "advertiser_id": "3",
+      "name": "http://www.visitgainesville.com/articles/gainesville-hot-rods/",
+      "landing_page": "http://www.visitgainesville.com/articles/gainesville-hot-rods/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=gainesville_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430956944-hot_rod_header.jpg",
+          "image_type": "3",
+          "size": "1020x433"
+        },
+        {
+          "type": "title",
+          "text": "Getting around Gainesville at the Gatornationals"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Gainesville"
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visitgainesville.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "stx_status": -1
+    },
+    {
+      "id": "84",
+      "advertiser_id": "3",
+      "name": "http://www.visitgainesville.com/outdooradventures/",
+      "landing_page": "http://www.visitgainesville.com/outdooradventures/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=gainesville_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430957157-outdoor_adventure.jpg",
+          "image_type": "3",
+          "size": "500x375"
+        },
+        {
+          "type": "title",
+          "text": "Skip the Theme Parks and Head to Gainesville's National Parks"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Gainesville"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Whether you enjoy spending time on water or dry land, Gainesville offers numerous outdoor activities for both pursuits. A plethora of parks in the area provide opportunities for fishing, boating, kayaking, hiking and generally getting up close and personal with local wildlife. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visitgainesville.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "85",
+      "advertiser_id": "3",
+      "name": "http://www.visitgainesville.com/gainesvilledatenight/",
+      "landing_page": "http://www.visitgainesville.com/gainesvilledatenight/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=gainesville_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1430957293-gainesville_date_night_497x365.jpg",
+          "image_type": "3",
+          "size": "497x365"
+        },
+        {
+          "type": "title",
+          "text": "Night on the Town in Gainesville"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Gainesville"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Date night in Gainesville is an intimate, quiet experience. Far from the spring break crowds who invade Florida's beaches and away from the large family noises of the theme parks, Gainesville offers couples cozy restaurants to learn more about each other or reconnect while enjoying delicious meals. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visitgainesville.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "100",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/3/12/Houston-Museum-District-mixes-culture-and-conference-space/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/3/12/Houston-Museum-District-mixes-culture-and-conference-space/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1431017432-museum_district__1_.jpeg",
+          "image_type": "3",
+          "size": "1200x799"
+        },
+        {
+          "type": "title",
+          "text": "Check Out Houston's Musuem District! "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "The Houston Museum District paints a cultural picture like no other in the country. Within a roughly 1.5-mile radius of the Mecom Fountain in Houston's Hermann Park, the 19 institutions that make up the Museum District attract more than 7 million visitors a year. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "101",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/5/6/Southwest-Airlines-Shines-International-Spotlight-on-Houston/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/5/6/Southwest-Airlines-Shines-International-Spotlight-on-Houston/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1431020870-southwest_plane.jpg",
+          "image_type": "3",
+          "size": "2577x1718"
+        },
+        {
+          "type": "title",
+          "text": "Southwest Airlines Shines International Spotlight On Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "To help celebrate its international expansion at Houston's William P. Hobby Airport, Southwest Airlines will hold its annual shareholders meeting May 13 in Houston - the first time it's ever been staged outside Southwest's home city of Dallas.\n"
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "102",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/5/6/Southwest-Airlines-Shines-International-Spotlight-on-Houston/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/5/6/Southwest-Airlines-Shines-International-Spotlight-on-Houston/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1431021012-southwest_plane.jpg",
+          "image_type": "3",
+          "size": "2577x1718"
+        },
+        {
+          "type": "title",
+          "text": "Southwest To Host Annual Meeting In Houston "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "To help celebrate its international expansion at Houston's William P. Hobby Airport, Southwest Airlines will hold its annual shareholders meeting May 13 in Houston - the first time it's ever been staged outside Southwest's home city of Dallas.\n"
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "103",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/5/6/Southwest-Airlines-Shines-International-Spotlight-on-Houston/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/5/6/Southwest-Airlines-Shines-International-Spotlight-on-Houston/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1431021048-southwest_plane.jpg",
+          "image_type": "3",
+          "size": "2577x1718"
+        },
+        {
+          "type": "title",
+          "text": "Southwest Announces International Expansion In Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "To help celebrate its international expansion at Houston's William P. Hobby Airport, Southwest Airlines will hold its annual shareholders meeting May 13 in Houston - the first time it's ever been staged outside Southwest's home city of Dallas.\n"
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "86",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/29/7-Tasty-Twists-on-Crawfish-in-Houston/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/29/7-Tasty-Twists-on-Crawfish-in-Houston/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv1",
+      "assets": [
+        {
+          "type": "title",
+          "text": "7 Tasty Twists On Crawfish In Houston "
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Sure, you can savor boiled crawfish at any number of fine joints in Houston, and we wouldn't discourage you from doing that. But any number of local restaurants put their own spin on mudbugs. Here are seven distinctive crawfish dishes you should sample in the Bayou City."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "87",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/29/7-Tasty-Twists-on-Crawfish-in-Houston/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/29/7-Tasty-Twists-on-Crawfish-in-Houston/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv4",
+      "assets": [
+        {
+          "type": "title",
+          "text": "Not Your Ordinary Crawfish In Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Sure, you can savor boiled crawfish at any number of fine joints in Houston, and we wouldn't discourage you from doing that. But any number of local restaurants put their own spin on mudbugs. Here are seven distinctive crawfish dishes you should sample in the Bayou City."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "88",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/29/7-Tasty-Twists-on-Crawfish-in-Houston/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/29/7-Tasty-Twists-on-Crawfish-in-Houston/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv5",
+      "assets": [
+        {
+          "type": "title",
+          "text": "Houston Serves Up New Twists On Crawfish"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Sure, you can savor boiled crawfish at any number of fine joints in Houston, and we wouldn't discourage you from doing that. But any number of local restaurants put their own spin on mudbugs. Here are seven distinctive crawfish dishes you should sample in the Bayou City."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "89",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/15/7-Super-Cool-Amenities-at-Houston-Hotels/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/15/7-Super-Cool-Amenities-at-Houston-Hotels/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1431016081-mn_4season_hotel_nav_105.jpg",
+          "image_type": "3",
+          "size": "105x70"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "deleted": true
+    },
+    {
+      "id": "90",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/15/7-Super-Cool-Amenities-at-Houston-Hotels",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/15/7-Super-Cool-Amenities-at-Houston-Hotels/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1431016127-mn_4season_hotel_nav_105.jpg",
+          "image_type": "3",
+          "size": "105x70"
+        },
+        {
+          "type": "title",
+          "text": "Really Cool Amenities At These Houston Hotels"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "By now, you've come to expect Wi-Fi service and a host of other standard amenities at hotels. But some hotels, including several in Houston, kick their amenity offerings up a notch or two. Here are seven not-so-standard but oh-so-cool amenities at hotels in the Houston area."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "91",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/15/7-Super-Cool-Amenities-at-Houston-Hotels/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/15/7-Super-Cool-Amenities-at-Houston-Hotels/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1431016190-mn_4season_hotel_nav_105.jpg",
+          "image_type": "3",
+          "size": "105x70"
+        },
+        {
+          "type": "title",
+          "text": "Houston Hotels Offering More Than Just a Room"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "By now, you've come to expect Wi-Fi service and a host of other standard amenities at hotels. But some hotels, including several in Houston, kick their amenity offerings up a notch or two. Here are seven not-so-standard but oh-so-cool amenities at hotels in the Houston area."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com/"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "92",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/6/Restaurants-and-Retail-in-the-Works-for-Houston-Convention-District",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/6/Restaurants-and-Retail-in-the-Works-for-Houston-Convention-District/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv1",
+      "assets": [
+        {
+          "type": "title",
+          "text": "Restaurants and Retail In The Works For Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Next year, it'll be easier to eat, drink and be merry in the Houston Convention District."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "93",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/6/Restaurants-and-Retail-in-the-Works-for-Houston-Convention-District",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/6/Restaurants-and-Retail-in-the-Works-for-Houston-Convention-District/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv2",
+      "assets": [
+        {
+          "type": "title",
+          "text": "Houston Convention Brings In New Restaurants and Retailers"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Next year, it'll be easier to eat, drink and be merry in the Houston Convention District."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "94",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/6/Restaurants-and-Retail-in-the-Works-for-Houston-Convention-District/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/4/6/Restaurants-and-Retail-in-the-Works-for-Houston-Convention-District/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv3",
+      "assets": [
+        {
+          "type": "title",
+          "text": "\"New Restaurants and Retailers Coming To Houston  Convention District\""
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Next year, it'll be easier to eat, drink and be merry in the Houston Convention District."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "95",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/3/19/Houston-Americas-Next-Great-Food-City/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/3/19/Houston-Americas-Next-Great-Food-City/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1431016973-Houston_heritage_iconic_restaurants.jpeg",
+          "image_type": "3",
+          "size": "550x367"
+        },
+        {
+          "type": "title",
+          "text": "Houston: Americas Next Great Food City"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Want to dine in what GQ magazine touts as \"America's next great food city\"? Then prepare to whet your appetite in Houston."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "96",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/3/19/Houston-Americas-Next-Great-Food-City/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/3/19/Houston-Americas-Next-Great-Food-City/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1431017085-Houston_heritage_iconic_restaurants.jpeg",
+          "image_type": "3",
+          "size": "550x367"
+        },
+        {
+          "type": "title",
+          "text": "GQ Magazine Names Houston As America's  Next Great Food City!"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Want to dine in what GQ magazine touts as \"America's next great food city\"? Then prepare to whet your appetite in Houston."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "97",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/3/19/Houston-Americas-Next-Great-Food-City/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/3/19/Houston-Americas-Next-Great-Food-City/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv3",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1431017161-Houston_heritage_iconic_restaurants.jpeg",
+          "image_type": "3",
+          "size": "550x367"
+        },
+        {
+          "type": "title",
+          "text": "Dish on Houston's Tasty Eats At Your Next  Conference!"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Want to dine in what GQ magazine touts as \"America's next great food city\"? Then prepare to whet your appetite in Houston."
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "98",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/3/12/Houston-Museum-District-mixes-culture-and-conference-space/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/3/12/Houston-Museum-District-mixes-culture-and-conference-space/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv1",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1431017320-museum_district__1_.jpeg",
+          "image_type": "3",
+          "size": "1200x799"
+        },
+        {
+          "type": "title",
+          "text": "Houston Museum District Mixes Culture And Conference Space"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "The Houston Museum District paints a cultural picture like no other in the country. Within a roughly 1.5-mile radius of the Mecom Fountain in Houston's Hermann Park, the 19 institutions that make up the Museum District attract more than 7 million visitors a year. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com/"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "99",
+      "advertiser_id": "30",
+      "name": "http://www.visithoustontexas.com/blog/index.cfm/2015/3/12/Houston-Museum-District-mixes-culture-and-conference-space/",
+      "landing_page": "http://www.visithoustontexas.com/blog/index.cfm/2015/3/12/Houston-Museum-District-mixes-culture-and-conference-space/?utm_source=giadsnative&utm_medium=referral%20&utm_campaign=houston_meetingplanner_cv2",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1431017388-museum_district__1_.jpeg",
+          "image_type": "3",
+          "size": "1200x799"
+        },
+        {
+          "type": "title",
+          "text": "Why Houston's Museum District Is Great For Conventions"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "Visit Houston"
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "The Houston Museum District paints a cultural picture like no other in the country. Within a roughly 1.5-mile radius of the Mecom Fountain in Houston's Hermann Park, the 19 institutions that make up the Museum District attract more than 7 million visitors a year. "
+        },
+        {
+          "type": "data",
+          "data_type": "11",
+          "value": "http://www.visithoustontexas.com"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": 104,
+      "advertiser_id": "32",
+      "name": "https://www.youtube.com/watch?v=7YSpfz4t-Lc",
+      "landing_page": "https://www.youtube.com/watch?v=7YSpfz4t-Lc",
+      "assets": [
+        {
+          "type": "img",
+          "url": "nm.contextweb.com/media/1431120925-2015-04-30_1405.png",
+          "image_type": "3",
+          "size": "1000x508"
+        },
+        {
+          "type": "title",
+          "text": " Zoe Ball’s Snack Happy Secrets"
+        },
+        {
+          "type": "data",
+          "data_type": "1",
+          "value": "California Almonds "
+        },
+        {
+          "type": "data",
+          "data_type": "2",
+          "value": "Almond fan Zoe explains why these nutritious nuts make the perfect, tasty snack to keep her going, no matter what her day might bring!"
+        }
+      ],
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives"
+    },
+    {
+      "id": "5",
+      "advertiser_id": "4",
+      "name": "http://blog.columbia.com/how-to-hide-from-fish/?utm_source=shareaholic&utm_medium=referral&utm_campaign=colombiagear",
+      "landing_page": "http://blog.columbia.com/how-to-hide-from-fish/?utm_source=shareaholic&utm_medium=referral&utm_campaign=colombiagear",
+      "moderation_status": "APPROVED",
+      "creative_type": "native_creatives",
+      "deleted": true
+    },
+    {
+      "id": 10,
+      "advertiser_id": "6",
+      "url": "nm.contextweb.com/media/1429139737-adc_twe_brawl_160x600.swf",
+      "name": "Flash - 160x600",
+      "size": "160x600",
+      "landing_page": "http://powerinbox.com",
+      "alternative_creative_id": "false",
+      "moderation_status": "APPROVED",
+      "creative_type": "plain"
+    },
+    {
+      "id": "7",
+      "advertiser_id": "6",
+      "url": "nm.contextweb.com/media/1429138000-Smokey_Bday_Banner_1.jpg",
+      "name": "Display - 300x250",
+      "size": "300x250",
+      "landing_page": "http://www.powerinbox.com/",
+      "moderation_status": "REVIEW_PENDING",
+      "creative_type": "plain",
+      "deleted": true
+    },
+    {
+      "id": "8",
+      "advertiser_id": "6",
+      "url": "nm.contextweb.com/media/1429138476-Smokey_Bday_Banner_1.jpg",
+      "name": "Display - 300x250",
+      "size": "300x250",
+      "landing_page": "http://www.powerinbox.com/",
+      "moderation_status": "APPROVED",
+      "creative_type": "plain",
+      "alternative_creative_id": "false"
+    },
+    {
+      "id": "9",
+      "advertiser_id": "6",
+      "url": "nm.contextweb.com/media/1429139198-Smokey_Bday_Banner_728x90.jpg",
+      "name": "Display - 728x90",
+      "size": "728x90",
+      "landing_page": "http://powerinbox.com",
+      "moderation_status": "APPROVED",
+      "creative_type": "plain",
+      "alternative_creative_id": "false"
+    }
+  ],
+  "domains_lists": [
+    {
+      "id": 2,
+      "advertiser_id": "5",
+      "name": "rachitskillisaurus.com",
+      "domains": [
+        "rachitskillisaurus.com"
+      ]
+    }
+  ],
+  "campaigns": [
+    {
+      "id": 12,
+      "advertiser_id": "19",
+      "name": "quaker campaign",
+      "ends": "2015-04-17",
+      "creative_type": "native_creatives",
+      "financing": {
+        "type": "fixed_cpc",
+        "price": 0
+      },
+      "commissions": {
+        "agency": 0,
+        "dsp": 0
+      },
+      "starts": "2015-04-17",
+      "budget": 0,
+      "currency": "USD",
+      "landing_page": "google.com"
+    },
+    {
+      "id": "2",
+      "advertiser_id": "2",
+      "starts": "2015-02-12 05:00:00",
+      "name": "Test campaign",
+      "ends": "2015-07-01 03:59:59",
+      "group_id": "2",
+      "currency": "USD",
+      "budget": "100",
+      "financing": {
+        "type": "max_cpm",
+        "price": "2"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://pulsepoint.com",
+      "disabled": true,
+      "was_enabled": 1424465675,
+      "for_native_ads": "true",
+      "creatives": [
+        "3"
+      ]
+    },
+    {
+      "id": 13,
+      "advertiser_id": "20",
+      "name": "quaker campaign",
+      "ends": "2015-04-17",
+      "creative_type": "native_creatives",
+      "financing": {
+        "type": "fixed_cpc",
+        "price": 0
+      },
+      "commissions": {
+        "agency": 0,
+        "dsp": 0
+      },
+      "starts": "2015-04-17",
+      "budget": 0,
+      "currency": "USD",
+      "landing_page": "google.com"
+    },
+    {
+      "id": 14,
+      "advertiser_id": "21",
+      "name": "quaker campaign",
+      "ends": "2015-04-17",
+      "creative_type": "native_creatives",
+      "financing": {
+        "type": "fixed_cpc",
+        "price": 0
+      },
+      "commissions": {
+        "agency": 0,
+        "dsp": 0
+      },
+      "starts": "2015-04-17",
+      "budget": 0,
+      "currency": "USD",
+      "landing_page": "google.com"
+    },
+    {
+      "id": 15,
+      "advertiser_id": "22",
+      "name": "quaker campaign",
+      "ends": "2015-04-17",
+      "creative_type": "native_creatives",
+      "financing": {
+        "type": "fixed_cpc",
+        "price": 0
+      },
+      "commissions": {
+        "agency": 0,
+        "dsp": 0
+      },
+      "starts": "2015-04-17",
+      "budget": 0,
+      "currency": "USD",
+      "landing_page": "google.com"
+    },
+    {
+      "id": 16,
+      "advertiser_id": "23",
+      "name": "quaker campaign",
+      "ends": "2015-04-17",
+      "creative_type": "native_creatives",
+      "financing": {
+        "type": "fixed_cpc",
+        "price": 0
+      },
+      "commissions": {
+        "agency": 0,
+        "dsp": 0
+      },
+      "starts": "2015-04-17",
+      "budget": 0,
+      "currency": "USD",
+      "landing_page": "google.com"
+    },
+    {
+      "id": 17,
+      "advertiser_id": "24",
+      "name": "quaker campaign",
+      "ends": "2015-04-17",
+      "creative_type": "native_creatives",
+      "financing": {
+        "type": "fixed_cpc",
+        "price": 0
+      },
+      "commissions": {
+        "agency": 0,
+        "dsp": 0
+      },
+      "starts": "2015-04-17",
+      "budget": 0,
+      "currency": "USD",
+      "landing_page": "google.com"
+    },
+    {
+      "id": 18,
+      "advertiser_id": "25",
+      "name": "quaker campaign",
+      "ends": "2015-04-17",
+      "creative_type": "native_creatives",
+      "financing": {
+        "type": "fixed_cpc",
+        "price": 0
+      },
+      "commissions": {
+        "agency": 0,
+        "dsp": 0
+      },
+      "starts": "2015-04-17",
+      "budget": 0,
+      "currency": "USD",
+      "landing_page": "google.com"
+    },
+    {
+      "id": 19,
+      "advertiser_id": "26",
+      "name": "quaker campaign",
+      "ends": "2015-04-17",
+      "creative_type": "native_creatives",
+      "financing": {
+        "type": "fixed_cpc",
+        "price": 0
+      },
+      "commissions": {
+        "agency": 0,
+        "dsp": 0
+      },
+      "starts": "2015-04-17",
+      "budget": 0,
+      "currency": "USD",
+      "landing_page": "google.com"
+    },
+    {
+      "id": "22",
+      "advertiser_id": "27",
+      "starts": "2015-05-01 04:00:00",
+      "name": "AdsNative test",
+      "ends": "2015-07-01 03:59:59",
+      "currency": "USD",
+      "budget": "100",
+      "financing": {
+        "type": "max_cpm",
+        "price": "3"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "20"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://pulsepoint.com/eight-trends-impacting-ad-tech-in-2015.html",
+      "disabled": false,
+      "for_native_ads": "true",
+      "targeting": {
+        "domains": [
+          "townhall.com",
+          "celebuzz.com"
+        ],
+        "ssps": [
+          "adn"
+        ]
+      },
+      "creatives": [
+        "45"
+      ],
+      "was_enabled": 1430923928
+    },
+    {
+      "id": "23",
+      "advertiser_id": "27",
+      "starts": "2015-05-01 04:00:00",
+      "name": "STX Test",
+      "ends": "2015-06-01 03:59:59",
+      "currency": "USD",
+      "budget": "100",
+      "financing": {
+        "type": "max_cpm",
+        "price": "3"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "20"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://pulsepoint.com/eight-trends-impacting-ad-tech-in-2015.html",
+      "disabled": false,
+      "for_native_ads": "true",
+      "targeting": {
+        "ssps": [
+          "stx"
+        ]
+      },
+      "creatives": [
+        "45"
+      ],
+      "was_enabled": 1430929921
+    },
+    {
+      "id": "24",
+      "advertiser_id": "28",
+      "starts": "2015-05-06 04:00:00",
+      "name": "DMA Education ",
+      "ends": "2015-06-01 03:59:59",
+      "currency": "USD",
+      "budget": "4000",
+      "financing": {
+        "type": "target_cpc",
+        "price": "0.50"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://dmaeducation.org/",
+      "disabled": false,
+      "for_native_ads": "true",
+      "targeting": {
+        "geo": {
+          "countries": [
+            "USA"
+          ]
+        },
+        "categories": [
+          "5",
+          "24",
+          "61",
+          "64",
+          "71",
+          "103"
+        ]
+      },
+      "creatives": [
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57"
+      ],
+      "was_enabled": 1430970876
+    },
+    {
+      "id": 31,
+      "advertiser_id": "29",
+      "starts": "2015-05-18 04:00:00",
+      "for_native_ads": "true",
+      "name": "IAB",
+      "ends": "2015-07-01 03:59:59",
+      "currency": "USD",
+      "budget": "1000",
+      "financing": {
+        "type": "target_cpc",
+        "price": "0.75"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "targeting": {
+        "geo": {
+          "countries": [
+            "USA"
+          ]
+        },
+        "categories": [
+          "5",
+          "61",
+          "71"
+        ],
+        "ssps": [
+          "adn"
+        ]
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://www.iab.net/iablog/",
+      "disabled": true
+    },
+    {
+      "id": "11",
+      "advertiser_id": "3",
+      "name": "Test Native Campaign pp",
+      "for_native_ads": "true",
+      "deleted": true
+    },
+    {
+      "id": "20",
+      "advertiser_id": "3",
+      "starts": "2015-04-22 04:00:00",
+      "name": "STX Test Campaign",
+      "ends": "2015-05-31 03:59:59",
+      "currency": "USD",
+      "budget": "100",
+      "financing": {
+        "type": "max_cpm",
+        "price": "3"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://pulsepoint.com",
+      "disabled": true,
+      "was_enabled": 1429708103,
+      "for_native_ads": "true",
+      "targeting": {
+        "ssps": [
+          "stx"
+        ]
+      },
+      "creatives": [
+        "17",
+        "18",
+        "4"
+      ]
+    },
+    {
+      "id": "21",
+      "advertiser_id": "3",
+      "starts": "2015-05-05 04:00:00",
+      "name": "PulsePoint Content ",
+      "ends": "2015-07-01 03:59:59",
+      "currency": "USD",
+      "budget": "5000",
+      "financing": {
+        "type": "target_cpc",
+        "price": "0.75"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://pulsepoint.com/",
+      "disabled": false,
+      "for_native_ads": "true",
+      "targeting": {
+        "geo": {
+          "countries": [
+            "USA"
+          ]
+        },
+        "categories": [
+          "5",
+          "7",
+          "9",
+          "61",
+          "71"
+        ]
+      },
+      "creatives": [
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "was_enabled": 1430970858
+    },
+    {
+      "id": "25",
+      "advertiser_id": "3",
+      "starts": "2015-05-05 04:00:00",
+      "name": "PulsePoint Content UK",
+      "ends": "2015-07-01 03:59:59",
+      "currency": "USD",
+      "budget": "1000",
+      "financing": {
+        "type": "target_cpc",
+        "price": "0.75"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://pulsepoint.com/",
+      "disabled": false,
+      "for_native_ads": "true",
+      "targeting": {
+        "geo": {
+          "countries": [
+            "GBR"
+          ]
+        },
+        "categories": [
+          "5",
+          "7",
+          "9",
+          "61",
+          "71"
+        ]
+      },
+      "creatives": [
+        "58",
+        "59",
+        "60"
+      ],
+      "was_enabled": 1430970851
+    },
+    {
+      "id": "26",
+      "advertiser_id": "3",
+      "starts": "2015-05-06 04:00:00",
+      "name": "DMA IMW",
+      "ends": "2015-07-01 03:59:59",
+      "currency": "USD",
+      "budget": "3000",
+      "financing": {
+        "type": "target_cpc",
+        "price": "0.75"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://imweek.org/",
+      "disabled": false,
+      "was_enabled": 1430970842,
+      "for_native_ads": "true",
+      "targeting": {
+        "geo": {
+          "countries": [
+            "USA"
+          ]
+        },
+        "categories": [
+          "5",
+          "7",
+          "61",
+          "71",
+          "435"
+        ],
+        "ssps": [
+          "adn"
+        ]
+      },
+      "creatives": [
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68",
+        "69"
+      ]
+    },
+    {
+      "id": "27",
+      "advertiser_id": "3",
+      "starts": "2015-05-06 04:00:00",
+      "name": "Columbia ",
+      "ends": "2015-07-01 03:59:59",
+      "currency": "USD",
+      "budget": "6000",
+      "financing": {
+        "type": "target_cpc",
+        "price": "0.75"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://blog.columbia.com/",
+      "disabled": false,
+      "for_native_ads": "true",
+      "targeting": {
+        "geo": {
+          "countries": [
+            "USA"
+          ]
+        },
+        "categories": [
+          "13",
+          "25",
+          "26",
+          "27",
+          "80",
+          "312",
+          "324",
+          "336",
+          "526"
+        ]
+      },
+      "creatives": [
+        "70",
+        "71",
+        "72",
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "80",
+        "81"
+      ],
+      "was_enabled": 1430970831
+    },
+    {
+      "id": "28",
+      "advertiser_id": "3",
+      "starts": "2015-05-06 04:00:00",
+      "name": "Gainesville",
+      "ends": "2015-07-01 03:59:59",
+      "currency": "USD",
+      "budget": "1500",
+      "financing": {
+        "type": "target_cpc",
+        "price": "0.75"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://www.visitgainesville.com",
+      "disabled": false,
+      "for_native_ads": "true",
+      "targeting": {
+        "geo": {
+          "countries": [
+            "USA"
+          ]
+        },
+        "categories": [
+          "3",
+          "11",
+          "27",
+          "315",
+          "350",
+          "360",
+          "379"
+        ]
+      },
+      "creatives": [
+        "82",
+        "83",
+        "84",
+        "85"
+      ],
+      "was_enabled": 1430970809
+    },
+    {
+      "id": "29",
+      "advertiser_id": "3",
+      "starts": "2015-05-06 04:00:00",
+      "for_native_ads": "true",
+      "name": "IAB",
+      "ends": "2015-07-01 03:59:59",
+      "currency": "USD",
+      "budget": "4000",
+      "financing": {
+        "type": "target_cpc",
+        "price": "0.75"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "targeting": {
+        "geo": {
+          "countries": [
+            "USA"
+          ]
+        },
+        "categories": [
+          "5",
+          "61",
+          "71"
+        ]
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://www.iab.net/iablog/",
+      "disabled": true,
+      "deleted": true
+    },
+    {
+      "id": "3",
+      "advertiser_id": "3",
+      "starts": "2015-02-24 05:00:00",
+      "name": "Future of programmatic",
+      "ends": "2015-06-01 03:59:59",
+      "currency": "USD",
+      "budget": "100",
+      "financing": {
+        "type": "max_cpm",
+        "price": "4"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "20"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://pulsepoint.com/eight-trends-impacting-ad-tech-in-2015.html",
+      "disabled": true,
+      "was_enabled": 1424903158,
+      "for_native_ads": "true",
+      "targeting": {
+        "domains": [
+          "townhall.com",
+          "celebuzz.com"
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "advertiser_id": "3",
+      "starts": "2015-02-24 05:00:00",
+      "name": "Future of programmatic_wide",
+      "ends": "2015-03-03 04:59:59",
+      "currency": "USD",
+      "budget": "100",
+      "financing": {
+        "type": "max_cpm",
+        "price": "2"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "20"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://pulsepoint.com/eight-trends-impacting-ad-tech-in-2015.html",
+      "disabled": true,
+      "was_enabled": 1424992509,
+      "for_native_ads": "true",
+      "creatives": [
+        "4"
+      ]
+    },
+    {
+      "id": "5",
+      "advertiser_id": "3",
+      "starts": "2015-03-03 05:00:00",
+      "name": "CPC test",
+      "ends": "2015-03-08 04:59:59",
+      "currency": "USD",
+      "budget": "100",
+      "financing": {
+        "type": "target_cpc",
+        "price": "0.8"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "20"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://pulsepoint.com/eight-trends-impacting-ad-tech-in-2015.html",
+      "disabled": false,
+      "was_enabled": 1425422156,
+      "for_native_ads": "true",
+      "targeting": {
+        "geo": {
+          "countries": [
+            "USA"
+          ]
+        }
+      },
+      "creatives": [
+        "4"
+      ]
+    },
+    {
+      "id": "6",
+      "advertiser_id": "3",
+      "starts": "2015-03-20 04:00:00",
+      "name": "Test for PulsePoint",
+      "ends": "2015-04-01 03:59:59",
+      "currency": "USD",
+      "budget": "100",
+      "financing": {
+        "type": "max_cpm",
+        "price": "3"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://pulsepoint.com/",
+      "disabled": false,
+      "for_native_ads": "true",
+      "targeting": {
+        "ssps": [
+          "pp"
+        ]
+      },
+      "creatives": [
+        "4"
+      ],
+      "was_enabled": 1426858344
+    },
+    {
+      "id": "8",
+      "advertiser_id": "3",
+      "starts": "2015-04-10 04:00:00",
+      "name": "Test Display",
+      "ends": "2015-05-01 03:59:59",
+      "currency": "USD",
+      "budget": "100",
+      "financing": {
+        "type": "max_cpm",
+        "price": "3"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "20"
+      },
+      "creatives_type": "plain",
+      "landing_page": "http://pulsepoint.com",
+      "disabled": true,
+      "was_enabled": 1428680167,
+      "targeting": {
+        "domains": [
+          "slacker.com"
+        ],
+        "ssps": [
+          "stub"
+        ]
+      },
+      "creatives": [
+        "6"
+      ]
+    },
+    {
+      "id": "30",
+      "advertiser_id": "30",
+      "starts": "2015-05-07 04:00:00",
+      "name": "Houston Meeting Planners ",
+      "ends": "2015-07-02 03:59:59",
+      "currency": "USD",
+      "budget": "4000",
+      "financing": {
+        "type": "target_cpc",
+        "price": "0.75"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://www.visithoustontexas.com/",
+      "disabled": false,
+      "for_native_ads": "true",
+      "targeting": {
+        "geo": {
+          "countries": [
+            "USA"
+          ]
+        },
+        "categories": [
+          "3",
+          "5",
+          "6",
+          "7",
+          "9",
+          "357",
+          "365"
+        ],
+        "ssps": [
+          "adn"
+        ]
+      },
+      "creatives": [
+        "100",
+        "101",
+        "102",
+        "103",
+        "86",
+        "87",
+        "88",
+        "90",
+        "91",
+        "92",
+        "93",
+        "94",
+        "95",
+        "96",
+        "97",
+        "98",
+        "99"
+      ],
+      "was_enabled": 1431044224
+    },
+    {
+      "id": 32,
+      "advertiser_id": "31",
+      "starts": "2015-05-08 04:00:00",
+      "for_native_ads": "true",
+      "name": "Marin",
+      "ends": "2015-07-01 03:59:59",
+      "currency": "USD",
+      "budget": "1500",
+      "financing": {
+        "type": "target_cpc",
+        "price": "0.75"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "targeting": {
+        "geo": {
+          "countries": [
+            "USA"
+          ],
+          "regions": [
+            "Ca"
+          ]
+        },
+        "categories": [
+          "11",
+          "27",
+          "350",
+          "355",
+          "356",
+          "366"
+        ],
+        "ssps": [
+          "adn"
+        ]
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://www.visitmarin.org/",
+      "disabled": true
+    },
+    {
+      "id": 33,
+      "advertiser_id": "32",
+      "starts": "2015-05-08 04:00:00",
+      "name": "Almond Board - Zoe Ball Video",
+      "ends": "2015-07-01 03:59:59",
+      "currency": "USD",
+      "budget": "2000",
+      "financing": {
+        "type": "target_cpc",
+        "price": "0.75"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "targeting": {
+        "geo": {
+          "countries": [
+            "GBR"
+          ]
+        },
+        "ssps": [
+          "adn"
+        ]
+      },
+      "creatives_type": "plain",
+      "landing_page": "http://almonds.co.uk",
+      "disabled": true
+    },
+    {
+      "id": "7",
+      "advertiser_id": "5",
+      "starts": "2015-04-09 04:00:00",
+      "for_native_ads": "true",
+      "name": "ER Test Campaign",
+      "ends": "2015-05-01 03:59:59",
+      "currency": "USD",
+      "budget": "5",
+      "financing": {
+        "type": "max_cpm",
+        "price": "1"
+      },
+      "commissions": {
+        "agency": "0",
+        "dsp": "35"
+      },
+      "negative_targeting": {
+        "ssps": [
+          "adn",
+          "pp"
+        ]
+      },
+      "creatives_type": "native_creatives",
+      "landing_page": "http://rachitskillisaurus.com",
+      "landing_domain": "rachitskillisaurus.com",
+      "disabled": true,
+      "deleted": true
+    },
+    {
+      "id": "9",
+      "advertiser_id": "6",
+      "starts": "2015-04-01 04:00:00",
+      "name": "PowerInbox (email based SSP integration) - Test Campaign",
+      "ends": "2015-09-01 03:59:59",
+      "currency": "USD",
+      "budget": "250",
+      "financing": {
+        "type": "fixed_cpm",
+        "price": "1.00"
+      },
+      "creatives_type": "plain",
+      "landing_page": "http://powerinbox.com",
+      "landing_domain": "powerinbox.com",
+      "disabled": false,
+      "was_enabled": 1429139009,
+      "targeting": {
+        "domains": [
+          "powerinbox.com"
+        ],
+        "ssps": [
+          "stub"
+        ]
+      },
+      "creatives": [
+        "10",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "id": 10,
+      "advertiser_id": "7",
+      "name": "Test Native Campaign",
+      "for_native_ads": "true"
+    }
+  ],
+  "campaign_groups": [
+    {
+      "id": 2,
+      "advertiser_id": "2",
+      "name": "Test group (100USD)",
+      "budget_limit": "100"
+    }
+  ],
+  "segment_definitions": [
+    {
+      "type": "standard",
+      "name": "Age/18-24",
+      "disable_offline_processing": true,
+      "id": 100001,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Age/25-34",
+      "disable_offline_processing": true,
+      "id": 100002,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Age/35-44",
+      "disable_offline_processing": true,
+      "id": 100003,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Age/45-54",
+      "disable_offline_processing": true,
+      "id": 100004,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Age/55-64",
+      "disable_offline_processing": true,
+      "id": 100005,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Age/65+",
+      "disable_offline_processing": true,
+      "id": 100006,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Children/No Children",
+      "disable_offline_processing": true,
+      "id": 101001,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Children/Yes Children",
+      "disable_offline_processing": true,
+      "id": 101002,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Education/College Grad",
+      "disable_offline_processing": true,
+      "id": 102001,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Education/Grad Degree",
+      "disable_offline_processing": true,
+      "id": 102002,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Education/Vocational",
+      "disable_offline_processing": true,
+      "id": 102003,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Education/Grad Degree - Masters",
+      "disable_offline_processing": true,
+      "id": 102004,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Education/High School",
+      "disable_offline_processing": true,
+      "id": 102005,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Education/Grad Degree - Doctorate",
+      "disable_offline_processing": true,
+      "id": 102006,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Education/Associates Degree",
+      "disable_offline_processing": true,
+      "id": 102007,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Education/Some College",
+      "disable_offline_processing": true,
+      "id": 102008,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Gender/Male",
+      "disable_offline_processing": true,
+      "id": 103001,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Gender/Female",
+      "disable_offline_processing": true,
+      "id": 103002,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Gender/Others",
+      "disable_offline_processing": true,
+      "id": 103003,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Income/Under $20,000",
+      "disable_offline_processing": true,
+      "id": 104001,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Income/$20,000 to $29,999",
+      "disable_offline_processing": true,
+      "id": 104002,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Income/$30,000 to $39,999",
+      "disable_offline_processing": true,
+      "id": 104003,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Income/$40,000 to $49,999",
+      "disable_offline_processing": true,
+      "id": 104004,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Income/$50,000 to $59,999",
+      "disable_offline_processing": true,
+      "id": 104005,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Income/$60,000 to $74,999",
+      "disable_offline_processing": true,
+      "id": 104006,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Income/$75,000 to $99,999",
+      "disable_offline_processing": true,
+      "id": 104007,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Income/$100,000 to $124,999",
+      "disable_offline_processing": true,
+      "id": 104008,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Income/$125,000 to $149,999",
+      "disable_offline_processing": true,
+      "id": 104009,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Income/$150,000+",
+      "disable_offline_processing": true,
+      "id": 104010,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Language/English",
+      "disable_offline_processing": true,
+      "id": 105001,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Language/French",
+      "disable_offline_processing": true,
+      "id": 105002,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Language/Spanish",
+      "disable_offline_processing": true,
+      "id": 105003,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Language/German",
+      "disable_offline_processing": true,
+      "id": 105004,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Marital Status/Single",
+      "disable_offline_processing": true,
+      "id": 106001,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Marital Status/Married",
+      "disable_offline_processing": true,
+      "id": 106002,
+      "available_to_all": true
+    },
+    {
+      "type": "standard",
+      "name": "Marital Status/Divorced",
+      "disable_offline_processing": true,
+      "id": 106003,
+      "available_to_all": true
+    },
+    {
+      "id": "3",
+      "name": "test from cli",
+      "deleted": true
+    },
+    {
+      "id": "4",
+      "name": "test from cli",
+      "deleted": true
+    },
+    {
+      "id": "5",
+      "name": "test from cli",
+      "deleted": true
+    },
+    {
+      "id": "6",
+      "name": "test from cli",
+      "deleted": true
+    }
+  ]
+}

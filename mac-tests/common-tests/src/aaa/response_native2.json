@@ -1,0 +1,62 @@
+{
+  "native": {
+    "assets": [
+      {
+        "id": 0,
+        "title": {
+          "text": "Internet Explorer's Replacement Will Surprise and Delight"
+        }
+      },
+      {
+        "data": {
+          "type": 2,
+          "value": "\"Edge feels really lightweight and fast — and in some cases bare-bones — which is a refreshing change from IE.\" -Dan Seifert, The Verge"
+        },
+        "id": 1
+      },
+      {
+        "data": {
+          "type": 1,
+          "value": "Microsoft Edge"
+        },
+        "id": 2
+      },
+      {
+        "data": {
+          "type": 12,
+          "value": "CLICK HERE"
+        },
+        "id": 3
+      },
+      {
+        "id": 4,
+        "img": {
+          "h": 60,
+          "type": 1,
+          "url": "http://cdn.bttrack.com/a/60/60/3085428",
+          "w": 60
+        }
+      },
+      {
+        "id": 5,
+        "img": {
+          "h": 200,
+          "type": 3,
+          "url": "http://cdn.bttrack.com/a/200/200/3085428",
+          "w": 200
+        }
+      }
+    ],
+    "ext": {
+      "viewabilitytrackers": [
+        "http://bttrack.com/Pixel/Viewed/?data=OuJifVtEKZqw3Hwm7_41WrOSLswTz4gz3uiR9HEpWi2BNqGzSslfLdPgDZXByJzJkWUbSbJrE3H32yeeukgg3Uq2Oj-RCNLiNrYEoXdJC_FrPwTA0jvhPdxbHVoLIjjkEMG5gEXdP4Syb7OrPEhJgkSW3LaC2mJ_LvFPKB3eBYEBSyu_zyZliPAFHkW-MCEplnISiK6jvwlG7pzk7k9yvuUc4F5kHiR5yfI2kSLUnO8OQjY9XMOKokIu6itfa9n0Ciy09_NucAzXX-6gWJ4ODDS10jS28bhy3eHIOmpZ65v-7qLyWeY1tbvrBZjdgjy8VHjIuSBie99h3Cn8oo8N6tCxLFhgoU9viaPFD5tlmdSBey70iyIyZQU7j61Iu7f_yjCIlO9tIbbLOGAm3dTyduMvK6tJnXY7JNDdBHDxgEcKJNRf96UrMBUSjkbwWr2YQPgLWhnpOSEwLQ2&method=3&percentage=1"
+      ]
+    },
+    "imptrackers": [
+      "http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3Hwm7_41WrOSLswTz4gz3uiR9HEpWi2BNqGzSslfLdPgDZXByJzJkWUbSbJrE3H32yeeukgg3Uq2Oj-RCNLiNrYEoXdJC_FrPwTA0jvhPdxbHVoLIjjkEMG5gEXdP4Syb7OrPEhJgkSW3LaC2mJ_LvFPKB3eBYEBSyu_zyZliPAFHkW-MCEplnISiK6jvwlG7pzk7k9yvuUc4F5kHiR5yfI2kSLUnO8OQjY9XMOKokIu6itfa9n0Ciy09_NucAzXX-6gWJ4ODDS10jS28bhy3eHIOmpZ65v-7qLyWeY1tbvrBZjdgjy8VHjIuSBie99h3Cn8oo8N6tCxLFhgoU9viaPFD5tlmdSBey70iyIyZQU7j61Iu7f_yjCIlO9tIbbLOGAm3dTyduMvK6tJnXY7JNDdBHDxgEcKJNRf96UrMBUSjkbwWr2YQPgLWhnpOSEwLQ2&type=img"
+    ],
+    "link": {
+      "url": "http://bttrack.com/Click/Native?data=OuJifVtEKZqw3Cw4ad_tK7OSDoJq-a3Wjb3f5fUVpZkDbKRBTLyT_QAViPMtUL5hz7_MAfgfJt9BKE28cwa5s_9NIUnf451WOlyIxfavfPvp6Zkkqz1UtHvtuT1KiNV-ZLwTegcxBYYDD5hK7N1GQg7S5TbqVLkQJfo7h2e-nusvdS_KKXJnIAqI00VceDQeg1jG5LF3nItkQ12tsmzBH8bBvy3xWdZrO5_F9S8LxIC1n2dpnaj4J5F6ikGLVtk9TvxkUeuaT7W4STuhethcR0jSSiwv0wtse6Eirk3h2Rq2s3tthP48OUnZcCjr1kRAlGDWJJVyplQW3GALWjdZEpQf9Bk7eVIUg3PSD7wv8wWQucdGg3SU9ocHLgb4lQ0F0iJySKEsNeCbrHjst0H6uGhdHW4ZZoIuc6ReM3lxJbuVy0XB2ZLJ0"
+    }
+  }
+}

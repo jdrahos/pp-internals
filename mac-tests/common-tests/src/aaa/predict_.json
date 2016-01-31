@@ -1,0 +1,30 @@
+{
+  "modelParameters": {
+    "viewability": {
+      "application": "pulsepoint-dsp",
+      "modelAttributes": {
+        "contextCategoryId": 167,
+        "userfrequency": 0,
+        "fold": 1,
+        "os": "MACOS",
+        "osVersion": "10.10.2",
+        "pubDomain": "vegkitchen.com",
+        "tagId": 1573533,
+        "browserVersion": "8.0.3",
+        "browserType": "SAFARI"
+      }
+    },
+    "audience": {
+      "modelAttributes": {
+        "country": "USA",
+        "browser": "SAFARI",
+        "pubId": 1508216,
+        "rootDomain": "vegkitchen.com",
+        "language": "English",
+        "dataids": "",
+        "category": 167,
+        "timestamp": 1444655151770
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id" : "5963404087370198077",
+  "imp" : [ {
+    "id" : "0",
+    "bidfloor" : 2.211055,
+    "native" : {
+      "request" : "{\"native\":{\"ver\":\"1\",\"layout\":6,\"adunit\":2,\"plcmtcnt\":6,\"assets\":[{\"id\":704,\"required\":1,\"title\":{\"len\":100}},{\"id\":2,\"required\":0,\"data\":{\"type\":2,\"len\":400}},{\"id\":11,\"required\":1,\"data\":{\"type\":11,\"len\":400}},{\"id\":700,\"required\":1,\"img\":{\"type\":3,\"w\":300,\"h\":300}}]}}"
+    }
+  } ],
+  "site" : {
+    "id" : "2",
+    "domain" : "quibblo.com",
+    "page" : "",
+    "publisher" : {
+      "id" : "16980"
+    }
+  },
+  "device" : {
+    "ua" : "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36",
+    "ip" : "14.99.176.41",
+    "geo" : {
+      "country" : "IND",
+      "region" : "",
+      "city" : "",
+      "zip" : "",
+      "type" : 2
+    }
+  },
+  "user" : {
+    "id" : "699425550"
+  },
+  "at" : 2
+}

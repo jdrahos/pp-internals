@@ -1,0 +1,59 @@
+{
+  "badv": [],
+  "bcat": [],
+  "device": {
+    "devicetype": 1,
+    "geo": {
+      "city": "FAYETTEVILLE",
+      "country": "USA",
+      "lat": 35.0593,
+      "lon": -79.00388,
+      "metro": "560",
+      "region": "NC",
+      "type": 2,
+      "zip": "28314"
+    },
+    "ip": "76.6.108.103",
+    "os": "IPAD",
+    "ua": "Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) GSA/10.0.63022 Mobile/13B143 Safari/600.1.4"
+  },
+  "id": "WSSmag0ePFx0",
+  "imp": [
+    {
+      "bidfloorcur": "USD",
+      "id": "WSSmag0ePFx0",
+      "instl": 0,
+      "native": {
+        "battr": [
+          3,
+          4,
+          5
+        ],
+        "request": "{\"ver\":1,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":150}},{\"id\":2,\"required\":1,\"img\":{\"hmin\":100,\"wmin\":100,\"type\":3}},{\"id\":6,\"required\":1,\"data\":{\"type\":2,\"len\":200}},{\"id\":15,\"required\":0,\"data\":{\"type\":11}},{\"id\":5,\"required\":0,\"data\":{\"type\":1}}],\"layout\":3,\"adunit\":3,\"plcmtcnt\":1,\"seq\":0}",
+        "ver": "1"
+      },
+      "secure": 0,
+      "tagid": "33126"
+    }
+  ],
+  "site": {
+    "cat": [
+      "IAB8"
+    ],
+    "domain": "everydaymaven.com",
+    "id": "c39d5e97",
+    "page": "http://www.everydaymaven.com/2014/how-to-make-shrimp-stock/",
+    "pagecat": [
+      "IAB24"
+    ],
+    "publisher": {
+      "domain": "everydaymaven.com",
+      "id": "558355.11685"
+    },
+    "ref": "https://www.google.com/"
+  },
+  "tmax": 271,
+  "user": {
+    "id": "DufHGVKFKT1p4nDFm7Z0Ch5YwOiWnIWxAGHgtrb_KkO7mWQBjgI2-w"
+  }
+}

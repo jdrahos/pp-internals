@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:ms="http://www.mycompany.com/schema/myns"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   					   http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	   					   http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.mycompany.com/schema/myns
+                           http://www.mycompany.com/schema/myns.xsd
+                           ">
+
+
+    <context:annotation-config/>
+    <context:component-scan base-package="pack1"/>
+
+
+    <bean id="p1" class="pack1.Props1" />
+    <bean id="p2" class="pack1.Props2" />
+
+
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="propertiesArray">
+            <list>
+                <ref bean="p1" />
+                <ref bean="p2" />
+            </list>
+        </property>
+    </bean>
+
+
+
+    <bean class="pack1.PropsTest" >
+        <ms:property name="aaa" value="${aaa}" reloadable="true"/>
+    </bean>
+
+</beans>

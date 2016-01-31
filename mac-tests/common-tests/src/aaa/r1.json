@@ -1,0 +1,63 @@
+{
+  "id": "1e844b1e-d126-4497-a031-aacf42c9ba39",
+  "imp": [
+    {
+      "id": "1",
+      "native": {
+        "request": "{\"layout\":1,\"adunit\":4,\"plcmtcnt\":1,\"seq\":0,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":100}},{\"id\":2,\"required\":1,\"img\":{\"type\":3,\"w\":600,\"wmin\":0,\"h\":600,\"hmin\":0}},{\"id\":3,\"required\":1,\"data\":{\"type\":2,\"len\":200}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":200}}]}"
+      },
+      "instl": 0,
+      "bidfloor": 2.5,
+      "secure": 0
+    }
+  ],
+  "site": {
+    "id": "11831",
+    "domain": "www.nydailynews.com",
+    "cat": [
+      "IAB9",
+      "IAB2",
+      "IAB3",
+      "IAB5",
+      "IAB1",
+      "IAB8",
+      "IAB14",
+      "IAB12",
+      "IAB6",
+      "IAB17",
+      "IAB18",
+      "IAB19",
+      "IAB20",
+      "IAB4",
+      "IAB11",
+      "IAB13",
+      "IAB21"
+    ],
+    "page": "http://www.nydailynews.com/",
+    "privacypolicy": 0,
+    "publisher": {
+      "ext": {
+        "name": "Connatix",
+        "id": "93e2d4f2-6299-4025-9002-c92c50ab3c70"
+      }
+    }
+  },
+  "device": {
+    "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36",
+    "dnt": 0,
+    "ip": "192.156.110.202",
+    "devicetype": 2,
+    "js": 0,
+    "connectiontype": 0
+  },
+  "user": {
+    "id": "b4620373-9b75-4ca6-a043-1e125c8f5f41",
+    "yob": 0
+  },
+  "at": 2,
+  "tmax": 100,
+  "allimps": 0,
+  "cur": [
+    "USD"
+  ]
+}

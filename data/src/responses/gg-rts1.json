@@ -1,0 +1,22 @@
+{
+  "cur": "USD",
+  "id": "0386e679-3f28-48bf-b943-40ae869ed93a",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "adm": "{\"native\":{\"assets\":[{\"id\":1,\"title\":{\"text\":\"Obama Eliminates Fee For Homeowners Who Switch To 15yr Fixed\"}},{\"id\":2,\"img\":{\"h\":100,\"type\":3,\"url\":\"http://cdn.bttrack.com/a/100/100/3096907\",\"w\":100}},{\"data\":{\"type\":2,\"value\":\"If you owe less than $625,000 on your home, use Obama's Refi Program. You'll be shocked when you see how much you can save.\"},\"id\":6},{\"data\":{\"type\":1,\"value\":\"LowerMyBills.com\"},\"id\":5}],\"ext\":{\"viewabilitytrackers\":[\"http://bttrack.com/Pixel/Viewed/?data=OuJifVtEKZqw3Azm694tWrPr5tbTDyqhi_grfRvSMGtIoYTQ8Mv71QKGJ3nTPIanBOa5n0WUDHiD5VsG6wOJQXA_qS1EEfz2hiLGoL2h1oe5msMnpUP5PpGJtz00hjAOAcJF1uk87KZ9SChc0wGJfSqpFZlD5W37IXj6SfO2IsaHQm1StTF1OlSaA97Bmj76xNozy8n_FjxOU07zGyDG5ujJR31EIp82MxC-eLUgU12AZuwhadJVs3mbP1ZIFBVbtnFzcINP5M_25wyLdePkU9dR5GTBUCVIKsc_zP8QeQZhaLIU--WHN_SHVTm34WlY10McISvPrnHLguSlW_ET6B0yXqLiG8arSHlkCSNANIlcbfBJ9A2&method=3&percentage=1\"]},\"imptrackers\":[\"http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3AzmY94tWrPquodvUIeVQh5XSy0U1KMpM371IhDU0B6u5ofRiW-rqqEEv1IuszB3PI7XtRyCu7In7pPMu7DJV0RPUFoAbhpr9CjYwjnV96o8Rp3Y-2vhdjYe0fRJDUUDD48ZCtkQqfvvOS7Oq2Y8EQeTKxx5yPYrJXNkyVxOdXJEO5EWzMNAj9EwJEP0jXO7EL3DaWDmD0hdHz0cwt76xzZnsarGULCxJMymeIPyfHgu9nDQTGh5cpiw8TVUW6YGMORDpU0-wEmYIjnlNkPosWmuLRP5cmgtOFV4Cn60dshacqV5HGNSROMSqjH_mUndV1wDzfgfm6ArR1FFYIi95G0iZMbrh1PwFxdvnD23wqX-ALRhSW-8lmCMNz9je1d_NJXcwsrYDItLwqrOlDTFIxad5schLwOvy61j2A2&type=img\",\"http://api.bttrack.com/win?ts=1454691940782&id=98693ede-5302-4346-9f27-3f2657fa75f9&cid=21579&crid=362561&pid=77105399&data=OuJifVtEKZqw3BT46Z7tW7ft5oeln80xkh8IsBUDEr2gMmQv34UzfqDvHh43aA-hHVGIti31RL35vVHPb2oyeBUlzK_R_BgM1-626wstTsmcHdDwUS_yDmwGvLbFHdeNyranwH3R4xcuwiLKHbpa1o-dJ40KiopCmAPS4w6Ns8970MgfFWpxsMtimWATYZlrvxY1&iid=755bb811-955c-4e7e-ad75-e8cf7e380d4b&price=0.94&reqid=rqvsjHdK1ijs\",\"http//bh.contextweb.com/bh/drts?drts=true&ck=\"],\"link\":{\"url\":\"http://bttrack.com/Click/Native?data=OuJifVtEKZqw3Cw54_otWrNSDgwT71kVsZqHAxfCWgVDHUPzD3dOnXXO2Ej-NP35hgI4aq3P0uhhVDfRNlTtpIZ-LIqTzbgox415fdBAiv2htaozeHzTkMQBJwztgqho6wy1RmK_W-Rzr7yIUSrwNBgP7q59FrknFtJRIr_VHOyVdSIIinUbodlneVzbKJhqKRPjMJ_P1Fjz0M7SpWojHn6JVZtLPBJ2uCSnCnzcbb4F6LlmWgrllOXKY-8MkK8TG4APdXboTrMXjvaC_d1UO58L2Am22ftXAne51AhAtdhWP4hV3hrgUaxS3TJRzojaVI292gvhL11maubkM_3OxZcx8e1pSqZRZznNR37P0CUgLk64z6V9ZsIdglgGaxnudby3mw2\"}}}",
+          "adomain": [
+            "lowermybills.com"
+          ],
+          "attr": [],
+          "crid": "836286",
+          "id": "0386e679-3f28-48bf-b943-40ae869ed93a",
+          "impid": "1",
+          "price": 0.92
+        }
+      ],
+      "seat": "558225"
+    }
+  ]
+}

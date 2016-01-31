@@ -1,0 +1,43 @@
+{
+  "id": "d8ec1ba5-bef7-4f49-bc96-d4f1911fa2ec",
+  "bidid": "d8ec1ba5-bef7-4f49-bc96-d4f1911fa2ec",
+  "cur": "USD",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "x3fxZifhjG2",
+          "impid": "1",
+          "price": 3.05,
+          "adid": "0",
+          "adomain": [
+            "michaels"
+          ],
+          "cid": "0",
+          "crid": "0",
+          "nurl": "http://dsp-pixel.contextweb.com/rtb/empty",
+          "ext": {
+            "tracking": {
+              "imp": [
+                "http://dsp-pixel.contextweb.com/rtb/opn/ds/n?s=ds&b=H4sIAAAAAAAAAI1UW2_bNhQ-0nxJkya9YMD2sAc-tGsK1BcpsmNvGFqvLeYgcZ3WaZenCbRES2xpkSBpe_YPWPe4H7Afufc9bJQpG26Bbj0QBIo857uQhwKwUbro_XYCT_Ym6wC4SrUW3zUai8WintIkJVIQqQSJNJ0TVY_4tKElFWJZU4RNaoJLLTHVquYFfrd72uo02_VUT9nj6AelyJxkOhU-7IYD4MYKHv-1mfji9egZwDGej4dSeP1fh0GHvVUvzs-mZ0-Xeng2i8KL61f9l9O0txqdJu6184ubg3gewL3Ya57GJ5N2bdIMWrWgE7drXTL2arg18btBu9n0vWD1pxw6_T9Wlt51XYBy78fhm-euDccxT_4C2B8Neq-uLvvDF88dFz6Kf0wA_D7gK8oYbrTqTXRML1Oeke_R08vXyI7RcIQ6YRB6iNF3BA1wlM9cP0Q9IRj5mYzPqW4YYXWvHqDj8_7V4OKRTf2JRO_4Q_TGbDjlWaNj8Ad8TBlpeH7_xPfQCE-wpJviQp8LTtNsRrDWD04u0nFKX_79bfX-e8_ZujiGioooySK4LQgXLJxlsSHSOIvhwG967TCmKuJzqEhzbJjBkdJyliQszNuAUbizTpKEYW3UqZQKOKKZJozRJFxDQknRJIODFY8pjsL1x41WWODA3iYbSoxOCJRtUdVvhzk0HFoBYcF_MMaKhBbLJHVtUlnwBZFw8wMdVcHFjGEJlY2HmTAU2pR1bFnVb9lBpQDc37F_WJQbpVxSuLmQVJPQdj_csvbDrfiyzbpl18PN9YCjXUlhC6pb39uUSj7iGZSjFGeJEXVqRZUWmLHiFArllYIe3Jppc9iHPWvNTB3uEqmcx-ghCg4sOmZUL4uj2HVZtfta5BU3Gu5aHrQ7t-U2tF8bFzxLiNJoai4zZgibjswZbn-8At-omZznvwmEJ9pg6pSgMY-XKM7l7W1WoWE90ixBixRrRBVa8plEn6S6sV2Be__Fgd7ibIblEtD_McBXn8CBB58p7l8dUo91QQUAAA%3D%3D&w=${AUCTION_PRICE}&nu=http%3A%2F%2Fapi.bttrack.com%2Fwin%3Fts%3D1454475004213%26id%3D33c2d315-363e-48a7-b2fe-7f7166e88217%26cid%3D22138%26crid%3D363503%26pid%3D91178716%26data%3DOuJifVtEKZqw3Hw9Y5quW7MSDtuHsxjdcDnxNCpSmarj-Esgyc_CVUnn3ZFkkmmTmoMHkAl2W22M2ROrJvuo9FgLSmMKSvU8g77NO1YWHNirK6nfI1L0hAadl4rrmUduo9pife2NES7nhtvxQwqeOKI72Q2%26iid%3D88e92dd8-ab43-406d-b075-7cb81acf0a5f%26price%3D3.08%26reqid%3D1rae55ClEQIY&ed=1",
+                "http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3Hw54x7tS7NSDowTytB14jBLGX_c3PZf9MC09WVDK8spkypNfY1PkANXlSaB45iFY0dwAGn4--7PIW1toz-wim05GbZVAW9xlx_33UJu0Sw6qPYUtKdGBD0PBwVH_qg0W__7M9bhybTqWRvO6gy-PDMtiWMmXV1jsBCaGzMdyxpIXt0XcariCclOxYzeJcFZhfEoOTUHTE18Ml8qmDtO-4q2PsGxlZGtCelnF46IBOwyOOlaHS-iu2OwFiHewjIpprCMN3svRUnj3liKHpbLWVFFr1BNZhF9UX8O0&type=img"
+              ],
+              "payableimp": []
+            },
+            "markup": {
+              "title": "BOGO Free on Spring Floral",
+              "click": "http://bttrack.com/Click/Native?data=OuJifVtEKZqw3Cz4aRrtW7Orep8luoLL1jhs6tVTFMOI_dZRhMnWHdKcq2dUIN9tHm63k3RtYv9wIAKKavHr1PjCiQbMAUjOu9hhqitG2aKIJX_wFHmeUO3qNxKs07TQvPycTCP-8ZdAUQdSofFvxfKiSrRIrM_dq8IxhEKDGHLIYB8WrCdlasycdHw-eCAe8b-JTbvqVWiiveTw8B5SDlxuPSjp2RQeeKZUCjnKRbuku1b3upigmgKo6wBU7yuR2bvKyXzNmGiuHActYrawseD89A890___OXd8VWkZD9RbxMpdNJyogA2",
+              "icon": "http://cdn.bttrack.com/a/60/60/3097873",
+              "media": {
+                "src": "http://cdn.bttrack.com/a/280/1/3097873",
+                "type": 2
+              },
+              "brandname": "Michaels",
+              "description": "Say goodbye to the winter blues & say hello to spring hues! Shop & save with BOGO free on all floral stems."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

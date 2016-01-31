@@ -1,0 +1,24 @@
+{
+  "id": "bbef5010-5dc2-4fbd-86af-b36db87e9765",
+  "bidid": "bbef5010-5dc2-4fbd-86af-b36db87e9765",
+  "cur": "USD",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "xx4dW25mabi",
+          "impid": "1",
+          "price": 50.0,
+          "adid": "2",
+          "adomain": [
+            "test.page.com"
+          ],
+          "cid": "2",
+          "crid": "2",
+          "nurl": "http://127.0.0.1:19783/test-app/rtb/opn/gg/n?s=gg&b=H4sIAAAAAAAAAH1STW_TQBBdJ60a-AUc9wStVHu8dpwPcij5IDS0TqI6SSshiBxnm2zi2Ja9wZQb_AD4E9w48g84IuDIhSs3OPTCGXaTpkJCMCuN3xu_GY-fjdA6tl69eOeie60rip5MOY_uAqRpqp2zZJrGbhTRWPPCBUTTkIcJjNhkQhOuetSno5jxC_WcLscJsIUr6hAwb87UBQvcmbpwY-ZOVc-N6YU6iyaAkP-_B4QJB0MnFugF0A0Yx-6cqiPq-2IE4_5FoM5oENBY5SnjXFxnNJ6rie8u1Ih5fBnTRF1vKXkC8o0UmTIiZyYTdPDjo4xPKNt3GghtmyYxCmgsjhBkDbOMUM4YmyVdL5WVZ19-fiveeHtrNWBj0E6_fdTunLbRP-PgcgPi1oftr_TNimSfpuRaooiQm9107OpJr3vYad9X_h70S4QQ2eFz5vsuWJqOd1l3Gga0guvdPl5j3HFwcUiGBPtsTrHterJytoerUeTTUzo6Yhwss6hZRDPw7tFhzz7eX2sfUG8e7mE7HDGfAiEN4T1-1KxV29CstTpORcABmETTxcnnNaNARKk2AKJb5RLRS4I1BrDeo7Avb9qNKyqw04brFSUdQFEjmlQ5DhgV3KzVT6Dau90TlVZD_l6rtuM60GDYly2dLliPa7k7l--_v1yiHbt6Nqx3bekmyuZNghQTZfJlpOh_uLaV8OVImCvdU5SHjW1L-fw6XX2CTcqgbEBTlPOCAAuQbFp_A65qQ7EVAwAA&w=${AUCTION_PRICE}",
+          "adm": "{\"native\":{\"ver\":1,\"link\":{\"url\":\"http://127.0.0.1:19783/test-app/p/click?id=xx4dW25mabi&s=gg&l=http%3A%2F%2Ftest.page.com%3Ftest_param%3Dtest_value%26p1%3Dp2&b=H4sIAAAAAAAAAH1STW_TQBBdJ60a-AUc9wStVHu8dpwPcij5IDS0TqI6SSshiBxnm2zi2Ja9wZQb_AD4E9w48g84IuDIhSs3OPTCGXaTpkJCMCuN3xu_GY-fjdA6tl69eOeie60rip5MOY_uAqRpqp2zZJrGbhTRWPPCBUTTkIcJjNhkQhOuetSno5jxC_WcLscJsIUr6hAwb87UBQvcmbpwY-ZOVc-N6YU6iyaAkP-_B4QJB0MnFugF0A0Yx-6cqiPq-2IE4_5FoM5oENBY5SnjXFxnNJ6rie8u1Ih5fBnTRF1vKXkC8o0UmTIiZyYTdPDjo4xPKNt3GghtmyYxCmgsjhBkDbOMUM4YmyVdL5WVZ19-fiveeHtrNWBj0E6_fdTunLbRP-PgcgPi1oftr_TNimSfpuRaooiQm9107OpJr3vYad9X_h70S4QQ2eFz5vsuWJqOd1l3Gga0guvdPl5j3HFwcUiGBPtsTrHterJytoerUeTTUzo6Yhwss6hZRDPw7tFhzz7eX2sfUG8e7mE7HDGfAiEN4T1-1KxV29CstTpORcABmETTxcnnNaNARKk2AKJb5RLRS4I1BrDeo7Avb9qNKyqw04brFSUdQFEjmlQ5DhgV3KzVT6Dau90TlVZD_l6rtuM60GDYly2dLliPa7k7l--_v1yiHbt6Nqx3bekmyuZNghQTZfJlpOh_uLaV8OVImCvdU5SHjW1L-fw6XX2CTcqgbEBTlPOCAAuQbFp_A65qQ7EVAwAA\",\"clicktrackers\":[]},\"imptrackers\":[],\"jstracker\":\"<script src='//127.0.0.1:19783/test-app/p/sync.js'></script>\",\"assets\":[{\"id\":1,\"title\":{\"text\":\"Some boring ad or not?\"}},{\"id\":2,\"img\":{\"url\":\"http://http://d7y63ze08irg5.cloudfront.net/media/1392645740-getintent320x50.jpg\",\"w\":280,\"h\":372}},{\"id\":6,\"data\":{\"value\":\"Best DSP!\"}},{\"id\":5,\"data\":{\"value\":\"GetIntent\"}}]}}"
+        }
+      ]
+    }
+  ]
+}

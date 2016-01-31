@@ -1,0 +1,53 @@
+{
+    "native": {
+        "assets": [
+            {
+                "id": 1,
+                "title": {
+                    "text": "Exec Master of Healthcare Leadership Alums Make Headlines"
+                }
+            },
+            {
+                "id": 2,
+                "img": {
+                    "url": "http://cdn.bttrack.com/a/60/60/3089937",
+                    "type": 1,
+                    "w": 60,
+                    "h": 60
+                }
+            },
+            {
+                "id": 6,
+                "data": {
+                    "value": "Jefferson Knott, a Brown University EMHL Alumnus, was recently named Clinical Officer at the Massachusetts Health Policy Commission. Read more.",
+                    "type": 2
+                }
+            },
+            {
+                "id": 15,
+                "data": {
+                    "value": "Brown University",
+                    "type": 1
+                }
+            },
+            {
+                "id": 5,
+                "data": {
+                    "value": "CLICK HERE",
+                    "type": 12
+                }
+            }
+        ],
+        "ext": {
+            "viewabilitytrackers": [
+                "http://bttrack.com/Pixel/Viewed/?data=OuJifVtEKZqw3Hzm49otKrPrZnCDvlCwNqaLP36G2u8rN-m_kymV7xP2x7g9d361PswviRDHoqZxNJfuFdTeEyjXzNDf_WAyoiqIK-NdBkF619f8bfa1DrltH33Okbj5SNNJTa4rvwmxBtifb6sVwZN-0cb_VeK3N6uUx4IDFLkc03KlfATODwfplLkzE3338g3ihDiuYH9DrTEi7EhDc1Pb_xqCVjL2SJO8sXge5gpmjunao10lSWibmk2FkRRDQNa1D5YPD1depnJUZPUQhHn4s9ZU4RBB1dnJQa3gDKxGiIL5-CnafZS2oAByPnkapo0Z3aWypOodnv6D9jeC2uLBO5PiffXFcRN0RXuehfBt5Q0ix6QkdgRxYPaovZ8A5oNfak1ogOAJ3mIOn8_0jSFm_WbvPc40rdAwanfxPBn9n2wTFL5WyevEoayxCFMav_lG0&method=3&percentage=1"
+            ]
+        },
+        "link": {
+            "url": "http://bttrack.com/Click/Native?data=OuJifVtEKZqw3Cw5bd_tW7PTTgI6b61etF-anxtyyAiy8ZcjgC23YXWFe4mGs-M5cLdPAfsHsHYGMtTBi_itb0uIxnkL7SGvprJISm867cWQxMfhthfbNZnpKonBk4GFvxVPyrifEaTP6MiOrBeRimMuEmR8TMgke6KT_OwsVUllt8CTF0qgT9_tQCbBxDVYMZxDnB3i_UA8jOJaCbAkE6Rp1wGV7W45UDzuOH6wl2iz9PxQp9zZwCApKQP9px17chQG1ttVD-iF1vhV5LCstvnPNa9iwDtC2_QSMo40ZurOr1mSXGm5NasoSYXIFEbm3j9VTQhC6pyy8I4TNsjXnBD7bLHqGV9NVS7n6Nj1UbCwZwy0iuZTbg13RYdTGKcLvyJLY9YvxWQ470Y5Hw67hUoG72vHFizlUwDshlWauYHLH6xj0"
+        },
+        "imptrackers": [
+            "http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3Hzm49otKrPrZnCDvlCwNqaLP36G2u8rN-m_kymV7xP2x7g9d361PswviRDHoqZxNJfuFdTeEyjXzNDf_WAyoiqIK-NdBkF619f8bfa1DrltH33Okbj5SNNJTa4rvwmxBtifb6sVwZN-0cb_VeK3N6uUx4IDFLkc03KlfATODwfplLkzE3338g3ihDiuYH9DrTEi7EhDc1Pb_xqCVjL2SJO8sXge5gpmjunao10lSWibmk2FkRRDQNa1D5YPD1depnJUZPUQhHn4s9ZU4RBB1dnJQa3gDKxGiIL5-CnafZS2oAByPnkapo0Z3aWypOodnv6D9jeC2uLBO5PiffXFcRN0RXuehfBt5Q0ix6QkdgRxYPaovZ8A5oNfak1ogOAJ3mIOn8_0jSFm_WbvPc40rdAwanfxPBn9n2wTFL5WyevEoayxCFMav_lG0&type=img"
+        ]
+    }
+}

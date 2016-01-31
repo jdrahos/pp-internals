@@ -1,0 +1,190 @@
+select servername,count(*) from event.logevent where publisherid=558360 and day='2016-02-07' group by servername;
+servername  expr_0
+----------  --------
+LGA-RTS00   421605
+LGA-RTB00   2559
+LGA-NTF01   40179248
+LGA-NTF03   40322704
+LGA-NTF00   38855783
+LGA-NTF02   40282210
+
+
+But seems there are no success bids:
+
+select servername,count(*) from event.logevent where publisherid=558360 and day='2016-02-05' group by servername;
+deflevelid  deflevelreason  clientimpression  serverimpression expr_0
+----------  --------------  ----------------  ---------------- ------
+22          2520            0                 1 3
+22          2525            0                 1 2153
+22          2510            0                 1 1303
+22          2503            0                 1 4
+22          2512            0                 1 83
+22          2502            0                 1 9522
+22          2505            0                 1 1895
+22          2528            0                 1 1417
+22          2522            0                 1 17399
+22          2600            0                 1 5231
+22          2523            0                 1 356
+22          2529            0                 1 7
+22          120             0                 1 109327
+22          2521            0                 1 1671
+22          501             0                 1 2444
+22          2519            0                 1 1
+22          128             0                 1 1
+22          2518            0                 1 12
+22          2524            0                 1 6
+22          2501            0                 1 24114
+22          2534            0                 1 864
+22          2504            0                 1 6
+22          2517            0                 1 552
+22          2511            0                 1 6
+22          2507            0                 1 13
+
+
+
+select deflevelid,deflevelreason,clientimpression,serverimpression,count(*) from event.logevent where publisherid=558360 and day='2016-02-07' and servername='LGA-RTS00' group by deflevelid,deflevelreason,clientimpression,serverimpression;
+
+deflevelid  deflevelreason  clientimpression  serverimpression expr_0
+----------  --------------  ----------------  ---------------- ------
+22          2520            0                 1 6
+22          2510            0                 1 4238
+22          2525            0                 1 4914
+22          2503            0                 1 29
+22          2512            0                 1 268
+22          2502            0                 1 19827
+22          2505            0                 1 2551
+22          2528            0                 1 4833
+22          2511            0                 1 10
+22          2522            0                 1 27584
+22          2600            0                 1 11937
+22          2523            0                 1 72
+22          2529            0                 1 16
+22          120             0                 1 265609
+22          2519            0                 1 8
+22          2524            0                 1 23
+22          135             0                 1 1
+22          2521            0                 1 6198
+22          501             0                 1 4200
+22          2518            0                 1 25
+22          2501            0                 1 66123
+22          2534            0                 1 1819
+22          2504            0                 1 7
+22          2517            0                 1 1223
+22          2507            0                 1 84
+
+
+No server filter:
+select deflevelid,deflevelreason,clientimpression,serverimpression,count(*) from event.logevent where publisherid=558360 and day='2016-02-05' group by deflevelid,deflevelreason,clientimpression,serverimpression;
+deflevelid  deflevelreason  clientimpression  serverimpression  expr_0
+----------  --------------  ----------------  ----------------  ---------
+8           300             1                 0                 14597
+22          2520            0                 1                 3
+22          2510            0                 1                 1303
+22          2525            0                 1                 2153
+22          2503            0                 1                 4
+22          2512            0                 1                 83
+22          2502            0                 1                 9522
+22          2505            0                 1                 1895
+22          2528            0                 1                 1417
+22          0               0                 1                 158103142
+22          2511            0                 1                 6
+22          2522            0                 1                 17399
+22          2600            0                 1                 5231
+22          2523            0                 1                 356
+22          2529            0                 1                 7
+22          120             0                 1                 109327
+22          2519            0                 1                 1
+22          2524            0                 1                 6
+29          2301            1                 0                 3
+22          2521            0                 1                 1671
+22          501             0                 1                 2444
+22          128             0                 1                 1
+22          2518            0                 1                 12
+23          300             0                 1                 266775
+22          2501            0                 1                 24114
+22          2504            0                 1                 6
+22          2534            0                 1                 864
+22          2517            0                 1                 552
+22          2507            0                 1                 13
+
+
+
+select servername,deflevelid,deflevelreason,clientimpression,serverimpression,count(*) from event.logevent where publisherid=558360 and day='2016-02-05' group by servername,deflevelid,deflevelreason,clientimpression,serverimpression;
+servername  deflevelid  deflevelreason  clientimpression  serverimpression  expr_0
+----------  ----------  --------------  ----------------  ----------------  --------
+LGA-RTS00   22          2520            0                 1                 3
+LGA-RTS00   22          2511            0                 1                 6
+LGA-RTS00   22          2510            0                 1                 1303
+LGA-NTF01   8           300             1                 0                 3670
+LGA-RTS00   22          2524            0                 1                 6
+LGA-RTS00   22          2505            0                 1                 1895
+LGA-RTS00   22          128             0                 1                 1
+LGA-RTS00   22          2501            0                 1                 24114
+LGA-RTS00   22          2507            0                 1                 13
+LGA-RTS00   22          2522            0                 1                 17399
+LGA-RTS00   22          2518            0                 1                 12
+LGA-NTF02   8           300             1                 0                 3640
+LGA-RTS00   22          2521            0                 1                 1671
+LGA-RTS00   22          2504            0                 1                 6
+LGA-RTB00   29          2301            1                 0                 3
+LGA-NTF00   22          0               0                 1                 39112519
+LGA-NTF00   23          300             0                 1                 67152
+LGA-NTF02   23          300             0                 1                 65497
+LGA-RTS00   22          2534            0                 1                 864
+LGA-NTF01   23          300             0                 1                 67869
+LGA-RTS00   22          2502            0                 1                 9522
+LGA-RTS00   22          501             0                 1                 2444
+LGA-RTS00   22          2523            0                 1                 356
+LGA-RTS00   22          2512            0                 1                 83
+LGA-NTF03   23          300             0                 1                 65829
+LGA-RTB00   23          300             0                 1                 428
+LGA-RTS00   22          2503            0                 1                 4
+LGA-NTF03   8           300             1                 0                 3626
+LGA-RTS00   22          2519            0                 1                 1
+LGA-NTF02   22          0               0                 1                 39689790
+LGA-NTF01   22          0               0                 1                 39598171
+LGA-RTS00   22          2528            0                 1                 1417
+LGA-RTS00   22          2517            0                 1                 552
+LGA-NTF03   22          0               0                 1                 39702662
+LGA-RTS00   22          120             0                 1                 109327
+LGA-RTB00   8           300             1                 0                 8
+LGA-RTS00   22          2600            0                 1                 5231
+LGA-NTF00   8           300             1                 0                 3653
+LGA-RTS00   22          2529            0                 1                 7
+LGA-RTS00   22          2525            0                 1                 2153
+
+
+
+select servername,serverchain,deflevelid,deflevelreason,clientimpression,serverimpression,count(*) from event.logevent where publisherid=558360 and day='2016-02-05' group by servername,serverchain,deflevelid,deflevelreason,clientimpression,serverimpression;
+servername  serverchain                               deflevelid  deflevelreason  clientimpression  serverimpression  expr_0
+----------  ----------------------------------------  ----------  --------------  ----------------  ----------------  ------
+LGA-NTF01   LGA-NTF01:8080 LGA-ED22:8080 LGA-RTB40:0  8           300             1                 0                 2
+LGA-NTF03   LGA-NTF03:8080 LGA-ED02:8080 LGA-RTB45:0  8           300             1                 0                 5
+LGA-NTF01   LGA-NTF01:8080 LGA-ED13:8080 LGA-RTB21:0  23          300             0                 1                 73
+LGA-NTF03   LGA-NTF03:8080 LGA-ED14:8080 LGA-RTB13:0  23          300             0                 1                 83
+LGA-NTF01   LGA-NTF01:8080 LGA-ED16:8080 LGA-RTB18:0  8           300             1                 0                 5
+LGA-NTF01   LGA-NTF01:8080 LGA-ED14:8080 LGA-RTB21:0  23          300             0                 1                 81
+LGA-NTF01   LGA-NTF01:8080 LGA-ED01:8080 LGA-RTB43:0  23          300             0                 1                 83
+LGA-NTF02   LGA-NTF02:8080 LGA-ED11:8080 LGA-RTB36:0  8           300             1                 0                 5
+LGA-NTF02   LGA-NTF02:8080 LGA-ED01:8080 LGA-RTB28:0  23          300             0                 1                 78
+LGA-NTF02   LGA-NTF02:8080 LGA-ED21:8080 LGA-RTB32:0  8           300             1                 0                 3
+LGA-NTF01   LGA-NTF01:8080 LGA-ED08:8080 LGA-RTB37:0  23          300             0                 1                 79
+LGA-NTF00   LGA-NTF00:8080 LGA-ED01:8080 LGA-RTB46:0  23          300             0                 1                 88
+LGA-NTF01   LGA-NTF01:8080 LGA-ED14:8080 LGA-RTB35:0  23          300             0                 1                 102
+LGA-NTF02   LGA-NTF02:8080 LGA-ED19:8080 LGA-RTB33:0  23          300             0                 1                 64
+...
+
+
+
+
+select servername,serverchain,deflevelid,deflevelreason,clientimpression,serverimpression,count(*) from event.logevent where servername='LGA-RTB00' and publisherid=558360 and day='2016-02-05' group by servername,serverchain,deflevelid,deflevelreason,clientimpression,serverimpression;
+servername  serverchain                                             deflevelid  deflevelreason  clientimpression  serverimpression  expr_0
+----------  ------------------------------------------------------  ----------  --------------  ----------------  ----------------  ------
+LGA-RTB00   LGA-TR02:8083 LGA-RTS00:8080 LGA-ED00:8080 LGA-RTB00:0  8           300             1                 0                 2
+LGA-RTB00   LGA-TR02:8080                                           29          2301            1                 0                 1
+LGA-RTB00   LGA-TR01:8080                                           29          2301            1                 0                 2
+LGA-RTB00   LGA-RTS00:8080 LGA-ED00:8080 LGA-RTB00:0                23          300             0                 1                 428
+LGA-RTB00   LGA-TR01:8082 LGA-RTS00:8080 LGA-ED00:8080 LGA-RTB00:0  8           300             1                 0                 1
+LGA-RTB00   LGA-TR01:8081 LGA-RTS00:8080 LGA-ED00:8080 LGA-RTB00:0  8           300             1                 0                 3
+LGA-RTB00   LGA-TR00:8082 LGA-RTS00:8080 LGA-ED00:8080 LGA-RTB00:0  8           300             1                 0                 2
+

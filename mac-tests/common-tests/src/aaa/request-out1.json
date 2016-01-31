@@ -1,0 +1,66 @@
+{
+  "badv": [],
+  "bcat": [],
+  "device": {
+    "devicetype": 2,
+    "geo": {
+      "city": "BEAVERTON",
+      "country": "USA",
+      "lat": 45.518,
+      "lon": -122.85878,
+      "metro": "820",
+      "region": "OR",
+      "type": 2,
+      "zip": "97007"
+    },
+    "ip": "50.188.187.153",
+    "os": "WINDOWS",
+    "osv": "WINDOWS8",
+    "ua": "Mozilla/5.0 (MSIE 10.0; Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "id": "uFQJtpgsh1b1",
+  "imp": [
+    {
+      "bidfloorcur": "USD",
+      "id": "uFQJtpgsh1b1",
+      "instl": 0,
+      "native": {
+        "battr": [],
+        "request": "{\"ver\":1,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":100}},{\"id\":2,\"required\":1,\"img\":{\"h\":600,\"w\":600,\"type\":3}},{\"id\":3,\"required\":1,\"data\":{\"type\":2,\"len\":200}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":200}}],\"layout\":1,\"adunit\":501,\"plcmtcnt\":1,\"seq\":0}",
+        "ver": "1"
+      },
+      "secure": 0
+    }
+  ],
+  "site": {
+    "cat": [
+      "IAB1",
+      "IAB4",
+      "IAB12",
+      "IAB23",
+      "IAB5",
+      "IAB22",
+      "IAB10",
+      "IAB16",
+      "IAB9",
+      "IAB14",
+      "IAB6",
+      "IAB7",
+      "IAB18"
+    ],
+    "domain": "fashionstylemag.com",
+    "id": "12016",
+    "page": "http://www.fashionstylemag.com/2014/celebrity/kim-kardashian-biggest-fashion-fails/?utm_source=egen_ez_moat&utm_medium=cpc&utm_campaign=egen_adp_kim_kardashian_fashion_fails&utm_content=240423177",
+    "pagecat": [
+      "IAB24"
+    ],
+    "publisher": {
+      "domain": "fashionstylemag.com",
+      "id": "558360"
+    }
+  },
+  "tmax": 105,
+  "user": {
+    "id": "uOKscILlVXmKayLbKkE10MioDDdWwB3NcbWLzcob_qSp8X6anqTlYw"
+  }
+}

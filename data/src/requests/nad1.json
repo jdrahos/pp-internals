@@ -1,0 +1,37 @@
+{
+  "id": "-8262589484795323769",
+  "imp": [
+    {
+      "id": "1",
+      "bidfloor": 2.211055,
+      "native": {
+        "request": "{\"native\":{\"ver\":\"1\",\"layout\":6,\"adunit\":2,\"plcmtcnt\":8,\"assets\":[{\"id\":1,\"required\":1,\"img\":{\"type\":3,\"w\":300,\"h\":300}},{\"id\":2,\"required\":0,\"data\":{\"type\":2,\"len\":400}},{\"id\":3,\"required\":0,\"data\":{\"type\":11,\"len\":400}},{\"id\":4,\"required\":1,\"title\":{\"len\":100}}]}}"
+      }
+    }
+  ],
+  "site": {
+    "id": "774",
+    "domain": "mediatakeout.com",
+    "page": "http://mediatakeout.com/295641/just-disgusting-look-at-the-costume-that-they-dressed-this-little-boy-in-for-carnival-in-brazil-racism-over-there-is-terriblel.html",
+    "publisher": {
+      "id": "16980"
+    }
+  },
+  "device": {
+    "ua": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36",
+    "ip": "197.254.23.254",
+    "geo": {
+      "country": "KEN",
+      "region": "",
+      "city": "",
+      "zip": "",
+      "type": 2
+    },
+    "carrier": "Communication Solutions Ltd.",
+    "connectiontype": 0
+  },
+  "user": {
+    "id": "-31981883"
+  },
+  "at": 2
+}

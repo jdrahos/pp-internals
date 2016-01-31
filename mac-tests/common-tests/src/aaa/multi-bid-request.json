@@ -1,0 +1,55 @@
+{
+  "badv": [],
+  "bcat": [],
+  "device": {
+    "devicetype": 2,
+    "geo": {
+      "city": "WASHINGTON",
+      "country": "USA",
+      "lat": 38.89869,
+      "lon": -77.0332,
+      "metro": "511",
+      "region": "DC",
+      "type": 2,
+      "zip": "20011"
+    },
+    "ip": "199.107.17.84",
+    "os": "WINDOWS",
+    "osv": "WINDOWS7",
+    "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "id": "0IBYi42hFCSf",
+  "imp": [
+    {
+      "bidfloorcur": "USD",
+      "id": "0IBYi42hFCSf",
+      "instl": 0,
+      "native": {
+        "battr": [],
+        "request": "{\"ver\":1,\"assets\":[{\"id\":0,\"required\":1,\"title\":{\"len\":120}},{\"id\":1,\"required\":0,\"data\":{\"type\":2,\"len\":300}},{\"id\":2,\"required\":1,\"data\":{\"type\":1}},{\"id\":3,\"required\":0,\"data\":{\"type\":12}},{\"id\":4,\"required\":0,\"img\":{\"hmin\":60,\"wmin\":60,\"type\":1}},{\"id\":5,\"required\":1,\"img\":{\"h\":260,\"w\":300,\"hmin\":200,\"wmin\":200,\"type\":3}}],\"adunit\":502,\"plcmtcnt\":1,\"seq\":0}",
+        "ver": "1"
+      },
+      "secure": 0,
+      "tagid": "YF1GMHvjKSg4uHznCi4fPPVG3et3BETGgN3nhT0l"
+    }
+  ],
+  "site": {
+    "cat": [
+      "IAB24"
+    ],
+    "domain": "cbsnews.com",
+    "id": "4718",
+    "page": "http://www.cbsnews.com/news/driverless-mbta-train-carrying-50-travels-through-4-boston-stops/",
+    "pagecat": [
+      "IAB12"
+    ],
+    "publisher": {
+      "domain": "cbsnews.com",
+      "id": "558360.265"
+    }
+  },
+  "tmax": 143,
+  "user": {
+    "id": "rmeeqNZZplU6UHNq6SwkHAWOzkM8Wvcmnkh-Y1KfVcLRbQikbKIcOVaBNpLrhVdO"
+  }
+}

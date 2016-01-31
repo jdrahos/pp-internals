@@ -1,0 +1,60 @@
+{
+  "badv": [],
+  "bcat": [],
+  "device": {
+    "devicetype": 1,
+    "geo": {
+      "city": "ONTARIO",
+      "country": "USA",
+      "lat": 34.05661,
+      "lon": -117.67055,
+      "metro": "803",
+      "region": "CA",
+      "type": 2,
+      "zip": "91761"
+    },
+    "ip": "172.56.31.7",
+    "os": "ANDROID",
+    "osv": "5.0.1",
+    "ua": "Mozilla/5.0 (Linux; Android 5.0.1; LG-D851 Build/LRX21Y) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.1847.118 Mobile Safari/537.36"
+  },
+  "id": "HC1KEZ5zmPQm",
+  "imp": [
+    {
+      "bidfloorcur": "USD",
+      "id": "HC1KEZ5zmPQm",
+      "instl": 0,
+      "native": {
+        "battr": [
+          3,
+          4,
+          5
+        ],
+        "request": "{\"ver\":1,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":150}},{\"id\":2,\"required\":1,\"img\":{\"hmin\":100,\"wmin\":100,\"type\":3}},{\"id\":6,\"required\":1,\"data\":{\"type\":2,\"len\":200}},{\"id\":15,\"required\":0,\"data\":{\"type\":11}},{\"id\":5,\"required\":0,\"data\":{\"type\":1}}],\"layout\":3,\"adunit\":3,\"plcmtcnt\":1,\"seq\":0}",
+        "ver": "1"
+      },
+      "secure": 0,
+      "tagid": "33127"
+    }
+  ],
+  "site": {
+    "cat": [
+      "3"
+    ],
+    "domain": "m.goliath.com",
+    "id": "167c8984",
+    "page": "https://m.goliath.com/comics/the-10-worst-avengers-of-all-time/?utm_content=ppe&cus_referrer=https%3A%2F%2Fm.facebook.com%2F",
+    "pagecat": [
+      "IAB24"
+    ],
+    "publisher": {
+      "domain": "goliath.com",
+      "id": "558355.11142"
+    },
+    "ref": "https://m.facebook.com/"
+  },
+  "tmax": 274,
+  "user": {
+    "id": "2E3uURrWuh2WGgKRKhAtcAvrAzoJgzYEKoW5Ulc8O4mypAVD0l7JpA"
+  }
+}

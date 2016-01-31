@@ -1,0 +1,59 @@
+{
+  "badv": [],
+  "bcat": [],
+  "device": {
+    "devicetype": 1,
+    "geo": {
+      "city": "CHICAGO",
+      "country": "USA",
+      "lat": 41.8782,
+      "lon": -87.6254,
+      "metro": "602",
+      "region": "IL",
+      "type": 2,
+      "zip": "60629"
+    },
+    "ip": "107.77.85.66",
+    "os": "IPHONE",
+    "osv": "9.1",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 [FBAN/FBIOS;FBAV/44.0.0.54.111;FBBV/17684769;FBDV/iPhone7,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.1;FBSS/3; FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5]"
+  },
+  "id": "pslAzsFv7iby",
+  "imp": [
+    {
+      "bidfloorcur": "USD",
+      "id": "pslAzsFv7iby",
+      "instl": 0,
+      "native": {
+        "battr": [
+          3,
+          4,
+          5
+        ],
+        "request": "{\"ver\":1,\"assets\":[{\"id\":0,\"required\":1,\"title\":{\"len\":120}},{\"id\":1,\"required\":0,\"data\":{\"type\":2,\"len\":250}},{\"id\":2,\"required\":1,\"data\":{\"type\":1}},{\"id\":3,\"required\":0,\"data\":{\"type\":12}},{\"id\":4,\"required\":0,\"img\":{\"hmin\":60,\"wmin\":60,\"type\":1}},{\"id\":5,\"required\":1,\"img\":{\"h\":260,\"w\":300,\"hmin\":200,\"wmin\":200,\"type\":3}}],\"adunit\":502,\"plcmtcnt\":1,\"seq\":0}",
+        "ver": "1"
+      },
+      "secure": 0,
+      "tagid": "2nnGI8ZPTG-vS2xj8cohtf1LZGI4BCiDMhbk8bJG"
+    }
+  ],
+  "site": {
+    "cat": [
+      "IAB24"
+    ],
+    "domain": "emgn.com",
+    "id": "727",
+    "page": "http://emgn.com/s/19-ruthless-pranks-that-ruined-someones-day-and-made-ours/5/",
+    "pagecat": [
+      "IAB24"
+    ],
+    "publisher": {
+      "domain": "emgn.com",
+      "id": "558360.316"
+    }
+  },
+  "tmax": 137,
+  "user": {
+    "id": "ZFkXOa91FN29xiFXYK36QVZPyyf5ucqEjcGj04HbBaKFqjeFlY9pYVaBNpLrhVdO"
+  }
+}

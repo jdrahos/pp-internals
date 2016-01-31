@@ -1,0 +1,24 @@
+{
+  "id": "454fde95-34ea-4f69-bad8-9e5421c63031",
+  "bidid": "454fde95-34ea-4f69-bad8-9e5421c63031",
+  "cur": "USD",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "Mkaro9cOKJP",
+          "impid": "1",
+          "price": 0.45,
+          "adid": "0",
+          "adomain": [
+            "microsoft.com"
+          ],
+          "cid": "0",
+          "crid": "0",
+          "nurl": "http://dsp-pixel.contextweb.com/rtb/opn/adn/n?s=adn&b=H4sIAAAAAAAAAG1R3YrTQBSeUEXwKQa00MKmyTRtkurF0naXrtT-uGnZ3pVJctIMnWZiMmmtKL6FqDf6GoLXshd66Z0voM8grkmrUHb9GM53zpnvHM7MQWiPW49-3P-Mjr9_KfAVoW-hlPEDTdtsNrUV-IwyCTVPrDQRcRaB5gNN1IhKUFPG15CoMgR1J1Rp5O-ihYjVNBQZ91XqpoJnEvhWdUENEqBLFi1Ukcn8qrAyyVZxqsaCczXKVi4kqXavbHXK9To8iyFhK4hkHpSNdm4jkBuRLOc-BDTju3y9m9s1TRg90AWUcxkmIluERc46QYdQECpRP0LHH98WeIdKUydXVJ6OlmuTy5PU6QbEmztGRtfpaZ11znvb3pNtH6aNWSQ7PrpEr4s-pbpp5R9Imnorrw7sJlhW4BmE2sT3DatJAt8NSEBIg-b9WobhGS1Ceu-dS2x-evFvlAJVopuW3TzKySb2jiyjIMvUd2TvyTTRnemwPxxdDNFVjv-aG1CUA7cIFHTXGbTPJ-Oz0fBUuVmwb_NqIJ4zzqnWrOm4wsahiOAh7o6neO_jkYNbc4I5WwIeUK-IZ1XcjmMOF-D2mdRMndRIrWHiSv9sMnh8tNf2wFuKKh4Il3HQiNEhDQNPNkxKSHAgkr_9r-1M0YtzsEOlGFNRZj9ffvj95upXkb197TF_ACH5HhvlAgAA&w=${AUCTION_PRICE}&nu=http%3A%2F%2Fapi.bttrack.com%2Fwin%3Fts%3D1448651403%26id%3D02af91e7-ca58-4697-9f82-01ed2fd02b94%26cid%3D13970%26crid%3D359047%26pid%3D77085199%26data%3DOuJifVtEKZqw3Hw7aZrtW7NSHutBkjMh6yynfXFVCUlDIOpyffFi-vJsnx8c3amPGZQkZEjem16WvCB8jgDwM9VO40tSIr8Aku_7VaiMGO6CaAMDE3ssZBRmNZW8_FrFCEzCvSlq3mu1s3HUqYOwF84AecRKAHvkgCDIUpf6J_aAyGp9Ww2%26iid%3D92c0a2f3-be36-43f6-9468-13fa0c5cc212%26price%3D0.46%26reqid%3DFQjpGcaG3yp8&ed=1",
+          "adm": "{\"native\":{\"assets\":[{\"id\":0,\"title\":{\"text\":\"Selling Is Knowing\"}},{\"id\":1,\"data\":{\"value\":\"Get the info you need to form a world-class sales team.\",\"type\":2}},{\"id\":2,\"data\":{\"value\":\"Microsoft\",\"type\":1}},{\"id\":3,\"data\":{\"value\":\"CLICK HERE\",\"type\":12}},{\"id\":4,\"img\":{\"url\":\"http://cdn.bttrack.com/a/60/60/3093063\",\"type\":1,\"w\":60,\"h\":60}},{\"id\":5,\"img\":{\"url\":\"http://cdn.bttrack.com/a/200/200/3093063\",\"type\":3,\"w\":200,\"h\":200}}],\"ext\":{\"viewabilitytrackers\":[\"http://bttrack.com/Pixel/Viewed/?data=OuJifVtEKZqw3Hwm794FWrNQLowfk3vkHtyzt0nXoE9VrYjsPVOyGPcCD4D894n11HTqqNEgtAchFxBTzbrawf_MhM08CpVMQ6R1teWdUH6wMftjnPdYFmeUm0l9OM4v_1UgVaE85Q5z8YKYbVDxxmvrSJvJMH6GC8r3i_g-mi93nXtA_mTNJ3C496AYj_t_XMirCi9a_ZT7GRRe4qhQWy4_ngnKmU19rJf-nrHf3SPEnb-wW6_l6eV3H_vFe0ZvTPqPX4MXhxQwHYLk-20Vn2tOWMaM0Zb21vlHNtCmizlyn8C7mSpSYegKgVwL1KTYPZjhWB5vQqigDGP3WCeBNVRx7xHOOxdUSkNCMY0ry4bLo2k8SAPMNk0vM9LoIW-E9tDghHctNS8eBO54p0611tayqnv_gTj0IvD9W5HNNeapkO7RFZR9u1nFkq88w8ScOCCaZPSX0&method=3&percentage=1\"]},\"link\":{\"url\":\"http://bttrack.com/Click/Native?data=OuJifVtEKZqw3Cwmad_tK7OSDoJqeQOnHbYTrb9-3J6Dv1BWnjqs83an6oc5TRx1JW-mA7mUmDLVsEeJXfa3unYEPS3kM0XxRUkz04K1Fyl-LhBnpl5XRqSwLENKiig-TJJXpYQzgItVadGknwrVfSryfejBLRUfPy-P6AOZhHpdveQInC9Eo9_KmHDhyDS6SKFs3ViU60H9bV22JGc4Hh5zxV-Yq8fP_ZA717hjgMSAeAvjIzkT1dxMy9zgQYYPx1hj90nJFZTF8FRjIvRdjgnaW233PWBy7j_S74R1CC1O6grfq6g0IBUtafITDT4-_w_XHNGRVUMQ7a4LU5T-Ir3iSXuHGTfkq-XSio_m06DN4hQ8gOK24fULj1XVretDVgsMTkl3rWtfqrCE8lGXYGEKz3ebH3GlYBH9mLbGIvD1H6xj0\"},\"imptrackers\":[\"http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3Hwm794FWrNQLowfk3vkHtyzt0nXoE9VrYjsPVOyGPcCD4D894n11HTqqNEgtAchFxBTzbrawf_MhM08CpVMQ6R1teWdUH6wMftjnPdYFmeUm0l9OM4v_1UgVaE85Q5z8YKYbVDxxmvrSJvJMH6GC8r3i_g-mi93nXtA_mTNJ3C496AYj_t_XMirCi9a_ZT7GRRe4qhQWy4_ngnKmU19rJf-nrHf3SPEnb-wW6_l6eV3H_vFe0ZvTPqPX4MXhxQwHYLk-20Vn2tOWMaM0Zb21vlHNtCmizlyn8C7mSpSYegKgVwL1KTYPZjhWB5vQqigDGP3WCeBNVRx7xHOOxdUSkNCMY0ry4bLo2k8SAPMNk0vM9LoIW-E9tDghHctNS8eBO54p0611tayqnv_gTj0IvD9W5HNNeapkO7RFZR9u1nFkq88w8ScOCCaZPSX0&type=img\"]}}"
+        }
+      ]
+    }
+  ]
+}

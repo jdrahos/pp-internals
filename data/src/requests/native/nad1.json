@@ -1,0 +1,42 @@
+{
+  "native": {
+    "ver": "1",
+    "layout": 6,
+    "adunit": 2,
+    "plcmtcnt": 8,
+    "assets": [
+      {
+        "id": 1,
+        "required": 1,
+        "img": {
+          "type": 3,
+          "w": 300,
+          "h": 300
+        }
+      },
+      {
+        "id": 2,
+        "required": 0,
+        "data": {
+          "type": 2,
+          "len": 400
+        }
+      },
+      {
+        "id": 3,
+        "required": 0,
+        "data": {
+          "type": 11,
+          "len": 400
+        }
+      },
+      {
+        "id": 4,
+        "required": 1,
+        "title": {
+          "len": 100
+        }
+      }
+    ]
+  }
+}

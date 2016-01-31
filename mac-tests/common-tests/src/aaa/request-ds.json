@@ -1,0 +1,76 @@
+{
+  "tmax": 150,
+  "site": {
+    "domain": "www.diyfashion.com",
+    "page": "http://www.diyfashion.com/skincare/blackheads-be-gone-diy-pore-cleansing-strips-11944",
+    "sectioncat": [],
+    "id": 11
+  },
+  "imp": [
+    {
+      "id": 1,
+      "tagid": "avbOrp1HxO48ljsNKImICytOIuc_LXRHQmhAzS7g",
+      "bidfloorcur": "USD",
+      "bidfloor": 1,
+      "instl": 0,
+      "banner": {
+        "w": 600,
+        "h": 350,
+        "pos": 1,
+        "ext": {
+          "native": {
+            "autype": 1,
+            "markup": {
+              "required": [
+                "title",
+                "description",
+                "media"
+              ],
+              "optional": [
+                "click",
+                "icon",
+                "brandname"
+              ],
+              "properties": {
+                "title": {
+                  "maxlength": 50
+                },
+                "description": {
+                  "maxlength": 175
+                },
+                "media": {
+                  "minwidth": 280,
+                  "aspectratio": 1.33,
+                  "type": [
+                    0,
+                    2
+                  ]
+                },
+                "icon": {
+                  "minwidth": 60,
+                  "aspectratio": 1
+                },
+                "brandname": {
+                  "maxlength": 50
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "user": {
+    "id": "d107d3f6-f045-48d6-9eb1-a5f294600214"
+  },
+  "device": {
+    "ip": "70.209.73.196",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10",
+    "dnt": 0,
+    "connectiontype": 0,
+    "devicetype": 2
+  },
+  "badv": [],
+  "id": "d8ec1ba5-bef7-4f49-bc96-d4f1911fa2ec",
+  "at": 2
+}

@@ -1,0 +1,102 @@
+{
+  "imp": [
+    {
+      "id": "e3575a94eb6d124159ea89770cefaba3",
+      "bidfloor": 0.108225,
+      "instl": 0,
+      "bidfloorcur": "USD",
+      "banner": {
+        "topframe": 1,
+        "w": 320,
+        "id": "1",
+        "btype": [
+          1,
+          4
+        ],
+        "battr": [
+          3,
+          8,
+          9
+        ],
+        "hmin": 50,
+        "api": [],
+        "wmin": 320,
+        "h": 50,
+        "pos": 1
+      }
+    }
+  ],
+  "id": "cbf1F6F1vUNswiJ",
+  "badv": [
+    "https:\/\/itunes.apple.com\/us\/app\/hit-it-rich!-free-casino-slots\/id694876905?mt=8"
+  ],
+  "\u0000*\u0000somodb": false,
+  "app": {
+    "id": "522335",
+    "cat": [
+      "IAB1"
+    ],
+    "keywords": [],
+    "storeurl": "http:\/\/smaato.com",
+    "name": "Block Puzzle com.brap.blockpuzzle",
+    "bundle": "com.brap.blockpuzzle",
+    "domain": "http:\/\/smaato.com"
+  },
+  "tmax": 125,
+  "bcat": [
+    "IAB25",
+    "IAB26",
+    "IAB23",
+    "IAB9-9",
+    "IAB8-18",
+    "IAB8-5",
+    "IAB25",
+    "IAB26"
+  ],
+  "at": 2,
+  "device": {
+    "os": "Android",
+    "Osv": "4.4",
+    "model": "Hudl 2",
+    "geo": {
+      "country": "GBR",
+      "region": "",
+      "zip": "SN10",
+      "city": "Devizes",
+      "metro": "",
+      "lat": 51.3574,
+      "lon": -1.898
+    },
+    "osv": "4.4",
+    "js": 1,
+    "dnt": 0,
+    "Js": 1,
+    "ext": {
+      "aaid": "354f575e-2ed1-457d-802e-da9d22cd1f01"
+    },
+    "h": 1200,
+    "dpidmd5": "DC6277D38D545A41DBBAE8DA4268C8CD",
+    "ip": "2.216.194.220",
+    "w": 1920,
+    "connectiontype": 2,
+    "dpidsha1": "EB1768B581EF0DB1567580728EC232ABF7516EC1",
+    "ua": "Mozilla\/5.0 (Linux; Android 4.4.2; Hudl 2 Build\/KOT49H) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/30.0.0.0 Safari\/537.36",
+    "carrier": "Sky Broadband",
+    "devicetype": 5,
+    "language": "en",
+    "make": "Tesco",
+    "ifa": "354f575e-2ed1-457d-802e-da9d22cd1f01"
+  },
+  "user": {
+    "id": "7983347649541910147",
+    "geo": {
+      "country": "GBR",
+      "region": "",
+      "zip": "SN10",
+      "city": "Devizes",
+      "metro": "",
+      "lat": 51.3574,
+      "lon": -1.898
+    }
+  }
+}

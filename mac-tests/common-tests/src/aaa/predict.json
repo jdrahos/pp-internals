@@ -1,0 +1,30 @@
+{
+  "modelParameters": {
+    "viewability": {
+      "application": "pulsepoint-dsp",
+      "modelAttributes": {
+        "contextCategoryId": 167,
+        "userfrequency": 0,
+        "fold": 1,
+        "os": "MACOS",
+        "osVersion": "10.10.2",
+        "pubDomain": "vegkitchen.com",
+        "tagId": 48668234,
+        "browserVersion": "",
+        "browserType": "SAFARI"
+      }
+    },
+    "audience": {
+      "modelAttributes": {
+        "country": "USA",
+        "browser": "OTHER",
+        "pubId": 50317,
+        "rootDomain": "fishwrapper.com",
+        "language": "English",
+        "dataids": "",
+        "category": 431,
+        "timestamp": 1444645143966
+      }
+    }
+  }
+}

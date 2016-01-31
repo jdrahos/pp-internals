@@ -1,0 +1,27 @@
+{
+  "id": "0IBYi42hFCSf",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "1cb1de4c-c535-46b3-9282-f0170ef7386a",
+          "impid": "0IBYi42hFCSf",
+          "BtImpressionId": "00000000-0000-0000-0000-000000000000",
+          "price": 0.000,
+          "nurl": "http://api.bttrack.com/win?ts=1449776724468&id=d76e3c08-736f-46a8-aff6-1cb858f3ae08&cid=14520&crid=352823&pid=77182095&data=OuJifVtEKZqw3JLgaL542Y3GwnnESpgzVJHOa-kHwhlbm43R5fr36_aeC29IAhOftpVA0xnZKrGLJ08aT9t5mUa_zkpB2J-iLHKmMWh4zCAbuZKz9pcQRXwZlq-XZQ2&iid=1cb1de4c-c535-46b3-9282-f0170ef7386a&price=${AUCTION_PRICE}&reqid=${AUCTION_ID}",
+          "iurl": "http://cdn.bttrack.com/a/60/60/3086488",
+          "adm": "{\"native\":{\"assets\":[{\"id\":0,\"title\":{\"text\":\"Work Smarter. Live Healthier. Sit or Stand with VARIDESKÆ\"}},{\"id\":1,\"data\":{\"value\":\"VARIDESK sit/stand desks are height adjustable, require no assembly, and turn your existing desk into a standing desk. Models start at just $175.\",\"type\":2}},{\"id\":2,\"data\":{\"value\":\"VARIDESKÆ Standing Desks\",\"type\":1}},{\"id\":3,\"data\":{\"value\":\"CLICK HERE\",\"type\":12}},{\"id\":4,\"img\":{\"url\":\"http://cdn.bttrack.com/a/60/60/3086488\",\"type\":1,\"w\":60,\"h\":60}},{\"id\":5,\"img\":{\"url\":\"http://cdn.bttrack.com/a/200/200/3086488\",\"type\":3,\"w\":200,\"h\":200}}],\"ext\":{\"viewabilitytrackers\":[\"http://bttrack.com/Pixel/Viewed/?data=OuJifVtEKZqw3Hwm7_7sW6-SLiw76ywGQX7JfhV-ILYJKCx2eLi0GIQiA4foCXYBm6O6v9exArSJZ5x5Zvxg1BwznSG_sHyT0t8PeGA1Zl07tpIn9eJofuR1bsuzNPhQ93A3xyu6MbJMb-w4LpNDQGMKcPTN76dtMMF0R1QTCcakdaoUDVL57xdJShIRKF_fX5qQ3yfI3EkaapjDqFqRdJy7wEoozfqkFwNQxYximmE-06Ev1dCkvNwZ7gnWPf5Qq8QYc3J7HUfmPR_m14wpzotjVyy_1Jml7-Ll1B_5pxwZ_NoxounybnlhYSyvxW8MfURDFWuFkmeLU97cqQYXjdwJmcHSz55q7utYSD7HNZQL-ue0islkmSAAqyATFB7dYX4ST7Yx9k-y3VHTvnIu8LjYYPA1&method=3&percentage=1\"]},\"link\":{\"url\":\"http://bttrack.com/Click/Native?data=OuJifVtEKZqw3Cwm795sKrOTLuwfwfvGlwyQLbpHqTFr2YDsTtbaOPuCn7lQxcpspyS6g-a31fcR-hFVNacp84Rf1fSy8mOSvrjP2EpXUPYJv-4u6-uNFmc4f3L74WRLN_pUVrpoanYZn9P8384xwsEg8ZNmlS9mTih3tbVDozwwtClfRqH_g-YXgtXP8DJEFydTP2QCvElQOnJXvb4BqSsykOqG8HOBwjdy-ZbqCXlbVeq6JL-S1PEq-rHvU3tO4XblgmARGnXgtXFvXrXhUGTcofaFhKLhop5T08UvZ-pmx1MgNI6zp9wyKPqtC-_eBPSHEBDHXakueBP0_UNS4alzQBaqfMXxSUSWYcF-p_UZ5f4zCECH1uTXQ4KEpvQ18gpasB5yJQ6PMCktUgHs7XwTAmWbD25lblUZjzY5rVKzt1a_fJPJJA2\"},\"imptrackers\":[\"http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3Hwm7_7sW6-SLiw76ywGQX7JfhV-ILYJKCx2eLi0GIQiA4foCXYBm6O6v9exArSJZ5x5Zvxg1BwznSG_sHyT0t8PeGA1Zl07tpIn9eJofuR1bsuzNPhQ93A3xyu6MbJMb-w4LpNDQGMKcPTN76dtMMF0R1QTCcakdaoUDVL57xdJShIRKF_fX5qQ3yfI3EkaapjDqFqRdJy7wEoozfqkFwNQxYximmE-06Ev1dCkvNwZ7gnWPf5Qq8QYc3J7HUfmPR_m14wpzotjVyy_1Jml7-Ll1B_5pxwZ_NoxounybnlhYSyvxW8MfURDFWuFkmeLU97cqQYXjdwJmcHSz55q7utYSD7HNZQL-ue0islkmSAAqyATFB7dYX4ST7Yx9k-y3VHTvnIu8LjYYPA1&type=img\"]}}",
+          "adomain": [
+            "varidesk.com"
+          ],
+          "cid": "14520",
+          "crid": "352823"
+        }
+      ],
+      "seat": "619",
+      "group": 0
+    }
+  ],
+  "bidid": "d76e3c08-736f-46a8-aff6-1cb858f3ae08",
+  "cur": "USD"
+}

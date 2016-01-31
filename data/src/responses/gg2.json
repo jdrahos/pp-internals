@@ -1,0 +1,24 @@
+{
+  "id": "9c34eca0-ed17-4d47-b3d0-13d373ddbbb8",
+  "bidid": "9c34eca0-ed17-4d47-b3d0-13d373ddbbb8",
+  "cur": "USD",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "exp9ScQIgi",
+          "impid": "1",
+          "price": 1.02,
+          "adid": "0",
+          "adomain": [
+            "lowermybills.com"
+          ],
+          "cid": "0",
+          "crid": "0",
+          "nurl": "http://dsp-pixel.contextweb.com/rtb/opn/gg/n?s=gg&b=H4sIAAAAAAAAAKVTy44bRRS99viRTEZDQEHKKqoFsRIk291-OyNn5GReYJEwGWcmGRat6u5qd3m6u0xVtRtnz1-wyA-wZx22ILHmB1jAgj0LuO0H44FZIFFql7qq7z33nHOvH7_9tvrLH9-_zv303nkWdn8__vXre9-9ADjytZ48qlaTJKlIFgqXBdQXAXcqjgirjgiELKuJ0AEf-bpss2hMQx6VQyEkwyN1_PIooEpVIQNrUCMhRgGbY8Qy2FW0x0vS0b1x6cteiSnp9FRJiVg6rMdDOmKq5Li90pS5PYP6Lwf7yfjYP_f2g_LRoO-fPj0cNgZHx5_6T847x-Ovkk_6SQlhe2nB-_X-_doBPtcqwPv_rgGDSxPFR73-wfH46bNDmfSHZvPNoO12pu7s9GRvP2qdKlvQg1EpVrpnNpqNdsfodJtGrWYaLfh7ZQCyoxHs_vZDun4E2Hh5sgeQr9fNWhtccLN4MM1Wpwlwo93tUrNjuwAftWnHMzq1Rrnl1bvlhuN4ZVpr07JRb9a9dt01jQ6FL37-ZvPh29miUDabTX_pymTwSTeA4t7-yWD4_PNMFv6x_sQFsPeZeMODgFabFYM8OOORKxJFng1Jq2LukLPnZ63GDhlK7rJIV9sVY4fI6SPTrBgPScAvGDlkzoWAJ3cB3r271Jw1m_PqkEmr4MtW7VU9fBEenA_Hr16vs9iYbytyDyAXiCmDvB0gE9hMGLuwlE8lg4Jk1GUSClMeaTqC4kSKMXM0FLQvUQHcTqgMrbW-w9aUSc0dawG2FTA6tXASQpQCeU0RF3IOdhtuJtxjVphWLuAUxJpDzhexgvyidi5NhaJHp0JyDVuJz3XEuJVWhO2E8kg5Qlt2zAP8imMWIDEL68SQS2nD7QVpjNCaSS_gcOsK0UTge7QkmtfCpRzeX1VBdMyVNEw9CFlow82aYbasOfVbCbMtP1Y2xcziMgUFUW7FE5ciHZ9R7TNpRUxpKNbqVpqM3nDFNdohIzR1e5E4Y8g8srqwveQ74Y5GyVBc2VZcikPK81FBADQZ-2xg9zaXdhbmOhRsUKlhb9EEGpDFLdGCuJJOmCL2jCiMT_fI0TGVM-IJSa78dYkIbezAjSUBBF94tfJsgQofrJ-Ih2YxuLsURYRH0AFy6ePj_8dpLvWOxoQJcxGWUBLQZMYktmM-ViSdFwbFZQh8uHaLwSsz76Qt-dftveuAiS3cGbVFrGH7ChcFm5coq6n--Np6xMf2iqtS1F_mTnJjDgYAAA%3D%3D&w=${AUCTION_PRICE}&nu=http%3A%2F%2Fapi.bttrack.com%2Fwin%3Fts%3D1454694570561%26id%3D57f07b70-81b8-4c69-8999-72a900d054ff%26cid%3D21579%26crid%3D362561%26pid%3D77110992%26data%3DOuJifVtEKZqw3Aw7-ZquS7OQLqxLhPsyQX3xA31GmXJebAysBexNRaI9c9sloSrkzskiNuD6MaXT12j7z7VK8FIw7zuddzp-8rIWgRCmw6j13DbwvQ8yagop09eooj5q41ccQzGHczPiyCn4AOMmjis72cw1%26iid%3D3b28b693-c0e3-4381-b5de-5b3827f1fd64%26price%3D1.03%26reqid%3D9yALqi3m3u0F&ed=1",
+          "adm": "{\"native\":{\"assets\":[{\"id\":1,\"title\":{\"text\":\"Obama Eliminates Fee For Homeowners Who Switch To 15yr Fixed\"}},{\"id\":2,\"img\":{\"h\":100,\"type\":3,\"url\":\"http://cdn.bttrack.com/a/100/100/3096907\",\"w\":100}},{\"data\":{\"type\":2,\"value\":\"If you owe less than $625,000 on your home, use Obama's Refi Program. You'll be shocked when you see how much you can save.\"},\"id\":6},{\"data\":{\"type\":1,\"value\":\"LowerMyBills.com\"},\"id\":5}],\"ext\":{\"viewabilitytrackers\":[\"http://bttrack.com/Pixel/Viewed/?data=OuJifVtEKZqw3Azm8_7tS7Pq5na3_9r6ea_vf8pRMnJyuaU_7s9pnQglAzmTfYjUTaUXgFNzll3Rp-M8Z9obhgf3gbTI_9ZHotrRNfckP63eWSAteiuhpQOJ1ZeILYCEMO2QAkqOjOLoKIeukG4fjOC_6ObTffckDzsVh4_cLt5YwaTfHvfPn6YyhTd0x67jvkeol2wberPOKw1kOdhCNfrI40-WRb1vMRXhGFZDceT-pONs7X1hTDzrsRWXokTljoinbg1z-S7_vx_JKBsXMUIEvJAacHrBU8JBHuznSlTCalh1CAwVYLnDjgT_wWKoxfVbwMfyZ7w1&method=3&percentage=1\"]},\"imptrackers\":[\"http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3Azm6d4tWrPq5tbDD1RBC3JLfRsoiAsVTm_TAJBoZfOLBC0XXNNk8cAHNtcMiXyNqfNLl0T61AC8TXlKG-ABNQ6EtW1qN0G_J5gxHx1oBRRK0eFZ1Xqxoz_s_8PYgx11N3Yg3n0pTIcSha1M7kXl8oC_hc0FxMF0YBCSXdxOgj1xM1ChppuH3gLQi2AOZGO2BP0s5fwLQt0Q9e62t8TTfLFS05FMhuNTjfbHAigKP_f48usy75BTn2_-t-9NZItFQn3efH_XdQqHAzxDr6TuXGYNzcdn6BMNdkigoHrqLVVQSWo6zw7VXkaoO1c8OBNJclpEmszBXiunaWF0X5p9JAQy2B2huQBR7_7EbB4X6HvAfA2&type=img\",\"//idsync.rlcdn.com/400066.gif?partner_uid=2X3mRmFZTjXY\"],\"link\":{\"url\":\"http://bttrack.com/Click/Native?data=OuJifVtEKZqw3CQ4794tWrOSLmwT76xCtE8PGn20TrIphZEALc6qMXeu63bGCeLwCFYGzOs94KYZKhZumoHhrrY4mxwChxvkwirh1321qm4urFN3o9IJOFQhMEHh8wRYWtuVb8BYK3hD7JilZCgCka8h5AZ1nBI5Hq8G0uHfy760JV3OakBGRXpytQx9B-d2sbhheW9Acuto0daDSuKAdSFeU00z97lWnEwv8uCRgHayeV7GnCw46lS66id71P3NEK9dtuC2hMqiYjzgydRPQJOIV0jqoGOFGuxHLf-AHga0dTc6NXyX9OKShqfp3jAupqP7TSjVz-FRk4b6CgN3Iu1fNAWgv8-Fy4KGaOFh_FQhzt63NUenBpxDhwtDV4gb0\"}}}"
+        }
+      ]
+    }
+  ]
+}

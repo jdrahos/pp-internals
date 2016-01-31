@@ -1,0 +1,40 @@
+{
+  "native": {
+    "plcmtcnt": 1,
+    "assets": [
+      {
+        "id": 1,
+        "required": 1,
+        "title": {
+          "len": 70
+        }
+      },
+      {
+        "id": 2,
+        "data": {
+          // DESC(2)
+          "type": 2,
+          "len": 300
+        }
+      },
+      {
+
+        "id": 3,
+        "data": {
+          // SPONSORED(1)
+          "type": 1,
+          "len": 100
+        }
+      },
+      {
+        "id": 4,
+        "required": 1,
+        "img": {
+          "type": 3,
+          "wmin": 300,
+          "hmin": 250
+        }
+      }
+    ]
+  }
+}

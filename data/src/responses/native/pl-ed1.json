@@ -1,0 +1,46 @@
+{
+  "native": {
+    "assets": [
+      {
+        "id": 1,
+        "title": {
+          "text": "Work Smarter. Live Healthier. Sit or Stand with VARIDESK."
+        }
+      },
+      {
+        "id": 2,
+        "img": {
+          "url": "http://cdn.bttrack.com/a/100/100/3098124",
+          "type": 3,
+          "w": 100,
+          "h": 100
+        }
+      },
+      {
+        "id": 6,
+        "data": {
+          "value": "VARIDESK sit/stand desks are height adjustable, require no assembly, and turn your existing desk into a standing desk. Models start at just $225.",
+          "type": 2
+        }
+      },
+      {
+        "id": 5,
+        "data": {
+          "value": "VARIDESK® Standing Desks",
+          "type": 1
+        }
+      }
+    ],
+    "ext": {
+      "viewabilitytrackers": [
+        "http://bttrack.com/Pixel/Viewed/?data=OuJifVtEKZqw3HwmHd_qW7PTTsITfN1eNJwbOl8WBBdB0U5IAAmwDM-MvunxxcYXmUGcI_8bBmSFOxqLQqxhKrhYzkSbQI4HhKNS1FzuSKUg40o1x7MCfLin0IuIWPZ6dSZm1wsthBCf4JStUanBiJMYktz9nQD000kr7szZBAV-5JAp75QpcbIVp3QiLcALquTwVl5SQKDJBO0ES3peCEyhxv9P3EskcFFdtrem-lNlB55Fi0Ah-kLPZOvjyWzLdwQeof6lY4Lxug5LMNIK-3ALdlo5yL58L_KECfAcqAt3vYUD8ZyWL_SKW-LVRN7cXJ7Fc1WMZrKJAzTwlBqM0&method=3&percentage=1"
+      ]
+    },
+    "link": {
+      "url": "http://bttrack.com/Click/Native?data=OuJifVtEKZqw3Cw5Y_vtW7OTDsI663gVs0oAgl7RucNsOHb17vZx-gSiZ-lmW34daeivP6scE2buUy6U9LLOoCBznKOkI9JrqHNkn9-BPmLDjezATq8QGoNP0QKNHsvMAn1ZZMwzHiCB_g6mpX4aXxP38BnQCBTTtpdxS_FoCax2feTb_OOkiNgHLMQNd4NmDzph2HYDAmDIyPbrJeuSmY51tPcb34WHh4RAfQnfjziZirSUeXIr0Da6HbS8fcBJLFLGubICxZR5DrxNzRPPNcK9j3THbWYEUg_KgOwKMmrS43WdJg_Q-xKcjjIzNFhW-OORhWA7PMSev4j1s7b_QJBgMLupNlAh6GuNCNxM9NDBOC4WimdKvpnfHMjZz_MaCb01"
+    },
+    "imptrackers": [
+      "http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3HwmH9_qW7OQDsITfF12vU7HaA92zh0tCxPS8L867UiC7HTXXbklKGikf2pXc0OHSSAV1kW3gQkp7n7V2IZiMm-wO0SnWIEHrF4FakIuDSAbcgmhSveoQHa4ookoic9LCQ5UmjVeQB-0fXRJm2hqVcGnj_S6bDJhrlQl6lZBbRjsk3gTuLnW68XyZf8Wx4Q052lsQ5ZA91EfH-hzHy5_4SEC0L0HWw-J83qAtB23spA_pHLUxKNby7Rk4uEimUZZpmZ3r4aF47DH7wCi3Co_a34XGCUcCgLH_TWzYS7G9ImgL6U2eP4xPnryoPo2rkhr164XOJcRzsCbGgFhOkYuimLGAEXpd7Xh-wtKY5t3N4EdbYAGMuW5npFSrVdo-chWOlhmLbIB0&type=img"
+    ]
+  }
+}

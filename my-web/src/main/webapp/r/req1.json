@@ -1,0 +1,65 @@
+{
+    "device": {
+        "devicetype": 1,
+        "dnt": 0,
+        "geo": {
+            "city": "Tampa",
+            "country": "USA",
+            "lat": 28.001,
+            "lon": -82.4013,
+            "metro": "539",
+            "region": "FL",
+            "type": 2,
+            "zip": "33610"
+        },
+        "h": 0,
+        "ip": "72.77.194.203",
+        "js": 1,
+        "language": "en",
+        "os": "Android",
+        "pxratio": 0,
+        "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SM-T230NU Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/60.0.0.16.76;]",
+        "w": 0
+    },
+    "id": "e5ba5a63-980e-4d94-af6c-2ce7d51a2b5c",
+    "imp": [
+        {
+            "bidfloor": 1,
+            "ext": {
+                "format": 19,
+                "product": 5
+            },
+            "id": "1",
+            "native": {
+                "request": "{\"layout\":3,\"adunit\":3,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":150}},{\"id\":2,\"required\":1,\"img\":{\"type\":3,\"wmin\":400,\"hmin\":225}},{\"id\":6,\"required\":1,\"data\":{\"type\":2,\"len\":200}},{\"id\":15,\"required\":0,\"data\":{\"type\":11}},{\"id\":5,\"required\":0,\"data\":{\"type\":1}}]}",
+                "ver": 1
+            },
+            "secure": 0,
+            "tagid": "33125"
+        }
+    ],
+    "site": {
+        "cat": [
+            "IAB1"
+        ],
+        "content": {
+            "context": "5",
+            "id": "95b69654-cec1-4ed7-b050-c966acc6ae66"
+        },
+        "domain": "www.iloveoldschoolmusic.com",
+        "id": "51085049",
+        "name": "iloveoldschoolmusic.com",
+        "page": "http://www.iloveoldschoolmusic.com/check-out-maxine-from-living-single-her-husband-do-for-a-living-now-2/?utm_content=Max%20Of%20Living%20Single%20Is%20Married%20To%20The%20Blackest%20White%20Man%20U%5C%27ll%20Ever%20Meet",
+        "pagecat": [],
+        "publisher": {
+            "id": "12475",
+            "name": "iloveoldschoolmusic.com"
+        },
+        "ref": "http://m.facebook.com"
+    },
+    "tmax": 1000,
+    "user": {
+        "buyeruid": "2EgxvsSfWDfB",
+        "id": "748bda60-5230-40af-9111-ad58b669a460"
+    }
+}

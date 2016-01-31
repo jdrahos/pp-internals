@@ -1,0 +1,348 @@
+{
+  "Url": "cnn.com",
+  "domainCtx": true,
+  "ContentType": "text/html",
+  "ServerName": "LGA-XTON01",
+  "TextLength": 2065,
+  "HtmlLength": 79769,
+  "LastUpdate": 1441454474637,
+  "lang": "English",
+  "langISO": "en",
+  "languageId": 1,
+  "langCode": "ENG",
+  "Cache": true,
+  "ElapsedTime": 1,
+  "Count": 1,
+  "TopChannel": {
+    "name": "News",
+    "level": 3,
+    "score": 0.043454643338918686,
+    "id": 431,
+    "pathIds": [
+      3,
+      49,
+      431
+    ],
+    "pathNames": [
+      "Arts & Entertainment",
+      "Television",
+      "News"
+    ],
+    "taxonomy": "Standard"
+  },
+  "ChResults": [
+    {
+      "name": "News",
+      "level": 3,
+      "score": 0.043454643338918686,
+      "id": 431,
+      "pathIds": [
+        3,
+        49,
+        431
+      ],
+      "pathNames": [
+        "Arts & Entertainment",
+        "Television",
+        "News"
+      ],
+      "taxonomy": "Standard"
+    }
+  ],
+  "NamedEntities": [],
+  "MainKwList": [
+    {
+      "name": "cnn",
+      "rank": 13.0,
+      "count": 13
+    },
+    {
+      "name": "tv",
+      "rank": 8.0,
+      "count": 8
+    },
+    {
+      "name": "live",
+      "rank": 8.0,
+      "count": 8
+    },
+    {
+      "name": "watch",
+      "rank": 7.0,
+      "count": 7
+    },
+    {
+      "name": "new",
+      "rank": 7.0,
+      "count": 7
+    },
+    {
+      "name": "video",
+      "rank": 5.0,
+      "count": 5
+    },
+    {
+      "name": "polit",
+      "rank": 4.0,
+      "count": 4
+    },
+    {
+      "name": "photo",
+      "rank": 4.0,
+      "count": 4
+    },
+    {
+      "name": "cnngo",
+      "rank": 4.0,
+      "count": 4
+    },
+    {
+      "name": "stori",
+      "rank": 3.0,
+      "count": 3
+    },
+    {
+      "name": "ship",
+      "rank": 3.0,
+      "count": 3
+    },
+    {
+      "name": "profil",
+      "rank": 3.0,
+      "count": 3
+    },
+    {
+      "name": "longform",
+      "rank": 3.0,
+      "count": 3
+    },
+    {
+      "name": "leadership",
+      "rank": 3.0,
+      "count": 3
+    },
+    {
+      "name": "investig",
+      "rank": 3.0,
+      "count": 3
+    },
+    {
+      "name": "entertain",
+      "rank": 3.0,
+      "count": 3
+    },
+    {
+      "name": "digit",
+      "rank": 3.0,
+      "count": 3
+    },
+    {
+      "name": "break",
+      "rank": 3.0,
+      "count": 3
+    },
+    {
+      "name": "worldwid",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "travel",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "live_tv",
+      "rank": 6.0,
+      "count": 6
+    },
+    {
+      "name": "watch_live",
+      "rank": 5.0,
+      "count": 5
+    },
+    {
+      "name": "cnn_profil",
+      "rank": 3.0,
+      "count": 3
+    },
+    {
+      "name": "cnn_leadership",
+      "rank": 3.0,
+      "count": 3
+    },
+    {
+      "name": "watch_video",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "social_commentari",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "set_edit",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "polit_op",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "op_ed",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "navi_ship",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "latest_new",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "face_cnn",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "edit_prefer",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "digit_studio",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "commentari_ireport",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "cnn_worldwid",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "cnn_film",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "break_new",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "yr_haze",
+      "rank": 1.0,
+      "count": 1
+    },
+    {
+      "name": "whale_trap",
+      "rank": 1.0,
+      "count": 1
+    }
+  ],
+  "PosKwList": [],
+  "NegKwList": [],
+  "SearchEngKw": [],
+  "SentimentScore": 1.0,
+  "NumAds": 0,
+  "ContentQA": {
+    "qualityScore": 158,
+    "adultScore": 0,
+    "numLinks": 122,
+    "numImports": 14,
+    "numMedia": 13,
+    "pageRank": 68,
+    "impressionQuality": 339.0,
+    "adViewability": 0.0,
+    "readability": 13,
+    "titleWordsCount": 8
+  },
+  "Status": "ERR_NO_OFFLINE_RESPONSE",
+  "SentimentKeywords": [
+    {
+      "name": "reach",
+      "rank": 1.0,
+      "count": 1
+    },
+    {
+      "name": "help",
+      "rank": 1.0,
+      "count": 1
+    },
+    {
+      "name": "trapped",
+      "rank": 1.0,
+      "count": 1
+    },
+    {
+      "name": "heroes",
+      "rank": 1.0,
+      "count": 1
+    },
+    {
+      "name": "great",
+      "rank": 1.0,
+      "count": 1
+    },
+    {
+      "name": "fresh",
+      "rank": 1.0,
+      "count": 1
+    },
+    {
+      "name": "death",
+      "rank": 2.0,
+      "count": 2
+    },
+    {
+      "name": "injury",
+      "rank": 1.0,
+      "count": 1
+    },
+    {
+      "name": "commits",
+      "rank": 1.0,
+      "count": 1
+    },
+    {
+      "name": "top",
+      "rank": 1.0,
+      "count": 1
+    }
+  ],
+  "NegativeEntities": [
+    "ROW STORIES",
+    "ROW",
+    "MAN",
+    "HOLYFIELDS",
+    "DEATH ROW STORIES",
+    "DEATH ROW",
+    "DEATH",
+    "BLUE",
+    "AUSTRIA"
+  ],
+  "PositiveEntities": [
+    "HEROES",
+    "GREAT AMERICAN STORIES",
+    "GREAT AMERICAN",
+    "GREAT",
+    "FRESH DRESSED",
+    "FRESH",
+    "DRESSED",
+    "CNN HEROES",
+    "CNN",
+    "AMERICAN STORIES"
+  ]
+}

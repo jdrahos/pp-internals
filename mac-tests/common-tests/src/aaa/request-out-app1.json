@@ -1,0 +1,54 @@
+{
+  "app": {
+    "bundle": "722120997",
+    "cat": [
+      "IAB24"
+    ],
+    "pagecat": [
+      "IAB24"
+    ],
+    "publisher": {
+      "id": "558359.1002537"
+    }
+  },
+  "badv": [],
+  "bcat": [],
+  "device": {
+    "carrier": "verizon fios",
+    "devicetype": 2,
+    "dpidmd5": "29e103a521054fb9b377335d547c844a",
+    "dpidsha1": "3d49eda44840a216bdd3e08cde02a6a298aa569b",
+    "geo": {
+      "city": "NEW YORK",
+      "country": "USA",
+      "lat": 40.81703,
+      "lon": -73.94247,
+      "metro": "501",
+      "region": "NY",
+      "type": 2,
+      "zip": "10025"
+    },
+    "ifa": "38B8AAF5-E99C-4553-B054-61CE4C2D28B3",
+    "ip": "74.108.225.112",
+    "os": "MAC",
+    "ua": "MyCom/12218 CFNetwork/758.1.6 Darwin/15.0.0"
+  },
+  "id": "Ohr40W6JhR2S",
+  "imp": [
+    {
+      "bidfloorcur": "USD",
+      "id": "Ohr40W6JhR2S",
+      "instl": 0,
+      "native": {
+        "battr": [],
+        "request": "{\"ver\":1,\"assets\":[{\"id\":1,\"required\":1,\"data\":{\"type\":12}},{\"id\":2,\"required\":1,\"title\":{\"len\":50}},{\"id\":3,\"required\":0,\"img\":{\"h\":80,\"w\":80,\"type\":1}},{\"id\":4,\"required\":0,\"img\":{\"h\":627,\"w\":1200,\"type\":3}},{\"id\":5,\"required\":0,\"data\":{\"type\":3}},{\"id\":6,\"required\":1,\"data\":{\"type\":2,\"len\":100}}],\"plcmtcnt\":1,\"seq\":0}",
+        "ver": "1"
+      },
+      "secure": 0
+    }
+  ],
+  "tmax": 105,
+  "user": {
+    "id": "qqVGsTNeC_sAMIUpQYA1T1qx9JQk7S2KPPaj6v9j6VvhdwgpQIwQSw"
+  }
+}

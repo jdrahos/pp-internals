@@ -1,0 +1,43 @@
+{
+  "id": "d8ec1ba5-bef7-4f49-bc96-d4f1911fa2ec",
+  "bidid": "d8ec1ba5-bef7-4f49-bc96-d4f1911fa2ec",
+  "cur": "USD",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "x3fxZifhjG2",
+          "impid": "1",
+          "price": 1.34,
+          "adid": "0",
+          "adomain": [
+            "wall street time"
+          ],
+          "cid": "0",
+          "crid": "0",
+          "nurl": "http://dsp-pixel.contextweb.com/rtb/empty",
+          "ext": {
+            "tracking": {
+              "imp": [
+                "http://dsp-pixel.contextweb.com/rtb/opn/ds/n?s=ds&b=H4sIAAAAAAAAAF1Sy27TQBS9tvMqpVGRWLCcRSVaCcd24ryoUJWWilRtSKEpZAOjiT2Jh9ged-I0bb6AJR_AjgWfwJLPgBXfwIY1-JWAuBqNZubeOfecowuQRu77zpfPcPAr-PTtzpMrgH0nDIPHmrZYLCoembCrOVtWLO5p8UEjgqq3fK4S1afCVieUTlUuVJuLqWZq8G9IALI9g4Ofqwfl8uIpwC65HvVFYHRv-mbLfTd7fnrinRzdhv2TuYXPhi-7Lzyns7xoTuSh9FaOQQwDYMc29KZdGzfUsW7WVbNlN9Q2HRkqqY-rbbOh61XDXH4Ufan7YZm2l2UZIN857L86ltOQpGjFG0Bh0Dk8Ox5IMvwXv6MAmPf4krku0eoVHe2yc2Lvo6PzS9S_QC2sI5dNKeoRK74P91AnCFz6mo5OWahFTCpGxUS7p91B7-xRWvqMWlO-h3p8xFyqGdVOrVFHgwULQyrQmAvEzh3u04yMDJIOUi3hCVJMSJLebD94_2Pj_ldpzfghbAnOPbyIrA9cYsFdL4JgmN4EVDAoebehw10-gXzyDltpAlNfMMuBnMvGFErr34WAu8xiUKC-Q3wLNmcB9W2c_i2nSWxxPyRWCPkkCcXVvZCB5mdONCCQn4hoLiBHPR5C6WpOZyHjPpSTLB4Ti444n0aogl2TCDZrLZMJlNbZoiUoCecClBo2YSNrhWugmLgOSh03IBcbAEoDN6HYxiknpYlboLRwGzZTJTgpKmS2bK9swSv4YsYiro9F4MSYciIBr00sxlpwRBBk1VjNM9xLFCHuozXtvwJSM_4AqoRRmmcDAAA%3D&w=${AUCTION_PRICE}&nu=http%3A%2F%2Fapi.bttrack.com%2Fwin%3Fts%3D1455102118761%26id%3D5cf1ce04-4b88-4519-bf44-e706543ac635%26cid%3D22485%26crid%3D364427%26pid%3D91178716%26data%3DOuJifVtEKZqw3BQ4aZ7tW7dSHosuEMn6973njZbzwE5cWAQx2m3sDw7Cnd-jhbWfOZfoZBguTxi6pCqNd-bIbQ0SfG1wvP4zHIgu9-2Mem6C0G3_vfGHkWS_S53Sq3NdKAagN7BuRtMQCR5lq1tnVHqUudKX9z9qtvIKLQiseA9aNzYsfiALUT3iZru6wqfcvxbx0%26iid%3D701b0d23-6bab-4128-9c6c-5f1100ce8dc5%26price%3D1.35%26reqid%3Dc0Ts8HJOetfr&ed=1",
+                "http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3Awm-R7tW7dSDswTIst1xCQTOwjAok6y7JjU9WWDn8x0J0IVgoLdx6YJ1turd0OIQ5aLCmvca5jcNlphV2yD_gxylOnC__KAkkrM2bp9SDmYXLHr7cEinMyEwPAYztUkMqNd3VNROui3jG_QRT2ZRf4l-LwLQD3D8aZJGPNUrs5GUW1Klow7sCpTFZ0068AegYfXf3NtjyOJu_Y_nHY9qMaIaTFsCbPp_mTnp7we8RCn4qHp9T28XmaAZOtDxkQrgZnmia1Jsd4_kjBW8SY2TCtjaHrcs1jq04b9CFoZ3OBHOYUbJxIH-KshORYb3nsE_FK-vCNNzU62q4pEyGgUXko4tiI1&type=img"
+              ],
+              "payableimp": []
+            },
+            "markup": {
+              "title": "The amazing history of Andy abrahams",
+              "click": "http://bttrack.com/Click/Native?data=OuJifVtEKZqw3Cw4Y_4tWrdTHovO3ql6HLz0901XU_iYn_LxdAO4EgdfEx_CaT16_NTXT9Nsh9ZzV7y_mq4mmh_ZagBKMr1TAt2mis12_1YXHXBJnycSW4CoQ3wNV6u6NNXs7TTxCO7DeLkAflLrnAoSUKdM7M9lc9m6d1r1IKbyNzrKrZzOnyqTkZoL1VQr4o56Xvp-7mnAJsToIAdVd6FyBCtFj1to4VwacKcYjhLLQyUFKnLjTPJmH4PUc51Dr5d088qgFOw8SfbO_f8niPajzwcNYN11ZLTpHFCR87isqoFy-JzAg2aR5vtEHA2",
+              "media": {
+                "src": "http://cdn.bttrack.com/a/280/1/3098875",
+                "type": 2
+              },
+              "icon": "http://cdn.bttrack.com/a/60/60/3098875",
+              "brandname": "Wall street time",
+              "description": "and how his life change completly"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

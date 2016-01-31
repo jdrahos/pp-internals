@@ -1,0 +1,102 @@
+{
+  "id": "2694950185249197460",
+  "imp": [
+    {
+      "id": "0",
+      "bidfloor": 0.100503,
+      "native": {
+        "request": "{\"native\":{\"layout\":4,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":70}},{\"id\":2,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":3,\"required\":1,\"img\":{\"type\":3,\"w\":300,\"h\":250,\"mimes\":[\"image/png\"]}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":30}}]}}"
+      }
+    },
+    {
+      "id": "1",
+      "bidfloor": 0.100503,
+      "native": {
+        "request": "{\"native\":{\"layout\":4,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":70}},{\"id\":2,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":3,\"required\":1,\"img\":{\"type\":3,\"w\":300,\"h\":250,\"mimes\":[\"image/png\"]}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":30}}]}}"
+      }
+    },
+    {
+      "id": "2",
+      "bidfloor": 0.100503,
+      "native": {
+        "request": "{\"native\":{\"layout\":4,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":70}},{\"id\":2,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":3,\"required\":1,\"img\":{\"type\":3,\"w\":300,\"h\":250,\"mimes\":[\"image/png\"]}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":30}}]}}"
+      }
+    },
+    {
+      "id": "3",
+      "bidfloor": 0.100503,
+      "native": {
+        "request": "{\"native\":{\"layout\":4,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":70}},{\"id\":2,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":3,\"required\":1,\"img\":{\"type\":3,\"w\":300,\"h\":250,\"mimes\":[\"image/png\"]}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":30}}]}}"
+      }
+    },
+    {
+      "id": "4",
+      "bidfloor": 0.100503,
+      "native": {
+        "request": "{\"native\":{\"layout\":4,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":70}},{\"id\":2,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":3,\"required\":1,\"img\":{\"type\":3,\"w\":300,\"h\":250,\"mimes\":[\"image/png\"]}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":30}}]}}"
+      }
+    },
+    {
+      "id": "5",
+      "bidfloor": 0.100503,
+      "native": {
+        "request": "{\"native\":{\"layout\":4,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":70}},{\"id\":2,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":3,\"required\":1,\"img\":{\"type\":3,\"w\":300,\"h\":250,\"mimes\":[\"image/png\"]}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":30}}]}}"
+      }
+    },
+    {
+      "id": "6",
+      "bidfloor": 0.100503,
+      "native": {
+        "request": "{\"native\":{\"layout\":4,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":70}},{\"id\":2,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":3,\"required\":1,\"img\":{\"type\":3,\"w\":300,\"h\":250,\"mimes\":[\"image/png\"]}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":30}}]}}"
+      }
+    },
+    {
+      "id": "7",
+      "bidfloor": 0.100503,
+      "native": {
+        "request": "{\"native\":{\"layout\":4,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":70}},{\"id\":2,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":3,\"required\":1,\"img\":{\"type\":3,\"w\":300,\"h\":250,\"mimes\":[\"image/png\"]}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":30}}]}}"
+      }
+    },
+    {
+      "id": "8",
+      "bidfloor": 0.100503,
+      "native": {
+        "request": "{\"native\":{\"layout\":4,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":70}},{\"id\":2,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":3,\"required\":1,\"img\":{\"type\":3,\"w\":300,\"h\":250,\"mimes\":[\"image/png\"]}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":30}}]}}"
+      }
+    },
+    {
+      "id": "9",
+      "bidfloor": 0.100503,
+      "native": {
+        "request": "{\"native\":{\"layout\":4,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":70}},{\"id\":2,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":3,\"required\":1,\"img\":{\"type\":3,\"w\":300,\"h\":250,\"mimes\":[\"image/png\"]}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":30}}]}}"
+      }
+    }
+  ],
+  "site": {
+    "id": "6787",
+    "domain": "zestvip.com",
+    "cat": [
+      "IAB3-1"
+    ],
+    "page": "http://www.zestvip.com/g/11-months-into-his-jail-sentence-reports-circulate-that-rapper-bobby-shmurda-is/3/?utm_source=red&utm_medium=shmurdajail&utm_content=inf&ipp=1&utm_campaign=gucci",
+    "publisher": {
+      "id": "16022"
+    }
+  },
+  "device": {
+    "ua": "Mozilla/5.0 (Linux; Android 5.1.1; SM-G925V Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/46.0.2490.76 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/58.0.0.28.70;]",
+    "ip": "108.52.70.157",
+    "geo": {
+      "country": "USA",
+      "region": "PA",
+      "city": "Philadelphia",
+      "zip": "19132",
+      "type": 2
+    }
+  },
+  "user": {
+    "id": "-1656343444",
+    "yob": 0
+  },
+  "at": 2
+}
