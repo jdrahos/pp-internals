@@ -242,4 +242,10 @@ public class ProxyServlet {
         return addStats("new-" + request.getMethod() + "[" + request.getRequestURI() + "]");
     }
 
+    @RequestMapping("/test")
+    @ResponseBody
+    public String test() {
+        return "Spring.test";
+    }
+
 }
