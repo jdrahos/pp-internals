@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PulsePoint" version="3">
+  <DEPS>
+    <ID name="PulsePoint" mc="PropertyContainer" uid="34185fa6-9d83-4255-992b-b4bfe8c9dce0"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="PulsePoint" mc="PropertyContainer" uid="34185fa6-9d83-4255-992b-b4bfe8c9dce0"/>
+    <PID name="PulsePoint" mc="AnalystProject" uid="68ad9c6d-840b-4c68-84ae-bcdeacf154ca"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[PulsePoint]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

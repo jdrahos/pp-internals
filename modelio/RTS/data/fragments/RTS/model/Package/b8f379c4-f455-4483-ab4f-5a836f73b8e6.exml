@@ -1,0 +1,166 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="rts" version="4">
+  <OBJECT>
+    <ID name="rts" mc="Standard.Package" uid="b8f379c4-f455-4483-ab4f-5a836f73b8e6"/>
+    <PID name="RTS" mc="Standard.Project" uid="7a334823-c2f0-4f30-aa96-47c1f403d0e3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[rts]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="2be480a9-bcd7-4481-befa-c9fea97e534f"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="OpenRTBRequest" mc="Standard.Class" uid="4f127680-6588-44a1-a80e-d5078460f00b"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="RTSImpressionFactory" mc="Standard.Class" uid="2e819f1c-f086-41b4-a4ea-93b65f9f9ae6"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="89190ed8-8f84-462c-8143-e4ae29913b67"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="RTSImpressionFactory" mc="Standard.Class" uid="2e819f1c-f086-41b4-a4ea-93b65f9f9ae6"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="RTSImpression" mc="Standard.Class" uid="079a8678-a43b-4c8d-aaa5-832dbf0b6965"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="4487780b-7856-401f-9886-adb9f06c75c0"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="ImpressionContext" mc="Standard.Class" uid="a5041a32-f232-44ea-a3a8-a4f3603f222a"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="RTSRequestProcessor" mc="Standard.Class" uid="fb3e9287-d59d-4fd4-8557-290ad60249ca"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="53a8d0ba-0e68-438c-a80f-6332e2fb0269"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="RTSRequestProcessor" mc="Standard.Class" uid="fb3e9287-d59d-4fd4-8557-290ad60249ca"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="BidResponse" mc="Standard.Class" uid="003c978d-53d4-4d11-a9ee-09b8ee8f910d"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="fdd9de5f-1814-4d7f-b850-5cbd0048d740"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="ImpressionContext" mc="Standard.Class" uid="a5041a32-f232-44ea-a3a8-a4f3603f222a"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="MPCRequestBuilder" mc="Standard.Class" uid="33d9e43a-f578-4ac4-872f-f87262e244bd"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="3df6e826-8b1e-4692-92fc-773e0ecf7a07"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="MPCRequestBuilder" mc="Standard.Class" uid="33d9e43a-f578-4ac4-872f-f87262e244bd"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="MpcBidRequest" mc="Standard.Class" uid="dec382ab-a7b3-4508-95fb-40bb42083480"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="3bed7f44-4781-4d81-9df2-cd8889e601b0"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="EDServiceRequest" mc="Standard.Class" uid="9d5d4e5c-100c-4222-a1d0-c2463b056c27"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="EDHandler" mc="Standard.Class" uid="e83455df-df04-4531-86bb-6ded986f419e"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="4bab9fe5-8f30-4d42-80ed-be81efc76701"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="EDHandler" mc="Standard.Class" uid="e83455df-df04-4531-86bb-6ded986f419e"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="EDBidResponse" mc="Standard.Class" uid="fd099c78-8946-44db-83aa-8ed7a7acfd3b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="RTSImpression" mc="Standard.Class" uid="079a8678-a43b-4c8d-aaa5-832dbf0b6965"/>
+        <COMPID name="OpenRTBRequest" mc="Standard.Class" uid="4f127680-6588-44a1-a80e-d5078460f00b"/>
+        <COMPID name="RTSImpressionFactory" mc="Standard.Class" uid="2e819f1c-f086-41b4-a4ea-93b65f9f9ae6"/>
+        <COMPID name="ImpressionContext" mc="Standard.Class" uid="a5041a32-f232-44ea-a3a8-a4f3603f222a"/>
+        <COMPID name="BidResponse" mc="Standard.Class" uid="003c978d-53d4-4d11-a9ee-09b8ee8f910d"/>
+        <COMPID name="RTSRequestProcessor" mc="Standard.Class" uid="fb3e9287-d59d-4fd4-8557-290ad60249ca"/>
+        <COMPID name="EventContext" mc="Standard.Class" uid="97ad50d1-721b-49af-8957-e81fb8fc5b78"/>
+        <COMPID name="TagResponseBody" mc="Standard.Class" uid="7df9a20f-674d-43a6-9617-15950a370c70"/>
+        <COMPID name="Cookie" mc="Standard.Class" uid="a661906f-7840-43e4-ab12-fc163a4c414d"/>
+        <COMPID name="LogEvent" mc="Standard.Class" uid="135bf5ae-9475-46e0-97b7-d16dcccb24bc"/>
+        <COMPID name="CreativeContext" mc="Standard.Class" uid="71004c7f-748c-4020-aeeb-dc3e1514cb1e"/>
+        <COMPID name="RequestEventHandler" mc="Standard.Class" uid="d5dea905-bf48-49d6-831e-4eabaf9b4317"/>
+        <COMPID name="ImpressionEvent" mc="Standard.Class" uid="cadb2eb4-95d6-4c65-a9bf-42c8be1b5bb9"/>
+        <COMPID name="EDBidResponse" mc="Standard.Class" uid="6e4fe462-39c1-4abd-966f-3fc87c048b1e"/>
+        <COMPID name="MPCRequestBuilder" mc="Standard.Class" uid="33d9e43a-f578-4ac4-872f-f87262e244bd"/>
+        <COMPID name="MpcBidRequest" mc="Standard.Class" uid="dec382ab-a7b3-4508-95fb-40bb42083480"/>
+        <COMPID name="EDServiceRequest" mc="Standard.Class" uid="9d5d4e5c-100c-4222-a1d0-c2463b056c27"/>
+        <COMPID name="EDBidResponse" mc="Standard.Class" uid="fd099c78-8946-44db-83aa-8ed7a7acfd3b"/>
+        <COMPID name="EDHandler" mc="Standard.Class" uid="e83455df-df04-4531-86bb-6ded986f419e"/>
+        <COMPID name="RTSBidRestlet" mc="Standard.Class" uid="579d8249-f19a-441f-a913-39a999c3519e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="0921948d-c892-453f-a721-890391bceda7"/>
+        <COMPID name="contexts" mc="Standard.ClassDiagram" uid="54c520ef-c372-4437-a808-60d2163bd196"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

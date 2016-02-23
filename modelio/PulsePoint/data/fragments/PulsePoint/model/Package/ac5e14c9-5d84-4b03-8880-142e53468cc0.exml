@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="asyncHttpClient" version="3">
+  <DEPS>
+    <ID name="asyncHttpClient" mc="Package" uid="ac5e14c9-5d84-4b03-8880-142e53468cc0"/>
+    <COMPID name="AbstractIOReactor" mc="Class" uid="dbb74f08-7a8a-4b41-acdf-28a66d102acc"/>
+    <COMPID name="IOEventDispatch" mc="Interface" uid="f08aee6c-25b5-4820-9143-541259b4b6b5"/>
+    <COMPID name="IOReactor" mc="Interface" uid="f237ecc9-f918-4429-b1b3-ab07eb8ab645"/>
+    <COMPID name="IOSession" mc="Interface" uid="99f21dde-a3b3-48af-95e9-b7b856188efb"/>
+    <COMPID name="IOSessionImpl" mc="Class" uid="6237a7c7-664b-4f14-9ad9-463b18237444"/>
+    <COMPID name="Selector" mc="Class" uid="6d07dffc-7633-40f9-b2e6-7704244a73a9"/>
+    <COMPID name="asyncHttpClient Class diagram" mc="ClassDiagram" uid="d4933c14-34f5-4e7c-b23f-1c19f4cc97f5"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="asyncHttpClient" mc="Package" uid="ac5e14c9-5d84-4b03-8880-142e53468cc0"/>
+    <PID name="apache" mc="Package" uid="faf8e5c0-442a-48ef-95f6-d0c1a90c57dd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[asyncHttpClient]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AbstractIOReactor" mc="Class" uid="dbb74f08-7a8a-4b41-acdf-28a66d102acc"/>
+        <COMPID name="Selector" mc="Class" uid="6d07dffc-7633-40f9-b2e6-7704244a73a9"/>
+        <COMPID name="IOSessionImpl" mc="Class" uid="6237a7c7-664b-4f14-9ad9-463b18237444"/>
+        <COMPID name="IOReactor" mc="Interface" uid="f237ecc9-f918-4429-b1b3-ab07eb8ab645"/>
+        <COMPID name="IOEventDispatch" mc="Interface" uid="f08aee6c-25b5-4820-9143-541259b4b6b5"/>
+        <COMPID name="IOSession" mc="Interface" uid="99f21dde-a3b3-48af-95e9-b7b856188efb"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="asyncHttpClient Class diagram" mc="ClassDiagram" uid="d4933c14-34f5-4e7c-b23f-1c19f4cc97f5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

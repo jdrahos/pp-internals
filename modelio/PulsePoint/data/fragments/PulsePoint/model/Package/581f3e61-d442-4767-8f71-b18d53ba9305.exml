@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GetIntent" version="3">
+  <DEPS>
+    <ID name="GetIntent" mc="Package" uid="581f3e61-d442-4767-8f71-b18d53ba9305"/>
+    <COMPID name="ActionRule" mc="Class" uid="bc1d2a30-e941-43a0-ad34-7bbc68f42432"/>
+    <COMPID name="ActionRulesRepository" mc="Class" uid="3a840b56-23f3-425d-a9b5-b81e76985f90"/>
+    <COMPID name="Ad" mc="Class" uid="ab56d414-48f4-4c99-88c8-9e55bacbe0d8"/>
+    <COMPID name="AdChoosingStrategy" mc="Class" uid="f6a7bcd5-72ce-410a-9e7d-cc403ff5fc98"/>
+    <COMPID name="AdDataRepository" mc="Class" uid="7c704c5e-147f-4eb4-b68e-4954467bd73a"/>
+    <COMPID name="BidRequestEvent" mc="Class" uid="9ebd500b-d836-4e93-9d31-b71a0bc0abde"/>
+    <COMPID name="BidResponseEvent" mc="Class" uid="6f435f86-b20e-4f06-88bc-eac8e19cde3f"/>
+    <COMPID name="BiddableAd" mc="Class" uid="0291b0c3-d53d-4b58-9933-5241ab69d8b9"/>
+    <COMPID name="Campaign" mc="Class" uid="9cea7dce-6daf-4ac6-b187-6e1801ee19cd"/>
+    <COMPID name="CampaignPricing" mc="Class" uid="d5c5d467-71d4-42b8-9a78-26c313841166"/>
+    <COMPID name="Creative" mc="Class" uid="61df809a-6078-42b3-988f-cb4b17b3ec83"/>
+    <COMPID name="CreativeRenderRegistry" mc="Class" uid="60c64656-778e-443e-87d8-94c636d68fb6"/>
+    <COMPID name="CreativeRenderer" mc="Class" uid="df408e99-319e-4830-9fa6-85a51b1360e6"/>
+    <COMPID name="DecisionContext" mc="Class" uid="cea3ea7b-3122-49ed-9013-b16e97885c03"/>
+    <COMPID name="DecisionServiceTemplate" mc="Class" uid="061c5505-0ec1-40f1-8b13-16e346b84199"/>
+    <COMPID name="EDBidResponseCache" mc="Class" uid="53591b5d-70b2-4a29-a860-80cc9b9f2633"/>
+    <COMPID name="EDRequestHandler" mc="Class" uid="948b29f9-f818-499d-b040-8f9388102f6c"/>
+    <COMPID name="EnrichmentService" mc="Class" uid="db5c396c-216f-425a-bfcb-958d40b0a529"/>
+    <COMPID name="External" mc="Interaction" uid="06273ab8-b088-4315-9a87-439803f5146c"/>
+    <COMPID name="GeoService" mc="Class" uid="c876fcd1-bfd5-428b-95c3-f849c8cdcc34"/>
+    <COMPID name="GetIntent" mc="ClassDiagram" uid="3296561d-b9f1-4a11-9d15-65de0d7888dd"/>
+    <COMPID name="Interaction" mc="Interaction" uid="818ab66e-c8cd-4645-aa39-05b952d5fcb4"/>
+    <COMPID name="LearningBudgetSettings" mc="Class" uid="85e0c961-4e90-4f06-9410-d170a13a3ea2"/>
+    <COMPID name="LogService" mc="Interface" uid="24c3bde5-c5df-48bf-a01a-4bd49991668f"/>
+    <COMPID name="Notification" mc="Interaction" uid="2d97fa61-98b6-4fe8-b932-10721732ef50"/>
+    <COMPID name="OpenRTBDriver" mc="Class" uid="875f7160-ca3b-4d95-97fc-71e57cd2abb5"/>
+    <COMPID name="PredictionService" mc="Class" uid="fd6d5ab5-9354-4884-a3ca-ed30149a6862"/>
+    <COMPID name="RTBWebService" mc="Class" uid="8234b58e-41b6-4be3-a369-66c144d9521b"/>
+    <COMPID name="TargetingPredicateContext" mc="Class" uid="dc6bd65a-eaaf-4f1c-b521-562e05f388dd"/>
+    <COMPID name="UserStorage" mc="Class" uid="75dbf4aa-770d-499f-a424-0a0a6fdda800"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="GetIntent" mc="Package" uid="581f3e61-d442-4767-8f71-b18d53ba9305"/>
+    <PID name="pulsepoint" mc="Package" uid="5026d1d0-7dbe-4906-9036-b11a72482018"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[GetIntent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Interaction" uid="818ab66e-c8cd-4645-aa39-05b952d5fcb4"/>
+        <COMPID name="External" mc="Interaction" uid="06273ab8-b088-4315-9a87-439803f5146c"/>
+        <COMPID name="Notification" mc="Interaction" uid="2d97fa61-98b6-4fe8-b932-10721732ef50"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="RTBWebService" mc="Class" uid="8234b58e-41b6-4be3-a369-66c144d9521b"/>
+        <COMPID name="OpenRTBDriver" mc="Class" uid="875f7160-ca3b-4d95-97fc-71e57cd2abb5"/>
+        <COMPID name="BidRequestEvent" mc="Class" uid="9ebd500b-d836-4e93-9d31-b71a0bc0abde"/>
+        <COMPID name="BidResponseEvent" mc="Class" uid="6f435f86-b20e-4f06-88bc-eac8e19cde3f"/>
+        <COMPID name="EnrichmentService" mc="Class" uid="db5c396c-216f-425a-bfcb-958d40b0a529"/>
+        <COMPID name="UserStorage" mc="Class" uid="75dbf4aa-770d-499f-a424-0a0a6fdda800"/>
+        <COMPID name="GeoService" mc="Class" uid="c876fcd1-bfd5-428b-95c3-f849c8cdcc34"/>
+        <COMPID name="DecisionServiceTemplate" mc="Class" uid="061c5505-0ec1-40f1-8b13-16e346b84199"/>
+        <COMPID name="DecisionContext" mc="Class" uid="cea3ea7b-3122-49ed-9013-b16e97885c03"/>
+        <COMPID name="AdDataRepository" mc="Class" uid="7c704c5e-147f-4eb4-b68e-4954467bd73a"/>
+        <COMPID name="Campaign" mc="Class" uid="9cea7dce-6daf-4ac6-b187-6e1801ee19cd"/>
+        <COMPID name="Creative" mc="Class" uid="61df809a-6078-42b3-988f-cb4b17b3ec83"/>
+        <COMPID name="CreativeRenderRegistry" mc="Class" uid="60c64656-778e-443e-87d8-94c636d68fb6"/>
+        <COMPID name="CreativeRenderer" mc="Class" uid="df408e99-319e-4830-9fa6-85a51b1360e6"/>
+        <COMPID name="ActionRulesRepository" mc="Class" uid="3a840b56-23f3-425d-a9b5-b81e76985f90"/>
+        <COMPID name="ActionRule" mc="Class" uid="bc1d2a30-e941-43a0-ad34-7bbc68f42432"/>
+        <COMPID name="CampaignPricing" mc="Class" uid="d5c5d467-71d4-42b8-9a78-26c313841166"/>
+        <COMPID name="LearningBudgetSettings" mc="Class" uid="85e0c961-4e90-4f06-9410-d170a13a3ea2"/>
+        <COMPID name="BiddableAd" mc="Class" uid="0291b0c3-d53d-4b58-9933-5241ab69d8b9"/>
+        <COMPID name="Ad" mc="Class" uid="ab56d414-48f4-4c99-88c8-9e55bacbe0d8"/>
+        <COMPID name="TargetingPredicateContext" mc="Class" uid="dc6bd65a-eaaf-4f1c-b521-562e05f388dd"/>
+        <COMPID name="AdChoosingStrategy" mc="Class" uid="f6a7bcd5-72ce-410a-9e7d-cc403ff5fc98"/>
+        <COMPID name="EDRequestHandler" mc="Class" uid="948b29f9-f818-499d-b040-8f9388102f6c"/>
+        <COMPID name="EDBidResponseCache" mc="Class" uid="53591b5d-70b2-4a29-a860-80cc9b9f2633"/>
+        <COMPID name="PredictionService" mc="Class" uid="fd6d5ab5-9354-4884-a3ca-ed30149a6862"/>
+        <COMPID name="LogService" mc="Interface" uid="24c3bde5-c5df-48bf-a01a-4bd49991668f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="GetIntent" mc="ClassDiagram" uid="3296561d-b9f1-4a11-9d15-65de0d7888dd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

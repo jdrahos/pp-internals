@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DataRepository" version="3">
+  <DEPS>
+    <ID name="DataRepository" mc="Interface" uid="134431d5-2573-43e7-af78-3408457f18b6"/>
+    <EXTID name="DataRepositoryObject" mc="Interface" uid="f7893010-59db-45f8-a27c-90d6e979cba5"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DataRepository" mc="Interface" uid="134431d5-2573-43e7-af78-3408457f18b6"/>
+    <PID name="DataSource" mc="Package" uid="f00d9094-11fe-44bb-84eb-73ae7dadfb90"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DataRepository]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="getElement" mc="Operation" uid="3cfd4e97-59a5-4437-abd8-7f37b64f0c4e"/>
+          <PID name="DataRepository" mc="Interface" uid="134431d5-2573-43e7-af78-3408457f18b6"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[getElement]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="getRawData" mc="Operation" uid="7988c5b6-4d5c-4ddc-865b-bd63bda52a78"/>
+          <PID name="DataRepository" mc="Interface" uid="134431d5-2573-43e7-af78-3408457f18b6"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[getRawData]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="getMetadata" mc="Operation" uid="69445644-1b93-46c9-acbb-5672c9775e6e"/>
+          <PID name="DataRepository" mc="Interface" uid="134431d5-2573-43e7-af78-3408457f18b6"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[getMetadata]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="01993266-5525-48f3-aee5-951aed029167"/>
+          <PID name="DataRepository" mc="Interface" uid="134431d5-2573-43e7-af78-3408457f18b6"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="DataRepositoryObject" mc="Interface" uid="f7893010-59db-45f8-a27c-90d6e979cba5"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

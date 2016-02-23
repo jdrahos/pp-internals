@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RTS" version="4">
+  <OBJECT>
+    <ID name="RTS" mc="Standard.DiagramSet" uid="c52cb48e-ee21-492f-a49e-278a62b7ecec"/>
+    <PID name="RTS" mc="Standard.Project" uid="7a334823-c2f0-4f30-aa96-47c1f403d0e3"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[RTS]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

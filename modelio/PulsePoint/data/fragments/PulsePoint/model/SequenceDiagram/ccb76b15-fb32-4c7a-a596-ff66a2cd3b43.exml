@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Notification" version="3">
+  <DEPS>
+    <ID name="Notification" mc="SequenceDiagram" uid="ccb76b15-fb32-4c7a-a596-ff66a2cd3b43"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Notification" mc="SequenceDiagram" uid="ccb76b15-fb32-4c7a-a596-ff66a2cd3b43"/>
+    <PID name="Notification" mc="Interaction" uid="2d97fa61-98b6-4fe8-b932-10721732ef50"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">6</ATT>
+      <ATT name="UiData"><![CDATA[eJztU1FPIjEQ/itN3ykKiLlkxShriHEPDNxd4pOZbWex2m2x7Sr77+0KeIJhs5cY78WnNtP5vplv+k10uswVeULrpNEn9JAdUHI6iCbpPXJPpAghSny5wBNq7JzlRqCShgkJcws5QyG9sczhY4GaI0OFOWrv3iKbxFE+W0fiVYSSHO6NvX0rfUAH0bU1C7S+JBryUFFBaQofg4fw9gdUgetWdKEUbQ+i9gbwATrzpUK6JaRTJ8RV+Y5xY5GtsA36G4LjIFBsil0s/RSzhlXGgWKNJLj0cXoZeny9VheBGRTK74hsr+TUCbeowKMIfezM7GcVIk9VJIxn+zMI5+lxPz08amVpt9Pq8WNowdGPfivL+n3ocNFNe936gStw/kqbZ51Aimqn9sxbqed0MDZeZpKDDxON2q8ZtVqMwks9NPnCOFlh9tA2oBreSSUsVgyJdNUE18deRCL1g2uefj6PLTyHdhIo0W47r1u7QpuVESu8Y6piCBuzRfg16/JvqP/lNSn2GCEeseTs5mJ6e342vBpNJ7/H8ed4o8Hivf+tv75554Letwu+2AW/Jtef/f17n14AezeL0Q==]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Notification]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

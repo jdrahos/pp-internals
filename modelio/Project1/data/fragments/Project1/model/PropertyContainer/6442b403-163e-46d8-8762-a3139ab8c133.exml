@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Project1" version="3">
+  <DEPS>
+    <ID name="Project1" mc="PropertyContainer" uid="6442b403-163e-46d8-8762-a3139ab8c133"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Project1" mc="PropertyContainer" uid="6442b403-163e-46d8-8762-a3139ab8c133"/>
+    <PID name="Project1" mc="AnalystProject" uid="c9eabb02-b735-4d8d-a9db-50eb0fb77050"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Project1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

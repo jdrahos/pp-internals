@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DataSource" version="3">
+  <DEPS>
+    <ID name="DataSource" mc="Package" uid="f00d9094-11fe-44bb-84eb-73ae7dadfb90"/>
+    <COMPID name="BaseMapFactory" mc="Class" uid="d7055973-75e5-47bf-a571-1a2d9b747397"/>
+    <COMPID name="BaseRepositoryFactory" mc="Class" uid="daf7e383-a887-4f10-b38e-a7542f97866a"/>
+    <COMPID name="DataRepository" mc="Interface" uid="134431d5-2573-43e7-af78-3408457f18b6"/>
+    <COMPID name="DataRepositoryContext" mc="Class" uid="83f0bbb9-b8fd-4f63-b1b2-ada5916dc0ee"/>
+    <COMPID name="DataRepositoryFactory" mc="Interface" uid="8c9c867a-cb8a-4729-8b59-6d3fc6c95ca3"/>
+    <COMPID name="DataRepositoryFactoryImpl" mc="Class" uid="af4bec64-8860-4a35-a8c0-69ead9674499"/>
+    <COMPID name="DataRepositoryObject" mc="Interface" uid="f7893010-59db-45f8-a27c-90d6e979cba5"/>
+    <COMPID name="DataServiceRepositorySource" mc="Class" uid="2b324828-084d-41d7-bb11-e949181153a4"/>
+    <COMPID name="DataServiceRepositorySourceSettings" mc="Class" uid="b2fb0b41-ca60-45b0-af7c-dce16c140fa1"/>
+    <COMPID name="DataSource" mc="ClassDiagram" uid="23aff2e5-7829-48b1-9975-b908b852323f"/>
+    <COMPID name="DynamicReference" mc="Interface" uid="94dd4b50-e9c9-47a5-98f6-01c2eeb4bd6f"/>
+    <COMPID name="InputStream" mc="Class" uid="b831c6e9-e72b-48ce-a5b3-9666db6926f0"/>
+    <COMPID name="RepositoryDefinition" mc="Class" uid="4460ee88-0019-4bc6-830d-c9662b45623b"/>
+    <COMPID name="RepositoryDefinitionFactory" mc="Interface" uid="13d72281-998c-4939-b7eb-bf1a3230b7ed"/>
+    <COMPID name="RepositoryManager" mc="Class" uid="e1296967-70da-4ca8-9016-bcd5ef327488"/>
+    <COMPID name="RepositorySource" mc="Interface" uid="d4e0d128-47e1-42d1-ad90-0b12548d4dac"/>
+    <COMPID name="RepositoryStream" mc="Class" uid="2c584758-bece-47df-891a-4499c32042f0"/>
+    <COMPID name="String" mc="Class" uid="508f8a6b-08bc-46c5-86cf-8361c3b1775e"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DataSource" mc="Package" uid="f00d9094-11fe-44bb-84eb-73ae7dadfb90"/>
+    <PID name="pulsepoint" mc="Package" uid="5026d1d0-7dbe-4906-9036-b11a72482018"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DataSource]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DataRepositoryFactory" mc="Interface" uid="8c9c867a-cb8a-4729-8b59-6d3fc6c95ca3"/>
+        <COMPID name="DataRepository" mc="Interface" uid="134431d5-2573-43e7-af78-3408457f18b6"/>
+        <COMPID name="RepositoryDefinitionFactory" mc="Interface" uid="13d72281-998c-4939-b7eb-bf1a3230b7ed"/>
+        <COMPID name="RepositorySource" mc="Interface" uid="d4e0d128-47e1-42d1-ad90-0b12548d4dac"/>
+        <COMPID name="DynamicReference" mc="Interface" uid="94dd4b50-e9c9-47a5-98f6-01c2eeb4bd6f"/>
+        <COMPID name="DataRepositoryObject" mc="Interface" uid="f7893010-59db-45f8-a27c-90d6e979cba5"/>
+        <COMPID name="DataServiceRepositorySource" mc="Class" uid="2b324828-084d-41d7-bb11-e949181153a4"/>
+        <COMPID name="DataServiceRepositorySourceSettings" mc="Class" uid="b2fb0b41-ca60-45b0-af7c-dce16c140fa1"/>
+        <COMPID name="RepositoryStream" mc="Class" uid="2c584758-bece-47df-891a-4499c32042f0"/>
+        <COMPID name="DataRepositoryFactoryImpl" mc="Class" uid="af4bec64-8860-4a35-a8c0-69ead9674499"/>
+        <COMPID name="InputStream" mc="Class" uid="b831c6e9-e72b-48ce-a5b3-9666db6926f0"/>
+        <COMPID name="RepositoryDefinition" mc="Class" uid="4460ee88-0019-4bc6-830d-c9662b45623b"/>
+        <COMPID name="RepositoryManager" mc="Class" uid="e1296967-70da-4ca8-9016-bcd5ef327488"/>
+        <COMPID name="DataRepositoryContext" mc="Class" uid="83f0bbb9-b8fd-4f63-b1b2-ada5916dc0ee"/>
+        <COMPID name="String" mc="Class" uid="508f8a6b-08bc-46c5-86cf-8361c3b1775e"/>
+        <COMPID name="BaseRepositoryFactory" mc="Class" uid="daf7e383-a887-4f10-b38e-a7542f97866a"/>
+        <COMPID name="BaseMapFactory" mc="Class" uid="d7055973-75e5-47bf-a571-1a2d9b747397"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DataSource" mc="ClassDiagram" uid="23aff2e5-7829-48b1-9975-b908b852323f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

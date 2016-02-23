@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="IOReactor" version="3">
+  <DEPS>
+    <ID name="IOReactor" mc="Interface" uid="f237ecc9-f918-4429-b1b3-ab07eb8ab645"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="IOReactor" mc="Interface" uid="f237ecc9-f918-4429-b1b3-ab07eb8ab645"/>
+    <PID name="asyncHttpClient" mc="Package" uid="ac5e14c9-5d84-4b03-8880-142e53468cc0"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[IOReactor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

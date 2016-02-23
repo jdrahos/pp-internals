@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RepositorySource" version="3">
+  <DEPS>
+    <ID name="RepositorySource" mc="Interface" uid="d4e0d128-47e1-42d1-ad90-0b12548d4dac"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="RepositorySource" mc="Interface" uid="d4e0d128-47e1-42d1-ad90-0b12548d4dac"/>
+    <PID name="DataSource" mc="Package" uid="f00d9094-11fe-44bb-84eb-73ae7dadfb90"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RepositorySource]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

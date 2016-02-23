@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="apache" version="3">
+  <DEPS>
+    <ID name="apache" mc="Package" uid="faf8e5c0-442a-48ef-95f6-d0c1a90c57dd"/>
+    <COMPID name="asyncHttpClient" mc="Package" uid="ac5e14c9-5d84-4b03-8880-142e53468cc0"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="apache" mc="Package" uid="faf8e5c0-442a-48ef-95f6-d0c1a90c57dd"/>
+    <PID name="pulsepoint" mc="Package" uid="5026d1d0-7dbe-4906-9036-b11a72482018"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[apache]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="asyncHttpClient" mc="Package" uid="ac5e14c9-5d84-4b03-8880-142e53468cc0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

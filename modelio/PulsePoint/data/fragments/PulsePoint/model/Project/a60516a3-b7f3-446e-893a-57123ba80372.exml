@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PulsePoint" version="3">
+  <DEPS>
+    <ID name="PulsePoint" mc="Project" uid="a60516a3-b7f3-446e-893a-57123ba80372"/>
+    <COMPID name="PulsePoint" mc="DiagramSet" uid="b9c5c14b-c091-492a-b1d4-5336080f91a6"/>
+    <COMPID name="pulsepoint" mc="Package" uid="5026d1d0-7dbe-4906-9036-b11a72482018"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="PulsePoint" mc="Project" uid="a60516a3-b7f3-446e-893a-57123ba80372"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[PulsePoint]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="PulsePoint" mc="DiagramSet" uid="b9c5c14b-c091-492a-b1d4-5336080f91a6"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="pulsepoint" mc="Package" uid="5026d1d0-7dbe-4906-9036-b11a72482018"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RTS" version="4">
+  <OBJECT>
+    <ID name="RTS" mc="Standard.AnalystProject" uid="3f33d066-ad25-493f-ba00-f48896c9515e"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[RTS]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="RTS" mc="Standard.PropertyContainer" uid="a7ac47fd-b9bb-45a8-9c20-6934d4938579"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

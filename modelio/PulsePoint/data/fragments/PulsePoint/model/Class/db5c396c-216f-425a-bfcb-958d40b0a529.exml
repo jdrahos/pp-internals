@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EnrichmentService" version="3">
+  <DEPS>
+    <ID name="EnrichmentService" mc="Class" uid="db5c396c-216f-425a-bfcb-958d40b0a529"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="EnrichmentService" mc="Class" uid="db5c396c-216f-425a-bfcb-958d40b0a529"/>
+    <PID name="GetIntent" mc="Package" uid="581f3e61-d442-4767-8f71-b18d53ba9305"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[EnrichmentService]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="enrich" mc="Operation" uid="7bb36282-cc2b-4bf9-b4fc-fecdef62c0a6"/>
+          <PID name="EnrichmentService" mc="Class" uid="db5c396c-216f-425a-bfcb-958d40b0a529"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[enrich]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

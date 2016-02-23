@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RepositoryManager" version="3">
+  <DEPS>
+    <ID name="RepositoryManager" mc="Class" uid="e1296967-70da-4ca8-9016-bcd5ef327488"/>
+    <EXTID name="RepositoryDefinition" mc="Class" uid="4460ee88-0019-4bc6-830d-c9662b45623b"/>
+    <EXTID name="String" mc="Class" uid="508f8a6b-08bc-46c5-86cf-8361c3b1775e"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="RepositoryManager" mc="Class" uid="e1296967-70da-4ca8-9016-bcd5ef327488"/>
+    <PID name="DataSource" mc="Package" uid="f00d9094-11fe-44bb-84eb-73ae7dadfb90"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RepositoryManager]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="setRepositoryFactories" mc="Operation" uid="9a4c9ec9-5973-4232-b7ec-cd146bced705"/>
+          <PID name="RepositoryManager" mc="Class" uid="e1296967-70da-4ca8-9016-bcd5ef327488"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[setRepositoryFactories]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="7bbdc204-2b0e-4763-9ac4-bb205b622529"/>
+                <PID name="RepositoryManager" mc="Class" uid="e1296967-70da-4ca8-9016-bcd5ef327488"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="createRepository" mc="Operation" uid="5607d974-01a1-4242-a199-711da2682ded"/>
+          <PID name="RepositoryManager" mc="Class" uid="e1296967-70da-4ca8-9016-bcd5ef327488"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[createRepository]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="update" mc="Operation" uid="dd3c712f-6001-43e0-9d13-0354f7caedd9"/>
+          <PID name="RepositoryManager" mc="Class" uid="e1296967-70da-4ca8-9016-bcd5ef327488"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[update]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedNaryEnd">
+        <OBJECT>
+          <ID name="" mc="NaryAssociationEnd" uid="e663c1a2-2dbe-4c1a-b2d4-56bc37e2361f"/>
+          <PID name="RepositoryManager" mc="Class" uid="e1296967-70da-4ca8-9016-bcd5ef327488"/>
+          <ATTRIBUTES>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="NaryAssociation">
+              <OBJECT>
+                <ID name="" mc="NaryAssociation" uid="3f5a7996-2881-43e6-88c2-f15ab0bcbab8"/>
+                <PID name="RepositoryManager" mc="Class" uid="e1296967-70da-4ca8-9016-bcd5ef327488"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryEnd">
+                    <COMPID name="" mc="NaryAssociationEnd" uid="e663c1a2-2dbe-4c1a-b2d4-56bc37e2361f"/>
+                    <REFOBJ>
+                      <ID name="" mc="NaryAssociationEnd" uid="17a9f8a2-2ba8-4740-8779-79ef590abd14"/>
+                      <PID name="RepositoryDefinition" mc="Class" uid="4460ee88-0019-4bc6-830d-c9662b45623b"/>
+                    </REFOBJ>
+                    <REFOBJ>
+                      <ID name="" mc="NaryAssociationEnd" uid="106840da-5852-4b82-b597-c7731f3cce78"/>
+                      <PID name="RepositoryDefinition" mc="Class" uid="4460ee88-0019-4bc6-830d-c9662b45623b"/>
+                    </REFOBJ>
+                    <REFOBJ>
+                      <ID name="" mc="NaryAssociationEnd" uid="6dc19db9-b3c8-4768-8095-1cc7742952ef"/>
+                      <PID name="RepositoryDefinition" mc="Class" uid="4460ee88-0019-4bc6-830d-c9662b45623b"/>
+                    </REFOBJ>
+                  </COMP>
+                  <COMP relation="LinkToClass">
+                    <OBJECT>
+                      <ID name="ClassAssociation" mc="ClassAssociation" uid="98eb64e6-ed00-4be7-8741-0ce38c6625cc"/>
+                      <PID name="RepositoryManager" mc="Class" uid="e1296967-70da-4ca8-9016-bcd5ef327488"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[ClassAssociation]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="ClassPart">
+                          <ID name="String" mc="Class" uid="508f8a6b-08bc-46c5-86cf-8361c3b1775e"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="pulsepoint" version="3">
+  <DEPS>
+    <ID name="pulsepoint" mc="Package" uid="5026d1d0-7dbe-4906-9036-b11a72482018"/>
+    <COMPID name="DataSource" mc="Package" uid="f00d9094-11fe-44bb-84eb-73ae7dadfb90"/>
+    <COMPID name="GetIntent" mc="Package" uid="581f3e61-d442-4767-8f71-b18d53ba9305"/>
+    <COMPID name="apache" mc="Package" uid="faf8e5c0-442a-48ef-95f6-d0c1a90c57dd"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="pulsepoint" mc="Package" uid="5026d1d0-7dbe-4906-9036-b11a72482018"/>
+    <PID name="PulsePoint" mc="Project" uid="a60516a3-b7f3-446e-893a-57123ba80372"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[pulsepoint]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="GetIntent" mc="Package" uid="581f3e61-d442-4767-8f71-b18d53ba9305"/>
+        <COMPID name="DataSource" mc="Package" uid="f00d9094-11fe-44bb-84eb-73ae7dadfb90"/>
+        <COMPID name="apache" mc="Package" uid="faf8e5c0-442a-48ef-95f6-d0c1a90c57dd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
