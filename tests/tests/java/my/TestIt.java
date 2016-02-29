@@ -2,6 +2,7 @@ package my;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.POJONode;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -49,6 +50,94 @@ public class TestIt {
 
         public void setAaa(Object aaa) {
             this.aaa = aaa;
+        }
+    }
+
+
+    //
+    // Convert Map to POJO
+    //
+
+    public static class POJO2 {
+        private String name;
+        private Integer version;
+        private POJOI internal;
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public Integer getVersion() {
+            return version;
+        }
+
+        public void setVersion(Integer version) {
+            this.version = version;
+        }
+
+        public POJOI getInternal() {
+            return internal;
+        }
+
+        public void setInternal(POJOI internal) {
+            this.internal = internal;
+        }
+
+        @Override
+        public String toString() {
+            return new ToStringBuilder(this)
+                    .append("name", name)
+                    .append("version", version)
+                    .append("internal", internal)
+                    .toString();
+        }
+    }
+
+    public static class POJOI {
+        private String internal;
+
+        public String getInternal() {
+            return internal;
+        }
+
+        public void setInternal(String internal) {
+            this.internal = internal;
+        }
+
+        @Override
+        public String toString() {
+            return new ToStringBuilder(this)
+                    .append("internal", internal)
+                    .toString();
+        }
+    }
+
+    @Test
+    public void testConvert() throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        {
+            Object src = objectMapper.readValue("{\"name\": \"aaa\"}", Object.class);
+            POJO2 pojo2 = objectMapper.convertValue(src, POJO2.class);
+            System.out.println("pojo2:" + pojo2);
+            System.out.println("pojo2:" + objectMapper.convertValue(pojo2, Object.class));
+        }
+
+        {
+            Object src = objectMapper.readValue("{\"name\": \"aaa\", \"version\":\"1\", \"internal\":{}}", Object.class);
+            POJO2 pojo2 = objectMapper.convertValue(src, POJO2.class);
+            System.out.println("pojo2:" + pojo2);
+            System.out.println("pojo2:" + objectMapper.convertValue(pojo2, Object.class));
+        }
+
+        {
+            Object src = objectMapper.readValue("{\"name\": \"aaa\", \"version\":\"1\", \"internal\":{\"internal\":\"bbb\"}}", Object.class);
+            POJO2 pojo2 = objectMapper.convertValue(src, POJO2.class);
+            System.out.println("pojo2:" + pojo2);
+            System.out.println("pojo2:" + objectMapper.convertValue(pojo2, Object.class));
         }
     }
 }

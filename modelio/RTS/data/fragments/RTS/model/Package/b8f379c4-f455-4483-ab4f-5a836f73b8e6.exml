@@ -156,9 +156,10 @@
         <COMPID name="EDBidResponse" mc="Standard.Class" uid="fd099c78-8946-44db-83aa-8ed7a7acfd3b"/>
         <COMPID name="EDHandler" mc="Standard.Class" uid="e83455df-df04-4531-86bb-6ded986f419e"/>
         <COMPID name="RTSBidRestlet" mc="Standard.Class" uid="579d8249-f19a-441f-a913-39a999c3519e"/>
+        <COMPID name="conversion-in" mc="Standard.Package" uid="3d0c3145-d96e-416d-9b93-bf5cab079616"/>
+        <COMPID name="conversion-out" mc="Standard.Package" uid="aa05669f-48b5-49f1-bfbc-2470f2e1fa17"/>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="0921948d-c892-453f-a721-890391bceda7"/>
         <COMPID name="contexts" mc="Standard.ClassDiagram" uid="54c520ef-c372-4437-a808-60d2163bd196"/>
       </COMP>
     </DEPENDENCIES>

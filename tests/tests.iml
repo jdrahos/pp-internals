@@ -12,5 +12,6 @@
     <orderEntry type="library" name="junit:junit:4.12" level="application" />
     <orderEntry type="library" name="org.apache.logging.log4j:log4j-core:2.5" level="application" />
     <orderEntry type="library" name="com.fasterxml.jackson.core:jackson-databind:2.5.3" level="application" />
+    <orderEntry type="library" name="org.apache.commons:commons-lang3:3.4" level="application" />
   </component>
 </module>
