@@ -1,0 +1,2 @@
+creativeid	iconimageurl	iconimagewidth	iconimageheight	logoimageurl	logoimagewidth	logoimageheight	mainimageurl	mainimagewidth	mainimageheight	title	sponsoredtext	productdescription
+91646	http://projects.contextweb.com/av/logo.png	60	60				http://projects.contextweb.com/av/main.png	200	300	PulsePoint Inc	Sponsored	We help brands engage the right consumers at scale by fusing the science of programmatic distribution with the art of content marketing.

@@ -1,0 +1,2678 @@
+[
+	{
+		"request": {
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"eligibleSeats": [],
+			"encryptedVguid": "JUO82WQxAEkSVOas_bJruQ",
+			"buyerContext": {
+				"request": {
+					"askPrice": 0,
+					"sspBidFloor": 0,
+					"performancePrice": 0,
+					"altTagId": 0,
+					"bhTokens": "",
+					"retargetingCategoryIds": "",
+					"retargetingLanguageIds": "",
+					"adTagId": -1,
+					"adTagGroupId": -1,
+					"publisherId": 558620,
+					"tagSizeId": 18,
+					"contextualInfo": {
+						"channelIds": [
+							25,
+							315,
+							0
+						],
+						"contextualized": true
+					},
+					"imprGuid": "1rzV03vzihmw",
+					"visitorGuid": "1685kE1weOoy",
+					"pageUrl": "http://sportsfascination.com/2015/09/21/look-back-at-the-2015-golf-season-video/?utm_source=ENC&utm_campaign=ENC&enc=mar16b",
+					"pageLanguageISOCode": "US",
+					"ipAddress": "66.115.72.160",
+					"adReqSourceType": "UNKNOWN",
+					"inventoryType": "SITE",
+					"piggybackCookies": "",
+					"geoData": {
+						"type": "IP",
+						"areaCode": "607",
+						"city": "PRATTSBURGH",
+						"country": "USA",
+						"metro": "565",
+						"latitude": "42.52551",
+						"longitude": "-77.25071",
+						"state": "NY",
+						"postalCode": "14873",
+						"bandwidth": "BROADBAND",
+						"sic": "0",
+						"domain": "?",
+						"cityCode": 0
+					},
+					"foldCount": -1,
+					"urlReferrer": "",
+					"adReferrer": "",
+					"userAgent": {
+						"browserTypeParam": "CHROME",
+						"browserVersionParam": "48.0.2564.116",
+						"operatingSystemType": "WINDOWS",
+						"operatingSystemVersion": "10",
+						"deviceMake": "",
+						"deviceModel": "",
+						"deviceType": "DESKTOP",
+						"mobileAgent": false
+					},
+					"rawUserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.92",
+					"doNotTrack": "",
+					"userTimezoneOffset": 0,
+					"frequency": -1,
+					"capabilities": {
+						"capabilities": ""
+					},
+					"pubPayoutTypeParam": "NoInfo",
+					"domainGroups": {
+						"separator": "",
+						"splitter": "",
+						"domainGroupsString": "",
+						"cachedDomainGroups": [],
+						"drDomain": false
+					},
+					"adPositionParam": {
+						"x": "UNKNOWN",
+						"y": "UNKNOWN",
+						"exactX": 0,
+						"exactY": 0
+					},
+					"tile": -1,
+					"bidTypeParam": "EXTERNAL",
+					"impressionSource": "ADS_NATIVE",
+					"videoAssetId": "",
+					"videoContextualCategoryIds": "",
+					"videoAspectRatio": "",
+					"videoProtocols": "",
+					"videoVastVersion": "",
+					"videoInventoryType": "",
+					"videoPlaybackmethod": "",
+					"videoDelivery": "",
+					"videoApi": "",
+					"nativeAd": {
+						"ver": "1",
+						"request": "{\"ver\":1,\"assets\":[{\"id\":1,\"required\":1,\"img\":{\"hmin\":600,\"wmin\":600,\"type\":3}},{\"id\":2,\"required\":1,\"title\":{\"len\":200}},{\"id\":3,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":4,\"required\":1,\"data\":{\"type\":1}}],\"layout\":3,\"adunit\":5,\"plcmtcnt\":1,\"seq\":0}"
+					},
+					"distributionType": "DEFAULT",
+					"ipImpressionQualityScore": -1,
+					"ipClickQualityScore": -1,
+					"domainQualityScore": -1,
+					"timeOut": 174,
+					"bidRequestTimeoutData": {
+						"timeoutCalculationStrategy": "OFFSET_BASED",
+						"internalTimeOutMs": 179,
+						"timeOutOffsetMs": 5,
+						"frontendRequestTimestamp": 0,
+						"backTripTimeMs": 0
+					},
+					"numOfAds": 1,
+					"qdaScore": -1,
+					"qualityData": {
+						"scores": {},
+						"testNames": {},
+						"qualityData": ""
+					},
+					"visitorStatus": -1,
+					"targetCCID": 0,
+					"thirdPartyPublisherId": "409",
+					"thirdPartyTagId": "ad-*.sportsfascination.com-1",
+					"thirdPartySiteId": "83b3bc67ab72479f0485a9c40b317536",
+					"highImpactInfo": "",
+					"blockedCreativeAttrsStr": "",
+					"blockedCreativeTypesStr": "",
+					"blockedAdvertiserCatsStr": "",
+					"inventoryName": "",
+					"appBundle": "",
+					"appStoreUrl": "",
+					"openRtbSiteCatsStr": "IAB17-12,IAB17-13,IAB4-1,IAB17-10,IAB4-2,IAB17-11,IAB4-7,IAB4-8,IAB4-9,IAB13-9,IAB4-3,IAB4-4,IAB4-5,IAB4-6,IAB13-4,IAB13-3,IAB13-2,IAB13-1,IAB13-8,IAB13-7,IAB13-6,IAB13-5,IAB17-23,IAB17-24,IAB17-21,IAB17-22,IAB17-20,IAB17-18,IAB17-19,IAB17-16,IAB17-17,IAB17-14,IAB17-15,IAB17-34,IAB17-35,IAB17-32,IAB17-33,IAB17-30,IAB17-31,IAB17-29,IAB17-27,IAB17-28,IAB17-25,IAB17-26,IAB14-1,IAB14-4,IAB2-17,IAB2-16,IAB2-15,IAB2-14,IAB2-19,IAB2-18,IAB7-27,IAB7-26,IAB7-29,IAB17-43,IAB7-28,IAB17-44,IAB7-23,IAB2-13,IAB17-41,IAB7-22,IAB2-12,IAB17-42,IAB7-25,IAB2-11,IAB7-24,IAB2-10,IAB17-40,IAB7-30,IAB7-32,IAB7-31,IAB17-38,IAB17-39,IAB17-36,IAB17-37,IAB2-20,IAB7-38,IAB2-1,IAB7-37,IAB2-2,IAB2-3,IAB7-39,IAB2-4,IAB7-34,IAB7-33,IAB2-23,IAB7-36,IAB2-22,IAB7-35,IAB2-21,IAB2-9,IAB19-6,IAB8-10,IAB7-41,IAB19-5,IAB8-11,IAB7-40,IAB19-4,IAB7-43,IAB19-3,IAB7-42,IAB2-5,IAB2-6,IAB19-9,IAB2-7,IAB19-8,IAB2-8,IAB19-7,IAB19-2,IAB19-1,IAB7-10,IAB13-11,IAB13-10,IAB13-12,IAB7-19,IAB19-15,IAB7-16,IAB3-1,IAB19-14,IAB7-15,IAB3-2,IAB19-13,IAB7-18,IAB3-3,IAB19-12,IAB7-17,IAB19-11,IAB7-12,IAB19-10,IAB7-11,IAB7-14,IAB7-13,IAB3-8,IAB3-9,IAB7-21,IAB7-20,IAB3-4,IAB3-5,IAB3-6,IAB3-7,IAB20-11,IAB20-10,IAB20-13,IAB20-12,IAB20-15,IAB19-26,IAB20-14,IAB19-25,IAB20-17,IAB19-24,IAB20-16,IAB19-23,IAB20-19,IAB19-22,IAB20-18,IAB19-21,IAB19-20,IAB19-19,IAB19-18,IAB19-17,IAB19-16,IAB19-36,IAB19-35,IAB19-34,IAB19-33,IAB19-32,IAB19-31,IAB19-30,IAB17-8,IAB8-3,IAB17-7,IAB8-4,IAB17-6,IAB8-5,IAB17-5,IAB8-6,IAB19-29,IAB19-28,IAB8-1,IAB19-27,IAB17-9,IAB8-2,IAB17-4,IAB8-7,IAB17-3,IAB8-8,IAB17-2,IAB8-9,IAB17-1,IAB8-18,IAB8-16,IAB8-17,IAB8-14,IAB7-45,IAB8-15,IAB7-44,IAB8-12,IAB8-13,IAB20-20,IAB10-2,IAB20-22,IAB10-3,IAB20-21,IAB1,IAB20-24,IAB10-1,IAB20-23,IAB3-10,IAB20-26,IAB4,IAB1-2,IAB20-25,IAB1-3,IAB2,IAB1-4,IAB20-27,IAB3,IAB1-5,IAB8,IAB3-12,IAB6,IAB3-11,IAB7,IAB1-1,IAB18-6,IAB18-5,IAB18-4,IAB1-6,IAB1-7,IAB9-1,IAB10-6,IAB10-7,IAB10-4,IAB10-5,IAB18-3,IAB18-2,IAB10-8,IAB18-1,IAB10-9,IAB6-5,IAB6-6,IAB6-7,IAB6-8,IAB6-1,IAB6-2,IAB6-3,IAB6-4,IAB6-9,IAB20-4,IAB20-3,IAB20-2,IAB20-1,IAB20,IAB4-10,IAB4-11,IAB9-30,IAB20-8,IAB20-7,IAB20-6,IAB20-5,IAB20-9,IAB10,IAB13,IAB7-4,IAB19,IAB7-5,IAB18,IAB7-6,IAB17,IAB7-7,IAB7-1,IAB7-2,IAB7-3,IAB7-8,IAB7-9",
+					"openRtbPageCatsStr": "",
+					"secure": false,
+					"multipleAuctionsSeqNum": 0,
+					"deviceMake": "",
+					"deviceModel": "",
+					"deviceCarrier": "",
+					"deviceIfa": "",
+					"devicePlatformIdSHA1": "",
+					"devicePlatformIdMD5": "",
+					"adBlockRequest": false,
+					"pageUrlOverridden": false,
+					"pageUrlOriginal": "",
+					"domainGroupsOriginalStr": "",
+					"mobileApp": false,
+					"diagnostic": false
+				},
+				"eligibleSeats": [],
+				"blockedDomains": [],
+				"userAssociations": {},
+				"companionAdSize": {
+					"adSizeId": 0,
+					"adSizeName": "None",
+					"code": "None",
+					"width": 0,
+					"height": 0,
+					"popUnder": 0,
+					"isDefault": true,
+					"default": true
+				},
+				"adSize": {
+					"adSizeId": 18,
+					"adSizeName": "Native",
+					"code": "Native",
+					"width": 2,
+					"height": 3,
+					"popUnder": 0,
+					"isDefault": false,
+					"default": false
+				},
+				"eligibleBuyers": [
+					558472,
+					558189,
+					558225,
+					558758
+				],
+				"dealMap": {},
+				"buyerSeatMap": {},
+				"buyerTimeoutMs": 125
+			},
+			"blockedDomains": [],
+			"callContext": {
+				"userAgent": {
+					"browserTypeParam": "3",
+					"browserVersionParam": "48.0.2564.116",
+					"operatingSystemType": "1",
+					"operatingSystemVersion": "10",
+					"deviceMake": "",
+					"deviceModel": "",
+					"deviceType": "DESKTOP",
+					"mobileAgent": false
+				}
+			},
+			"buyerCall": {
+				"buyerCallMethod": "POST",
+				"entity": "{\"badv\":[],\"bcat\":[],\"device\":{\"devicetype\":2,\"geo\":{\"city\":\"PRATTSBURGH\",\"country\":\"USA\",\"lat\":42.52551,\"lon\":-77.25071,\"metro\":\"565\",\"region\":\"NY\",\"type\":2,\"zip\":\"14873\"},\"ip\":\"66.115.72.160\",\"language\":\"US\",\"os\":\"WINDOWS\",\"osv\":\"10\",\"ua\":\"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.92\"},\"id\":\"1rzV03vzihmw\",\"imp\":[{\"bidfloor\":0,\"bidfloorcur\":\"USD\",\"id\":\"1rzV03vzihmw\",\"instl\":0,\"native\":{\"battr\":[],\"request\":\"{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":1,\\\"required\\\":1,\\\"img\\\":{\\\"hmin\\\":600,\\\"wmin\\\":600,\\\"type\\\":3}},{\\\"id\\\":2,\\\"required\\\":1,\\\"title\\\":{\\\"len\\\":200}},{\\\"id\\\":3,\\\"required\\\":1,\\\"data\\\":{\\\"type\\\":2,\\\"len\\\":300}},{\\\"id\\\":4,\\\"required\\\":1,\\\"data\\\":{\\\"type\\\":1}}],\\\"layout\\\":3,\\\"adunit\\\":5,\\\"plcmtcnt\\\":1,\\\"seq\\\":0}\",\"ver\":\"1\"},\"secure\":0,\"tagid\":\"ad-*.sportsfascination.com-1\"}],\"site\":{\"cat\":[\"IAB17-12\",\"IAB17-13\",\"IAB4-1\",\"IAB17-10\",\"IAB4-2\",\"IAB17-11\",\"IAB4-7\",\"IAB4-8\",\"IAB4-9\",\"IAB13-9\",\"IAB4-3\",\"IAB4-4\",\"IAB4-5\",\"IAB4-6\",\"IAB13-4\",\"IAB13-3\",\"IAB13-2\",\"IAB13-1\",\"IAB13-8\",\"IAB13-7\",\"IAB13-6\",\"IAB13-5\",\"IAB17-23\",\"IAB17-24\",\"IAB17-21\",\"IAB17-22\",\"IAB17-20\",\"IAB17-18\",\"IAB17-19\",\"IAB17-16\",\"IAB17-17\",\"IAB17-14\",\"IAB17-15\",\"IAB17-34\",\"IAB17-35\",\"IAB17-32\",\"IAB17-33\",\"IAB17-30\",\"IAB17-31\",\"IAB17-29\",\"IAB17-27\",\"IAB17-28\",\"IAB17-25\",\"IAB17-26\",\"IAB14-1\",\"IAB14-4\",\"IAB2-17\",\"IAB2-16\",\"IAB2-15\",\"IAB2-14\",\"IAB2-19\",\"IAB2-18\",\"IAB7-27\",\"IAB7-26\",\"IAB7-29\",\"IAB17-43\",\"IAB7-28\",\"IAB17-44\",\"IAB7-23\",\"IAB2-13\",\"IAB17-41\",\"IAB7-22\",\"IAB2-12\",\"IAB17-42\",\"IAB7-25\",\"IAB2-11\",\"IAB7-24\",\"IAB2-10\",\"IAB17-40\",\"IAB7-30\",\"IAB7-32\",\"IAB7-31\",\"IAB17-38\",\"IAB17-39\",\"IAB17-36\",\"IAB17-37\",\"IAB2-20\",\"IAB7-38\",\"IAB2-1\",\"IAB7-37\",\"IAB2-2\",\"IAB2-3\",\"IAB7-39\",\"IAB2-4\",\"IAB7-34\",\"IAB7-33\",\"IAB2-23\",\"IAB7-36\",\"IAB2-22\",\"IAB7-35\",\"IAB2-21\",\"IAB2-9\",\"IAB19-6\",\"IAB8-10\",\"IAB7-41\",\"IAB19-5\",\"IAB8-11\",\"IAB7-40\",\"IAB19-4\",\"IAB7-43\",\"IAB19-3\",\"IAB7-42\",\"IAB2-5\",\"IAB2-6\",\"IAB19-9\",\"IAB2-7\",\"IAB19-8\",\"IAB2-8\",\"IAB19-7\",\"IAB19-2\",\"IAB19-1\",\"IAB7-10\",\"IAB13-11\",\"IAB13-10\",\"IAB13-12\",\"IAB7-19\",\"IAB19-15\",\"IAB7-16\",\"IAB3-1\",\"IAB19-14\",\"IAB7-15\",\"IAB3-2\",\"IAB19-13\",\"IAB7-18\",\"IAB3-3\",\"IAB19-12\",\"IAB7-17\",\"IAB19-11\",\"IAB7-12\",\"IAB19-10\",\"IAB7-11\",\"IAB7-14\",\"IAB7-13\",\"IAB3-8\",\"IAB3-9\",\"IAB7-21\",\"IAB7-20\",\"IAB3-4\",\"IAB3-5\",\"IAB3-6\",\"IAB3-7\",\"IAB20-11\",\"IAB20-10\",\"IAB20-13\",\"IAB20-12\",\"IAB20-15\",\"IAB19-26\",\"IAB20-14\",\"IAB19-25\",\"IAB20-17\",\"IAB19-24\",\"IAB20-16\",\"IAB19-23\",\"IAB20-19\",\"IAB19-22\",\"IAB20-18\",\"IAB19-21\",\"IAB19-20\",\"IAB19-19\",\"IAB19-18\",\"IAB19-17\",\"IAB19-16\",\"IAB19-36\",\"IAB19-35\",\"IAB19-34\",\"IAB19-33\",\"IAB19-32\",\"IAB19-31\",\"IAB19-30\",\"IAB17-8\",\"IAB8-3\",\"IAB17-7\",\"IAB8-4\",\"IAB17-6\",\"IAB8-5\",\"IAB17-5\",\"IAB8-6\",\"IAB19-29\",\"IAB19-28\",\"IAB8-1\",\"IAB19-27\",\"IAB17-9\",\"IAB8-2\",\"IAB17-4\",\"IAB8-7\",\"IAB17-3\",\"IAB8-8\",\"IAB17-2\",\"IAB8-9\",\"IAB17-1\",\"IAB8-18\",\"IAB8-16\",\"IAB8-17\",\"IAB8-14\",\"IAB7-45\",\"IAB8-15\",\"IAB7-44\",\"IAB8-12\",\"IAB8-13\",\"IAB20-20\",\"IAB10-2\",\"IAB20-22\",\"IAB10-3\",\"IAB20-21\",\"IAB1\",\"IAB20-24\",\"IAB10-1\",\"IAB20-23\",\"IAB3-10\",\"IAB20-26\",\"IAB4\",\"IAB1-2\",\"IAB20-25\",\"IAB1-3\",\"IAB2\",\"IAB1-4\",\"IAB20-27\",\"IAB3\",\"IAB1-5\",\"IAB8\",\"IAB3-12\",\"IAB6\",\"IAB3-11\",\"IAB7\",\"IAB1-1\",\"IAB18-6\",\"IAB18-5\",\"IAB18-4\",\"IAB1-6\",\"IAB1-7\",\"IAB9-1\",\"IAB10-6\",\"IAB10-7\",\"IAB10-4\",\"IAB10-5\",\"IAB18-3\",\"IAB18-2\",\"IAB10-8\",\"IAB18-1\",\"IAB10-9\",\"IAB6-5\",\"IAB6-6\",\"IAB6-7\",\"IAB6-8\",\"IAB6-1\",\"IAB6-2\",\"IAB6-3\",\"IAB6-4\",\"IAB6-9\",\"IAB20-4\",\"IAB20-3\",\"IAB20-2\",\"IAB20-1\",\"IAB20\",\"IAB4-10\",\"IAB4-11\",\"IAB9-30\",\"IAB20-8\",\"IAB20-7\",\"IAB20-6\",\"IAB20-5\",\"IAB20-9\",\"IAB10\",\"IAB13\",\"IAB7-4\",\"IAB19\",\"IAB7-5\",\"IAB18\",\"IAB7-6\",\"IAB17\",\"IAB7-7\",\"IAB7-1\",\"IAB7-2\",\"IAB7-3\",\"IAB7-8\",\"IAB7-9\"],\"domain\":\"sportsfascination.com\",\"id\":\"83b3bc67ab72479f0485a9c40b317536\",\"page\":\"http://sportsfascination.com/2015/09/21/look-back-at-the-2015-golf-season-video/?utm_source=ENC&utm_campaign=ENC&enc=mar16b\",\"pagecat\":[\"IAB17-12\"],\"publisher\":{\"domain\":\"sportsfascination.com\",\"id\":\"558620.409\"}},\"tmax\":125,\"user\":{\"geo\":{\"city\":\"PRATTSBURGH\",\"country\":\"USA\",\"lat\":42.52551,\"lon\":-77.25071,\"metro\":\"565\",\"region\":\"NY\",\"type\":2,\"zip\":\"14873\"},\"id\":\"JUO82WQxAEkSVOas_bJruQ\"}}",
+				"headers": {
+					"Content-Type": "application/json",
+					"x-openrtb-version": "2.3"
+				}
+			}
+		},
+		"response": {
+			"bidCpm": {
+				"cpm": 0.175,
+				"greaterThanZero": true
+			},
+			"creative": "{\"native\":{\"ver\":1,\"assets\":[{\"id\":1,\"img\":{\"url\":\"http:\\/\\/advertisers.admedia.com\\/campaign_images\\/8399_nat_1454495916.jpg\",\"w\":600,\"h\":600}},{\"id\":2,\"title\":{\"text\":\"When You Were Younger Quiz\"}},{\"id\":3,\"data\":{\"value\":\"When You Were Younger\"}},{\"id\":4,\"data\":{\"value\":\"buzzour.com\"}}],\"link\":{\"url\":\"http:\\/\\/34891.click.scouring.com\\/cad.php?mc=Iy49MjsnMCMhOCk6PSUvJC47MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSI4NC4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDh6aH8lc3E0dW9tdnE8dn94fTxxa2E0ZXtmcWd1LGN2JHNtKWNxd3QlfG1kLGB8e3QlfXtsfH1tdz03YH4kUlBBQEk_Z25lWnF-dGV6bCxTV0FbW15VI2MsMC0jOCU9My0vJyowNDgrOy0jMysyNC4jUUpLPzgkNC4gMSsyNS4jKCA5&adv=8399&utm_source=34891&aid=1003&subid=558620.409\"},\"imptrackers\":[\"http:\\/\\/rtb.admedia.com\\/cr\\/?native=1&pid=1003&reqid=1rzV03vzihmw&br_id=1003-1457961546.7067-385&impid=1rzV03vzihmw&cid=34891&crid=130300&s=wc&domain=sportsfascination.com&country=USA&siteid=83b3bc67ab72479f0485a9c40b317536&win_price=${AUCTION_PRICE}&cb=517954958&bp=0.175\"]}}",
+			"winNoticeUrl": "http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=1rzV03vzihmw&br_id=1003-1457961546.7067-385&impid=1rzV03vzihmw&cid=34891&crid=130300&s=wc&domain=sportsfascination.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175",
+			"extCreativeId": "130300",
+			"extRequestId": "1003-1457961546.7067-385",
+			"notes": "",
+			"clickThroughUrlList": [
+				"Buzzour.com"
+			],
+			"seat": "1",
+			"internalDealId": 0,
+			"externalIdChanged": false,
+			"blockedCreativeReason": "NONE",
+			"clickThroughCategories": [],
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"responseTime": 69,
+			"buyerErrorCode": "NONE",
+			"buyerRejectReason": "NONE",
+			"extUserId": "",
+			"rawResponse": "{\"id\":\"1rzV03vzihmw\",\"seatbid\":[{\"seat\":\"1\",\"bid\":[{\"id\":\"1\",\"impid\":\"1rzV03vzihmw\",\"price\":0.175,\"adm\":\"{\\\"native\\\":{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":1,\\\"img\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/advertisers.admedia.com\\\\/campaign_images\\\\/8399_nat_1454495916.jpg\\\",\\\"w\\\":600,\\\"h\\\":600}},{\\\"id\\\":2,\\\"title\\\":{\\\"text\\\":\\\"When You Were Younger Quiz\\\"}},{\\\"id\\\":3,\\\"data\\\":{\\\"value\\\":\\\"When You Were Younger\\\"}},{\\\"id\\\":4,\\\"data\\\":{\\\"value\\\":\\\"buzzour.com\\\"}}],\\\"link\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/34891.click.scouring.com\\\\/cad.php?mc=Iy49MjsnMCMhOCk6PSUvJC47MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSI4NC4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDh6aH8lc3E0dW9tdnE8dn94fTxxa2E0ZXtmcWd1LGN2JHNtKWNxd3QlfG1kLGB8e3QlfXtsfH1tdz03YH4kUlBBQEk_Z25lWnF-dGV6bCxTV0FbW15VI2MsMC0jOCU9My0vJyowNDgrOy0jMysyNC4jUUpLPzgkNC4gMSsyNS4jKCA5&adv=8399&utm_source=34891&aid=1003&subid=558620.409\\\"},\\\"imptrackers\\\":[\\\"http:\\\\/\\\\/rtb.admedia.com\\\\/cr\\\\/?native=1&pid=1003&reqid=1rzV03vzihmw&br_id=1003-1457961546.7067-385&impid=1rzV03vzihmw&cid=34891&crid=130300&s=wc&domain=sportsfascination.com&country=USA&siteid=83b3bc67ab72479f0485a9c40b317536&win_price=${AUCTION_PRICE}&cb=517954958&bp=0.175\\\"]}}\",\"nurl\":\"http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=1rzV03vzihmw&br_id=1003-1457961546.7067-385&impid=1rzV03vzihmw&cid=34891&crid=130300&s=wc&domain=sportsfascination.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175\",\"cid\":\"34891\",\"crid\":\"130300\",\"adomain\":[\"Buzzour.com\"]}]}],\"bidid\":\"1003-1457961546.7067-385\",\"cur\":\"USD\"}",
+			"rawResponseStatus": 200,
+			"truncatedBidsCount": 0,
+			"multiBid": false,
+			"defaultBid": true,
+			"nonZeroBid": true
+		},
+		"environment": {
+			"host": "LGA-RTB21",
+			"port": 8081,
+			"dataCenter": "LGA"
+		}
+	},
+	{
+		"request": {
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"eligibleSeats": [],
+			"encryptedVguid": "eUpAXEZgR3fzACtgVVHCVg",
+			"buyerContext": {
+				"request": {
+					"askPrice": 4.705527,
+					"sspBidFloor": 4.705527,
+					"performancePrice": 0,
+					"altTagId": 0,
+					"bhTokens": "",
+					"retargetingCategoryIds": "",
+					"retargetingLanguageIds": "",
+					"adTagId": -1,
+					"adTagGroupId": -1,
+					"publisherId": 558355,
+					"tagSizeId": 18,
+					"contextualInfo": {
+						"channelIds": [
+							3,
+							226,
+							0
+						],
+						"contextualized": true
+					},
+					"imprGuid": "cR7QdHgO2GTK",
+					"visitorGuid": "DYkLVWMxw6uF",
+					"pageUrl": "http://www.cinemablend.com/m/new/10-Scariest-Movie-Monsters-Ranked-117807-p2.html",
+					"pageLanguageISOCode": "en",
+					"ipAddress": "70.198.75.230",
+					"adReqSourceType": "UNKNOWN",
+					"inventoryType": "SITE",
+					"piggybackCookies": "",
+					"geoData": {
+						"type": "IP",
+						"areaCode": "773",
+						"city": "CHICAGO",
+						"country": "USA",
+						"metro": "602",
+						"latitude": "41.8782",
+						"longitude": "-87.6254",
+						"state": "IL",
+						"postalCode": "60629",
+						"bandwidth": "MOBILE",
+						"sic": "481301",
+						"domain": "MYVZW.COM",
+						"cityCode": 0
+					},
+					"foldCount": -1,
+					"urlReferrer": "http://www.cinemablend.com/m/new/10-Scariest-Movie-Monsters-Ranked-117807.html?utm_source=zergnet.com&utm_medium=referral&utm_campaign=zergnet_939984",
+					"adReferrer": "",
+					"userAgent": {
+						"browserTypeParam": "CHROME",
+						"browserVersionParam": "",
+						"operatingSystemType": "ANDROID",
+						"operatingSystemVersion": "5.0",
+						"deviceMake": "",
+						"deviceModel": "",
+						"deviceType": "MOBILE",
+						"mobileAgent": true
+					},
+					"rawUserAgent": "Mozilla/5.0 (Linux; Android 5.0; SM-G900V Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36",
+					"doNotTrack": "0",
+					"userTimezoneOffset": 0,
+					"frequency": -1,
+					"capabilities": {
+						"capabilities": ""
+					},
+					"pubPayoutTypeParam": "NoInfo",
+					"domainGroups": {
+						"separator": "",
+						"splitter": "",
+						"domainGroupsString": "",
+						"cachedDomainGroups": [],
+						"drDomain": false
+					},
+					"adPositionParam": {
+						"x": "UNKNOWN",
+						"y": "UNKNOWN",
+						"exactX": 0,
+						"exactY": 0
+					},
+					"tile": -1,
+					"bidTypeParam": "EXTERNAL",
+					"impressionSource": "ADS_NATIVE",
+					"videoAssetId": "",
+					"videoContextualCategoryIds": "",
+					"videoAspectRatio": "",
+					"videoProtocols": "",
+					"videoVastVersion": "",
+					"videoInventoryType": "",
+					"videoPlaybackmethod": "",
+					"videoDelivery": "",
+					"videoApi": "",
+					"nativeAd": {
+						"ver": "1",
+						"request": "{\"ver\":1,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":150}},{\"id\":2,\"required\":1,\"img\":{\"hmin\":100,\"wmin\":100,\"type\":3}},{\"id\":6,\"required\":1,\"data\":{\"type\":2,\"len\":200}},{\"id\":15,\"required\":0,\"data\":{\"type\":11}},{\"id\":5,\"required\":0,\"data\":{\"type\":1}}],\"layout\":3,\"adunit\":3,\"plcmtcnt\":1,\"seq\":0}"
+					},
+					"distributionType": "DEFAULT",
+					"ipImpressionQualityScore": -1,
+					"ipClickQualityScore": -1,
+					"domainQualityScore": -1,
+					"timeOut": 284,
+					"bidRequestTimeoutData": {
+						"timeoutCalculationStrategy": "OFFSET_BASED",
+						"internalTimeOutMs": 289,
+						"timeOutOffsetMs": 5,
+						"frontendRequestTimestamp": 0,
+						"backTripTimeMs": 0
+					},
+					"numOfAds": 1,
+					"qdaScore": -1,
+					"qualityData": {
+						"scores": {},
+						"testNames": {},
+						"qualityData": ""
+					},
+					"visitorStatus": -1,
+					"targetCCID": 0,
+					"thirdPartyPublisherId": "11777",
+					"thirdPartyTagId": "33127",
+					"thirdPartySiteId": "04dc4f21",
+					"highImpactInfo": "",
+					"blockedCreativeAttrsStr": "3,4,5",
+					"blockedCreativeTypesStr": "",
+					"blockedAdvertiserCatsStr": "",
+					"inventoryName": "CinemaBlend.com - Mobile In-Screen",
+					"appBundle": "",
+					"appStoreUrl": "",
+					"openRtbSiteCatsStr": "IAB1",
+					"openRtbPageCatsStr": "IAB7,IAB9,IAB7-37,IAB9-26,IAB9,IAB7",
+					"secure": false,
+					"multipleAuctionsSeqNum": 0,
+					"deviceMake": "",
+					"deviceModel": "",
+					"deviceCarrier": "",
+					"deviceIfa": "",
+					"devicePlatformIdSHA1": "",
+					"devicePlatformIdMD5": "",
+					"adBlockRequest": false,
+					"pageUrlOverridden": false,
+					"pageUrlOriginal": "",
+					"domainGroupsOriginalStr": "",
+					"mobileApp": false,
+					"diagnostic": false
+				},
+				"eligibleSeats": [],
+				"blockedDomains": [],
+				"userAssociations": {},
+				"companionAdSize": {
+					"adSizeId": 0,
+					"adSizeName": "None",
+					"code": "None",
+					"width": 0,
+					"height": 0,
+					"popUnder": 0,
+					"isDefault": true,
+					"default": true
+				},
+				"adSize": {
+					"adSizeId": 18,
+					"adSizeName": "Native",
+					"code": "Native",
+					"width": 2,
+					"height": 3,
+					"popUnder": 0,
+					"isDefault": false,
+					"default": false
+				},
+				"eligibleBuyers": [
+					558472,
+					558758
+				],
+				"dealMap": {},
+				"buyerSeatMap": {},
+				"buyerTimeoutMs": 125
+			},
+			"blockedDomains": [],
+			"callContext": {
+				"userAgent": {
+					"browserTypeParam": "3",
+					"browserVersionParam": "",
+					"operatingSystemType": "0",
+					"operatingSystemVersion": "5.0",
+					"deviceMake": "",
+					"deviceModel": "",
+					"deviceType": "MOBILE",
+					"mobileAgent": true
+				}
+			},
+			"buyerCall": {
+				"buyerCallMethod": "POST",
+				"entity": "{\"badv\":[],\"bcat\":[],\"device\":{\"devicetype\":1,\"dnt\":0,\"geo\":{\"city\":\"CHICAGO\",\"country\":\"USA\",\"lat\":41.8782,\"lon\":-87.6254,\"metro\":\"602\",\"region\":\"IL\",\"type\":2,\"zip\":\"60629\"},\"ip\":\"70.198.75.230\",\"language\":\"en\",\"os\":\"ANDROID\",\"osv\":\"5.0\",\"ua\":\"Mozilla/5.0 (Linux; Android 5.0; SM-G900V Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36\"},\"id\":\"cR7QdHgO2GTK\",\"imp\":[{\"bidfloor\":0,\"bidfloorcur\":\"USD\",\"id\":\"cR7QdHgO2GTK\",\"instl\":0,\"native\":{\"battr\":[3,4,5],\"request\":\"{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":1,\\\"required\\\":1,\\\"title\\\":{\\\"len\\\":150}},{\\\"id\\\":2,\\\"required\\\":1,\\\"img\\\":{\\\"hmin\\\":100,\\\"wmin\\\":100,\\\"type\\\":3}},{\\\"id\\\":6,\\\"required\\\":1,\\\"data\\\":{\\\"type\\\":2,\\\"len\\\":200}},{\\\"id\\\":15,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":11}},{\\\"id\\\":5,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":1}}],\\\"layout\\\":3,\\\"adunit\\\":3,\\\"plcmtcnt\\\":1,\\\"seq\\\":0}\",\"ver\":\"1\"},\"secure\":0,\"tagid\":\"33127\"}],\"site\":{\"cat\":[\"IAB1\"],\"domain\":\"cinemablend.com\",\"id\":\"04dc4f21\",\"name\":\"CinemaBlend.com - Mobile In-Screen\",\"page\":\"http://www.cinemablend.com/m/new/10-Scariest-Movie-Monsters-Ranked-117807-p2.html\",\"pagecat\":[\"IAB9-11\",\"IAB7\",\"IAB9\",\"IAB7-37\",\"IAB9-26\"],\"publisher\":{\"domain\":\"cinemablend.com\",\"id\":\"558355.11777\"},\"ref\":\"http://www.cinemablend.com/m/new/10-Scariest-Movie-Monsters-Ranked-117807.html?utm_source=zergnet.com&utm_medium=referral&utm_campaign=zergnet_939984\"},\"tmax\":125,\"user\":{\"geo\":{\"city\":\"CHICAGO\",\"country\":\"USA\",\"lat\":41.8782,\"lon\":-87.6254,\"metro\":\"602\",\"region\":\"IL\",\"type\":2,\"zip\":\"60629\"},\"id\":\"eUpAXEZgR3fzACtgVVHCVg\"}}",
+				"headers": {
+					"Content-Type": "application/json",
+					"x-openrtb-version": "2.3"
+				}
+			}
+		},
+		"response": {
+			"bidCpm": {
+				"cpm": 0.14,
+				"greaterThanZero": true
+			},
+			"creative": "{\"native\":{\"ver\":1,\"assets\":[{\"id\":1,\"title\":{\"text\":\"Identify the video from it's Youtube comment.\"}},{\"id\":2,\"img\":{\"url\":\"http:\\/\\/advertisers.admedia.com\\/campaign_images\\/8399_nat_1456858584.png\",\"w\":100,\"h\":100}},{\"id\":6,\"data\":{\"value\":\"Bet you can't get at least 5 of them right.\"}},{\"id\":5,\"data\":{\"value\":\"buzzour.com\"}}],\"link\":{\"url\":\"http:\\/\\/34891.click.scouring.com\\/cad.php?mc=Iy49MjsnMCItOCQ6My0uJyw7MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSU6MS4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDh6aH8lfXtsP3NsYGxlaHFgJGVgYTl0Z2lhZi9naHN8Zjxudnt0P3N8di9obmJtfHNtKXd2f3dta3YuJ3ZwNEpJTVBENG98aF1ibmJranQ1X0dMUFNMWCRwPCYjMyA8MSMgJC85MTMrOy0jMysyPiQjKFlYRjgrNCIgMCkyPiUjKCAyNA%2C%2C&adv=8399&utm_source=34891&aid=1003&subid=558355.11777\"},\"imptrackers\":[\"http:\\/\\/rtb.admedia.com\\/cr\\/?native=1&pid=1003&reqid=cR7QdHgO2GTK&br_id=1003-1457961546.7031-617&impid=cR7QdHgO2GTK&cid=34891&crid=130425&s=wc&domain=cinemablend.com&country=USA&siteid=04dc4f21&win_price=${AUCTION_PRICE}&cb=375687948&bp=0.14\"]}}",
+			"winNoticeUrl": "http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=cR7QdHgO2GTK&br_id=1003-1457961546.7031-617&impid=cR7QdHgO2GTK&cid=34891&crid=130425&s=wc&domain=cinemablend.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.14",
+			"extCreativeId": "130425",
+			"extRequestId": "1003-1457961546.7031-617",
+			"notes": "",
+			"clickThroughUrlList": [
+				"buzzour.com"
+			],
+			"seat": "1",
+			"internalDealId": 0,
+			"externalIdChanged": false,
+			"blockedCreativeReason": "PUBLISHER_BLOCKED_EMPTY_CREATIVE_ATTRIBUTE",
+			"clickThroughCategories": [],
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"responseTime": 67,
+			"buyerErrorCode": "BLOCKED_CREATIVE_URL",
+			"buyerRejectReason": "NONE",
+			"extUserId": "",
+			"rawResponse": "{\"id\":\"cR7QdHgO2GTK\",\"seatbid\":[{\"seat\":\"1\",\"bid\":[{\"id\":\"1\",\"impid\":\"cR7QdHgO2GTK\",\"price\":0.14,\"adm\":\"{\\\"native\\\":{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":1,\\\"title\\\":{\\\"text\\\":\\\"Identify the video from it's Youtube comment.\\\"}},{\\\"id\\\":2,\\\"img\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/advertisers.admedia.com\\\\/campaign_images\\\\/8399_nat_1456858584.png\\\",\\\"w\\\":100,\\\"h\\\":100}},{\\\"id\\\":6,\\\"data\\\":{\\\"value\\\":\\\"Bet you can't get at least 5 of them right.\\\"}},{\\\"id\\\":5,\\\"data\\\":{\\\"value\\\":\\\"buzzour.com\\\"}}],\\\"link\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/34891.click.scouring.com\\\\/cad.php?mc=Iy49MjsnMCItOCQ6My0uJyw7MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSU6MS4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDh6aH8lfXtsP3NsYGxlaHFgJGVgYTl0Z2lhZi9naHN8Zjxudnt0P3N8di9obmJtfHNtKXd2f3dta3YuJ3ZwNEpJTVBENG98aF1ibmJranQ1X0dMUFNMWCRwPCYjMyA8MSMgJC85MTMrOy0jMysyPiQjKFlYRjgrNCIgMCkyPiUjKCAyNA%2C%2C&adv=8399&utm_source=34891&aid=1003&subid=558355.11777\\\"},\\\"imptrackers\\\":[\\\"http:\\\\/\\\\/rtb.admedia.com\\\\/cr\\\\/?native=1&pid=1003&reqid=cR7QdHgO2GTK&br_id=1003-1457961546.7031-617&impid=cR7QdHgO2GTK&cid=34891&crid=130425&s=wc&domain=cinemablend.com&country=USA&siteid=04dc4f21&win_price=${AUCTION_PRICE}&cb=375687948&bp=0.14\\\"]}}\",\"nurl\":\"http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=cR7QdHgO2GTK&br_id=1003-1457961546.7031-617&impid=cR7QdHgO2GTK&cid=34891&crid=130425&s=wc&domain=cinemablend.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.14\",\"cid\":\"34891\",\"crid\":\"130425\",\"adomain\":[\"buzzour.com\"]}]}],\"bidid\":\"1003-1457961546.7031-617\",\"cur\":\"USD\"}",
+			"rawResponseStatus": 200,
+			"truncatedBidsCount": 0,
+			"multiBid": false,
+			"defaultBid": true,
+			"nonZeroBid": true
+		},
+		"environment": {
+			"host": "LGA-RTB16",
+			"port": 8081,
+			"dataCenter": "LGA"
+		}
+	},
+	{
+		"request": {
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"eligibleSeats": [],
+			"encryptedVguid": "",
+			"buyerContext": {
+				"request": {
+					"askPrice": 0.1,
+					"sspBidFloor": 0.1,
+					"performancePrice": 0,
+					"altTagId": 0,
+					"bhTokens": "",
+					"retargetingCategoryIds": "",
+					"retargetingLanguageIds": "",
+					"adTagId": -1,
+					"adTagGroupId": -1,
+					"publisherId": 558079,
+					"tagSizeId": 18,
+					"contextualInfo": {
+						"channelIds": [
+							3,
+							49,
+							433
+						],
+						"contextualized": true
+					},
+					"imprGuid": "VUVMnnXsmznq",
+					"visitorGuid": "",
+					"pageUrl": "http://www.allaboutthetea.com/2016/03/10/yolanda-foster-slams-lisa-rinna-for-getting-into-her-personal-business/#{\"experiment\":\"tasting_force_links_above\",\"variant\":\"mainline_greek\"}",
+					"pageLanguageISOCode": "en",
+					"ipAddress": "72.224.176.85",
+					"adReqSourceType": "UNKNOWN",
+					"inventoryType": "SITE",
+					"piggybackCookies": "",
+					"geoData": {
+						"type": "IP",
+						"areaCode": "207",
+						"city": "PORTLAND",
+						"country": "USA",
+						"metro": "500",
+						"latitude": "43.66274",
+						"longitude": "-70.26435",
+						"state": "ME",
+						"postalCode": "04103",
+						"bandwidth": "CABLE",
+						"sic": "737415",
+						"domain": "RR.COM",
+						"cityCode": 0
+					},
+					"foldCount": -1,
+					"urlReferrer": "",
+					"adReferrer": "",
+					"userAgent": {
+						"browserTypeParam": "",
+						"browserVersionParam": "",
+						"operatingSystemType": "IOS",
+						"operatingSystemVersion": "9.2.1",
+						"deviceMake": "",
+						"deviceModel": "iPhone",
+						"deviceType": "MOBILE",
+						"mobileAgent": true
+					},
+					"rawUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13D15 [FBAN/FBIOS;FBAV/50.0.0.47.191;FBBV/23973043;FBDV/iPhone8,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.2.1;FBSS/2; FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5]",
+					"doNotTrack": "0",
+					"userTimezoneOffset": 0,
+					"frequency": -1,
+					"capabilities": {
+						"capabilities": ""
+					},
+					"pubPayoutTypeParam": "NoInfo",
+					"domainGroups": {
+						"separator": "",
+						"splitter": "",
+						"domainGroupsString": "",
+						"cachedDomainGroups": [],
+						"drDomain": false
+					},
+					"adPositionParam": {
+						"x": "UNKNOWN",
+						"y": "UNKNOWN",
+						"exactX": 0,
+						"exactY": 0
+					},
+					"tile": -1,
+					"bidTypeParam": "EXTERNAL",
+					"impressionSource": "ADS_NATIVE",
+					"videoAssetId": "",
+					"videoContextualCategoryIds": "",
+					"videoAspectRatio": "",
+					"videoProtocols": "",
+					"videoVastVersion": "",
+					"videoInventoryType": "",
+					"videoPlaybackmethod": "",
+					"videoDelivery": "",
+					"videoApi": "",
+					"nativeAd": {
+						"ver": "1",
+						"request": "{\"ver\":1,\"assets\":[{\"id\":0,\"required\":1,\"title\":{\"len\":120}},{\"id\":1,\"required\":0,\"data\":{\"type\":2,\"len\":300}},{\"id\":2,\"required\":1,\"data\":{\"type\":1}},{\"id\":3,\"required\":0,\"data\":{\"type\":12}},{\"id\":4,\"required\":0,\"img\":{\"hmin\":60,\"wmin\":60,\"type\":1}},{\"id\":5,\"required\":1,\"img\":{\"h\":260,\"w\":300,\"hmin\":200,\"wmin\":200,\"type\":3}}],\"adunit\":502,\"plcmtcnt\":1,\"seq\":0}"
+					},
+					"distributionType": "DEFAULT",
+					"ipImpressionQualityScore": -1,
+					"ipClickQualityScore": -1,
+					"domainQualityScore": -1,
+					"timeOut": 174,
+					"bidRequestTimeoutData": {
+						"timeoutCalculationStrategy": "OFFSET_BASED",
+						"internalTimeOutMs": 179,
+						"timeOutOffsetMs": 5,
+						"frontendRequestTimestamp": 0,
+						"backTripTimeMs": 0
+					},
+					"numOfAds": 1,
+					"qdaScore": -1,
+					"qualityData": {
+						"scores": {},
+						"testNames": {},
+						"qualityData": ""
+					},
+					"visitorStatus": -1,
+					"targetCCID": 0,
+					"thirdPartyPublisherId": "267",
+					"thirdPartyTagId": "bLjtwroJoOGBieswLX7NhgdC540uimBew-l4xBLd",
+					"thirdPartySiteId": "2795",
+					"highImpactInfo": "",
+					"blockedCreativeAttrsStr": "3,4,5",
+					"blockedCreativeTypesStr": "",
+					"blockedAdvertiserCatsStr": "",
+					"inventoryName": "",
+					"appBundle": "",
+					"appStoreUrl": "",
+					"openRtbSiteCatsStr": "IAB24",
+					"openRtbPageCatsStr": "",
+					"secure": false,
+					"multipleAuctionsSeqNum": 0,
+					"deviceMake": "",
+					"deviceModel": "iPhone",
+					"deviceCarrier": "",
+					"deviceIfa": "",
+					"devicePlatformIdSHA1": "",
+					"devicePlatformIdMD5": "",
+					"adBlockRequest": false,
+					"pageUrlOverridden": false,
+					"pageUrlOriginal": "",
+					"domainGroupsOriginalStr": "",
+					"mobileApp": false,
+					"diagnostic": false
+				},
+				"eligibleSeats": [],
+				"blockedDomains": [],
+				"userAssociations": {},
+				"companionAdSize": {
+					"adSizeId": 0,
+					"adSizeName": "None",
+					"code": "None",
+					"width": 0,
+					"height": 0,
+					"popUnder": 0,
+					"isDefault": true,
+					"default": true
+				},
+				"adSize": {
+					"adSizeId": 18,
+					"adSizeName": "Native",
+					"code": "Native",
+					"width": 2,
+					"height": 3,
+					"popUnder": 0,
+					"isDefault": false,
+					"default": false
+				},
+				"eligibleBuyers": [
+					558225,
+					558758
+				],
+				"dealMap": {},
+				"buyerSeatMap": {},
+				"buyerTimeoutMs": 125
+			},
+			"blockedDomains": [],
+			"callContext": {
+				"userAgent": {
+					"browserTypeParam": "0",
+					"browserVersionParam": "",
+					"operatingSystemType": "0",
+					"operatingSystemVersion": "9.2.1",
+					"deviceMake": "",
+					"deviceModel": "iPhone",
+					"deviceType": "MOBILE",
+					"mobileAgent": true
+				}
+			},
+			"buyerCall": {
+				"buyerCallMethod": "POST",
+				"entity": "{\"badv\":[],\"bcat\":[],\"device\":{\"devicetype\":1,\"dnt\":0,\"geo\":{\"city\":\"PORTLAND\",\"country\":\"USA\",\"lat\":43.66274,\"lon\":-70.26435,\"metro\":\"500\",\"region\":\"ME\",\"type\":2,\"zip\":\"04103\"},\"ip\":\"72.224.176.85\",\"language\":\"en\",\"model\":\"iPhone\",\"os\":\"IOS\",\"osv\":\"9.2.1\",\"ua\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13D15 [FBAN/FBIOS;FBAV/50.0.0.47.191;FBBV/23973043;FBDV/iPhone8,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.2.1;FBSS/2; FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5]\"},\"id\":\"VUVMnnXsmznq\",\"imp\":[{\"bidfloor\":0,\"bidfloorcur\":\"USD\",\"id\":\"VUVMnnXsmznq\",\"instl\":0,\"native\":{\"battr\":[3,4,5],\"request\":\"{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":0,\\\"required\\\":1,\\\"title\\\":{\\\"len\\\":120}},{\\\"id\\\":1,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":2,\\\"len\\\":300}},{\\\"id\\\":2,\\\"required\\\":1,\\\"data\\\":{\\\"type\\\":1}},{\\\"id\\\":3,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":12}},{\\\"id\\\":4,\\\"required\\\":0,\\\"img\\\":{\\\"hmin\\\":60,\\\"wmin\\\":60,\\\"type\\\":1}},{\\\"id\\\":5,\\\"required\\\":1,\\\"img\\\":{\\\"h\\\":260,\\\"w\\\":300,\\\"hmin\\\":200,\\\"wmin\\\":200,\\\"type\\\":3}}],\\\"adunit\\\":502,\\\"plcmtcnt\\\":1,\\\"seq\\\":0}\",\"ver\":\"1\"},\"secure\":0,\"tagid\":\"bLjtwroJoOGBieswLX7NhgdC540uimBew-l4xBLd\"}],\"site\":{\"cat\":[\"IAB24\"],\"domain\":\"allaboutthetea.com\",\"id\":\"2795\",\"page\":\"http://www.allaboutthetea.com/2016/03/10/yolanda-foster-slams-lisa-rinna-for-getting-into-her-personal-business/#{\\\"experiment\\\":\\\"tasting_force_links_above\\\",\\\"variant\\\":\\\"mainline_greek\\\"}\",\"pagecat\":[\"IAB24\"],\"publisher\":{\"domain\":\"allaboutthetea.com\",\"id\":\"558079.267\"}},\"tmax\":125,\"user\":{\"geo\":{\"city\":\"PORTLAND\",\"country\":\"USA\",\"lat\":43.66274,\"lon\":-70.26435,\"metro\":\"500\",\"region\":\"ME\",\"type\":2,\"zip\":\"04103\"},\"id\":\"\"}}",
+				"headers": {
+					"Content-Type": "application/json",
+					"x-openrtb-version": "2.3"
+				}
+			}
+		},
+		"response": {
+			"bidCpm": {
+				"cpm": 0.175,
+				"greaterThanZero": true
+			},
+			"creative": "{\"native\":{\"ver\":1,\"assets\":[{\"id\":0,\"title\":{\"text\":\"Guess Your Biggest Weakness\"}},{\"id\":1,\"data\":{\"value\":\"We Can Guess Your Biggest Weakness In 10 Questions - Quiz\"}},{\"id\":2,\"data\":{\"value\":\"buzzour.com\"}},{\"id\":5,\"img\":{\"url\":\"http:\\/\\/advertisers.admedia.com\\/campaign_images\\/8399_nat_1454417304.jpg\",\"w\":300,\"h\":260}}],\"link\":{\"url\":\"http:\\/\\/34891.click.scouring.com\\/cad.php?mc=Iy49MjsnMCItOCk8MSYvJS87MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSMxPC4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDhubDxrZXo0dW9tdnE8eHhsezxqbXN-d2l8KHV0YHx3bGJ7KX13Pys4KHNkZGRtYH5mdys_c3M1XkNYRUo_fGVlW2d2Z2hrYD9KUkJbQFVVInUkIyAyNDYkNi4vPCA8NS4jKCAyPzgrMS0jSkFLPi4sJyMxPTgrMC0jMys5&adv=8399&utm_source=34891&aid=1003&subid=558079.267\"},\"imptrackers\":[\"http:\\/\\/rtb.admedia.com\\/cr\\/?native=1&pid=1003&reqid=VUVMnnXsmznq&br_id=1003-1457961546.6202-110&impid=VUVMnnXsmznq&cid=34891&crid=130298&s=wc&domain=allaboutthetea.com&country=USA&siteid=2795&win_price=${AUCTION_PRICE}&cb=1380630509&bp=0.175\"]}}",
+			"winNoticeUrl": "http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=VUVMnnXsmznq&br_id=1003-1457961546.6202-110&impid=VUVMnnXsmznq&cid=34891&crid=130298&s=wc&domain=allaboutthetea.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175",
+			"extCreativeId": "130298",
+			"extRequestId": "1003-1457961546.6202-110",
+			"notes": "",
+			"clickThroughUrlList": [
+				"Buzzour.com"
+			],
+			"seat": "1",
+			"internalDealId": 0,
+			"externalIdChanged": false,
+			"blockedCreativeReason": "PUBLISHER_BLOCKED_EMPTY_CREATIVE_ATTRIBUTE",
+			"clickThroughCategories": [],
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"responseTime": 70,
+			"buyerErrorCode": "BLOCKED_CREATIVE_URL",
+			"buyerRejectReason": "NONE",
+			"extUserId": "",
+			"rawResponse": "{\"id\":\"VUVMnnXsmznq\",\"seatbid\":[{\"seat\":\"1\",\"bid\":[{\"id\":\"1\",\"impid\":\"VUVMnnXsmznq\",\"price\":0.175,\"adm\":\"{\\\"native\\\":{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":0,\\\"title\\\":{\\\"text\\\":\\\"Guess Your Biggest Weakness\\\"}},{\\\"id\\\":1,\\\"data\\\":{\\\"value\\\":\\\"We Can Guess Your Biggest Weakness In 10 Questions - Quiz\\\"}},{\\\"id\\\":2,\\\"data\\\":{\\\"value\\\":\\\"buzzour.com\\\"}},{\\\"id\\\":5,\\\"img\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/advertisers.admedia.com\\\\/campaign_images\\\\/8399_nat_1454417304.jpg\\\",\\\"w\\\":300,\\\"h\\\":260}}],\\\"link\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/34891.click.scouring.com\\\\/cad.php?mc=Iy49MjsnMCItOCk8MSYvJS87MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSMxPC4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDhubDxrZXo0dW9tdnE8eHhsezxqbXN-d2l8KHV0YHx3bGJ7KX13Pys4KHNkZGRtYH5mdys_c3M1XkNYRUo_fGVlW2d2Z2hrYD9KUkJbQFVVInUkIyAyNDYkNi4vPCA8NS4jKCAyPzgrMS0jSkFLPi4sJyMxPTgrMC0jMys5&adv=8399&utm_source=34891&aid=1003&subid=558079.267\\\"},\\\"imptrackers\\\":[\\\"http:\\\\/\\\\/rtb.admedia.com\\\\/cr\\\\/?native=1&pid=1003&reqid=VUVMnnXsmznq&br_id=1003-1457961546.6202-110&impid=VUVMnnXsmznq&cid=34891&crid=130298&s=wc&domain=allaboutthetea.com&country=USA&siteid=2795&win_price=${AUCTION_PRICE}&cb=1380630509&bp=0.175\\\"]}}\",\"nurl\":\"http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=VUVMnnXsmznq&br_id=1003-1457961546.6202-110&impid=VUVMnnXsmznq&cid=34891&crid=130298&s=wc&domain=allaboutthetea.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175\",\"cid\":\"34891\",\"crid\":\"130298\",\"adomain\":[\"Buzzour.com\"]}]}],\"bidid\":\"1003-1457961546.6202-110\",\"cur\":\"USD\"}",
+			"rawResponseStatus": 200,
+			"truncatedBidsCount": 0,
+			"multiBid": false,
+			"defaultBid": true,
+			"nonZeroBid": true
+		},
+		"environment": {
+			"host": "LGA-RTB16",
+			"port": 8080,
+			"dataCenter": "LGA"
+		}
+	},
+	{
+		"request": {
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"eligibleSeats": [],
+			"encryptedVguid": "ymqEOpCTFnBTAse7c5FbuQ",
+			"buyerContext": {
+				"request": {
+					"askPrice": 0.1,
+					"sspBidFloor": 0.1,
+					"performancePrice": 0,
+					"altTagId": 0,
+					"bhTokens": "",
+					"retargetingCategoryIds": "",
+					"retargetingLanguageIds": "",
+					"adTagId": -1,
+					"adTagGroupId": -1,
+					"publisherId": 558079,
+					"tagSizeId": 18,
+					"imprGuid": "wYPSxQSHimqO",
+					"visitorGuid": "hwY05P5Imgmq",
+					"pageUrl": "http://celebslam.celebuzz.com/2016/03/guess-that-actress-672.php#{\"experiment\":\"network_default\",\"variant\":\"fallthrough\"}",
+					"pageLanguageISOCode": "en",
+					"ipAddress": "173.251.76.2",
+					"adReqSourceType": "UNKNOWN",
+					"inventoryType": "SITE",
+					"piggybackCookies": "",
+					"geoData": {
+						"type": "IP",
+						"areaCode": "732",
+						"city": "NEPTUNE",
+						"country": "USA",
+						"metro": "501",
+						"latitude": "40.20906",
+						"longitude": "-74.05836",
+						"state": "NJ",
+						"postalCode": "07753",
+						"bandwidth": "CABLE",
+						"sic": "484101",
+						"domain": "LIGHTPATH.NET",
+						"cityCode": 0
+					},
+					"foldCount": -1,
+					"urlReferrer": "",
+					"adReferrer": "",
+					"userAgent": {
+						"browserTypeParam": "CHROME",
+						"browserVersionParam": "48.0.2564.116",
+						"operatingSystemType": "WINDOWS",
+						"operatingSystemVersion": "8.1",
+						"deviceMake": "",
+						"deviceModel": "Other",
+						"deviceType": "DESKTOP",
+						"mobileAgent": false
+					},
+					"rawUserAgent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.92",
+					"doNotTrack": "0",
+					"userTimezoneOffset": 0,
+					"frequency": -1,
+					"capabilities": {
+						"capabilities": ""
+					},
+					"pubPayoutTypeParam": "NoInfo",
+					"domainGroups": {
+						"separator": "",
+						"splitter": "",
+						"domainGroupsString": "",
+						"cachedDomainGroups": [],
+						"drDomain": false
+					},
+					"adPositionParam": {
+						"x": "UNKNOWN",
+						"y": "UNKNOWN",
+						"exactX": 0,
+						"exactY": 0
+					},
+					"tile": -1,
+					"bidTypeParam": "EXTERNAL",
+					"impressionSource": "ADS_NATIVE",
+					"videoAssetId": "",
+					"videoContextualCategoryIds": "",
+					"videoAspectRatio": "",
+					"videoProtocols": "",
+					"videoVastVersion": "",
+					"videoInventoryType": "",
+					"videoPlaybackmethod": "",
+					"videoDelivery": "",
+					"videoApi": "",
+					"nativeAd": {
+						"ver": "1",
+						"request": "{\"ver\":1,\"assets\":[{\"id\":0,\"required\":1,\"title\":{\"len\":120}},{\"id\":1,\"required\":0,\"data\":{\"type\":2,\"len\":300}},{\"id\":2,\"required\":1,\"data\":{\"type\":1}},{\"id\":3,\"required\":0,\"data\":{\"type\":12}},{\"id\":4,\"required\":0,\"img\":{\"hmin\":60,\"wmin\":60,\"type\":1}},{\"id\":5,\"required\":1,\"img\":{\"h\":260,\"w\":300,\"hmin\":200,\"wmin\":200,\"type\":3}}],\"adunit\":502,\"plcmtcnt\":1,\"seq\":0}"
+					},
+					"distributionType": "DEFAULT",
+					"ipImpressionQualityScore": -1,
+					"ipClickQualityScore": -1,
+					"domainQualityScore": -1,
+					"timeOut": 174,
+					"bidRequestTimeoutData": {
+						"timeoutCalculationStrategy": "OFFSET_BASED",
+						"internalTimeOutMs": 179,
+						"timeOutOffsetMs": 5,
+						"frontendRequestTimestamp": 0,
+						"backTripTimeMs": 0
+					},
+					"numOfAds": 1,
+					"qdaScore": -1,
+					"qualityData": {
+						"scores": {},
+						"testNames": {},
+						"qualityData": ""
+					},
+					"visitorStatus": -1,
+					"targetCCID": 0,
+					"thirdPartyPublisherId": "267",
+					"thirdPartyTagId": "GtW2kYJ_dwM0CpbhxuOpH__Cwd5Mm72t1u2C6dX2",
+					"thirdPartySiteId": "2225",
+					"highImpactInfo": "",
+					"blockedCreativeAttrsStr": "",
+					"blockedCreativeTypesStr": "",
+					"blockedAdvertiserCatsStr": "",
+					"inventoryName": "",
+					"appBundle": "",
+					"appStoreUrl": "",
+					"openRtbSiteCatsStr": "IAB24",
+					"openRtbPageCatsStr": "",
+					"secure": false,
+					"multipleAuctionsSeqNum": 0,
+					"deviceMake": "",
+					"deviceModel": "Other",
+					"deviceCarrier": "",
+					"deviceIfa": "",
+					"devicePlatformIdSHA1": "",
+					"devicePlatformIdMD5": "",
+					"adBlockRequest": false,
+					"pageUrlOverridden": false,
+					"pageUrlOriginal": "",
+					"domainGroupsOriginalStr": "",
+					"mobileApp": false,
+					"diagnostic": false
+				},
+				"eligibleSeats": [],
+				"blockedDomains": [],
+				"userAssociations": {},
+				"companionAdSize": {
+					"adSizeId": 0,
+					"adSizeName": "None",
+					"code": "None",
+					"width": 0,
+					"height": 0,
+					"popUnder": 0,
+					"isDefault": true,
+					"default": true
+				},
+				"adSize": {
+					"adSizeId": 18,
+					"adSizeName": "Native",
+					"code": "Native",
+					"width": 2,
+					"height": 3,
+					"popUnder": 0,
+					"isDefault": false,
+					"default": false
+				},
+				"eligibleBuyers": [
+					558472,
+					558225,
+					558758
+				],
+				"dealMap": {},
+				"buyerSeatMap": {},
+				"buyerTimeoutMs": 125
+			},
+			"blockedDomains": [],
+			"callContext": {
+				"userAgent": {
+					"browserTypeParam": "3",
+					"browserVersionParam": "48.0.2564.116",
+					"operatingSystemType": "1",
+					"operatingSystemVersion": "8.1",
+					"deviceMake": "",
+					"deviceModel": "Other",
+					"deviceType": "DESKTOP",
+					"mobileAgent": false
+				}
+			},
+			"buyerCall": {
+				"buyerCallMethod": "POST",
+				"entity": "{\"badv\":[],\"bcat\":[],\"device\":{\"devicetype\":2,\"dnt\":0,\"geo\":{\"city\":\"NEPTUNE\",\"country\":\"USA\",\"lat\":40.20906,\"lon\":-74.05836,\"metro\":\"501\",\"region\":\"NJ\",\"type\":2,\"zip\":\"07753\"},\"ip\":\"173.251.76.2\",\"language\":\"en\",\"model\":\"Other\",\"os\":\"WINDOWS\",\"osv\":\"8.1\",\"ua\":\"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.92\"},\"id\":\"wYPSxQSHimqO\",\"imp\":[{\"bidfloor\":0,\"bidfloorcur\":\"USD\",\"id\":\"wYPSxQSHimqO\",\"instl\":0,\"native\":{\"battr\":[],\"request\":\"{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":0,\\\"required\\\":1,\\\"title\\\":{\\\"len\\\":120}},{\\\"id\\\":1,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":2,\\\"len\\\":300}},{\\\"id\\\":2,\\\"required\\\":1,\\\"data\\\":{\\\"type\\\":1}},{\\\"id\\\":3,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":12}},{\\\"id\\\":4,\\\"required\\\":0,\\\"img\\\":{\\\"hmin\\\":60,\\\"wmin\\\":60,\\\"type\\\":1}},{\\\"id\\\":5,\\\"required\\\":1,\\\"img\\\":{\\\"h\\\":260,\\\"w\\\":300,\\\"hmin\\\":200,\\\"wmin\\\":200,\\\"type\\\":3}}],\\\"adunit\\\":502,\\\"plcmtcnt\\\":1,\\\"seq\\\":0}\",\"ver\":\"1\"},\"secure\":0,\"tagid\":\"GtW2kYJ_dwM0CpbhxuOpH__Cwd5Mm72t1u2C6dX2\"}],\"site\":{\"cat\":[\"IAB24\"],\"domain\":\"celebslam.celebuzz.com\",\"id\":\"2225\",\"page\":\"http://celebslam.celebuzz.com/2016/03/guess-that-actress-672.php#{\\\"experiment\\\":\\\"network_default\\\",\\\"variant\\\":\\\"fallthrough\\\"}\",\"pagecat\":[\"IAB24\"],\"publisher\":{\"domain\":\"celebuzz.com\",\"id\":\"558079.267\"}},\"tmax\":125,\"user\":{\"geo\":{\"city\":\"NEPTUNE\",\"country\":\"USA\",\"lat\":40.20906,\"lon\":-74.05836,\"metro\":\"501\",\"region\":\"NJ\",\"type\":2,\"zip\":\"07753\"},\"id\":\"ymqEOpCTFnBTAse7c5FbuQ\"}}",
+				"headers": {
+					"Content-Type": "application/json",
+					"x-openrtb-version": "2.3"
+				}
+			}
+		},
+		"response": {
+			"bidCpm": {
+				"cpm": 0.175,
+				"greaterThanZero": true
+			},
+			"creative": "{\"native\":{\"ver\":1,\"assets\":[{\"id\":0,\"title\":{\"text\":\"What Kind of Tinder Girl Are You?\"}},{\"id\":1,\"data\":{\"value\":\"Quiz\"}},{\"id\":2,\"data\":{\"value\":\"buzzour.com\"}},{\"id\":5,\"img\":{\"url\":\"http:\\/\\/advertisers.admedia.com\\/campaign_images\\/8399_nat_1454504435.jpg\",\"w\":300,\"h\":260}}],\"link\":{\"url\":\"http:\\/\\/34891.click.scouring.com\\/cad.php?mc=Iy49MjsnMCMhOCIxNycvIC47MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSI4NS4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtNe3xuZGx4ZDhuYXB8KX9wfH4lamQ8dX53bXR6KXNwYHYlZHB0LG52fC4uZX0kSVtBQV83dGN0VmJncWZ6dydTVldTSFNEL3A1NS4jIy49MjsnNCchOCsyPi4jKCAyNTgrQkdaMys9MS0gKiAyNDgrOy0o&adv=8399&utm_source=34891&aid=1003&subid=558079.267\"},\"imptrackers\":[\"http:\\/\\/rtb.admedia.com\\/cr\\/?native=1&pid=1003&reqid=wYPSxQSHimqO&br_id=1003-1457961546.5913-87&impid=wYPSxQSHimqO&cid=34891&crid=130301&s=wc&domain=celebuzz.com&country=USA&siteid=2225&win_price=${AUCTION_PRICE}&cb=2125749959&bp=0.175\"]}}",
+			"winNoticeUrl": "http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=wYPSxQSHimqO&br_id=1003-1457961546.5913-87&impid=wYPSxQSHimqO&cid=34891&crid=130301&s=wc&domain=celebuzz.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175",
+			"extCreativeId": "130301",
+			"extRequestId": "1003-1457961546.5913-87",
+			"notes": "",
+			"clickThroughUrlList": [
+				"Buzzour.com"
+			],
+			"seat": "1",
+			"internalDealId": 0,
+			"externalIdChanged": false,
+			"blockedCreativeReason": "NONE",
+			"clickThroughCategories": [],
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"responseTime": 67,
+			"buyerErrorCode": "NONE",
+			"buyerRejectReason": "NONE",
+			"extUserId": "",
+			"rawResponse": "{\"id\":\"wYPSxQSHimqO\",\"seatbid\":[{\"seat\":\"1\",\"bid\":[{\"id\":\"1\",\"impid\":\"wYPSxQSHimqO\",\"price\":0.175,\"adm\":\"{\\\"native\\\":{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":0,\\\"title\\\":{\\\"text\\\":\\\"What Kind of Tinder Girl Are You?\\\"}},{\\\"id\\\":1,\\\"data\\\":{\\\"value\\\":\\\"Quiz\\\"}},{\\\"id\\\":2,\\\"data\\\":{\\\"value\\\":\\\"buzzour.com\\\"}},{\\\"id\\\":5,\\\"img\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/advertisers.admedia.com\\\\/campaign_images\\\\/8399_nat_1454504435.jpg\\\",\\\"w\\\":300,\\\"h\\\":260}}],\\\"link\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/34891.click.scouring.com\\\\/cad.php?mc=Iy49MjsnMCMhOCIxNycvIC47MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSI4NS4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtNe3xuZGx4ZDhuYXB8KX9wfH4lamQ8dX53bXR6KXNwYHYlZHB0LG52fC4uZX0kSVtBQV83dGN0VmJncWZ6dydTVldTSFNEL3A1NS4jIy49MjsnNCchOCsyPi4jKCAyNTgrQkdaMys9MS0gKiAyNDgrOy0o&adv=8399&utm_source=34891&aid=1003&subid=558079.267\\\"},\\\"imptrackers\\\":[\\\"http:\\\\/\\\\/rtb.admedia.com\\\\/cr\\\\/?native=1&pid=1003&reqid=wYPSxQSHimqO&br_id=1003-1457961546.5913-87&impid=wYPSxQSHimqO&cid=34891&crid=130301&s=wc&domain=celebuzz.com&country=USA&siteid=2225&win_price=${AUCTION_PRICE}&cb=2125749959&bp=0.175\\\"]}}\",\"nurl\":\"http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=wYPSxQSHimqO&br_id=1003-1457961546.5913-87&impid=wYPSxQSHimqO&cid=34891&crid=130301&s=wc&domain=celebuzz.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175\",\"cid\":\"34891\",\"crid\":\"130301\",\"adomain\":[\"Buzzour.com\"]}]}],\"bidid\":\"1003-1457961546.5913-87\",\"cur\":\"USD\"}",
+			"rawResponseStatus": 200,
+			"truncatedBidsCount": 0,
+			"multiBid": false,
+			"defaultBid": true,
+			"nonZeroBid": true
+		},
+		"environment": {
+			"host": "LGA-RTB26",
+			"port": 8081,
+			"dataCenter": "LGA"
+		}
+	},
+	{
+		"request": {
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"eligibleSeats": [],
+			"encryptedVguid": "",
+			"buyerContext": {
+				"request": {
+					"askPrice": 2.2,
+					"sspBidFloor": 2.2,
+					"performancePrice": 0,
+					"altTagId": 0,
+					"bhTokens": "",
+					"retargetingCategoryIds": "",
+					"retargetingLanguageIds": "",
+					"adTagId": -1,
+					"adTagGroupId": -1,
+					"publisherId": 558355,
+					"tagSizeId": 18,
+					"contextualInfo": {
+						"channelIds": [
+							13,
+							178,
+							0
+						],
+						"contextualized": true
+					},
+					"imprGuid": "fvWxzghDUbaS",
+					"visitorGuid": "",
+					"pageUrl": "http://www.lifed.com/cancer-causing-foods-you-should-never-eat/source/facebook",
+					"pageLanguageISOCode": "en",
+					"ipAddress": "70.192.10.248",
+					"adReqSourceType": "UNKNOWN",
+					"inventoryType": "SITE",
+					"piggybackCookies": "",
+					"geoData": {
+						"type": "IP",
+						"areaCode": "617",
+						"city": "BOSTON",
+						"country": "USA",
+						"metro": "506",
+						"latitude": "42.35752",
+						"longitude": "-71.05727",
+						"state": "MA",
+						"postalCode": "02108",
+						"bandwidth": "MOBILE",
+						"sic": "481301",
+						"domain": "MYVZW.COM",
+						"cityCode": 0
+					},
+					"foldCount": -1,
+					"urlReferrer": "http://m.facebook.com",
+					"adReferrer": "",
+					"userAgent": {
+						"browserTypeParam": "",
+						"browserVersionParam": "",
+						"operatingSystemType": "IOS",
+						"operatingSystemVersion": "9.2",
+						"deviceMake": "",
+						"deviceModel": "",
+						"deviceType": "MOBILE",
+						"mobileAgent": true
+					},
+					"rawUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13C75 [FBAN/FBIOS;FBAV/50.0.0.47.191;FBBV/23973043;FBDV/iPhone6,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.2;FBSS/2; FBCR/Verizon;FBID/phone;FBLC/en_US;FBOP/5]",
+					"doNotTrack": "0",
+					"userTimezoneOffset": 0,
+					"frequency": -1,
+					"capabilities": {
+						"capabilities": ""
+					},
+					"pubPayoutTypeParam": "NoInfo",
+					"domainGroups": {
+						"separator": "",
+						"splitter": "",
+						"domainGroupsString": "",
+						"cachedDomainGroups": [],
+						"drDomain": false
+					},
+					"adPositionParam": {
+						"x": "UNKNOWN",
+						"y": "UNKNOWN",
+						"exactX": 0,
+						"exactY": 0
+					},
+					"tile": -1,
+					"bidTypeParam": "EXTERNAL",
+					"impressionSource": "ADS_NATIVE",
+					"videoAssetId": "",
+					"videoContextualCategoryIds": "",
+					"videoAspectRatio": "",
+					"videoProtocols": "",
+					"videoVastVersion": "",
+					"videoInventoryType": "",
+					"videoPlaybackmethod": "",
+					"videoDelivery": "",
+					"videoApi": "",
+					"nativeAd": {
+						"ver": "1",
+						"request": "{\"ver\":1,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":150}},{\"id\":2,\"required\":1,\"img\":{\"hmin\":100,\"wmin\":100,\"type\":3}},{\"id\":6,\"required\":1,\"data\":{\"type\":2,\"len\":200}},{\"id\":15,\"required\":0,\"data\":{\"type\":11}},{\"id\":5,\"required\":0,\"data\":{\"type\":1}}],\"layout\":3,\"adunit\":3,\"plcmtcnt\":1,\"seq\":0}"
+					},
+					"distributionType": "DEFAULT",
+					"ipImpressionQualityScore": -1,
+					"ipClickQualityScore": -1,
+					"domainQualityScore": -1,
+					"timeOut": 284,
+					"bidRequestTimeoutData": {
+						"timeoutCalculationStrategy": "OFFSET_BASED",
+						"internalTimeOutMs": 289,
+						"timeOutOffsetMs": 5,
+						"frontendRequestTimestamp": 0,
+						"backTripTimeMs": 0
+					},
+					"numOfAds": 1,
+					"qdaScore": -1,
+					"qualityData": {
+						"scores": {},
+						"testNames": {},
+						"qualityData": ""
+					},
+					"visitorStatus": -1,
+					"targetCCID": 0,
+					"thirdPartyPublisherId": "6822",
+					"thirdPartyTagId": "33127",
+					"thirdPartySiteId": "368ebe8d",
+					"highImpactInfo": "",
+					"blockedCreativeAttrsStr": "3,4,5",
+					"blockedCreativeTypesStr": "",
+					"blockedAdvertiserCatsStr": "",
+					"inventoryName": "Lifed.com",
+					"appBundle": "",
+					"appStoreUrl": "",
+					"openRtbSiteCatsStr": "IAB9",
+					"openRtbPageCatsStr": "IAB7,IAB7-37,IAB7",
+					"secure": false,
+					"multipleAuctionsSeqNum": 0,
+					"deviceMake": "",
+					"deviceModel": "",
+					"deviceCarrier": "",
+					"deviceIfa": "",
+					"devicePlatformIdSHA1": "",
+					"devicePlatformIdMD5": "",
+					"adBlockRequest": false,
+					"pageUrlOverridden": false,
+					"pageUrlOriginal": "",
+					"domainGroupsOriginalStr": "",
+					"mobileApp": false,
+					"diagnostic": false
+				},
+				"eligibleSeats": [],
+				"blockedDomains": [],
+				"userAssociations": {},
+				"companionAdSize": {
+					"adSizeId": 0,
+					"adSizeName": "None",
+					"code": "None",
+					"width": 0,
+					"height": 0,
+					"popUnder": 0,
+					"isDefault": true,
+					"default": true
+				},
+				"adSize": {
+					"adSizeId": 18,
+					"adSizeName": "Native",
+					"code": "Native",
+					"width": 2,
+					"height": 3,
+					"popUnder": 0,
+					"isDefault": false,
+					"default": false
+				},
+				"eligibleBuyers": [
+					557504,
+					558758
+				],
+				"dealMap": {},
+				"buyerSeatMap": {},
+				"buyerTimeoutMs": 125
+			},
+			"blockedDomains": [],
+			"callContext": {
+				"userAgent": {
+					"browserTypeParam": "0",
+					"browserVersionParam": "",
+					"operatingSystemType": "0",
+					"operatingSystemVersion": "9.2",
+					"deviceMake": "",
+					"deviceModel": "",
+					"deviceType": "MOBILE",
+					"mobileAgent": true
+				}
+			},
+			"buyerCall": {
+				"buyerCallMethod": "POST",
+				"entity": "{\"badv\":[\"currentaffair.com\"],\"bcat\":[],\"device\":{\"devicetype\":1,\"dnt\":0,\"geo\":{\"city\":\"BOSTON\",\"country\":\"USA\",\"lat\":42.35752,\"lon\":-71.05727,\"metro\":\"506\",\"region\":\"MA\",\"type\":2,\"zip\":\"02108\"},\"ip\":\"70.192.10.248\",\"language\":\"en\",\"os\":\"IOS\",\"osv\":\"9.2\",\"ua\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13C75 [FBAN/FBIOS;FBAV/50.0.0.47.191;FBBV/23973043;FBDV/iPhone6,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.2;FBSS/2; FBCR/Verizon;FBID/phone;FBLC/en_US;FBOP/5]\"},\"id\":\"fvWxzghDUbaS\",\"imp\":[{\"bidfloor\":0,\"bidfloorcur\":\"USD\",\"id\":\"fvWxzghDUbaS\",\"instl\":0,\"native\":{\"battr\":[3,4,5],\"request\":\"{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":1,\\\"required\\\":1,\\\"title\\\":{\\\"len\\\":150}},{\\\"id\\\":2,\\\"required\\\":1,\\\"img\\\":{\\\"hmin\\\":100,\\\"wmin\\\":100,\\\"type\\\":3}},{\\\"id\\\":6,\\\"required\\\":1,\\\"data\\\":{\\\"type\\\":2,\\\"len\\\":200}},{\\\"id\\\":15,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":11}},{\\\"id\\\":5,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":1}}],\\\"layout\\\":3,\\\"adunit\\\":3,\\\"plcmtcnt\\\":1,\\\"seq\\\":0}\",\"ver\":\"1\"},\"secure\":0,\"tagid\":\"33127\"}],\"site\":{\"cat\":[\"IAB9\"],\"domain\":\"lifed.com\",\"id\":\"368ebe8d\",\"name\":\"Lifed.com\",\"page\":\"http://www.lifed.com/cancer-causing-foods-you-should-never-eat/source/facebook\",\"pagecat\":[\"IAB7-11\",\"IAB7\",\"IAB7-37\"],\"publisher\":{\"domain\":\"lifed.com\",\"id\":\"558355.6822\"},\"ref\":\"http://m.facebook.com\"},\"tmax\":125,\"user\":{\"geo\":{\"city\":\"BOSTON\",\"country\":\"USA\",\"lat\":42.35752,\"lon\":-71.05727,\"metro\":\"506\",\"region\":\"MA\",\"type\":2,\"zip\":\"02108\"},\"id\":\"\"}}",
+				"headers": {
+					"Content-Type": "application/json",
+					"x-openrtb-version": "2.3"
+				}
+			}
+		},
+		"response": {
+			"bidCpm": {
+				"cpm": 0.175,
+				"greaterThanZero": true
+			},
+			"creative": "{\"native\":{\"ver\":1,\"assets\":[{\"id\":1,\"title\":{\"text\":\"Rory Gilmore's Boyfriends\"}},{\"id\":2,\"img\":{\"url\":\"\",\"w\":100,\"h\":100}},{\"id\":6,\"data\":{\"value\":\"http:\\/\\/buzzour.com\\/FranAdMe\\/which-of-rory-gilmores-boyfriends-is-your-soulmate?\"}},{\"id\":5,\"data\":{\"value\":\"http:\\/\\/buzzour.com\\/franadme\\/which-of-rory-gilmores\"}}],\"link\":{\"url\":\"http:\\/\\/34891.click.scouring.com\\/cad.php?mc=Iy49MjsnMCItOCcwMiMpISI7MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSMwMC4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDhuYXhrbDl2dDd6anBoLHBwZXxndnFqP3hnfGRjaHJ3bWIlbWc0a3V9dy9ibmJ1ZHB8YSsjKCs8MDUoNyIoPSAyPi4jKCAyPzIrO1RJSisyMSEgKyIyPzMrOy0jOA%2C%2C&adv=8399&utm_source=34891&aid=1003&subid=558355.6822\"},\"imptrackers\":[\"http:\\/\\/rtb.admedia.com\\/cr\\/?native=1&pid=1003&reqid=fvWxzghDUbaS&br_id=1003-1457961546.6943-821&impid=fvWxzghDUbaS&cid=34891&crid=130284&s=wc&domain=lifed.com&country=USA&siteid=368ebe8d&win_price=${AUCTION_PRICE}&cb=2143034823&bp=0.175\"]}}",
+			"winNoticeUrl": "http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=fvWxzghDUbaS&br_id=1003-1457961546.6943-821&impid=fvWxzghDUbaS&cid=34891&crid=130284&s=wc&domain=lifed.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175",
+			"extCreativeId": "130284",
+			"extRequestId": "1003-1457961546.6943-821",
+			"notes": "",
+			"clickThroughUrlList": [
+				"http://buzzour.com/FranAdMe/which-of-rory-gilmores"
+			],
+			"seat": "1",
+			"internalDealId": 0,
+			"externalIdChanged": false,
+			"blockedCreativeReason": "PUBLISHER_BLOCKED_EMPTY_CREATIVE_ATTRIBUTE",
+			"clickThroughCategories": [],
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"responseTime": 68,
+			"buyerErrorCode": "BLOCKED_CREATIVE_URL",
+			"buyerRejectReason": "NONE",
+			"extUserId": "",
+			"rawResponse": "{\"id\":\"fvWxzghDUbaS\",\"seatbid\":[{\"seat\":\"1\",\"bid\":[{\"id\":\"1\",\"impid\":\"fvWxzghDUbaS\",\"price\":0.175,\"adm\":\"{\\\"native\\\":{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":1,\\\"title\\\":{\\\"text\\\":\\\"Rory Gilmore's Boyfriends\\\"}},{\\\"id\\\":2,\\\"img\\\":{\\\"url\\\":\\\"\\\",\\\"w\\\":100,\\\"h\\\":100}},{\\\"id\\\":6,\\\"data\\\":{\\\"value\\\":\\\"http:\\\\/\\\\/buzzour.com\\\\/FranAdMe\\\\/which-of-rory-gilmores-boyfriends-is-your-soulmate?\\\"}},{\\\"id\\\":5,\\\"data\\\":{\\\"value\\\":\\\"http:\\\\/\\\\/buzzour.com\\\\/franadme\\\\/which-of-rory-gilmores\\\"}}],\\\"link\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/34891.click.scouring.com\\\\/cad.php?mc=Iy49MjsnMCItOCcwMiMpISI7MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSMwMC4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDhuYXhrbDl2dDd6anBoLHBwZXxndnFqP3hnfGRjaHJ3bWIlbWc0a3V9dy9ibmJ1ZHB8YSsjKCs8MDUoNyIoPSAyPi4jKCAyPzIrO1RJSisyMSEgKyIyPzMrOy0jOA%2C%2C&adv=8399&utm_source=34891&aid=1003&subid=558355.6822\\\"},\\\"imptrackers\\\":[\\\"http:\\\\/\\\\/rtb.admedia.com\\\\/cr\\\\/?native=1&pid=1003&reqid=fvWxzghDUbaS&br_id=1003-1457961546.6943-821&impid=fvWxzghDUbaS&cid=34891&crid=130284&s=wc&domain=lifed.com&country=USA&siteid=368ebe8d&win_price=${AUCTION_PRICE}&cb=2143034823&bp=0.175\\\"]}}\",\"nurl\":\"http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=fvWxzghDUbaS&br_id=1003-1457961546.6943-821&impid=fvWxzghDUbaS&cid=34891&crid=130284&s=wc&domain=lifed.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175\",\"cid\":\"34891\",\"crid\":\"130284\",\"adomain\":[\"http://buzzour.com/FranAdMe/which-of-rory-gilmores\"]}]}],\"bidid\":\"1003-1457961546.6943-821\",\"cur\":\"USD\"}",
+			"rawResponseStatus": 200,
+			"truncatedBidsCount": 0,
+			"multiBid": false,
+			"defaultBid": true,
+			"nonZeroBid": true
+		},
+		"environment": {
+			"host": "LGA-RTB00",
+			"port": 8080,
+			"dataCenter": "LGA"
+		}
+	},
+	{
+		"request": {
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"eligibleSeats": [],
+			"encryptedVguid": "",
+			"buyerContext": {
+				"request": {
+					"askPrice": 0.1,
+					"sspBidFloor": 0.1,
+					"performancePrice": 0,
+					"altTagId": 0,
+					"bhTokens": "",
+					"retargetingCategoryIds": "",
+					"retargetingLanguageIds": "",
+					"adTagId": -1,
+					"adTagGroupId": -1,
+					"publisherId": 558079,
+					"tagSizeId": 18,
+					"contextualInfo": {
+						"channelIds": [
+							3,
+							34,
+							0
+						],
+						"contextualized": true
+					},
+					"imprGuid": "R5B6FVvYlhUc",
+					"visitorGuid": "",
+					"pageUrl": "http://www.rebelscum.com/story/front/Hasbro_Photo_Archive_The_Force_Awakens_Unkar_Plutt_168250.asp#{\"experiment\":\"tasting_force_links_above\",\"variant\":\"force_theta\"}",
+					"pageLanguageISOCode": "en",
+					"ipAddress": "40.0.40.10",
+					"adReqSourceType": "UNKNOWN",
+					"inventoryType": "SITE",
+					"piggybackCookies": "",
+					"geoData": {
+						"type": "IP",
+						"areaCode": "317",
+						"city": "INDIANAPOLIS",
+						"country": "USA",
+						"metro": "527",
+						"latitude": "39.78339",
+						"longitude": "-86.04457",
+						"state": "IN",
+						"postalCode": "46285",
+						"bandwidth": "BROADBAND",
+						"sic": "283498",
+						"domain": "LILLY.COM",
+						"cityCode": 0
+					},
+					"foldCount": -1,
+					"urlReferrer": "",
+					"adReferrer": "",
+					"userAgent": {
+						"browserTypeParam": "CHROME",
+						"browserVersionParam": "48.0.2564.116",
+						"operatingSystemType": "WINDOWS",
+						"operatingSystemVersion": "7",
+						"deviceMake": "",
+						"deviceModel": "Other",
+						"deviceType": "DESKTOP",
+						"mobileAgent": false
+					},
+					"rawUserAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36",
+					"doNotTrack": "0",
+					"userTimezoneOffset": 0,
+					"frequency": -1,
+					"capabilities": {
+						"capabilities": ""
+					},
+					"pubPayoutTypeParam": "NoInfo",
+					"domainGroups": {
+						"separator": "",
+						"splitter": "",
+						"domainGroupsString": "",
+						"cachedDomainGroups": [],
+						"drDomain": false
+					},
+					"adPositionParam": {
+						"x": "UNKNOWN",
+						"y": "UNKNOWN",
+						"exactX": 0,
+						"exactY": 0
+					},
+					"tile": -1,
+					"bidTypeParam": "EXTERNAL",
+					"impressionSource": "ADS_NATIVE",
+					"videoAssetId": "",
+					"videoContextualCategoryIds": "",
+					"videoAspectRatio": "",
+					"videoProtocols": "",
+					"videoVastVersion": "",
+					"videoInventoryType": "",
+					"videoPlaybackmethod": "",
+					"videoDelivery": "",
+					"videoApi": "",
+					"nativeAd": {
+						"ver": "1",
+						"request": "{\"ver\":1,\"assets\":[{\"id\":0,\"required\":1,\"title\":{\"len\":120}},{\"id\":1,\"required\":0,\"data\":{\"type\":2,\"len\":300}},{\"id\":2,\"required\":1,\"data\":{\"type\":1}},{\"id\":3,\"required\":0,\"data\":{\"type\":12}},{\"id\":4,\"required\":0,\"img\":{\"hmin\":60,\"wmin\":60,\"type\":1}},{\"id\":5,\"required\":1,\"img\":{\"h\":260,\"w\":300,\"hmin\":200,\"wmin\":200,\"type\":3}}],\"adunit\":502,\"plcmtcnt\":1,\"seq\":0}"
+					},
+					"distributionType": "DEFAULT",
+					"ipImpressionQualityScore": -1,
+					"ipClickQualityScore": -1,
+					"domainQualityScore": -1,
+					"timeOut": 174,
+					"bidRequestTimeoutData": {
+						"timeoutCalculationStrategy": "OFFSET_BASED",
+						"internalTimeOutMs": 179,
+						"timeOutOffsetMs": 5,
+						"frontendRequestTimestamp": 0,
+						"backTripTimeMs": 0
+					},
+					"numOfAds": 1,
+					"qdaScore": -1,
+					"qualityData": {
+						"scores": {},
+						"testNames": {},
+						"qualityData": ""
+					},
+					"visitorStatus": -1,
+					"targetCCID": 0,
+					"thirdPartyPublisherId": "267",
+					"thirdPartyTagId": "mouPeAYMg6iC3IJW2ca-o0mCNXtGGGF1MyIqYLbA",
+					"thirdPartySiteId": "3531",
+					"highImpactInfo": "",
+					"blockedCreativeAttrsStr": "",
+					"blockedCreativeTypesStr": "",
+					"blockedAdvertiserCatsStr": "",
+					"inventoryName": "",
+					"appBundle": "",
+					"appStoreUrl": "",
+					"openRtbSiteCatsStr": "IAB24",
+					"openRtbPageCatsStr": "",
+					"secure": false,
+					"multipleAuctionsSeqNum": 0,
+					"deviceMake": "",
+					"deviceModel": "Other",
+					"deviceCarrier": "",
+					"deviceIfa": "",
+					"devicePlatformIdSHA1": "",
+					"devicePlatformIdMD5": "",
+					"adBlockRequest": false,
+					"pageUrlOverridden": false,
+					"pageUrlOriginal": "",
+					"domainGroupsOriginalStr": "",
+					"mobileApp": false,
+					"diagnostic": false
+				},
+				"eligibleSeats": [],
+				"blockedDomains": [],
+				"userAssociations": {},
+				"companionAdSize": {
+					"adSizeId": 0,
+					"adSizeName": "None",
+					"code": "None",
+					"width": 0,
+					"height": 0,
+					"popUnder": 0,
+					"isDefault": true,
+					"default": true
+				},
+				"adSize": {
+					"adSizeId": 18,
+					"adSizeName": "Native",
+					"code": "Native",
+					"width": 2,
+					"height": 3,
+					"popUnder": 0,
+					"isDefault": false,
+					"default": false
+				},
+				"eligibleBuyers": [
+					558472,
+					558189,
+					557504,
+					558225,
+					558758
+				],
+				"dealMap": {},
+				"buyerSeatMap": {},
+				"buyerTimeoutMs": 125
+			},
+			"blockedDomains": [],
+			"callContext": {
+				"userAgent": {
+					"browserTypeParam": "3",
+					"browserVersionParam": "48.0.2564.116",
+					"operatingSystemType": "1",
+					"operatingSystemVersion": "7",
+					"deviceMake": "",
+					"deviceModel": "Other",
+					"deviceType": "DESKTOP",
+					"mobileAgent": false
+				}
+			},
+			"buyerCall": {
+				"buyerCallMethod": "POST",
+				"entity": "{\"badv\":[],\"bcat\":[],\"device\":{\"devicetype\":2,\"dnt\":0,\"geo\":{\"city\":\"INDIANAPOLIS\",\"country\":\"USA\",\"lat\":39.78339,\"lon\":-86.04457,\"metro\":\"527\",\"region\":\"IN\",\"type\":2,\"zip\":\"46285\"},\"ip\":\"40.0.40.10\",\"language\":\"en\",\"model\":\"Other\",\"os\":\"WINDOWS\",\"osv\":\"7\",\"ua\":\"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36\"},\"id\":\"R5B6FVvYlhUc\",\"imp\":[{\"bidfloor\":0,\"bidfloorcur\":\"USD\",\"id\":\"R5B6FVvYlhUc\",\"instl\":0,\"native\":{\"battr\":[],\"request\":\"{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":0,\\\"required\\\":1,\\\"title\\\":{\\\"len\\\":120}},{\\\"id\\\":1,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":2,\\\"len\\\":300}},{\\\"id\\\":2,\\\"required\\\":1,\\\"data\\\":{\\\"type\\\":1}},{\\\"id\\\":3,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":12}},{\\\"id\\\":4,\\\"required\\\":0,\\\"img\\\":{\\\"hmin\\\":60,\\\"wmin\\\":60,\\\"type\\\":1}},{\\\"id\\\":5,\\\"required\\\":1,\\\"img\\\":{\\\"h\\\":260,\\\"w\\\":300,\\\"hmin\\\":200,\\\"wmin\\\":200,\\\"type\\\":3}}],\\\"adunit\\\":502,\\\"plcmtcnt\\\":1,\\\"seq\\\":0}\",\"ver\":\"1\"},\"secure\":0,\"tagid\":\"mouPeAYMg6iC3IJW2ca-o0mCNXtGGGF1MyIqYLbA\"}],\"site\":{\"cat\":[\"IAB24\"],\"domain\":\"rebelscum.com\",\"id\":\"3531\",\"page\":\"http://www.rebelscum.com/story/front/Hasbro_Photo_Archive_The_Force_Awakens_Unkar_Plutt_168250.asp#{\\\"experiment\\\":\\\"tasting_force_links_above\\\",\\\"variant\\\":\\\"force_theta\\\"}\",\"pagecat\":[\"IAB1-5\"],\"publisher\":{\"domain\":\"rebelscum.com\",\"id\":\"558079.267\"}},\"tmax\":125,\"user\":{\"geo\":{\"city\":\"INDIANAPOLIS\",\"country\":\"USA\",\"lat\":39.78339,\"lon\":-86.04457,\"metro\":\"527\",\"region\":\"IN\",\"type\":2,\"zip\":\"46285\"},\"id\":\"\"}}",
+				"headers": {
+					"Content-Type": "application/json",
+					"x-openrtb-version": "2.3"
+				}
+			}
+		},
+		"response": {
+			"bidCpm": {
+				"cpm": 0.175,
+				"greaterThanZero": true
+			},
+			"creative": "{\"native\":{\"ver\":1,\"assets\":[{\"id\":0,\"title\":{\"text\":\"When You Were Younger Quiz\"}},{\"id\":1,\"data\":{\"value\":\"When You Were Younger\"}},{\"id\":2,\"data\":{\"value\":\"buzzour.com\"}},{\"id\":5,\"img\":{\"url\":\"http:\\/\\/advertisers.admedia.com\\/campaign_images\\/8399_nat_1454495916.jpg\",\"w\":300,\"h\":260}}],\"link\":{\"url\":\"http:\\/\\/34891.click.scouring.com\\/cad.php?mc=Iy49MjsnMCItOyg9MychICI7MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSI4NC4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDh6aH8lc3E0dW9tdnE8dn94fTxxa2E0ZXtmcWd1LGN2JHNtKWNxd3QlfG1kLGB8e3QlfXtsfH1tdz03YH4kUlBBQEk_Z25lWnF-dGV6bCxTV0FbW15VI2MsMC0jOCU9My0vJys8NzgrOy0jMysyNC4jUUpLPzgkNC4gMSsyNS4jKCA5&adv=8399&utm_source=34891&aid=1003&subid=558079.267\"},\"imptrackers\":[\"http:\\/\\/rtb.admedia.com\\/cr\\/?native=1&pid=1003&reqid=R5B6FVvYlhUc&br_id=1003-1457961546.6516-813&impid=R5B6FVvYlhUc&cid=34891&crid=130300&s=wc&domain=rebelscum.com&country=USA&siteid=3531&win_price=${AUCTION_PRICE}&cb=2145808104&bp=0.175\"]}}",
+			"winNoticeUrl": "http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=R5B6FVvYlhUc&br_id=1003-1457961546.6516-813&impid=R5B6FVvYlhUc&cid=34891&crid=130300&s=wc&domain=rebelscum.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175",
+			"extCreativeId": "130300",
+			"extRequestId": "1003-1457961546.6516-813",
+			"notes": "",
+			"clickThroughUrlList": [
+				"Buzzour.com"
+			],
+			"seat": "1",
+			"internalDealId": 0,
+			"externalIdChanged": false,
+			"blockedCreativeReason": "NONE",
+			"clickThroughCategories": [],
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"responseTime": 69,
+			"buyerErrorCode": "NONE",
+			"buyerRejectReason": "NONE",
+			"extUserId": "",
+			"rawResponse": "{\"id\":\"R5B6FVvYlhUc\",\"seatbid\":[{\"seat\":\"1\",\"bid\":[{\"id\":\"1\",\"impid\":\"R5B6FVvYlhUc\",\"price\":0.175,\"adm\":\"{\\\"native\\\":{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":0,\\\"title\\\":{\\\"text\\\":\\\"When You Were Younger Quiz\\\"}},{\\\"id\\\":1,\\\"data\\\":{\\\"value\\\":\\\"When You Were Younger\\\"}},{\\\"id\\\":2,\\\"data\\\":{\\\"value\\\":\\\"buzzour.com\\\"}},{\\\"id\\\":5,\\\"img\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/advertisers.admedia.com\\\\/campaign_images\\\\/8399_nat_1454495916.jpg\\\",\\\"w\\\":300,\\\"h\\\":260}}],\\\"link\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/34891.click.scouring.com\\\\/cad.php?mc=Iy49MjsnMCItOyg9MychICI7MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSI4NC4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDh6aH8lc3E0dW9tdnE8dn94fTxxa2E0ZXtmcWd1LGN2JHNtKWNxd3QlfG1kLGB8e3QlfXtsfH1tdz03YH4kUlBBQEk_Z25lWnF-dGV6bCxTV0FbW15VI2MsMC0jOCU9My0vJys8NzgrOy0jMysyNC4jUUpLPzgkNC4gMSsyNS4jKCA5&adv=8399&utm_source=34891&aid=1003&subid=558079.267\\\"},\\\"imptrackers\\\":[\\\"http:\\\\/\\\\/rtb.admedia.com\\\\/cr\\\\/?native=1&pid=1003&reqid=R5B6FVvYlhUc&br_id=1003-1457961546.6516-813&impid=R5B6FVvYlhUc&cid=34891&crid=130300&s=wc&domain=rebelscum.com&country=USA&siteid=3531&win_price=${AUCTION_PRICE}&cb=2145808104&bp=0.175\\\"]}}\",\"nurl\":\"http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=R5B6FVvYlhUc&br_id=1003-1457961546.6516-813&impid=R5B6FVvYlhUc&cid=34891&crid=130300&s=wc&domain=rebelscum.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175\",\"cid\":\"34891\",\"crid\":\"130300\",\"adomain\":[\"Buzzour.com\"]}]}],\"bidid\":\"1003-1457961546.6516-813\",\"cur\":\"USD\"}",
+			"rawResponseStatus": 200,
+			"truncatedBidsCount": 0,
+			"multiBid": false,
+			"defaultBid": true,
+			"nonZeroBid": true
+		},
+		"environment": {
+			"host": "LGA-RTB00",
+			"port": 8080,
+			"dataCenter": "LGA"
+		}
+	},
+	{
+		"request": {
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"eligibleSeats": [],
+			"encryptedVguid": "2h7kOzCvM9uxhWE-nu--Vg",
+			"buyerContext": {
+				"request": {
+					"askPrice": 1,
+					"sspBidFloor": 1,
+					"performancePrice": 0,
+					"altTagId": 0,
+					"bhTokens": "",
+					"retargetingCategoryIds": "",
+					"retargetingLanguageIds": "",
+					"adTagId": -1,
+					"adTagGroupId": -1,
+					"publisherId": 558079,
+					"tagSizeId": 18,
+					"contextualInfo": {
+						"channelIds": [
+							16,
+							0,
+							0
+						],
+						"contextualized": true
+					},
+					"imprGuid": "QKUeWBj1xuRe",
+					"visitorGuid": "Z3dOxrIVaRyX",
+					"pageUrl": "http://abcnews.go.com/US",
+					"pageLanguageISOCode": "en",
+					"ipAddress": "104.218.182.98",
+					"adReqSourceType": "UNKNOWN",
+					"inventoryType": "SITE",
+					"piggybackCookies": "",
+					"geoData": {
+						"type": "IP",
+						"areaCode": "617",
+						"city": "QUINCY",
+						"country": "USA",
+						"metro": "506",
+						"latitude": "42.2404",
+						"longitude": "-71.0142",
+						"state": "MA",
+						"postalCode": "02171",
+						"bandwidth": "BROADBAND",
+						"sic": "0",
+						"domain": "?",
+						"cityCode": 0
+					},
+					"foldCount": -1,
+					"urlReferrer": "",
+					"adReferrer": "",
+					"userAgent": {
+						"browserTypeParam": "CHROME",
+						"browserVersionParam": "48.0.2564.116",
+						"operatingSystemType": "WINDOWS",
+						"operatingSystemVersion": "7",
+						"deviceMake": "",
+						"deviceModel": "Other",
+						"deviceType": "DESKTOP",
+						"mobileAgent": false
+					},
+					"rawUserAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.92",
+					"doNotTrack": "0",
+					"userTimezoneOffset": 0,
+					"frequency": -1,
+					"capabilities": {
+						"capabilities": ""
+					},
+					"pubPayoutTypeParam": "NoInfo",
+					"domainGroups": {
+						"separator": "",
+						"splitter": "",
+						"domainGroupsString": "",
+						"cachedDomainGroups": [],
+						"drDomain": false
+					},
+					"adPositionParam": {
+						"x": "UNKNOWN",
+						"y": "UNKNOWN",
+						"exactX": 0,
+						"exactY": 0
+					},
+					"tile": -1,
+					"bidTypeParam": "EXTERNAL",
+					"impressionSource": "ADS_NATIVE",
+					"videoAssetId": "",
+					"videoContextualCategoryIds": "",
+					"videoAspectRatio": "",
+					"videoProtocols": "",
+					"videoVastVersion": "",
+					"videoInventoryType": "",
+					"videoPlaybackmethod": "",
+					"videoDelivery": "",
+					"videoApi": "",
+					"nativeAd": {
+						"ver": "1",
+						"request": "{\"ver\":1,\"assets\":[{\"id\":0,\"required\":1,\"title\":{\"len\":120}},{\"id\":1,\"required\":0,\"data\":{\"type\":2,\"len\":200}},{\"id\":2,\"required\":1,\"data\":{\"type\":1}},{\"id\":3,\"required\":0,\"data\":{\"type\":12}},{\"id\":4,\"required\":0,\"img\":{\"hmin\":60,\"wmin\":60,\"type\":1}},{\"id\":5,\"required\":0,\"img\":{\"h\":260,\"w\":300,\"hmin\":200,\"wmin\":200,\"type\":3}}],\"layout\":3,\"adunit\":501,\"plcmtcnt\":1,\"seq\":0}"
+					},
+					"distributionType": "DEFAULT",
+					"ipImpressionQualityScore": -1,
+					"ipClickQualityScore": -1,
+					"domainQualityScore": -1,
+					"timeOut": 174,
+					"bidRequestTimeoutData": {
+						"timeoutCalculationStrategy": "OFFSET_BASED",
+						"internalTimeOutMs": 179,
+						"timeOutOffsetMs": 5,
+						"frontendRequestTimestamp": 0,
+						"backTripTimeMs": 0
+					},
+					"numOfAds": 1,
+					"qdaScore": -1,
+					"qualityData": {
+						"scores": {},
+						"testNames": {},
+						"qualityData": ""
+					},
+					"visitorStatus": -1,
+					"targetCCID": 0,
+					"thirdPartyPublisherId": "384",
+					"thirdPartyTagId": "oP6gKhTynS-UEqqwCgD_p5_Lhe1AXzShnric4sS0",
+					"thirdPartySiteId": "1566",
+					"highImpactInfo": "",
+					"blockedCreativeAttrsStr": "",
+					"blockedCreativeTypesStr": "",
+					"blockedAdvertiserCatsStr": "",
+					"inventoryName": "",
+					"appBundle": "",
+					"appStoreUrl": "",
+					"openRtbSiteCatsStr": "IAB24",
+					"openRtbPageCatsStr": "",
+					"secure": false,
+					"multipleAuctionsSeqNum": 0,
+					"deviceMake": "",
+					"deviceModel": "Other",
+					"deviceCarrier": "",
+					"deviceIfa": "",
+					"devicePlatformIdSHA1": "",
+					"devicePlatformIdMD5": "",
+					"adBlockRequest": false,
+					"pageUrlOverridden": false,
+					"pageUrlOriginal": "",
+					"domainGroupsOriginalStr": "",
+					"mobileApp": false,
+					"diagnostic": false
+				},
+				"eligibleSeats": [],
+				"blockedDomains": [],
+				"userAssociations": {},
+				"companionAdSize": {
+					"adSizeId": 0,
+					"adSizeName": "None",
+					"code": "None",
+					"width": 0,
+					"height": 0,
+					"popUnder": 0,
+					"isDefault": true,
+					"default": true
+				},
+				"adSize": {
+					"adSizeId": 18,
+					"adSizeName": "Native",
+					"code": "Native",
+					"width": 2,
+					"height": 3,
+					"popUnder": 0,
+					"isDefault": false,
+					"default": false
+				},
+				"eligibleBuyers": [
+					558472,
+					557504,
+					558225,
+					558758
+				],
+				"dealMap": {},
+				"buyerSeatMap": {},
+				"buyerTimeoutMs": 125
+			},
+			"blockedDomains": [],
+			"callContext": {
+				"userAgent": {
+					"browserTypeParam": "3",
+					"browserVersionParam": "48.0.2564.116",
+					"operatingSystemType": "1",
+					"operatingSystemVersion": "7",
+					"deviceMake": "",
+					"deviceModel": "Other",
+					"deviceType": "DESKTOP",
+					"mobileAgent": false
+				}
+			},
+			"buyerCall": {
+				"buyerCallMethod": "POST",
+				"entity": "{\"badv\":[],\"bcat\":[],\"device\":{\"devicetype\":2,\"dnt\":0,\"geo\":{\"city\":\"QUINCY\",\"country\":\"USA\",\"lat\":42.2404,\"lon\":-71.0142,\"metro\":\"506\",\"region\":\"MA\",\"type\":2,\"zip\":\"02171\"},\"ip\":\"104.218.182.98\",\"language\":\"en\",\"model\":\"Other\",\"os\":\"WINDOWS\",\"osv\":\"7\",\"ua\":\"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 OPR/35.0.2066.92\"},\"id\":\"QKUeWBj1xuRe\",\"imp\":[{\"bidfloor\":0,\"bidfloorcur\":\"USD\",\"id\":\"QKUeWBj1xuRe\",\"instl\":0,\"native\":{\"battr\":[],\"request\":\"{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":0,\\\"required\\\":1,\\\"title\\\":{\\\"len\\\":120}},{\\\"id\\\":1,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":2,\\\"len\\\":200}},{\\\"id\\\":2,\\\"required\\\":1,\\\"data\\\":{\\\"type\\\":1}},{\\\"id\\\":3,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":12}},{\\\"id\\\":4,\\\"required\\\":0,\\\"img\\\":{\\\"hmin\\\":60,\\\"wmin\\\":60,\\\"type\\\":1}},{\\\"id\\\":5,\\\"required\\\":0,\\\"img\\\":{\\\"h\\\":260,\\\"w\\\":300,\\\"hmin\\\":200,\\\"wmin\\\":200,\\\"type\\\":3}}],\\\"layout\\\":3,\\\"adunit\\\":501,\\\"plcmtcnt\\\":1,\\\"seq\\\":0}\",\"ver\":\"1\"},\"secure\":0,\"tagid\":\"oP6gKhTynS-UEqqwCgD_p5_Lhe1AXzShnric4sS0\"}],\"site\":{\"cat\":[\"IAB24\"],\"domain\":\"abcnews.go.com\",\"id\":\"1566\",\"page\":\"http://abcnews.go.com/US\",\"pagecat\":[\"IAB12\"],\"publisher\":{\"domain\":\"go.com\",\"id\":\"558079.384\"}},\"tmax\":125,\"user\":{\"geo\":{\"city\":\"QUINCY\",\"country\":\"USA\",\"lat\":42.2404,\"lon\":-71.0142,\"metro\":\"506\",\"region\":\"MA\",\"type\":2,\"zip\":\"02171\"},\"id\":\"2h7kOzCvM9uxhWE-nu--Vg\"}}",
+				"headers": {
+					"Content-Type": "application/json",
+					"x-openrtb-version": "2.3"
+				}
+			}
+		},
+		"response": {
+			"bidCpm": {
+				"cpm": 0.175,
+				"greaterThanZero": true
+			},
+			"creative": "{\"native\":{\"ver\":1,\"assets\":[{\"id\":0,\"title\":{\"text\":\"Pokemon\"}},{\"id\":1,\"data\":{\"value\":\"http:\\/\\/buzzour.com\\/FranAdMe\\/which-pokemon-are-you-based-on-your-taste-in-music\"}},{\"id\":2,\"data\":{\"value\":\"http:\\/\\/buzzour.com\\/franadme\\/which-pokemon-are-you-\"}},{\"id\":5,\"img\":{\"url\":\"\",\"w\":300,\"h\":260}}],\"link\":{\"url\":\"http:\\/\\/34891.click.scouring.com\\/cad.php?mc=Iy49MjsnMCMhOCYwNScsICI7MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSMwNi4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDhuYXhrbDlpfXFtaG1_LHZrbDxxa2E0cHt7YGY8bnk0cH59djltc2l8YC94bzp0fGJhZysjKCs8MDUoNyIpMSAyPi4jKCAyPzIrO1RJSisyMSEgKyIyPzMrOy0jOA%2C%2C&adv=8399&utm_source=34891&aid=1003&subid=558079.384\"},\"imptrackers\":[\"http:\\/\\/rtb.admedia.com\\/cr\\/?native=1&pid=1003&reqid=QKUeWBj1xuRe&br_id=1003-1457961546.7612-664&impid=QKUeWBj1xuRe&cid=34891&crid=130282&s=wc&domain=go.com&country=USA&siteid=1566&win_price=${AUCTION_PRICE}&cb=1450925019&bp=0.175\"]}}",
+			"winNoticeUrl": "http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=QKUeWBj1xuRe&br_id=1003-1457961546.7612-664&impid=QKUeWBj1xuRe&cid=34891&crid=130282&s=wc&domain=go.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175",
+			"extCreativeId": "130282",
+			"extRequestId": "1003-1457961546.7612-664",
+			"notes": "",
+			"clickThroughUrlList": [
+				"http://buzzour.com/FranAdMe/which-pokemon-are-you-"
+			],
+			"seat": "1",
+			"internalDealId": 0,
+			"externalIdChanged": false,
+			"blockedCreativeReason": "NONE",
+			"clickThroughCategories": [],
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"responseTime": 67,
+			"buyerErrorCode": "NONE",
+			"buyerRejectReason": "NONE",
+			"extUserId": "",
+			"rawResponse": "{\"id\":\"QKUeWBj1xuRe\",\"seatbid\":[{\"seat\":\"1\",\"bid\":[{\"id\":\"1\",\"impid\":\"QKUeWBj1xuRe\",\"price\":0.175,\"adm\":\"{\\\"native\\\":{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":0,\\\"title\\\":{\\\"text\\\":\\\"Pokemon\\\"}},{\\\"id\\\":1,\\\"data\\\":{\\\"value\\\":\\\"http:\\\\/\\\\/buzzour.com\\\\/FranAdMe\\\\/which-pokemon-are-you-based-on-your-taste-in-music\\\"}},{\\\"id\\\":2,\\\"data\\\":{\\\"value\\\":\\\"http:\\\\/\\\\/buzzour.com\\\\/franadme\\\\/which-pokemon-are-you-\\\"}},{\\\"id\\\":5,\\\"img\\\":{\\\"url\\\":\\\"\\\",\\\"w\\\":300,\\\"h\\\":260}}],\\\"link\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/34891.click.scouring.com\\\\/cad.php?mc=Iy49MjsnMCMhOCYwNScsICI7MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSMwNi4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDhuYXhrbDlpfXFtaG1_LHZrbDxxa2E0cHt7YGY8bnk0cH59djltc2l8YC94bzp0fGJhZysjKCs8MDUoNyIpMSAyPi4jKCAyPzIrO1RJSisyMSEgKyIyPzMrOy0jOA%2C%2C&adv=8399&utm_source=34891&aid=1003&subid=558079.384\\\"},\\\"imptrackers\\\":[\\\"http:\\\\/\\\\/rtb.admedia.com\\\\/cr\\\\/?native=1&pid=1003&reqid=QKUeWBj1xuRe&br_id=1003-1457961546.7612-664&impid=QKUeWBj1xuRe&cid=34891&crid=130282&s=wc&domain=go.com&country=USA&siteid=1566&win_price=${AUCTION_PRICE}&cb=1450925019&bp=0.175\\\"]}}\",\"nurl\":\"http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=QKUeWBj1xuRe&br_id=1003-1457961546.7612-664&impid=QKUeWBj1xuRe&cid=34891&crid=130282&s=wc&domain=go.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175\",\"cid\":\"34891\",\"crid\":\"130282\",\"adomain\":[\"http://buzzour.com/FranAdMe/which-pokemon-are-you-\"]}]}],\"bidid\":\"1003-1457961546.7612-664\",\"cur\":\"USD\"}",
+			"rawResponseStatus": 200,
+			"truncatedBidsCount": 0,
+			"multiBid": false,
+			"defaultBid": true,
+			"nonZeroBid": true
+		},
+		"environment": {
+			"host": "LGA-RTB00",
+			"port": 8080,
+			"dataCenter": "LGA"
+		}
+	},
+	{
+		"request": {
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"eligibleSeats": [],
+			"encryptedVguid": "",
+			"buyerContext": {
+				"request": {
+					"askPrice": 1.45,
+					"sspBidFloor": 1.45,
+					"performancePrice": 0,
+					"altTagId": 0,
+					"bhTokens": "",
+					"retargetingCategoryIds": "",
+					"retargetingLanguageIds": "",
+					"adTagId": -1,
+					"adTagGroupId": -1,
+					"publisherId": 558355,
+					"tagSizeId": 18,
+					"contextualInfo": {
+						"channelIds": [
+							18,
+							0,
+							0
+						],
+						"contextualized": true
+					},
+					"imprGuid": "HgtprJjWaFvs",
+					"visitorGuid": "",
+					"pageUrl": "http://poplyft.com/27-traumatizing-photos-that-would-ruin-your-wedding-album/3/",
+					"pageLanguageISOCode": "en",
+					"ipAddress": "174.126.232.38",
+					"adReqSourceType": "UNKNOWN",
+					"inventoryType": "SITE",
+					"piggybackCookies": "",
+					"geoData": {
+						"type": "IP",
+						"areaCode": "928",
+						"city": "PRESCOTT",
+						"country": "USA",
+						"metro": "753",
+						"latitude": "34.57601",
+						"longitude": "-112.44908",
+						"state": "AZ",
+						"postalCode": "86301",
+						"bandwidth": "CABLE",
+						"sic": "737415",
+						"domain": "CABLEONE.NET",
+						"cityCode": 0
+					},
+					"foldCount": -1,
+					"urlReferrer": "http://poplyft.com/27-traumatizing-photos-that-would-ruin-your-wedding-album/2/",
+					"adReferrer": "",
+					"userAgent": {
+						"browserTypeParam": "SAFARI",
+						"browserVersionParam": "9.0",
+						"operatingSystemType": "IOS",
+						"operatingSystemVersion": "",
+						"deviceMake": "",
+						"deviceModel": "",
+						"deviceType": "MOBILE",
+						"mobileAgent": true
+					},
+					"rawUserAgent": "Mozilla/5.0 (iPad; CPU OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13D15 Safari/601.1",
+					"doNotTrack": "0",
+					"userTimezoneOffset": 0,
+					"frequency": -1,
+					"capabilities": {
+						"capabilities": ""
+					},
+					"pubPayoutTypeParam": "NoInfo",
+					"domainGroups": {
+						"separator": "",
+						"splitter": "",
+						"domainGroupsString": "",
+						"cachedDomainGroups": [],
+						"drDomain": false
+					},
+					"adPositionParam": {
+						"x": "UNKNOWN",
+						"y": "UNKNOWN",
+						"exactX": 0,
+						"exactY": 0
+					},
+					"tile": -1,
+					"bidTypeParam": "EXTERNAL",
+					"impressionSource": "ADS_NATIVE",
+					"videoAssetId": "",
+					"videoContextualCategoryIds": "",
+					"videoAspectRatio": "",
+					"videoProtocols": "",
+					"videoVastVersion": "",
+					"videoInventoryType": "",
+					"videoPlaybackmethod": "",
+					"videoDelivery": "",
+					"videoApi": "",
+					"nativeAd": {
+						"ver": "1",
+						"request": "{\"ver\":1,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":150}},{\"id\":2,\"required\":1,\"img\":{\"hmin\":100,\"wmin\":100,\"type\":3}},{\"id\":6,\"required\":1,\"data\":{\"type\":2,\"len\":200}},{\"id\":15,\"required\":0,\"data\":{\"type\":11}},{\"id\":5,\"required\":0,\"data\":{\"type\":1}}],\"layout\":3,\"adunit\":3,\"plcmtcnt\":1,\"seq\":0}"
+					},
+					"distributionType": "DEFAULT",
+					"ipImpressionQualityScore": -1,
+					"ipClickQualityScore": -1,
+					"domainQualityScore": -1,
+					"timeOut": 284,
+					"bidRequestTimeoutData": {
+						"timeoutCalculationStrategy": "OFFSET_BASED",
+						"internalTimeOutMs": 289,
+						"timeOutOffsetMs": 5,
+						"frontendRequestTimestamp": 0,
+						"backTripTimeMs": 0
+					},
+					"numOfAds": 1,
+					"qdaScore": -1,
+					"qualityData": {
+						"scores": {},
+						"testNames": {},
+						"qualityData": ""
+					},
+					"visitorStatus": -1,
+					"targetCCID": 0,
+					"thirdPartyPublisherId": "12519",
+					"thirdPartyTagId": "33126",
+					"thirdPartySiteId": "8b3362f9",
+					"highImpactInfo": "",
+					"blockedCreativeAttrsStr": "3,4,5",
+					"blockedCreativeTypesStr": "",
+					"blockedAdvertiserCatsStr": "",
+					"inventoryName": "poplyft.com",
+					"appBundle": "",
+					"appStoreUrl": "",
+					"openRtbSiteCatsStr": "IAB9",
+					"openRtbPageCatsStr": "IAB9",
+					"secure": false,
+					"multipleAuctionsSeqNum": 0,
+					"deviceMake": "",
+					"deviceModel": "",
+					"deviceCarrier": "",
+					"deviceIfa": "",
+					"devicePlatformIdSHA1": "",
+					"devicePlatformIdMD5": "",
+					"adBlockRequest": false,
+					"pageUrlOverridden": false,
+					"pageUrlOriginal": "",
+					"domainGroupsOriginalStr": "",
+					"diagnostic": false,
+					"mobileApp": false
+				},
+				"eligibleSeats": [],
+				"blockedDomains": [],
+				"userAssociations": {},
+				"companionAdSize": {
+					"adSizeId": 0,
+					"adSizeName": "None",
+					"code": "None",
+					"width": 0,
+					"height": 0,
+					"popUnder": 0,
+					"isDefault": true,
+					"default": true
+				},
+				"adSize": {
+					"adSizeId": 18,
+					"adSizeName": "Native",
+					"code": "Native",
+					"width": 2,
+					"height": 3,
+					"popUnder": 0,
+					"isDefault": false,
+					"default": false
+				},
+				"eligibleBuyers": [
+					558189,
+					558758
+				],
+				"dealMap": {},
+				"buyerSeatMap": {},
+				"buyerTimeoutMs": 125
+			},
+			"blockedDomains": [],
+			"callContext": {
+				"userAgent": {
+					"browserTypeParam": "4",
+					"browserVersionParam": "9.0",
+					"operatingSystemType": "0",
+					"operatingSystemVersion": "",
+					"deviceMake": "",
+					"deviceModel": "",
+					"deviceType": "MOBILE",
+					"mobileAgent": true
+				}
+			},
+			"buyerCall": {
+				"buyerCallMethod": "POST",
+				"entity": "{\"badv\":[],\"bcat\":[],\"device\":{\"devicetype\":1,\"dnt\":0,\"geo\":{\"city\":\"PRESCOTT\",\"country\":\"USA\",\"lat\":34.57601,\"lon\":-112.44908,\"metro\":\"753\",\"region\":\"AZ\",\"type\":2,\"zip\":\"86301\"},\"ip\":\"174.126.232.38\",\"language\":\"en\",\"os\":\"IOS\",\"ua\":\"Mozilla/5.0 (iPad; CPU OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13D15 Safari/601.1\"},\"id\":\"HgtprJjWaFvs\",\"imp\":[{\"bidfloor\":0,\"bidfloorcur\":\"USD\",\"id\":\"HgtprJjWaFvs\",\"instl\":0,\"native\":{\"battr\":[3,4,5],\"request\":\"{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":1,\\\"required\\\":1,\\\"title\\\":{\\\"len\\\":150}},{\\\"id\\\":2,\\\"required\\\":1,\\\"img\\\":{\\\"hmin\\\":100,\\\"wmin\\\":100,\\\"type\\\":3}},{\\\"id\\\":6,\\\"required\\\":1,\\\"data\\\":{\\\"type\\\":2,\\\"len\\\":200}},{\\\"id\\\":15,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":11}},{\\\"id\\\":5,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":1}}],\\\"layout\\\":3,\\\"adunit\\\":3,\\\"plcmtcnt\\\":1,\\\"seq\\\":0}\",\"ver\":\"1\"},\"secure\":0,\"tagid\":\"33126\"}],\"site\":{\"cat\":[\"IAB9\"],\"domain\":\"poplyft.com\",\"id\":\"8b3362f9\",\"name\":\"poplyft.com\",\"page\":\"http://poplyft.com/27-traumatizing-photos-that-would-ruin-your-wedding-album/3/\",\"pagecat\":[\"IAB14\",\"IAB9\"],\"publisher\":{\"domain\":\"poplyft.com\",\"id\":\"558355.12519\"},\"ref\":\"http://poplyft.com/27-traumatizing-photos-that-would-ruin-your-wedding-album/2/\"},\"tmax\":125,\"user\":{\"geo\":{\"city\":\"PRESCOTT\",\"country\":\"USA\",\"lat\":34.57601,\"lon\":-112.44908,\"metro\":\"753\",\"region\":\"AZ\",\"type\":2,\"zip\":\"86301\"},\"id\":\"\"}}",
+				"headers": {
+					"Content-Type": "application/json",
+					"x-openrtb-version": "2.3"
+				}
+			}
+		},
+		"response": {
+			"bidCpm": {
+				"cpm": 0.175,
+				"greaterThanZero": true
+			},
+			"creative": "{\"native\":{\"ver\":1,\"assets\":[{\"id\":1,\"title\":{\"text\":\"Kinsey's Sexuality Scale\"}},{\"id\":2,\"img\":{\"url\":\"http:\\/\\/advertisers.admedia.com\\/campaign_images\\/8399_nat_1454415116.jpg\",\"w\":100,\"h\":100}},{\"id\":6,\"data\":{\"value\":\"Sexuality Test\"}},{\"id\":5,\"data\":{\"value\":\"buzzour.com\"}}],\"link\":{\"url\":\"http:\\/\\/34891.click.scouring.com\\/cad.php?mc=Iy49MjsnMCItOCQ_NSAuJyo7MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSMxMS4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDhtYXh7KWB8YW4lcmt9bTpxbH14KW12Zzd4aWNyZDpgZmR6d3F1dDdnay96aHlqbGh7KWd8am9paWtleDpqanBkYSs_c3M1XkNYRUo_fGVlW2d2Z2hrYD9KUkJbQFVVInUkIyAyNDYkNi4vPCA8NS4jKCAyPzgrMS0jSkFLPi4sJyMxPTgrMC0jMys5&adv=8399&utm_source=34891&aid=1003&subid=558355.12519\"},\"imptrackers\":[\"http:\\/\\/rtb.admedia.com\\/cr\\/?native=1&pid=1003&reqid=HgtprJjWaFvs&br_id=1003-1457961546.6685-759&impid=HgtprJjWaFvs&cid=34891&crid=130295&s=wc&domain=poplyft.com&country=USA&siteid=8b3362f9&win_price=${AUCTION_PRICE}&cb=1022891189&bp=0.175\"]}}",
+			"winNoticeUrl": "http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=HgtprJjWaFvs&br_id=1003-1457961546.6685-759&impid=HgtprJjWaFvs&cid=34891&crid=130295&s=wc&domain=poplyft.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175",
+			"extCreativeId": "130295",
+			"extRequestId": "1003-1457961546.6685-759",
+			"notes": "",
+			"clickThroughUrlList": [
+				"Buzzour.com"
+			],
+			"seat": "1",
+			"internalDealId": 0,
+			"externalIdChanged": false,
+			"blockedCreativeReason": "PUBLISHER_BLOCKED_EMPTY_CREATIVE_ATTRIBUTE",
+			"clickThroughCategories": [],
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"responseTime": 68,
+			"buyerErrorCode": "BLOCKED_CREATIVE_URL",
+			"buyerRejectReason": "NONE",
+			"extUserId": "",
+			"rawResponse": "{\"id\":\"HgtprJjWaFvs\",\"seatbid\":[{\"seat\":\"1\",\"bid\":[{\"id\":\"1\",\"impid\":\"HgtprJjWaFvs\",\"price\":0.175,\"adm\":\"{\\\"native\\\":{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":1,\\\"title\\\":{\\\"text\\\":\\\"Kinsey's Sexuality Scale\\\"}},{\\\"id\\\":2,\\\"img\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/advertisers.admedia.com\\\\/campaign_images\\\\/8399_nat_1454415116.jpg\\\",\\\"w\\\":100,\\\"h\\\":100}},{\\\"id\\\":6,\\\"data\\\":{\\\"value\\\":\\\"Sexuality Test\\\"}},{\\\"id\\\":5,\\\"data\\\":{\\\"value\\\":\\\"buzzour.com\\\"}}],\\\"link\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/34891.click.scouring.com\\\\/cad.php?mc=Iy49MjsnMCItOCQ_NSAuJyo7MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSMxMS4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDhtYXh7KWB8YW4lcmt9bTpxbH14KW12Zzd4aWNyZDpgZmR6d3F1dDdnay96aHlqbGh7KWd8am9paWtleDpqanBkYSs_c3M1XkNYRUo_fGVlW2d2Z2hrYD9KUkJbQFVVInUkIyAyNDYkNi4vPCA8NS4jKCAyPzgrMS0jSkFLPi4sJyMxPTgrMC0jMys5&adv=8399&utm_source=34891&aid=1003&subid=558355.12519\\\"},\\\"imptrackers\\\":[\\\"http:\\\\/\\\\/rtb.admedia.com\\\\/cr\\\\/?native=1&pid=1003&reqid=HgtprJjWaFvs&br_id=1003-1457961546.6685-759&impid=HgtprJjWaFvs&cid=34891&crid=130295&s=wc&domain=poplyft.com&country=USA&siteid=8b3362f9&win_price=${AUCTION_PRICE}&cb=1022891189&bp=0.175\\\"]}}\",\"nurl\":\"http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=HgtprJjWaFvs&br_id=1003-1457961546.6685-759&impid=HgtprJjWaFvs&cid=34891&crid=130295&s=wc&domain=poplyft.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175\",\"cid\":\"34891\",\"crid\":\"130295\",\"adomain\":[\"Buzzour.com\"]}]}],\"bidid\":\"1003-1457961546.6685-759\",\"cur\":\"USD\"}",
+			"rawResponseStatus": 200,
+			"truncatedBidsCount": 0,
+			"multiBid": false,
+			"defaultBid": true,
+			"nonZeroBid": true
+		},
+		"environment": {
+			"host": "LGA-RTB13",
+			"port": 8080,
+			"dataCenter": "LGA"
+		}
+	},
+	{
+		"request": {
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"eligibleSeats": [],
+			"encryptedVguid": "lavMOGnJj1g7FLNiaYloSw",
+			"buyerContext": {
+				"request": {
+					"askPrice": 0.1,
+					"sspBidFloor": 0.1,
+					"performancePrice": 0,
+					"altTagId": 0,
+					"bhTokens": "",
+					"retargetingCategoryIds": "",
+					"retargetingLanguageIds": "",
+					"adTagId": -1,
+					"adTagGroupId": -1,
+					"publisherId": 558079,
+					"tagSizeId": 18,
+					"contextualInfo": {
+						"channelIds": [
+							7,
+							92,
+							0
+						],
+						"contextualized": true
+					},
+					"imprGuid": "p5SKJEmWsZUA",
+					"visitorGuid": "ll4rpSXyhzT3",
+					"pageUrl": "http://www.androidpolice.com/2016/03/13/google-research-suggests-its-working-on-voice-recognition-that-doesnt-need-an-internet-connection/#{\"experiment\":\"network_default\",\"variant\":\"fallthrough\"}",
+					"pageLanguageISOCode": "en",
+					"ipAddress": "172.58.105.130",
+					"adReqSourceType": "UNKNOWN",
+					"inventoryType": "SITE",
+					"piggybackCookies": "",
+					"geoData": {
+						"type": "IP",
+						"areaCode": "425",
+						"city": "BELLEVUE",
+						"country": "USA",
+						"metro": "819",
+						"latitude": "47.61457",
+						"longitude": "-122.16836",
+						"state": "WA",
+						"postalCode": "98006",
+						"bandwidth": "MOBILE",
+						"sic": "0",
+						"domain": "T-MOBILE.COM",
+						"cityCode": 0
+					},
+					"foldCount": -1,
+					"urlReferrer": "",
+					"adReferrer": "",
+					"userAgent": {
+						"browserTypeParam": "CHROME",
+						"browserVersionParam": "",
+						"operatingSystemType": "ANDROID",
+						"operatingSystemVersion": "6.0.1",
+						"deviceMake": "",
+						"deviceModel": "Nexus 6",
+						"deviceType": "MOBILE",
+						"mobileAgent": true
+					},
+					"rawUserAgent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6 Build/MMB29Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36",
+					"doNotTrack": "0",
+					"userTimezoneOffset": 0,
+					"frequency": -1,
+					"capabilities": {
+						"capabilities": ""
+					},
+					"pubPayoutTypeParam": "NoInfo",
+					"domainGroups": {
+						"separator": "",
+						"splitter": "",
+						"domainGroupsString": "",
+						"cachedDomainGroups": [],
+						"drDomain": false
+					},
+					"adPositionParam": {
+						"x": "UNKNOWN",
+						"y": "UNKNOWN",
+						"exactX": 0,
+						"exactY": 0
+					},
+					"tile": -1,
+					"bidTypeParam": "EXTERNAL",
+					"impressionSource": "ADS_NATIVE",
+					"videoAssetId": "",
+					"videoContextualCategoryIds": "",
+					"videoAspectRatio": "",
+					"videoProtocols": "",
+					"videoVastVersion": "",
+					"videoInventoryType": "",
+					"videoPlaybackmethod": "",
+					"videoDelivery": "",
+					"videoApi": "",
+					"nativeAd": {
+						"ver": "1",
+						"request": "{\"ver\":1,\"assets\":[{\"id\":0,\"required\":1,\"title\":{\"len\":120}},{\"id\":1,\"required\":0,\"data\":{\"type\":2,\"len\":200}},{\"id\":2,\"required\":1,\"data\":{\"type\":1}},{\"id\":3,\"required\":0,\"data\":{\"type\":12}},{\"id\":4,\"required\":0,\"img\":{\"hmin\":60,\"wmin\":60,\"type\":1}},{\"id\":5,\"required\":1,\"img\":{\"h\":150,\"w\":200,\"hmin\":200,\"wmin\":200,\"type\":3}}],\"adunit\":5,\"plcmtcnt\":1,\"seq\":0}"
+					},
+					"distributionType": "DEFAULT",
+					"ipImpressionQualityScore": -1,
+					"ipClickQualityScore": -1,
+					"domainQualityScore": -1,
+					"timeOut": 174,
+					"bidRequestTimeoutData": {
+						"timeoutCalculationStrategy": "OFFSET_BASED",
+						"internalTimeOutMs": 179,
+						"timeOutOffsetMs": 5,
+						"frontendRequestTimestamp": 0,
+						"backTripTimeMs": 0
+					},
+					"numOfAds": 1,
+					"qdaScore": -1,
+					"qualityData": {
+						"scores": {},
+						"testNames": {},
+						"qualityData": ""
+					},
+					"visitorStatus": -1,
+					"targetCCID": 0,
+					"thirdPartyPublisherId": "267",
+					"thirdPartyTagId": "rkOny5WJ6VUWoWgIHXivEp5srRZFH5pPgz-SlLmb",
+					"thirdPartySiteId": "388",
+					"highImpactInfo": "",
+					"blockedCreativeAttrsStr": "3,4,5",
+					"blockedCreativeTypesStr": "",
+					"blockedAdvertiserCatsStr": "",
+					"inventoryName": "",
+					"appBundle": "",
+					"appStoreUrl": "",
+					"openRtbSiteCatsStr": "IAB24",
+					"openRtbPageCatsStr": "",
+					"secure": false,
+					"multipleAuctionsSeqNum": 0,
+					"deviceMake": "",
+					"deviceModel": "Nexus 6",
+					"deviceCarrier": "",
+					"deviceIfa": "",
+					"devicePlatformIdSHA1": "",
+					"devicePlatformIdMD5": "",
+					"adBlockRequest": false,
+					"pageUrlOverridden": false,
+					"pageUrlOriginal": "",
+					"domainGroupsOriginalStr": "",
+					"diagnostic": false,
+					"mobileApp": false
+				},
+				"eligibleSeats": [],
+				"blockedDomains": [],
+				"userAssociations": {},
+				"companionAdSize": {
+					"adSizeId": 0,
+					"adSizeName": "None",
+					"code": "None",
+					"width": 0,
+					"height": 0,
+					"popUnder": 0,
+					"isDefault": true,
+					"default": true
+				},
+				"adSize": {
+					"adSizeId": 18,
+					"adSizeName": "Native",
+					"code": "Native",
+					"width": 2,
+					"height": 3,
+					"popUnder": 0,
+					"isDefault": false,
+					"default": false
+				},
+				"eligibleBuyers": [
+					558472,
+					558189,
+					557504,
+					558225,
+					558758
+				],
+				"dealMap": {},
+				"buyerSeatMap": {},
+				"buyerTimeoutMs": 125
+			},
+			"blockedDomains": [],
+			"callContext": {
+				"userAgent": {
+					"browserTypeParam": "3",
+					"browserVersionParam": "",
+					"operatingSystemType": "0",
+					"operatingSystemVersion": "6.0.1",
+					"deviceMake": "",
+					"deviceModel": "Nexus 6",
+					"deviceType": "MOBILE",
+					"mobileAgent": true
+				}
+			},
+			"buyerCall": {
+				"buyerCallMethod": "POST",
+				"entity": "{\"badv\":[],\"bcat\":[],\"device\":{\"devicetype\":1,\"dnt\":0,\"geo\":{\"city\":\"BELLEVUE\",\"country\":\"USA\",\"lat\":47.61457,\"lon\":-122.16836,\"metro\":\"819\",\"region\":\"WA\",\"type\":2,\"zip\":\"98006\"},\"ip\":\"172.58.105.130\",\"language\":\"en\",\"model\":\"Nexus 6\",\"os\":\"ANDROID\",\"osv\":\"6.0.1\",\"ua\":\"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6 Build/MMB29Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36\"},\"id\":\"p5SKJEmWsZUA\",\"imp\":[{\"bidfloor\":0,\"bidfloorcur\":\"USD\",\"id\":\"p5SKJEmWsZUA\",\"instl\":0,\"native\":{\"battr\":[3,4,5],\"request\":\"{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":0,\\\"required\\\":1,\\\"title\\\":{\\\"len\\\":120}},{\\\"id\\\":1,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":2,\\\"len\\\":200}},{\\\"id\\\":2,\\\"required\\\":1,\\\"data\\\":{\\\"type\\\":1}},{\\\"id\\\":3,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":12}},{\\\"id\\\":4,\\\"required\\\":0,\\\"img\\\":{\\\"hmin\\\":60,\\\"wmin\\\":60,\\\"type\\\":1}},{\\\"id\\\":5,\\\"required\\\":1,\\\"img\\\":{\\\"h\\\":150,\\\"w\\\":200,\\\"hmin\\\":200,\\\"wmin\\\":200,\\\"type\\\":3}}],\\\"adunit\\\":5,\\\"plcmtcnt\\\":1,\\\"seq\\\":0}\",\"ver\":\"1\"},\"secure\":0,\"tagid\":\"rkOny5WJ6VUWoWgIHXivEp5srRZFH5pPgz-SlLmb\"}],\"site\":{\"cat\":[\"IAB24\"],\"domain\":\"androidpolice.com\",\"id\":\"388\",\"page\":\"http://www.androidpolice.com/2016/03/13/google-research-suggests-its-working-on-voice-recognition-that-doesnt-need-an-internet-connection/#{\\\"experiment\\\":\\\"network_default\\\",\\\"variant\\\":\\\"fallthrough\\\"}\",\"pagecat\":[\"IAB19-6\"],\"publisher\":{\"domain\":\"androidpolice.com\",\"id\":\"558079.267\"}},\"tmax\":125,\"user\":{\"geo\":{\"city\":\"BELLEVUE\",\"country\":\"USA\",\"lat\":47.61457,\"lon\":-122.16836,\"metro\":\"819\",\"region\":\"WA\",\"type\":2,\"zip\":\"98006\"},\"id\":\"lavMOGnJj1g7FLNiaYloSw\"}}",
+				"headers": {
+					"Content-Type": "application/json",
+					"x-openrtb-version": "2.3"
+				}
+			}
+		},
+		"response": {
+			"bidCpm": {
+				"cpm": 0.175,
+				"greaterThanZero": true
+			},
+			"creative": "{\"native\":{\"ver\":1,\"assets\":[{\"id\":0,\"title\":{\"text\":\"How well do you remember 90's tv ?\"}},{\"id\":1,\"data\":{\"value\":\"You sure need super power to get number 6 right!\"}},{\"id\":2,\"data\":{\"value\":\"buzzour.com\"}},{\"id\":5,\"img\":{\"url\":\"http:\\/\\/advertisers.admedia.com\\/campaign_images\\/8399_nat_1456918991.jpg\",\"w\":200,\"h\":150}}],\"link\":{\"url\":\"http:\\/\\/34891.click.scouring.com\\/cad.php?mc=Iy49MjsnMCItOyU4NiQtJSk7MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSU7Ni4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDhxZmYlc3F1fjdsai9obmI0e3RlYXl7d2glPDJiLGNvNjdpbSlCU1NMWCRkdXpGen59dnd8L0FbUEBYRUo_aCw5Pi4oJi8_PDQkMCMrMysyPi4jKCA4PzhSUVQjMyQ9PS0hKCA5PzgrOyY%2C&adv=8399&utm_source=34891&aid=1003&subid=558079.267\"},\"imptrackers\":[\"http:\\/\\/rtb.admedia.com\\/cr\\/?native=1&pid=1003&reqid=p5SKJEmWsZUA&br_id=1003-1457961546.5488-436&impid=p5SKJEmWsZUA&cid=34891&crid=130432&s=wc&domain=androidpolice.com&country=USA&siteid=388&win_price=${AUCTION_PRICE}&cb=1595281365&bp=0.175\"]}}",
+			"winNoticeUrl": "http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=p5SKJEmWsZUA&br_id=1003-1457961546.5488-436&impid=p5SKJEmWsZUA&cid=34891&crid=130432&s=wc&domain=androidpolice.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175",
+			"extCreativeId": "130432",
+			"extRequestId": "1003-1457961546.5488-436",
+			"notes": "",
+			"clickThroughUrlList": [
+				"buzzour.com"
+			],
+			"seat": "1",
+			"internalDealId": 0,
+			"externalIdChanged": false,
+			"blockedCreativeReason": "PUBLISHER_BLOCKED_EMPTY_CREATIVE_ATTRIBUTE",
+			"clickThroughCategories": [],
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"responseTime": 68,
+			"buyerErrorCode": "BLOCKED_CREATIVE_URL",
+			"buyerRejectReason": "NONE",
+			"extUserId": "",
+			"rawResponse": "{\"id\":\"p5SKJEmWsZUA\",\"seatbid\":[{\"seat\":\"1\",\"bid\":[{\"id\":\"1\",\"impid\":\"p5SKJEmWsZUA\",\"price\":0.175,\"adm\":\"{\\\"native\\\":{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":0,\\\"title\\\":{\\\"text\\\":\\\"How well do you remember 90's tv ?\\\"}},{\\\"id\\\":1,\\\"data\\\":{\\\"value\\\":\\\"You sure need super power to get number 6 right!\\\"}},{\\\"id\\\":2,\\\"data\\\":{\\\"value\\\":\\\"buzzour.com\\\"}},{\\\"id\\\":5,\\\"img\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/advertisers.admedia.com\\\\/campaign_images\\\\/8399_nat_1456918991.jpg\\\",\\\"w\\\":200,\\\"h\\\":150}}],\\\"link\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/34891.click.scouring.com\\\\/cad.php?mc=Iy49MjsnMCItOyU4NiQtJSk7MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSU7Ni4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDhxZmYlc3F1fjdsai9obmI0e3RlYXl7d2glPDJiLGNvNjdpbSlCU1NMWCRkdXpGen59dnd8L0FbUEBYRUo_aCw5Pi4oJi8_PDQkMCMrMysyPi4jKCA4PzhSUVQjMyQ9PS0hKCA5PzgrOyY%2C&adv=8399&utm_source=34891&aid=1003&subid=558079.267\\\"},\\\"imptrackers\\\":[\\\"http:\\\\/\\\\/rtb.admedia.com\\\\/cr\\\\/?native=1&pid=1003&reqid=p5SKJEmWsZUA&br_id=1003-1457961546.5488-436&impid=p5SKJEmWsZUA&cid=34891&crid=130432&s=wc&domain=androidpolice.com&country=USA&siteid=388&win_price=${AUCTION_PRICE}&cb=1595281365&bp=0.175\\\"]}}\",\"nurl\":\"http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=p5SKJEmWsZUA&br_id=1003-1457961546.5488-436&impid=p5SKJEmWsZUA&cid=34891&crid=130432&s=wc&domain=androidpolice.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.175\",\"cid\":\"34891\",\"crid\":\"130432\",\"adomain\":[\"buzzour.com\"]}]}],\"bidid\":\"1003-1457961546.5488-436\",\"cur\":\"USD\"}",
+			"rawResponseStatus": 200,
+			"truncatedBidsCount": 0,
+			"multiBid": false,
+			"defaultBid": true,
+			"nonZeroBid": true
+		},
+		"environment": {
+			"host": "LGA-RTB03",
+			"port": 8081,
+			"dataCenter": "LGA"
+		}
+	},
+	{
+		"request": {
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"eligibleSeats": [],
+			"encryptedVguid": "68_U9F9HZecsSF3Zdp9Ahw",
+			"buyerContext": {
+				"request": {
+					"askPrice": 0.1,
+					"sspBidFloor": 0.1,
+					"performancePrice": 0,
+					"altTagId": 0,
+					"bhTokens": "",
+					"retargetingCategoryIds": "",
+					"retargetingLanguageIds": "",
+					"adTagId": -1,
+					"adTagGroupId": -1,
+					"publisherId": 558079,
+					"tagSizeId": 18,
+					"imprGuid": "rHY93a5q78EO",
+					"visitorGuid": "nQMGQeU9DzvK",
+					"pageUrl": "http://ilpvideo.com/video/NzMyOTc/woman-discovers-her-biological-mom-actually-worked-with-her-for-2-years#{\"experiment\":\"network_default\",\"variant\":\"fallthrough\"}",
+					"pageLanguageISOCode": "en",
+					"ipAddress": "71.192.125.250",
+					"adReqSourceType": "UNKNOWN",
+					"inventoryType": "SITE",
+					"piggybackCookies": "",
+					"geoData": {
+						"type": "IP",
+						"areaCode": "413",
+						"city": "SPRINGFIELD",
+						"country": "USA",
+						"metro": "543",
+						"latitude": "42.09915",
+						"longitude": "-72.5881",
+						"state": "MA",
+						"postalCode": "01109",
+						"bandwidth": "CABLE",
+						"sic": "737415",
+						"domain": "COMCAST.NET",
+						"cityCode": 0
+					},
+					"foldCount": -1,
+					"urlReferrer": "",
+					"adReferrer": "",
+					"userAgent": {
+						"browserTypeParam": "CHROME",
+						"browserVersionParam": "",
+						"operatingSystemType": "ANDROID",
+						"operatingSystemVersion": "5.1.1",
+						"deviceMake": "",
+						"deviceModel": "SAMSUNG SM-G928T",
+						"deviceType": "MOBILE",
+						"mobileAgent": true
+					},
+					"rawUserAgent": "Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928T Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36",
+					"doNotTrack": "0",
+					"userTimezoneOffset": 0,
+					"frequency": -1,
+					"capabilities": {
+						"capabilities": ""
+					},
+					"pubPayoutTypeParam": "NoInfo",
+					"domainGroups": {
+						"separator": "",
+						"splitter": "",
+						"domainGroupsString": "",
+						"cachedDomainGroups": [],
+						"drDomain": false
+					},
+					"adPositionParam": {
+						"x": "UNKNOWN",
+						"y": "UNKNOWN",
+						"exactX": 0,
+						"exactY": 0
+					},
+					"tile": -1,
+					"bidTypeParam": "EXTERNAL",
+					"impressionSource": "ADS_NATIVE",
+					"videoAssetId": "",
+					"videoContextualCategoryIds": "",
+					"videoAspectRatio": "",
+					"videoProtocols": "",
+					"videoVastVersion": "",
+					"videoInventoryType": "",
+					"videoPlaybackmethod": "",
+					"videoDelivery": "",
+					"videoApi": "",
+					"nativeAd": {
+						"ver": "1",
+						"request": "{\"ver\":1,\"assets\":[{\"id\":0,\"required\":1,\"title\":{\"len\":120}},{\"id\":1,\"required\":0,\"data\":{\"type\":2,\"len\":300}},{\"id\":2,\"required\":1,\"data\":{\"type\":1}},{\"id\":3,\"required\":0,\"data\":{\"type\":12}},{\"id\":4,\"required\":0,\"img\":{\"hmin\":60,\"wmin\":60,\"type\":1}},{\"id\":5,\"required\":1,\"img\":{\"h\":260,\"w\":300,\"hmin\":200,\"wmin\":200,\"type\":3}}],\"adunit\":502,\"plcmtcnt\":1,\"seq\":0}"
+					},
+					"distributionType": "DEFAULT",
+					"ipImpressionQualityScore": -1,
+					"ipClickQualityScore": -1,
+					"domainQualityScore": -1,
+					"timeOut": 175,
+					"bidRequestTimeoutData": {
+						"timeoutCalculationStrategy": "OFFSET_BASED",
+						"internalTimeOutMs": 180,
+						"timeOutOffsetMs": 5,
+						"frontendRequestTimestamp": 0,
+						"backTripTimeMs": 0
+					},
+					"numOfAds": 1,
+					"qdaScore": -1,
+					"qualityData": {
+						"scores": {},
+						"testNames": {},
+						"qualityData": ""
+					},
+					"visitorStatus": -1,
+					"targetCCID": 0,
+					"thirdPartyPublisherId": "267",
+					"thirdPartyTagId": "nN75C1GSN0V8ON0tnbggMhQ_GPP6oSfARoSsbyDm",
+					"thirdPartySiteId": "2832",
+					"highImpactInfo": "",
+					"blockedCreativeAttrsStr": "3,4,5",
+					"blockedCreativeTypesStr": "",
+					"blockedAdvertiserCatsStr": "",
+					"inventoryName": "",
+					"appBundle": "",
+					"appStoreUrl": "",
+					"openRtbSiteCatsStr": "IAB24",
+					"openRtbPageCatsStr": "",
+					"secure": false,
+					"multipleAuctionsSeqNum": 0,
+					"deviceMake": "",
+					"deviceModel": "SAMSUNG SM-G928T",
+					"deviceCarrier": "",
+					"deviceIfa": "",
+					"devicePlatformIdSHA1": "",
+					"devicePlatformIdMD5": "",
+					"adBlockRequest": false,
+					"pageUrlOverridden": false,
+					"pageUrlOriginal": "",
+					"domainGroupsOriginalStr": "",
+					"mobileApp": false,
+					"diagnostic": false
+				},
+				"eligibleSeats": [],
+				"blockedDomains": [],
+				"userAssociations": {},
+				"companionAdSize": {
+					"adSizeId": 0,
+					"adSizeName": "None",
+					"code": "None",
+					"width": 0,
+					"height": 0,
+					"popUnder": 0,
+					"isDefault": true,
+					"default": true
+				},
+				"adSize": {
+					"adSizeId": 18,
+					"adSizeName": "Native",
+					"code": "Native",
+					"width": 2,
+					"height": 3,
+					"popUnder": 0,
+					"isDefault": false,
+					"default": false
+				},
+				"eligibleBuyers": [
+					558472,
+					558225,
+					558758
+				],
+				"dealMap": {},
+				"buyerSeatMap": {},
+				"buyerTimeoutMs": 125
+			},
+			"blockedDomains": [],
+			"callContext": {
+				"userAgent": {
+					"browserTypeParam": "3",
+					"browserVersionParam": "",
+					"operatingSystemType": "0",
+					"operatingSystemVersion": "5.1.1",
+					"deviceMake": "",
+					"deviceModel": "SAMSUNG SM-G928T",
+					"deviceType": "MOBILE",
+					"mobileAgent": true
+				}
+			},
+			"buyerCall": {
+				"buyerCallMethod": "POST",
+				"entity": "{\"badv\":[],\"bcat\":[],\"device\":{\"devicetype\":1,\"dnt\":0,\"geo\":{\"city\":\"SPRINGFIELD\",\"country\":\"USA\",\"lat\":42.09915,\"lon\":-72.5881,\"metro\":\"543\",\"region\":\"MA\",\"type\":2,\"zip\":\"01109\"},\"ip\":\"71.192.125.250\",\"language\":\"en\",\"model\":\"SAMSUNG SM-G928T\",\"os\":\"ANDROID\",\"osv\":\"5.1.1\",\"ua\":\"Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G928T Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.4 Chrome/38.0.2125.102 Mobile Safari/537.36\"},\"id\":\"rHY93a5q78EO\",\"imp\":[{\"bidfloor\":0,\"bidfloorcur\":\"USD\",\"id\":\"rHY93a5q78EO\",\"instl\":0,\"native\":{\"battr\":[3,4,5],\"request\":\"{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":0,\\\"required\\\":1,\\\"title\\\":{\\\"len\\\":120}},{\\\"id\\\":1,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":2,\\\"len\\\":300}},{\\\"id\\\":2,\\\"required\\\":1,\\\"data\\\":{\\\"type\\\":1}},{\\\"id\\\":3,\\\"required\\\":0,\\\"data\\\":{\\\"type\\\":12}},{\\\"id\\\":4,\\\"required\\\":0,\\\"img\\\":{\\\"hmin\\\":60,\\\"wmin\\\":60,\\\"type\\\":1}},{\\\"id\\\":5,\\\"required\\\":1,\\\"img\\\":{\\\"h\\\":260,\\\"w\\\":300,\\\"hmin\\\":200,\\\"wmin\\\":200,\\\"type\\\":3}}],\\\"adunit\\\":502,\\\"plcmtcnt\\\":1,\\\"seq\\\":0}\",\"ver\":\"1\"},\"secure\":0,\"tagid\":\"nN75C1GSN0V8ON0tnbggMhQ_GPP6oSfARoSsbyDm\"}],\"site\":{\"cat\":[\"IAB24\"],\"domain\":\"ilpvideo.com\",\"id\":\"2832\",\"page\":\"http://ilpvideo.com/video/NzMyOTc/woman-discovers-her-biological-mom-actually-worked-with-her-for-2-years#{\\\"experiment\\\":\\\"network_default\\\",\\\"variant\\\":\\\"fallthrough\\\"}\",\"pagecat\":[\"IAB24\"],\"publisher\":{\"domain\":\"ilpvideo.com\",\"id\":\"558079.267\"}},\"tmax\":125,\"user\":{\"geo\":{\"city\":\"SPRINGFIELD\",\"country\":\"USA\",\"lat\":42.09915,\"lon\":-72.5881,\"metro\":\"543\",\"region\":\"MA\",\"type\":2,\"zip\":\"01109\"},\"id\":\"68_U9F9HZecsSF3Zdp9Ahw\"}}",
+				"headers": {
+					"Content-Type": "application/json",
+					"x-openrtb-version": "2.3"
+				}
+			}
+		},
+		"response": {
+			"bidCpm": {
+				"cpm": 0.14,
+				"greaterThanZero": true
+			},
+			"creative": "{\"native\":{\"ver\":1,\"assets\":[{\"id\":0,\"title\":{\"text\":\"There's something about you...\"}},{\"id\":1,\"data\":{\"value\":\"What is your most attractive quality? Get your answers now!\"}},{\"id\":2,\"data\":{\"value\":\"buzzour.com\"}},{\"id\":5,\"img\":{\"url\":\"http:\\/\\/advertisers.admedia.com\\/campaign_images\\/8399_nat_1456833534.jpg\",\"w\":300,\"h\":260}}],\"link\":{\"url\":\"http:\\/\\/34891.click.scouring.com\\/cad.php?mc=Iy49MjsnMCItOCkxPSQqIC47MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSU4PC4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtNenV9YmplQjhuYXB8KX1qP2NncHA8bHhqfTxpcGBrc3l8bHR0LGZsaH1hcG0mNHthOFlQSFNEL2R8aUtqfW96ZmcsWkRMS1hMWTJ4LysyPzMlNCAgPyQ5MCUjKCAyPzgrOycjM1JYRy4jJy8xPDorOyYjMysyNQ%2C%2C&adv=8399&utm_source=34891&aid=1003&subid=558079.267\"},\"imptrackers\":[\"http:\\/\\/rtb.admedia.com\\/cr\\/?native=1&pid=1003&reqid=rHY93a5q78EO&br_id=1003-1457961546.6659-717&impid=rHY93a5q78EO&cid=34891&crid=130408&s=wc&domain=ilpvideo.com&country=USA&siteid=2832&win_price=${AUCTION_PRICE}&cb=1421407770&bp=0.14\"]}}",
+			"winNoticeUrl": "http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=rHY93a5q78EO&br_id=1003-1457961546.6659-717&impid=rHY93a5q78EO&cid=34891&crid=130408&s=wc&domain=ilpvideo.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.14",
+			"extCreativeId": "130408",
+			"extRequestId": "1003-1457961546.6659-717",
+			"notes": "",
+			"clickThroughUrlList": [
+				"buzzour.com"
+			],
+			"seat": "1",
+			"internalDealId": 0,
+			"externalIdChanged": false,
+			"blockedCreativeReason": "PUBLISHER_BLOCKED_EMPTY_CREATIVE_ATTRIBUTE",
+			"clickThroughCategories": [],
+			"buyer": {
+				"buyerID": 558758,
+				"name": "RTB-AdMedia",
+				"enabled": true,
+				"ignoreBids": false,
+				"sendRawUserAgent": false,
+				"bidUrl": "http://rtb.admedia.com/dsp/?pid=1003",
+				"notifyUrl": "",
+				"buyerDomain": "http://rtb.admedia.com",
+				"buyerTransportType": "OPEN_RTB",
+				"encryptionKey": "4ac3aad7a3c3",
+				"integrityKey": "d453282d6523",
+				"status": "PRODUCTION",
+				"hostResolutionMethod": "STATIC",
+				"location": "EAST_COAST",
+				"sendViewability": false
+			},
+			"responseTime": 68,
+			"buyerErrorCode": "BLOCKED_CREATIVE_URL",
+			"buyerRejectReason": "NONE",
+			"extUserId": "",
+			"rawResponse": "{\"id\":\"rHY93a5q78EO\",\"seatbid\":[{\"seat\":\"1\",\"bid\":[{\"id\":\"1\",\"impid\":\"rHY93a5q78EO\",\"price\":0.14,\"adm\":\"{\\\"native\\\":{\\\"ver\\\":1,\\\"assets\\\":[{\\\"id\\\":0,\\\"title\\\":{\\\"text\\\":\\\"There's something about you...\\\"}},{\\\"id\\\":1,\\\"data\\\":{\\\"value\\\":\\\"What is your most attractive quality? Get your answers now!\\\"}},{\\\"id\\\":2,\\\"data\\\":{\\\"value\\\":\\\"buzzour.com\\\"}},{\\\"id\\\":5,\\\"img\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/advertisers.admedia.com\\\\/campaign_images\\\\/8399_nat_1456833534.jpg\\\",\\\"w\\\":300,\\\"h\\\":260}}],\\\"link\\\":{\\\"url\\\":\\\"http:\\\\/\\\\/34891.click.scouring.com\\\\/cad.php?mc=Iy49MjsnMCItOCkxPSQqIC47MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSU4PC4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtNenV9YmplQjhuYXB8KX1qP2NncHA8bHhqfTxpcGBrc3l8bHR0LGZsaH1hcG0mNHthOFlQSFNEL2R8aUtqfW96ZmcsWkRMS1hMWTJ4LysyPzMlNCAgPyQ5MCUjKCAyPzgrOycjM1JYRy4jJy8xPDorOyYjMysyNQ%2C%2C&adv=8399&utm_source=34891&aid=1003&subid=558079.267\\\"},\\\"imptrackers\\\":[\\\"http:\\\\/\\\\/rtb.admedia.com\\\\/cr\\\\/?native=1&pid=1003&reqid=rHY93a5q78EO&br_id=1003-1457961546.6659-717&impid=rHY93a5q78EO&cid=34891&crid=130408&s=wc&domain=ilpvideo.com&country=USA&siteid=2832&win_price=${AUCTION_PRICE}&cb=1421407770&bp=0.14\\\"]}}\",\"nurl\":\"http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=rHY93a5q78EO&br_id=1003-1457961546.6659-717&impid=rHY93a5q78EO&cid=34891&crid=130408&s=wc&domain=ilpvideo.com&country=USA&win_price=${AUCTION_PRICE}&bp=0.14\",\"cid\":\"34891\",\"crid\":\"130408\",\"adomain\":[\"buzzour.com\"]}]}],\"bidid\":\"1003-1457961546.6659-717\",\"cur\":\"USD\"}",
+			"rawResponseStatus": 200,
+			"truncatedBidsCount": 0,
+			"multiBid": false,
+			"defaultBid": true,
+			"nonZeroBid": true
+		},
+		"environment": {
+			"host": "LGA-RTB16",
+			"port": 8081,
+			"dataCenter": "LGA"
+		}
+	}
+]

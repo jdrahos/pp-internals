@@ -1,0 +1,24 @@
+{
+  "cur": "USD",
+  "id": "4249100d-cc4e-4289-92f6-0aad5c4c6435",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "adm": "{\"native\":{\"assets\":[{\"id\":1,\"title\":{\"text\":\"PulsePoint Inc\"}},{\"id\":2,\"img\":{\"h\":300,\"type\":3,\"url\":\"http://projects.contextweb.com/av/main.png\",\"w\":200}},{\"data\":{\"type\":2,\"value\":\"We help brands engage the right consumers at scale by fusing the science of programmatic distribution with the art of content marketing.\"},\"id\":3},{\"data\":{\"type\":1,\"value\":\"Sponsored\"},\"id\":4}],\"imptrackers\":[\"http://bh.contextweb.com/bh/drts?drts=true&ck=\"],\"link\":{\"url\":\"//tr.contextweb.com/bh/ct?q=C~558753~178~74610~211511~404268~18~0~0~onekindesign.com~5~8~0~0~2~1~K_60QIXhFvuT5aBnyyYSre94pgbELrvXAR0MDPT1dak~64~0~x0Alj0zWx4pZ~wmdM87pQ6AXo~0~0~1~~http%3A%2F%2Fpulsepoint.com\"}}}",
+          "adomain": [
+            "pulsepoint.com"
+          ],
+          "attr": [],
+          "cat": [],
+          "crid": "211511",
+          "id": "4249100d-cc4e-4289-92f6-0aad5c4c6435",
+          "impid": "1",
+          "nurl": "https://v1-tr.lga.contextweb.com/bh/it?bf=kqMbvjRI0s0%3D&di=kqMbvjRI0s0%3D&dl=18m_GbkblfA%3D&nid=Bsbhl5vtHlY%3D&advid=tXU3iVknzMk%3D&dm=onekindesign.com&crpc=kqMbvjRI0s0%3D&bp=xg5fiAZM4AY%3D&dt=kqMbvjRI0s0%3D&rcpc=G7wbuWRrfME%3D&vgd=wmdM87pQ6AXo&vend=openRtb&rcpa=G7wbuWRrfME%3D&ddgpr=CcgZT4u0OH4%3D&wp=VKAXFnaogeI%3D&rcpm=CK6pfLZZrmY%3D&key=jmA_ve1THsqdd1NVw8X2nsqv1vYgHEUA&app=Irq3y8mpA0A%3D&cc=Peq4nGph9RM%3D&st=kqMbvjRI0s0%3D&svc=s1va_DJ-gzg%3D&ad=74610&campid=kU5S9sT8wf4%3D&ci=true&i=x0Alj0zWx4pZ&dlr=3dgarZR96dk%3D&cp=-EiyC7zUu4E%3D&p=558753&ct=0&srv=o_aQzAh5udqzW9r8Mn6DOA%3D%3D&bdgpt=wvFL4_mVdeR2M_hSj2wl4o5LJKqDFbqh6KmkhJ2LY2s0FurFhEhXQqo8C1ztVcpm&ts=33Iy1XgOKAVERa9BCp80cw%3D%3D&ewp=${AUCTION_PRICE}&dc=1",
+          "price": 1.322
+        }
+      ],
+      "seat": "178"
+    }
+  ]
+}

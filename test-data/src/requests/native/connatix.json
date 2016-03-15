@@ -1,0 +1,41 @@
+{
+  "ver": "1",
+  "layout": 1,
+  "adunit": 4,
+  "plcmtcnt": 1,
+  "seq": 0,
+  "assets": [
+    {
+      "id": 1,
+      "required": 1,
+      "title": {
+        "len": 100
+      }
+    },
+    {
+      "id": 2,
+      "required": 1,
+      "img": {
+        "type": 3,
+        "wmin": 0,
+        "hmin": 0
+      }
+    },
+    {
+      "id": 3,
+      "required": 1,
+      "data": {
+        "type": 2,
+        "len": 200
+      }
+    },
+    {
+      "id": 4,
+      "required": 0,
+      "data": {
+        "type": 1,
+        "len": 200
+      }
+    }
+  ]
+}

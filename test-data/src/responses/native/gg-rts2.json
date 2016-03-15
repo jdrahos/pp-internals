@@ -1,0 +1,49 @@
+{
+  "native": {
+    "assets": [
+      {
+        "id": 1,
+        "title": {
+          "text": "Urgent Details Re: Your Trip to Ohio"
+        }
+      },
+      {
+        "id": 2,
+        "img": {
+          "h": 100,
+          "type": 3,
+          "url": "http://cdn.bttrack.com/a/100/100/3098572",
+          "w": 100
+        }
+      },
+      {
+        "data": {
+          "type": 2,
+          "value": "Whether you're coming for business or pleasure, there's a Best Western near with rates that can't be beat and top notch accommodations to match."
+        },
+        "id": 6
+      },
+      {
+        "data": {
+          "type": 1,
+          "value": "Best Western"
+        },
+        "id": 5
+      }
+    ],
+    "ext": {
+      "viewabilitytrackers": [
+        "http://bttrack.com/Pixel/Viewed/?data=OuJifVtEKZqw3HwmY_vtW7OTDsI67Hgdo04BRLNIznrlj8GC0ohp-HzBfY5-SN4lUx8cIZMv9pts8vn27p5B03m7xnBiXHuszqT5x_Yxpr-uNq6ktLi1qEyjcfi_W8MThQwqyJZUaLxMfXx3Kjb3EeLSwQUxPt7wZ8kTjQiqZIBr8zzebBScKjU3O3M_Eq-90PblLXO1nGl11OBnPMU-Vid2H0PWUUpEzvyfArHFEeO5y_KFHUroHg16guIdariNxwVq5yKDKN3urv2niMm1EW0DchmIQRLVPCL4kCCIQ0X5O-nscFz0d2KzhWnfDMrvozvZ0&method=3&percentage=1"
+      ]
+    },
+    "imptrackers": [
+      "http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3Hzmb_vtW7Pr3nMz33scQQkJaUVODarCZdLT0ab83a7O2ZrFzZ7QST_rbtAfDP0fDgTjFoQ5kA1Dig_FGUHPZNX_mnjyYtQm-3JVuVFAYl3v73IXRst7HGoSG1s07KVK83uspxKfFVWaksqfGxY7Lxi8w3gTdiC9Ow0l1gGYabkQCkLm7m0MpEzICyuosL33eSQvCyHnnYLExK0Vi727zwa16_HQY4FmYYXppNN1P5c-zXsrF0SLAieCwBnobmjdx09QOAa00_VGxm2PAn091ml1Hlwr-9qH2i0XOguZE1IU5BWb7lYSdXih8SS8gl9kVOSELSx8y_sf5uTZLVRAwkXMKFltLSjWI6XF9ZrJ0&type=img",
+      "http://api.bttrack.com/win?ts=1457130972626&id=bf1ef77b-7108-4aaa-97f9-826b34da3413&cid=22396&crid=364169&pid=84120069&data=OuJifVtEKZqw3Hw6c5quW7NVHtsbuBQNYS5KYypQqvn99gsg4Y4Fa1G2Z1p4orTQZgda5ZD1PJ9qs475vVAU7XBaz0mCqkvoZdJFQ7m6A1gcBeoeLQf8M5xBSIOKWx6USUpoQqvwGF7119xLosYTIaI72Q2&iid=1d186065-c0e0-4ff5-b8b0-df11d65243ff&price=5.547&reqid=YrWB2E3ehFJX",
+      "https://v1-tr.lga.contextweb.com/bh/it?bf=kqMbvjRI0s0%3D&di=kqMbvjRI0s0%3D&dl=18m_GbkblfA%3D&nid=Bsbhl5vtHlY%3D&advid=nRRvHxsJ8AE%3D&dm=ibreatheimhungry.com&crpc=kqMbvjRI0s0%3D&bp=tEuhiLZRFms%3D&dt=kqMbvjRI0s0%3D&rcpc=G7wbuWRrfME%3D&vgd=t7rTv8gcs7GK&vend=openRtb&rcpa=G7wbuWRrfME%3D&ddgpr=kqMbvjRI0s0%3D&wp=jIXvK8g166w%3D&rcpm=jIXvK8g166w%3D&key=WyvWLKgQkaCJ3W_x7zA24wbt5XToyrT-&cc=COirnozUX_o%3D&st=kqMbvjRI0s0%3D&svc=Nnm8om4SgFw%3D&ad=816544&campid=zMhXg2Nq3lo%3D&ci=true&i=YrWB2E3ehFJX&dlr=3dgarZR96dk%3D&cp=-EiyC7zUu4E%3D&p=558355&ct=0&srv=Gj5qhUVyCSCSoxu-NEjSzQ%3D%3D&ts=5RkPl_Z3pomhxMOBY2OPMQ%3D%3D&ewp=${AUCTION_PRICE}&dc=1",
+      "http//bh.contextweb.com/bh/drts?drts=true&ck="
+    ],
+    "link": {
+      "url": "http://bttrack.com/Click/Native?data=OuJifVtEKZqw3Cw46fotWrNTDgwfy1md_QaiT3VArUvT-F49eHmPsaG5ynWtlOVduDUECd52_gppUGYfyknoQHstoFMlSmJSiIPJNI7unVHsyS8qzN1J7ofPx5Rce35DzJYcqh7tChnfy8RKyokt3UQtWrRfCMQLd51Cgk9iClyHjvIR9fLPCnAGFyZZqYOYv93z0ElCu0A73kFS7nX1rQFS71mgcZjU4kIJauEaS5FpC-7TgWIj3slKpaeP_Kw3yt_gpzg5sFwLWPictXxvVP0LqckSA7xWYY9zI99E4gzYv4l-D1cmEtWjr25C5ZsN2pL85Bq1UcRlp_7kTVFphizcM6RDpVBlEvPuyx8o-ahKv4w3IRUiTqYvg8xVuZ1nCL230"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "site": {
+    "domain": "Health.com",
+    "page": "http://www.health.com/health/m/gallery/0,,20306719_4,00.html",
+    "id": "500f695b",
+    "publisher": {
+      "id": "d96615d9"
+    },
+    "cat": [
+      "IAB8",
+      "IAB7",
+      "IAB9"
+    ]
+  },
+  "device": {
+    "connectiontype": 0,
+    "devicetype": 4,
+    "ip": "137.122.64.8",
+    "model": "iPhone",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13D15 Safari/601.1",
+    "geo": {
+      "type": 2,
+      "metro": "106",
+      "country": "CA"
+    },
+    "os": "iOS",
+    "osv": "9",
+    "make": "Apple",
+    "js": 1,
+    "dnt": 0
+  },
+  "imp": [
+    {
+      "secure": 0,
+      "bidfloor": 6.93,
+      "native": {
+        "plcmtcnt": 1,
+        "assets": [
+          {
+            "id": 1,
+            "required": 1,
+            "title": {
+              "len": 140
+            }
+          },
+          {
+            "id": 4,
+            "required": 0,
+            "img": {
+              "hmin": 750,
+              "wmin": 1000,
+              "type": 3
+            }
+          },
+          {
+            "id": 3,
+            "required": 0,
+            "img": {
+              "hmin": 48,
+              "wmin": 48,
+              "type": 2
+            }
+          },
+          {
+            "id": 2,
+            "required": 1,
+            "img": {
+              "hmin": 180,
+              "wmin": 320,
+              "type": 1
+            }
+          },
+          {
+            "id": 6,
+            "required": 1,
+            "data": {
+              "len": 140,
+              "type": 2
+            }
+          },
+          {
+            "id": 5,
+            "required": 1,
+            "data": {
+              "len": 140,
+              "type": 1
+            }
+          }
+        ],
+        "request": "{\"native\":{\"plcmtcnt\":1,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":140}},{\"id\":4,\"required\":0,\"img\":{\"hmin\":750,\"wmin\":1000,\"type\":3}},{\"id\":3,\"required\":0,\"img\":{\"hmin\":48,\"wmin\":48,\"type\":2}},{\"id\":2,\"required\":1,\"img\":{\"hmin\":180,\"wmin\":320,\"type\":1}},{\"id\":6,\"required\":1,\"data\":{\"len\":140,\"type\":2}},{\"id\":5,\"required\":1,\"data\":{\"len\":140,\"type\":1}}],\"adunit\":2,\"ver\":1,\"layout\":3}}",
+        "adunit": 2,
+        "ver": 1,
+        "layout": 3
+      },
+      "id": "1"
+    }
+  ],
+  "id": "581f4bdc-4751-4dbc-8e9a-992b8b4f46e8"
+}

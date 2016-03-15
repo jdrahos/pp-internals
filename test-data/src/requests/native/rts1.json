@@ -1,0 +1,44 @@
+{
+  "layout": 3,
+  "adunit": 3,
+  "assets": [
+    {
+      "id": 1,
+      "required": 1,
+      "title": {
+        "len": 150
+      }
+    },
+    {
+      "id": 2,
+      "required": 1,
+      "img": {
+        "type": 3,
+        "wmin": 100,
+        "hmin": 100
+      }
+    },
+    {
+      "id": 6,
+      "required": 1,
+      "data": {
+        "type": 2,
+        "len": 200
+      }
+    },
+    {
+      "id": 15,
+      "required": 0,
+      "data": {
+        "type": 11
+      }
+    },
+    {
+      "id": 5,
+      "required": 0,
+      "data": {
+        "type": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "9dfc3fcf9bd0710a4fe32501156caee4",
+  "tmax": 280,
+  "at": 2,
+  "bcat": [
+    "IAB26",
+    "IAB25",
+    "IAB24"
+  ],
+  "imp": [
+    {
+      "id": "1",
+      "instl": 0,
+      "secure": 0,
+      "banner": {
+        "w": 320,
+        "h": 50,
+        "btype": [
+          4
+        ],
+        "api": [
+          3
+        ],
+        "battr": [
+          10
+        ]
+      },
+      "instl": 0,
+      "bidfloor": 0.21
+    }
+  ],
+  "app": {
+    "id": "a6cb90cf6fc8",
+    "domain": "market://search?q=pub:Guardam",
+    "name": "android application",
+    "bundle": "pub:Guardam",
+    "cat": [
+      "IAB1"
+    ],
+    "publisher": {
+      "id": "822"
+    }
+  },
+  "device": {
+    "dnt": 0,
+    "connectiontype": 3,
+    "carrier": "SingTel Mobile",
+    "dpidsha1": "2be88ca4242c76e8253ac62474851065032d6833",
+    "dpidmd5": "37a6259cc0c1dae299a7866489dff0bd",
+    "didmd5": "7085a0a9f031c43cb1c15360f8753779",
+    "didsha1": "9741c04dfaf8ad752fc8dcad15619423122d3c04",
+    "osv": "4.1",
+    "os": "Android",
+    "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-N7105 Build/JZO54K) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
+    "ip": "14.100.132.133",
+    "devicetype": 1,
+    "geo": {
+      "type": 1,
+      "country": "SGP",
+      "city": "Singapore"
+    }
+  },
+  "user": {
+    "id": "7085a0a9f031c43cb1c15360f8753779"
+  },
+  "cur": [
+    "USD"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "native": {
+    "ver": 1,
+    "assets": [
+      {
+        "id": 1,
+        "img": {
+          "url": "http:\/\/advertisers.admedia.com\/campaign_images\/8399_nat_1454495916.jpg",
+          "w": 600,
+          "h": 600
+        }
+      },
+      {
+        "id": 2,
+        "title": {
+          "text": "When You Were Younger Quiz"
+        }
+      },
+      {
+        "id": 3,
+        "data": {
+          "value": "When You Were Younger"
+        }
+      },
+      {
+        "id": 4,
+        "data": {
+          "value": "buzzour.com"
+        }
+      }
+    ],
+    "link": {
+      "url": "http:\/\/34891.click.scouring.com\/cad.php?mc=Iy49MjsnMCMhOCk6PSUvJC47MTooMC0jZ3B8bWJ8KCBTREtVXC0jMSIxPS4jIS4wPDMrOyYqOSI4NC4jIjQ4MjIhMScjM3l8cGQjPTVqcHhrbmJrJ3JnaTtfYHtmRGZcZDh6aH8lc3E0dW9tdnE8dn94fTxxa2E0ZXtmcWd1LGN2JHNtKWNxd3QlfG1kLGB8e3QlfXtsfH1tdz03YH4kUlBBQEk_Z25lWnF-dGV6bCxTV0FbW15VI2MsMC0jOCU9My0vJyowNDgrOy0jMysyNC4jUUpLPzgkNC4gMSsyNS4jKCA5&adv=8399&utm_source=34891&aid=1003&subid=558620.409"
+    },
+    "imptrackers": [
+      "http:\/\/rtb.admedia.com\/cr\/?native=1&pid=1003&reqid=1rzV03vzihmw&br_id=1003-1457961546.7067-385&impid=1rzV03vzihmw&cid=34891&crid=130300&s=wc&domain=sportsfascination.com&country=USA&siteid=83b3bc67ab72479f0485a9c40b317536&win_price=${AUCTION_PRICE}&cb=517954958&bp=0.175"
+    ]
+  }
+}

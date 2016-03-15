@@ -1,0 +1,26 @@
+{
+  "cur": "USD",
+  "id": "426757c5-0516-4b62-b24c-b832f762f08a",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "adm": "{\"native\":{\"assets\":[{\"id\":1,\"title\":{\"text\":\"New Site Riles Americans\"}},{\"id\":2,\"img\":{\"h\":100,\"type\":3,\"url\":\"http://advertisers.admedia.com/campaign_images/6979_nat_1438084263.jpg\",\"w\":100}},{\"data\":{\"type\":2,\"value\":\"Millions are flabbergasted to see their past posted online for anyone to see. What can be found about you?\"},\"id\":6},{\"data\":{\"type\":1,\"value\":\"instantcheckmate.com\"},\"id\":5}],\"imptrackers\":[\"http://rtb.admedia.com/cr/?native=1&pid=1003&reqid=WpBmXHoqNP66&br_id=1003-1457636132.9679-980&impid=WpBmXHoqNP66&cid=32588&crid=129417&s=wc&domain=movieweb.com&country=USA&siteid=e06f871c&win_price=0.109&cb=1932629930&bp=0.1275\",\"http://rtb.admedia.com/nurl/?native=1&pid=1003&reqid=WpBmXHoqNP66&br_id=1003-1457636132.9679-980&impid=WpBmXHoqNP66&cid=32588&crid=129417&s=wc&domain=movieweb.com&country=USA&win_price=0.109&bp=0.1275\"],\"link\":{\"url\":\"http://32588.click.scouring.com/cad.php?mc=Iy49MjQiNyYpOCQ5MiUvJis7NzcpOS0jZ3B8bWJ8KCBTREtVXC0jPyg_PS4jISg9PTorOyYrMCU5My4jIjQ4MDMhMScjM3l8cGQjPTV8d2Nyan53bj9hamdtc3R8Zmp0Ynx0aGVtKnd2fzU3ZD8iMic_ZnI1NTJ6Lyg8MyR1aGckL2I5OVV1e3lhZDgrMCMsPic7PSMpIyAyPzgrOy0jOSsyR0RaKCA9MDcmMi0jOCsyPi4o&adv=6979&utm_source=32588&aid=1003&subid=559955.9291\"},\"ver\":1}}",
+          "adomain": [
+            "instantcheckmate.com"
+          ],
+          "attr": [],
+          "cat": [
+            "IAB11"
+          ],
+          "crid": "836442",
+          "id": "426757c5-0516-4b62-b24c-b832f762f08a",
+          "impid": "1",
+          "nurl": "https://v1-tr.lga.contextweb.com/bh/it?bf=kqMbvjRI0s0%3D&di=kqMbvjRI0s0%3D&dl=18m_GbkblfA%3D&nid=Bsbhl5vtHlY%3D&advid=Mhf3W8YZdYc%3D&dm=movieweb.com&crpc=kqMbvjRI0s0%3D&bp=D3zvs_N672o%3D&dt=kqMbvjRI0s0%3D&rcpc=-EiyC7zUu4E%3D&vgd=IOICfAzbzsca&vend=openRtb&rcpa=-EiyC7zUu4E%3D&ddgpr=kqMbvjRI0s0%3D&wp=KcrY-iT_Hfg%3D&rcpm=KcrY-iT_Hfg%3D&key=dus7l8PknFJN-MEtS3Y_n4YV7I_BfNyH&cc=e8gDS9e7b5E%3D&st=kqMbvjRI0s0%3D&svc=Nnm8om4SgFw%3D&ad=816700&campid=E-p9Le7_RWw%3D&ci=true&i=WpBmXHoqNP66&dlr=3dgarZR96dk%3D&cp=-EiyC7zUu4E%3D&p=559955&ct=0&srv=dGGQDw9tmsM2ebyibhKAXA%3D%3D&ts=CRvzwvrjn120FWQPztm1vQ%3D%3D&ewp=${AUCTION_PRICE}&dc=1",
+          "price": 0.098
+        }
+      ],
+      "seat": "558758"
+    }
+  ]
+}

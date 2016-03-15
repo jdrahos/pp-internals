@@ -1,0 +1,66 @@
+{
+  "id": "808a205d0176673318864b6476fe9c5b",
+  "at": 2,
+  "tmax": 85,
+  "device": {
+    "ip": "50.24.14.80",
+    "ua": "Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-G890A Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/38.0.2125.102 Mobile Safari/537.36",
+    "dnt": 0,
+    "os": "Android",
+    "osv": "5.1.1",
+    "geo": {
+      "lon": null,
+      "lat": null,
+      "type": 2,
+      "country": "USA",
+      "region": "TX",
+      "city": "Bryan",
+      "zip": "77801"
+    }
+  },
+  "badv": [],
+  "site": {
+    "id": "13273-1935432992808914175",
+    "domain": "www.news247.info",
+    "page": "http://www.news247.info/common-differences-men-women-2/?utm_source=facebook",
+    "content": {
+      "context": "IAB12-1"
+    }
+  },
+  "imp": [
+    {
+      "id": "1785581610172927137",
+      "video": {
+        "mimes": [
+          "video/mp4",
+          "video/quicktime",
+          "video/ogg",
+          "video/3gpp",
+          "video/avi",
+          "video/mpeg"
+        ],
+        "linearity": 1,
+        "maxduration": 60,
+        "minduration": 5,
+        "pos": 0,
+        "w": 300,
+        "h": 250,
+        "protocols": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "battr": [],
+        "maxbitrate": 5120,
+        "delivery": [
+          2
+        ],
+        "api": []
+      },
+      "bidfloor": 3.175,
+      "bidfloorcur": "USD",
+      "secure": 0
+    }
+  ]
+}; line: 1, column: 572] (through reference chain: com.contextweb.adserving.rt.buyer.model.openrtb.request.OpenRTBRequest["site"]->com.contextweb.adserving.rt.buyer.model.openrtb.request.inventory.OpenRTBSite["content"]->com.contextweb.adserving.rt.buyer.model.openrtb.request.OpenRTBContent["context"])

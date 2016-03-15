@@ -1,0 +1,45 @@
+{
+    "id":"4249100d-cc4e-4289-92f6-0aad5c4c6435",
+   "imp":[
+      {
+         "id":"1",
+         "native":{
+            "request":"{\"ver\":\"1\",\"layout\":1,\"adunit\":4,\"plcmtcnt\":1,\"seq\":0,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":100}},{\"id\":2,\"required\":1,\"img\":{\"type\":3,\"wmin\":0,\"hmin\":0}},{\"id\":3,\"required\":0,\"data\":{\"type\":2,\"len\":200}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":200}}]}"
+         },
+         "tagid":"10643",
+         "bidfloor":0,
+         "bidfloorcur":"USD",
+         "secure":0
+      }
+   ],
+   "site":{
+      "id":"79",
+      "domain":"onekindesign.com",
+      "sectioncat":[
+         "IAB9",
+         "IAB10",
+         "IAB14"
+      ],
+      "page":"http:\/\/onekindesign.com\/2014\/07\/19\/sea-ranch-cabin-surrounded-redwood-forest-california\/",
+      "privacypolicy":0,
+      "publisher":
+{"id":"79","name":"onekindesign"}
+   
+   },
+   "device":{
+      "ua":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36",
+      "ip":"68.36.70.115",
+      "connectiontype":0,
+      "devicetype":2
+   },
+   "user":{
+      "id":"_fc151750-7942-4f41-b6f0-c3581dab7a25",
+      "yob":0
+   },
+   "at":2,
+   "tmax":100,
+   "allimps":0,
+   "cur":[
+      "USD"
+   ]
+}

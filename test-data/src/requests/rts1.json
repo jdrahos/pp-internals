@@ -1,0 +1,48 @@
+{
+  "badv": [],
+  "tmax": 200,
+  "site": {
+    "publisher": {
+      "id": "267",
+      "name": "disqus"
+    },
+    "domain": "mediaite.com",
+    "page": "http:\/\/www.mediaite.com\/online\/watch-live-donald-trump-holds-campaign-event-in-hickory-nc\/#{\"experiment\":\"network_default\",\"variant\":\"fallthrough\"}",
+    "id": "1509",
+    "sectioncat": [
+      "IAB12"
+    ]
+  },
+  "imp": [
+    {
+      "tagid": "qOkv6ltDsSCf1c_S3uavsE2iBRGyGQyKeU4XntBd",
+      "bidfloorcur": "USD",
+      "native": {
+        "request": "{\"adunit\":5,\"ver\":1,\"assets\":[{\"required\":1,\"id\":0,\"title\":{\"len\":120}},{\"required\":0,\"data\":{\"type\":2,\"len\":200},\"id\":1},{\"required\":1,\"data\":{\"type\":1},\"id\":2},{\"required\":0,\"data\":{\"type\":12},\"id\":3},{\"required\":0,\"id\":4,\"img\":{\"hmin\":60,\"wmin\":60,\"type\":1}},{\"required\":1,\"id\":5,\"img\":{\"hmin\":200,\"h\":150,\"type\":3,\"w\":200,\"wmin\":200}},{\"required\":0,\"video\":{\"protocols\":[2,3],\"maxduration\":3600,\"mimes\":[\"video\\\/x-flv\",\"video\\\/mp4\",\"video\\\/ogg\",\"video\\\/webm\"],\"minduration\":1},\"id\":5}],\"seq\":0,\"plcmtcnt\":1}",
+        "ver": "1.0.0.1"
+      },
+      "bidfloor": 0.1,
+      "id": "1"
+    }
+  ],
+  "device": {
+    "os": "Windows 7",
+    "language": "en",
+    "geo": {
+      "country": "USA"
+    },
+    "osv": "",
+    "dnt": 0,
+    "devicetype": 2,
+    "ip": "143.231.249.137",
+    "model": "Other",
+    "ua": "Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/48.0.2564.116 Safari\/537.36"
+  },
+  "at": 2,
+  "test": 0,
+  "id": "21225a28-60d4-4ce5-be29-4e27ed3338de",
+  "user": {
+    "buyeruid": "hNgMTr3J3rze",
+    "id": "0b89f0057c27635bf4757b7f4790eef17598006e"
+  }
+}
