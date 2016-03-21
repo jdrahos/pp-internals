@@ -1,0 +1,61 @@
+{
+  "site": {
+    "id": "15635",
+    "privacypolicy": 0,
+    "cat": [
+      "IAB3-1"
+    ],
+    "page": "http://www.goodhousekeeping.com/life/entertainment/news/a37390/rose-kennedy-schlossberg-jacqueline-kennedy/",
+    "name": "goodhousekeeping",
+    "domain": "www.goodhousekeeping.com",
+    "publisher": {
+      "id": "15635",
+      "cat": [
+        "IAB3-1"
+      ],
+      "name": "http://www.goodhousekeeping.com/life/entertainment/news/a37390/rose-kennedy-schlossberg-jacqueline-kennedy/",
+      "domain": "www.goodhousekeeping.com"
+    }
+  },
+  "id": "56eaa642e4b0fd685f86042d",
+  "tmax": 250,
+  "imp": [
+    {
+      "id": "1",
+      "bidfloor": 1,
+      "tagid": "15635_0",
+      "native": {
+        "battr": [
+          13,
+          14
+        ],
+        "request": "{\"assets\":[{\"id\":1,\"title\":{\"len\":70},\"required\":1},{\"id\":2,\"data\":{\"len\":300,\"type\":2},\"required\":1},{\"id\":3,\"img\":{\"w\":300,\"mimes\":[\"image/png\"],\"type\":3,\"h\":250},\"required\":1},{\"id\":4,\"data\":{\"len\":30,\"type\":1},\"required\":0},{\"id\":5,\"data\":{\"len\":300,\"type\":11},\"required\":1}],\"layout\":6,\"adunit\":2}",
+        "api": [
+          3
+        ],
+        "ver": "1.0"
+      },
+      "instl": 0,
+      "secure": 0
+    }
+  ],
+  "device": {
+    "geo": null,
+    "connectiontype": 0,
+    "js": 0,
+    "ua": "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko",
+    "devicetype": 2,
+    "dnt": 0,
+    "ip": "108.70.66.27"
+  },
+  "at": 1,
+  "cur": [
+    "USD"
+  ],
+  "allimps": 0,
+  "user": {
+    "id": "56eaa642e4b0fd685f86041c",
+    "yob": 0
+  },
+  "ext": null
+}

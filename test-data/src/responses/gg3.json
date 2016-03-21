@@ -1,0 +1,26 @@
+{
+  "id": "ac1427b9-2323-47b2-b684-6c8800526995",
+  "cur": "USD",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "adm": "{\"native\":{\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"text\":\"20 Hottest Female Celebs!\"}},{\"data\":{\"value\":\"Click here to check them out\"},\"id\":6,\"required\":1},{\"data\":{\"value\":\"www.CelebrityReport.net\"},\"id\":15,\"required\":0},{\"id\":2,\"img\":{\"h\":526,\"url\":\"http://adserve-nj.1rx.io/rtbasset/native?excid=pulse&pickup=76bcd7f5ce601469dd7e0078186a847b&zrk=bb3cfd70aa4b890a6f64deeec5f9e2ca&zds=bbc89503f1758185ef2735bf0c3a9aa3&imp=4bb6f7e990dd20a5eb5e596e0cce3341&pv=1&prc=ZX0.3936371970921755&asset=aimg&anum=3\",\"w\":620},\"required\":1}],\"imptrackers\":[\"http://adserve-nj.1rx.io/rtbtrkd?excid=pulse&pickup=76bcd7f5ce601469dd7e0078186a847b&zrk=bb3cfd70aa4b890a6f64deeec5f9e2ca&zds=bbc89503f1758185ef2735bf0c3a9aa3&imp=4bb6f7e990dd20a5eb5e596e0cce3341&zwp=0.434&pv=1&prc=ZX0.47943896683864295\",\"//idsync.rlcdn.com/400066.gif?partner_uid=GL6RTZNo6EWT\"],\"link\":{\"clicktrackers\":[\"http://adserve-nj.1rx.io/rtbctrkd/bbc89503f1758185ef2735bf0c3a9aa3-bb3cfd70aa4b890a6f64deeec5f9e2ca-76bcd7f5ce601469dd7e0078186a847b-b80ad439c7c39a8c02027533386ed23d\"],\"url\":\"http://adserve-nj.1rx.io/rtbasset/native?excid=pulse&pickup=76bcd7f5ce601469dd7e0078186a847b&zrk=bb3cfd70aa4b890a6f64deeec5f9e2ca&zds=bbc89503f1758185ef2735bf0c3a9aa3&imp=4bb6f7e990dd20a5eb5e596e0cce3341&pv=1&prc=ZX0.3936371970921755&asset=link\"},\"ver\":1}}"
+          "adomain": [
+            "celebrityreport.net"
+          ],
+
+
+
+
+          "crid": 836283,
+          "id": "ac1427b9-2323-47b2-b684-6c8800526995",
+          "impid": "1",
+          "price": 0.42,
+          "adid": "0",
+          "nurl": "http://dsp-pixel.contextweb.com/rtb/opn/gg/n?s=gg&b=H4sIAAAAAAAAALVSzW7TQBCe_DX9S2nVSuWGDyC1h03sOHXS9lAJtY0Q0CIaFImLWdvjeBXHa_kngb4BL8AD8ACIA0_AiTs3bj1xQOKC6BW8tpNU9MxovWt7Zr9v5pt5oO6--75inpbfX11vwtG3q-6HrcsrgFdOFPkHjcZkMqm7zEarbvJRo71HuE185L6LhAZIXGoOmTcgYxbREfOIRUJEwmzyhsfEoWMk3ENxJ3IwRKJoJGQDL2woe_-fogUzKwAUBwM4-qqmBlB6cXEMUFFVpdkGC6wiQFnrNJsAi6rWQQM7FsD9trZvdGzDIm3N7pBWR1UItZoakU1D7cht3Ff3261f18vdt194xlMsFsUjrFBIltgAqscnF497588KRfjH_iQG8Ogpv2SuSxt7dVna6TPP4pNQOutJilyXD6X-eV9rHUrB-KCVBOxKXTSHvNGUFTlZinTKArT564ZwwsOdT_c-f_zxM4MvQamZlFtUxNNKc4GC4ExeVrtPtOe9l2dcO-n3buZUEkG_p6nuwEoYcV83qWdiAJWQx4EJa7HnIHUjh-kmui4sWGgzk8GdAE30Ix7oYRzY1IRy6l4RLaFuFls2kgKhErEwjKGWt1V3cYwubAXo0ohxL3SYr-c-WMjBVm96YW16Neden3H7PEIvYlCNPdNJxEoAUn4oDwI-gfKEB0NRVmwxPd1haVYPbIh59OIgRIMGhphJqM4T8QOkFtSM5AijuSgpyMY0oTnY4jQnWM7oXOYNoSwUhe1USv023fatX3mWtUwHXYCyMSzk9OtT3hlZLYvQk-pHLNFtGpAqP9dpVlZWDiynPcm6BAU5GV4xBdNJqMDdDBalDJe6UqZrCEs5lDTTRkqxcPaZ57qZnRIb0QFKqQL4F1nrDWyEBAAA&w=${AUCTION_PRICE}&nu=http%3A%2F%2Fadserve-nj.1rx.io%2Frtbnurl%2Fnative%3Fexcid%3Dpulse%26pickup%3D76bcd7f5ce601469dd7e0078186a847b%26zrk%3Dbb3cfd70aa4b890a6f64deeec5f9e2ca%26zds%3Dbbc89503f1758185ef2735bf0c3a9aa3%26imp%3D4bb6f7e990dd20a5eb5e596e0cce3341%26zwp%3D0.434%26pv%3D1%26prc%3DZX0.9085661447606981&ed=1",
+        }
+      ]
+    }
+  ]
+}

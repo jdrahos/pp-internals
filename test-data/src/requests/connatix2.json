@@ -1,0 +1,153 @@
+{
+
+   "siteId":0,
+
+   "adId":0,
+
+   "operId":0,
+
+   "adtype":0,
+
+   "inIframe":0,
+
+   "adVisibility":0,
+
+   "ranreq":0,
+
+   "id":"cfa9fec0-438d-4443-9369-4486dbec0bbb",
+
+   "imp":[
+
+      {
+
+         "id":"1",
+
+         "native":{
+
+            "request":"{\"ver\":\"1\",\"layout\":1,\"adunit\":502,\"plcmtcnt\":1,\"seq\":0,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":100}},{\"id\":2,\"required\":1,\"img\":{\"type\":3,\"w\":600,\"wmin\":0,\"h\":600,\"hmin\":0}},{\"id\":3,\"required\":1,\"data\":{\"type\":2,\"len\":200}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":200}}]}"
+
+         },
+
+         "instl":0,
+
+         "tagid":"10535",
+
+         "bidfloor":0,
+
+         "bidfloorcur":"USD",
+
+         "secure":0
+
+      }
+
+   ],
+
+   "site":{
+
+      "id":"151",
+
+      "domain":"wonkette.com",
+
+      "cat":[
+
+         "IAB9",
+
+         "IAB3",
+
+         "IAB5",
+
+         "IAB10",
+
+         "IAB12",
+
+         "IAB19",
+
+         "IAB20"
+
+      ],
+
+      "page":"http://www.1kindesign.com/?fcid=4048",
+
+      "privacypolicy":0,
+
+      "publisher":{
+
+
+      }
+
+   },
+
+   "device":{
+
+      "dnt":0,
+
+      "ua":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36",
+
+      "ip":"68.36.70.115",
+
+      "js":0,
+
+      "connectiontype":0,
+
+      "devicetype":2
+
+   },
+
+   "user":{
+
+      "id":"_101923eb-98ea-4d3c-b693-6402ed99f6de",
+
+      "yob":0
+
+   },
+
+   "at":2,
+
+   "tmax":100,
+
+   "allimps":0,
+
+   "cur":[
+
+      "USD"
+
+   ],
+
+   "bcat":[
+
+      "IAB1",
+
+      "IAB2",
+
+      "IAB4",
+
+      "IAB6",
+
+      "IAB8",
+
+      "IAB7",
+
+      "IAB11",
+
+      "IAB13",
+
+      "IAB16",
+
+      "IAB21",
+
+      "IAB23",
+
+      "IAB15",
+
+      "IAB22",
+
+      "IAB14",
+
+      "IAB17",
+
+      "IAB18"
+
+   ]
+
+}
+

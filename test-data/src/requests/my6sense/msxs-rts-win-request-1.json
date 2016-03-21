@@ -1,0 +1,76 @@
+{
+  "badv": [],
+
+
+  "device": {
+    "connectiontype": 0,
+    "devicetype": 2,
+    "dnt": 0,
+    "geo": {
+      "city": "BELMONT",
+      "country": "USA",
+      "lat": 43.46993,
+      "lon": -71.47538,
+      "metro": "506",
+      "region": "NH",
+      "type": 2,
+      "zip": "03220"
+    },
+    "ip": "65.175.176.17",
+    "language": "en",
+    "os": "WINDOWS",
+    "osv": "10",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0"
+  },
+  "id": "i4QTZTNf829H",
+  "imp": [
+    {
+      "bidfloor": 0,
+      "bidfloorcur": "USD",
+      "id": "i4QTZTNf829H",
+      "instl": 0,
+      "native": {
+        "battr": [
+          13,
+          14
+        ],
+        "request": "{\"assets\":[{\"id\":1,\"title\":{\"len\":70},\"required\":1},{\"id\":2,\"data\":{\"len\":300,\"type\":2},\"required\":1},{\"id\":3,\"img\":{\"w\":300,\"mimes\":[\"image/png\"],\"type\":3,\"h\":250},\"required\":1},{\"id\":4,\"data\":{\"len\":30,\"type\":1},\"required\":0},{\"id\":5,\"data\":{\"len\":300,\"type\":11},\"required\":1}],\"layout\":6,\"adunit\":2}",
+        "ver": "1.0"
+      },
+      "secure": 0,
+      "tagid": "404256.15756_0"
+    }
+  ],
+  "site": {
+    "cat": [
+      "IAB3-1"
+    ],
+    "domain": "countryliving.com",
+    "id": "103646.15756",
+    "keywords": "countri,idea,garden,food,recip,live,drink,life,project,famili,entertain,craft,tour,spring,shinner,rebecca,pet,kid,joanna,fair,11_2016,food_drink,countri_live,countri_life,rebecca_shinner,live_fair,kid_pet,14_2016,joanna_gain,dii_project,design_idea,craft_dii,13_2016,visit_countri,small_space,shinner_countri,rheanna_o'neil,remodel_renov,real_estat,o'neil_bellomo",
+    "name": "countryliving",
+    "page": "http://www.countryliving.com/cooking/easter-dinner-recipes-2009",
+    "pagecat": [
+      "IAB9-2"
+    ],
+    "publisher": {
+      "domain": "countryliving.com",
+      "id": "558602.15756"
+    }
+  },
+  "tmax": 125,
+  "user": {
+    "ext": {},
+    "geo": {
+      "city": "BELMONT",
+      "country": "USA",
+      "lat": 43.46993,
+      "lon": -71.47538,
+      "metro": "506",
+      "region": "NH",
+      "type": 2,
+      "zip": "03220"
+    },
+    "id": "b5Pe-8yIhBRKARu7-6ce3g"
+  }
+}

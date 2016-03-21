@@ -1,0 +1,32 @@
+publisherid  servername  serverchain                               deflevelid  clientimpression  serverimpression  expr_0  
+-----------  ----------  ----------------------------------------  ----------  ----------------  ----------------  ------  
+558357       LGA-RTS00   LGA-RTS00:8080                            22          0                 1                 63483   
+558358       LGA-RTS00   LGA-RTS00:8080                            22          0                 1                 560     
+558362       LGA-RTS00   LGA-RTS00:8080                            22          0                 1                 10501   
+558079       LGA-RTS00   LGA-RTS00:8080 LGA-ED00:8080              22          0                 1                 52083   
+558602       LGA-RTS00   LGA-RTS00:8080                            22          0                 1                 642     
+558360       LGA-RTS00   LGA-RTS00:8080                            22          0                 1                 54123   
+558359       LGA-RTS00   LGA-RTS00:8080 LGA-ED00:8080              22          0                 1                 144     
+558359       LGA-RTS00   LGA-RTS00:8080                            22          0                 1                 4649    
+558356       LGA-RTB00   LGA-RTS00:8080 LGA-ED00:8080 LGA-RTB00:0  23          0                 1                 2982    
+558355       LGA-RTB00   LGA-RTS00:8080 LGA-ED00:8080 LGA-RTB00:0  23          0                 1                 91      
+559922       LGA-RTS00   LGA-RTS00:8080                            22          0                 1                 1263    
+558530       LGA-RTS00   LGA-RTS00:8080 LGA-ED00:8080              22          0                 1                 279     
+558360       LGA-RTB00   LGA-RTS00:8080 LGA-ED00:8080 LGA-RTB00:0  23          0                 1                 141     
+558620       LGA-RTS00   LGA-RTS00:8080 LGA-ED00:8080              22          0                 1                 1177    
+558356       LGA-RTS00   LGA-RTS00:8080 LGA-ED00:8080              22          0                 1                 33627   
+558602       LGA-RTB00   LGA-RTS00:8080 LGA-ED00:8080 LGA-RTB00:0  23          0                 1                 9       
+558357       LGA-RTS00   LGA-RTS00:8080 LGA-ED00:8080              22          0                 1                 84568   
+558079       LGA-RTB00   LGA-RTS00:8080 LGA-ED00:8080 LGA-RTB00:0  23          0                 1                 5       
+558356       LGA-RTS00   LGA-RTS00:8080                            22          0                 1                 8909    
+558530       LGA-RTS00   LGA-RTS00:8080                            22          0                 1                 23      
+558620       LGA-RTB00   LGA-RTS00:8080 LGA-ED00:8080 LGA-RTB00:0  23          0                 1                 172     
+559922       LGA-RTB00   LGA-RTS00:8080 LGA-ED00:8080 LGA-RTB00:0  23          0                 1                 106     
+558602       LGA-RTS00   LGA-RTS00:8080 LGA-ED00:8080              22          0                 1                 5965    
+558355       LGA-RTS00   LGA-RTS00:8080 LGA-ED00:8080              22          0                 1                 25548   
+558360       LGA-RTS00   LGA-RTS00:8080 LGA-ED00:8080              22          0                 1                 107636  
+558355       LGA-RTS00   LGA-RTS00:8080                            22          0                 1                 2994    
+558620       LGA-RTS00   LGA-RTS00:8080                            22          0                 1                 798     
+559922       LGA-RTS00   LGA-RTS00:8080 LGA-ED00:8080              22          0                 1                 2459    
+558358       LGA-RTS00   LGA-RTS00:8080 LGA-ED00:8080              22          0                 1                 6777    
+558079       LGA-RTS00   LGA-RTS00:8080                            22          0                 1                 27914   
