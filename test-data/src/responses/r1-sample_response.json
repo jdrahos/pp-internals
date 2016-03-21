@@ -1,0 +1,23 @@
+{
+    "id": "cccbcc7e-da8b-486c-b9a6-1ac274f7d5333",
+    "seatbid": [
+        {
+            "seat": "1139-1",
+            "bid": [
+                {
+                    "id": "1139-1-0",
+                    "impid": "1",
+                    "price": 0.375,
+                    "crid": "cr-1139-2c1e929e17",
+                    "cid": "c-1139-313200",
+                    "adm": "{\"native\":{\"link\":{\"url\":\"http:\/\/adserve.rhythmxchange.com\/rtbasset\/native?excid=adconductor&pickup=c9f49b0f499d18a2190a0a140cd00390&zrk=aae11ee98e974eed42c5581c5b5244b5&zds=d4c38de703fdb2dea00a9266933d8eb1&imp=f20fb94de62b00d99d8b6bedcbc7dea5&pv=1&prc=ZX0.11128735914826393&asset=link\",\"clicktrackers\":[\"http:\/\/adserve.rhythmxchange.com\/rtbctrkd\/d4c38de703fdb2dea00a9266933d8eb1-aae11ee98e974eed42c5581c5b5244b5-c9f49b0f499d18a2190a0a140cd00390-b0f49acfc01a612526678ab6ce86e3ec\"]},\"ver\":1,\"assets\":[{\"required\":1,\"id\":1,\"title\":{\"text\":\"20 Hottest Female Celebs!\"}},{\"required\":1,\"id\":2,\"img\":{\"url\":\"http:\/\/adserve.rhythmxchange.com\/rtbasset\/native?excid=adconductor&pickup=c9f49b0f499d18a2190a0a140cd00390&zrk=aae11ee98e974eed42c5581c5b5244b5&zds=d4c38de703fdb2dea00a9266933d8eb1&imp=f20fb94de62b00d99d8b6bedcbc7dea5&pv=1&prc=ZX0.11128735914826393&asset=aimg&anum=1\",\"h\":124,\"w\":148}}],\"imptrackers\":[\"http:\/\/adserve.rhythmxchange.com\/rtbtrkd?excid=adconductor&pickup=c9f49b0f499d18a2190a0a140cd00390&zrk=aae11ee98e974eed42c5581c5b5244b5&zds=d4c38de703fdb2dea00a9266933d8eb1&imp=f20fb94de62b00d99d8b6bedcbc7dea5&zwp=${AUCTION_PRICE}&pv=1&prc=ZX0.25946053746156394\"]}}",
+                    "nurl": "http:\/\/adserve.rhythmxchange.com\/rtbnurl\/native?excid=adconductor&pickup=c9f49b0f499d18a2190a0a140cd00390&zrk=aae11ee98e974eed42c5581c5b5244b5&zds=d4c38de703fdb2dea00a9266933d8eb1&imp=f20fb94de62b00d99d8b6bedcbc7dea5&zwp=${AUCTION_PRICE}&pv=1&prc=ZX0.1431723937857896",
+                    "adomain": [
+                        "CelebrityReport.net"
+                    ]
+                }
+            ]
+        }
+    ],
+    "cur": "USD"
+}

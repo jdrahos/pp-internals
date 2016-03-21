@@ -1,0 +1,73 @@
+{
+  "badv": [],
+  "bcat": [],
+  "device": {
+    "connectiontype": 0,
+    "devicetype": 1,
+    "dnt": 0,
+    "geo": {
+      "city": "?",
+      "country": "USA",
+      "lat": 39.0,
+      "lon": -75.667,
+      "metro": "0",
+      "region": "DE",
+      "type": 2,
+      "zip": "?"
+    },
+    "ip": "50.153.39.131",
+    "os": "IOS",
+    "osv": "9.2.1",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) GSA/13.1.72140 Mobile/13D15 Safari/600.1.4"
+  },
+  "id": "DApqI5aLeUbk",
+  "imp": [
+    {
+      "bidfloor": 0,
+      "bidfloorcur": "USD",
+      "id": "DApqI5aLeUbk",
+      "instl": 0,
+      "native": {
+        "battr": [
+          3,
+          4,
+          5
+        ],
+        "request": "{\"ver\":1,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":70}},{\"id\":2,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":3,\"required\":1,\"img\":{\"h\":250,\"w\":300,\"type\":3}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":30}},{\"id\":5,\"required\":1,\"data\":{\"type\":11,\"len\":300}}],\"layout\":6,\"adunit\":2,\"plcmtcnt\":1,\"seq\":0}",
+        "ver": "1"
+      },
+      "secure": 0,
+      "tagid": "15634_0"
+    }
+  ],
+  "site": {
+    "cat": [
+      "IAB3-1"
+    ],
+    "domain": "goodhousekeeping.com",
+    "id": "15634",
+    "name": "goodhousekeeping",
+    "page": "http://www.goodhousekeeping.com/home/cleaning/a35532/how-to-clean-a-keurig-coffee-maker/",
+    "pagecat": [
+      "IAB1"
+    ],
+    "publisher": {
+      "domain": "goodhousekeeping.com",
+      "id": "558602.15634"
+    }
+  },
+  "tmax": 125,
+  "user": {
+    "geo": {
+      "city": "?",
+      "country": "USA",
+      "lat": 39.0,
+      "lon": -75.667,
+      "metro": "0",
+      "region": "DE",
+      "type": 2,
+      "zip": "?"
+    },
+    "id": "5QEUIzcofeyhlrwvR-pJ-w"
+  }
+}

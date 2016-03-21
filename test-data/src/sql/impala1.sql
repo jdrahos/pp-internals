@@ -112,3 +112,41 @@ select publisherid,deflevelid,sum(clientimpression) clientimpression, sum(server
         group by publisherid,deflevelid
 ;
 
+
+select deflevelid,sum(clientimpression) clientimpression, sum(serverimpression) serverimpression
+        from event.logevent
+        where adformatid=18 and day ='2016-03-15' and hour='01'
+        and advertiserid=558734
+        group by 1
+;
+
+
+
+
+select day,impsrcid,
+        sum(case when rtbeventid='BUYER_ERROR' or rtbeventid='BUYER_PASSBACK' then impressions else 0 end) as ppBidRequests,
+        sum(case when rtbeventid='BUYER_BID' then impressions else 0 end) as dspBids
+from event.rtblogevent 
+where 
+        day = '2016-03-18' and hour = '09'
+        and buyerid = '558734' -- floor6
+        and adformatid=18
+        and rtbeventid in (
+                'BUYER_ERROR', -- DSP->PP response error
+                'BUYER_PASSBACK', -- DSP->PP response with no-bid
+                'BUYER_BID' -- DSP->PP response
+        )
+group by 1,2
+order by 1,2
+;
+
+
+select day,impsrcid,adformatid,rtbeventid,sum(impressions) impressions
+from event.rtblogevent 
+where 
+        day = '2016-03-18' and hour = '00'
+        and buyerid = '558734' -- floor6
+        --and adformatid=18
+group by 1,2,3,4
+order by 1,2,3,4
+;

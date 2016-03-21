@@ -1,0 +1,76 @@
+{
+  "badv": [],
+  "bcat": [],
+
+  "device": {
+    "connectiontype": 0,
+    "devicetype": 2,
+    "dnt": 0,
+    "geo": {
+      "city": "HARLINGEN",
+      "country": "USA",
+      "lat": 26.18653,
+      "lon": -97.73137,
+      "metro": "636",
+      "region": "TX",
+      "type": 2,
+      "zip": "78550"
+    },
+    "ip": "108.75.227.253",
+
+    "os": "OSX",
+    "osv": "10.10",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:44.0) Gecko/20100101 Firefox/44.0"
+  },
+  "id": "zA0HlvMsDlns",
+  "imp": [
+    {
+      "bidfloor": 0,
+      "bidfloorcur": "USD",
+      "id": "zA0HlvMsDlns",
+      "instl": 0,
+      "native": {
+        "battr": [],
+
+
+
+        "request": "{\"ver\":1,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":70}},{\"id\":2,\"required\":1,\"data\":{\"type\":2,\"len\":300}},{\"id\":3,\"required\":1,\"img\":{\"h\":250,\"w\":300,\"type\":3}},{\"id\":4,\"required\":0,\"data\":{\"type\":1,\"len\":30}},{\"id\":5,\"required\":1,\"data\":{\"type\":11,\"len\":300}}],\"layout\":6,\"adunit\":2,\"plcmtcnt\":1,\"seq\":0}",
+        "ver": "1"
+      },
+      "secure": 0,
+      "tagid": "15756_0"
+    }
+  ],
+  "site": {
+    "cat": [
+      "IAB3-1"
+    ],
+    "domain": "countryliving.com",
+    "id": "15756",
+
+    "name": "countryliving",
+    "page": "http://www.countryliving.com/food-drinks/a37893/easter-speckled-malted-coconut-cake-recipe/",
+    "pagecat": [
+      "IAB9-2"
+    ],
+    "publisher": {
+      "domain": "countryliving.com",
+      "id": "558602.15756"
+    }
+  },
+  "tmax": 125,
+  "user": {
+
+    "geo": {
+      "city": "HARLINGEN",
+      "country": "USA",
+      "lat": 26.18653,
+      "lon": -97.73137,
+      "metro": "636",
+      "region": "TX",
+      "type": 2,
+      "zip": "78550"
+    },
+    "id": ""
+  }
+}

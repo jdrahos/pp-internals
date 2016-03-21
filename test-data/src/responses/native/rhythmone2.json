@@ -1,0 +1,46 @@
+{
+  "native": {
+    "link": {
+      "url": "http://adserve-nj.1rx.io/rtbasset/native?excid=pulse&pickup=5f46f5d3362ef3c8e0064c9b11b0ce16&zrk=569498f010a27be36c9f3bc4a04f1b93&zds=5874ff87443371beff82e5be6bfa601a&imp=11a7cee6991e4f75c27f6d626e4affa3&pv=1&prc=ZX0.2626135488972068&asset=link",
+      "clicktrackers": [
+        "http://adserve-nj.1rx.io/rtbctrkd/5874ff87443371beff82e5be6bfa601a-569498f010a27be36c9f3bc4a04f1b93-5f46f5d3362ef3c8e0064c9b11b0ce16-77d649f5d5342adcd151aa53c67bcd16"
+      ]
+    },
+    "ver": 1,
+    "assets": [
+      {
+        "required": 1,
+        "id": 1,
+        "title": {
+          "text": "20 Hottest Female Celebs!"
+        }
+      },
+      {
+        "required": 1,
+        "data": {
+          "value": "Click here to check them out"
+        },
+        "id": 2
+      },
+      {
+        "required": 1,
+        "data": {
+          "value": "www.CelebrityReport.net"
+        },
+        "id": 5
+      },
+      {
+        "required": 1,
+        "id": 3,
+        "img": {
+          "url": "http://adserve-nj.1rx.io/rtbasset/native?excid=pulse&pickup=5f46f5d3362ef3c8e0064c9b11b0ce16&zrk=569498f010a27be36c9f3bc4a04f1b93&zds=5874ff87443371beff82e5be6bfa601a&imp=11a7cee6991e4f75c27f6d626e4affa3&pv=1&prc=ZX0.2626135488972068&asset=aimg&anum=3",
+          "h": 250,
+          "w": 300
+        }
+      }
+    ],
+    "imptrackers": [
+      "http://adserve-nj.1rx.io/rtbtrkd?excid=pulse&pickup=5f46f5d3362ef3c8e0064c9b11b0ce16&zrk=569498f010a27be36c9f3bc4a04f1b93&zds=5874ff87443371beff82e5be6bfa601a&imp=11a7cee6991e4f75c27f6d626e4affa3&zwp=${AUCTION_PRICE}&pv=1&prc=ZX0.394015348283574"
+    ]
+  }
+}

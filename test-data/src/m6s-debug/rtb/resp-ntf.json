@@ -1,0 +1,26 @@
+{
+  "id": "DApqI5aLeUbk",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "26212505-3f27-48ce-a623-431e00376c17",
+          "impid": "DApqI5aLeUbk",
+          "price": 2.1296734500709891150023663000,
+          "nurl": "http://api.bttrack.com/win?ts=1458216464403&id=4455167d-336e-4e55-afff-427e5e19fb2d&cid=24608&crid=369939&pid=93996170&data=OuJifVtEKZqw3Hw4aZrsK69SHpsfuz0WAP7LEBlQijlrX_0nGwd3Wk-W68Z5nWmZR8VwaYywnwQW5ki3gmACkXBed8LitM4hbszlfZufHLNeoQLI1AW3aako6pqe_sIVw8kasmiKP8tQTmsH-e12ZYlv17xXyMFFoPYtMI8pHxmMixueJ7jXmoVXosKekC5r0&iid=26212505-3f27-48ce-a623-431e00376c17&price=${AUCTION_PRICE}&reqid=${AUCTION_ID}",
+          "iurl": "http://cdn.bttrack.com/a/300/250/3104423",
+          "adm": "{\"native\":{\"assets\":[{\"id\":1,\"title\":{\"text\":\"Download on iTunes Store\"}},{\"id\":2,\"data\":{\"value\":\"Start Your 30-Day Free Trial.\",\"type\":2}},{\"id\":3,\"img\":{\"url\":\"http://cdn.bttrack.com/a/300/250/3104423\",\"type\":3,\"w\":300,\"h\":250}},{\"id\":4,\"data\":{\"value\":\"HBO NOW\",\"type\":1}}],\"ext\":{\"viewabilitytrackers\":[\"http://bttrack.com/Pixel/Viewed/?data=OuJifVtEKZqw3Hz58_rtW7Pq5nQzX1scQQ6HOeSNjuAJegbCAS7f0fI1fKzztzt0t0oUSg81JRX2z1Z2_wqTZUO0fYllW2QRtSoI3ncuZNXLTUHSA7mRdAIgWW5h5frYB_SbXEHkdSNul_BU521Ekr0Hke9wfX7Miev5gj9CuPedVr3B9yPBVYfqE7RWljGO_xV1GhSSO1_k4vebSozMR21bP55yspR5cGUlETGfKo9l3qemAugMH4EPixAoCn36dUdn6eQv8U-7foRw_jvOFUyY6-UZ5lJ_z0qE9Y4sn0GamudzMquutmVv7oOWfse22xG7a5LqyEaALLw8CmjmRd6a2iHkmuRm3nJNWcoiqz1gHfZEXoy2tZkDkac08gGyUBq2m6A1&method=3&percentage=1\"]},\"link\":{\"url\":\"http://bttrack.com/Click/Native?data=OuJifVtEKZqw3Cwm_9oqWrOTLuwjgYDjzqkHdpdBCqk3_dBBQlhce0mchCjC1K8Yg3aHbNAnYPYIAYniaymZ6O-DN9x1gcCltA7D__ZQy8bLdUeHQRCrWXyT4tSvfRp2Dk9PDgkyiOnhbHmdVLoTYLhcC0G9LnOErchGbt7e6FXPY63hYqt1py3GKjxaTpcCYqzhyrUJODUeJZ2z9f5PSNYEUvmg_-s3c__3Q4vs1lHKdfY1Egow3Nm4T6WBnPkLr1OjRbvG-P2v7c_qom5Igq26pMy3XZSOSV1vGUoGukC87CfSsMQakp7mGixUZ1IPTzOR3RhyEzOeKyU6klvCRjY5YN9yGefBGEwF86vyfbAGrwOuno_2rNpAZlA75cp2O34fiBVDnVPvZb8NMo2f_fQ2sY8KZ2ZkZOHIkhoSp6NbzXHlNlfIJBY1\"},\"imptrackers\":[\"http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3Hznaf7zW7Oqep-iWlZRsTt8NEl7WBjBCzOlQLvPVNlTqGpXdWhQveFEd_dJeZMIaDOcdVqCrk5LESazuwz-bbeFyE4y6QkMf2c52ndvK3uP7xrc68f7BAZog6BBILT0_iMeBmvRQuFjs1RMbyF8FMdH6JGfbukIeA9XOCUviMGLSUASObnJ2h4EibL_-2oOJoGVrXEYfWGXcR0Qp19ygBi-QVeK_VD5p1wy914s6ryvjHnlkplZtfwwIuZXgkInAPg--jmAWm95JSaop5DOdc3aQ3iDQGQGvygO0pLYD4XhktAuQhVwQlzN6ao4TTK_jDIMQvFdsN6utpijG9JOLgv22Kc3-TsU360aeg5U2isJzfeJktZ8V6oWLsVcL1F-biF8kyWGXG0k3B4bJ1Jq6PhcWx3exBOviOoC76XqeKL1XIcli_MiU_baG4xl7yIwLQ2&type=img\"]}}",
+          "adomain": [
+            "hbo.com"
+          ],
+          "cid": "24608",
+          "crid": "369939"
+        }
+      ],
+      "seat": "23115",
+      "group": 0
+    }
+  ],
+  "bidid": "4455167d-336e-4e55-afff-427e5e19fb2d",
+  "cur": "USD"
+}

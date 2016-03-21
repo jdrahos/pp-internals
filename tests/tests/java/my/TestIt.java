@@ -13,7 +13,7 @@ import java.util.List;
 public class TestIt {
     @Test
     public void testStringUn() {
-        String aaa = "{\"native\":{\"ver\":\"1\",\"layout\":6,\"adunit\":2,\"plcmtcnt\":8,\"assets\":[{\"id\":1,\"required\":1,\"img\":{\"type\":3,\"w\":300,\"h\":300}},{\"id\":2,\"required\":0,\"data\":{\"type\":2,\"len\":400}},{\"id\":3,\"required\":0,\"data\":{\"type\":11,\"len\":400}},{\"id\":4,\"required\":1,\"title\":{\"len\":100}}]}}";
+        String aaa = "{\"assets\":[{\"id\":1,\"title\":{\"len\":70},\"required\":1},{\"id\":2,\"data\":{\"len\":300,\"type\":2},\"required\":1},{\"id\":3,\"img\":{\"w\":300,\"mimes\":[\"image/png\"],\"type\":3,\"h\":250},\"required\":1},{\"id\":4,\"data\":{\"len\":30,\"type\":1},\"required\":0},{\"id\":5,\"data\":{\"len\":300,\"type\":11},\"required\":1}],\"layout\":6,\"adunit\":2}";
     }
 
     @Test

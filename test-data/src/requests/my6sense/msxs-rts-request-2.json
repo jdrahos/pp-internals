@@ -1,0 +1,81 @@
+{
+  "badv": [
+    "tradjenta.com"
+  ],
+  "device": {
+    "connectiontype": 0,
+    "devicetype": 1,
+    "dnt": 0,
+    "geo": {
+      "city": "NEW YORK",
+      "country": "USA",
+      "lat": 40.81703,
+      "lon": -73.94247,
+      "metro": "501",
+      "region": "NY",
+      "type": 2,
+      "zip": "10025"
+    },
+    "ip": "66.87.116.132",
+    "language": "en",
+    "make": "APPLE",
+    "model": "IPHONE",
+    "os": "IOS",
+    "osv": "9.2.1",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13D15 Safari/601.1"
+  },
+  "id": "DBZdiHH11JhY",
+  "imp": [
+    {
+      "bidfloor": 0,
+      "bidfloorcur": "USD",
+      "id": "DBZdiHH11JhY",
+      "instl": 0,
+      "native": {
+        "battr": [
+          3,
+          4,
+          5,
+          13,
+          14
+        ],
+        "request": "{\"assets\":[{\"id\":1,\"title\":{\"len\":70},\"required\":1},{\"id\":2,\"data\":{\"len\":300,\"type\":2},\"required\":1},{\"id\":3,\"img\":{\"w\":300,\"mimes\":[\"image/png\"],\"type\":3,\"h\":250},\"required\":1},{\"id\":4,\"data\":{\"len\":30,\"type\":1},\"required\":0},{\"id\":5,\"data\":{\"len\":300,\"type\":11},\"required\":1}],\"layout\":6,\"adunit\":2}",
+        "ver": "1.0"
+      },
+      "secure": 0,
+      "tagid": "404256.15769_0"
+    }
+  ],
+  "site": {
+    "cat": [
+      "IAB3-1"
+    ],
+    "domain": "esquire.com",
+    "id": "103646.15769",
+    "keywords": "polit,new,women,wade,trump,peter,style,miller,matt,love,esquir,viral,sport,movi,instagram,ford,entertain,stephani,sebastian,report,new_polit,12_2016,11_2016,peter_wade,women_love,matt_miller,ford_150,esquir_ford,wade_new,stephani_lee,michael_sebastian,love_instagram,jack_holm,wade_entertain,speaker_chang,sebastian_new,miller_style,kany_approv,fake_report,donald_trump",
+    "name": "esquire",
+    "page": "http://www.esquire.com/news-politics/politics/news/a43055/trump-hillary-general-election/",
+    "pagecat": [
+      "IAB12"
+    ],
+    "publisher": {
+      "domain": "esquire.com",
+      "id": "558602.15769"
+    }
+  },
+  "tmax": 125,
+  "user": {
+    "ext": {},
+    "geo": {
+      "city": "NEW YORK",
+      "country": "USA",
+      "lat": 40.81703,
+      "lon": -73.94247,
+      "metro": "501",
+      "region": "NY",
+      "type": 2,
+      "zip": "10025"
+    },
+    "id": "tdmES8LAFLI1Ad-I2Ukmaw"
+  }
+}

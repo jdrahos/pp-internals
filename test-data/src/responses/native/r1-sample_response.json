@@ -1,0 +1,32 @@
+{
+  "native": {
+    "link": {
+      "url": "http:\/\/adserve.rhythmxchange.com\/rtbasset\/native?excid=adconductor&pickup=c9f49b0f499d18a2190a0a140cd00390&zrk=aae11ee98e974eed42c5581c5b5244b5&zds=d4c38de703fdb2dea00a9266933d8eb1&imp=f20fb94de62b00d99d8b6bedcbc7dea5&pv=1&prc=ZX0.11128735914826393&asset=link",
+      "clicktrackers": [
+        "http:\/\/adserve.rhythmxchange.com\/rtbctrkd\/d4c38de703fdb2dea00a9266933d8eb1-aae11ee98e974eed42c5581c5b5244b5-c9f49b0f499d18a2190a0a140cd00390-b0f49acfc01a612526678ab6ce86e3ec"
+      ]
+    },
+    "ver": 1,
+    "assets": [
+      {
+        "required": 1,
+        "id": 1,
+        "title": {
+          "text": "20 Hottest Female Celebs!"
+        }
+      },
+      {
+        "required": 1,
+        "id": 2,
+        "img": {
+          "url": "http:\/\/adserve.rhythmxchange.com\/rtbasset\/native?excid=adconductor&pickup=c9f49b0f499d18a2190a0a140cd00390&zrk=aae11ee98e974eed42c5581c5b5244b5&zds=d4c38de703fdb2dea00a9266933d8eb1&imp=f20fb94de62b00d99d8b6bedcbc7dea5&pv=1&prc=ZX0.11128735914826393&asset=aimg&anum=1",
+          "h": 124,
+          "w": 148
+        }
+      }
+    ],
+    "imptrackers": [
+      "http:\/\/adserve.rhythmxchange.com\/rtbtrkd?excid=adconductor&pickup=c9f49b0f499d18a2190a0a140cd00390&zrk=aae11ee98e974eed42c5581c5b5244b5&zds=d4c38de703fdb2dea00a9266933d8eb1&imp=f20fb94de62b00d99d8b6bedcbc7dea5&zwp=${AUCTION_PRICE}&pv=1&prc=ZX0.25946053746156394"
+    ]
+  }
+}
