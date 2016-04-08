@@ -1,0 +1,87 @@
+{
+  "app": {
+    "bundle": "635896473",
+    "cat": [
+      "IAB9"
+    ],
+    "domain": "ask.fm.com",
+    "id": "108510.ccf593e18f56",
+    "name": "Ask.fm mediation iOS banners",
+    "pagecat": [
+      "IAB24"
+    ],
+    "publisher": {
+      "domain": "fm.com",
+      "id": "558359.31305"
+    },
+    "storeurl": "https://itunes.apple.com/app/id635896473"
+  },
+  "badv": [],
+  "bcat": [
+    "IAB26",
+    "IAB25",
+    "IAB24"
+  ],
+  "device": {
+    "carrier": "Turk Telekom",
+    "connectiontype": 2,
+    "devicetype": 2,
+    "dnt": 0,
+    "dpidmd5": "bbe4dcf25375335374f27c1ffe5b848c",
+    "dpidsha1": "263e009b80a98e1c378c636d22935dad284771d9",
+    "geo": {
+      "city": "ISTANBUL",
+      "country": "TUR",
+      "lat": 41.0186,
+      "lon": 28.964706,
+      "metro": "-1",
+      "region": "34",
+      "type": 1,
+      "zip": "34000"
+    },
+    "ifa": "02EACF59-62CF-4B1E-B491-A58C5ACAC371",
+    "ip": "78.171.151.203",
+    "make": "APPLE",
+    "model": "MAC",
+    "os": "OSX",
+    "ua": "askfm/1882 CFNetwork/711.0.6 Darwin/14.0.0"
+  },
+  "id": "AtcJ4tNoChdT",
+  "imp": [
+    {
+      "banner": {
+        "battr": [
+          10
+        ],
+        "btype": [
+          4
+        ],
+        "ext": {},
+        "h": 50,
+        "pos": 0,
+        "topframe": 0,
+        "w": 320
+      },
+      "bidfloor": 0,
+      "bidfloorcur": "USD",
+      "id": "AtcJ4tNoChdT",
+      "instl": 0,
+      "secure": 0,
+      "tagid": "368000"
+    }
+  ],
+  "tmax": 125,
+  "user": {
+    "geo": {
+      "city": "ISTANBUL",
+      "country": "TUR",
+      "lat": 41.0186,
+      "lon": 28.964706,
+      "metro": "-1",
+      "region": "34",
+      "type": 1,
+      "zip": "34000"
+    },
+    "id": "vU4xBOGGe5jqD39Xwl0pxg"
+  }
+}

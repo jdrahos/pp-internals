@@ -1,0 +1,36 @@
+{
+  "site": {
+    "ref": "http:\/\/www.theawl.com\/2016\/01\/an-afternoon-at-the-death-cafe",
+    "domain": "theawl.com",
+    "publisher": {
+      "id": "11"
+    },
+    "id": "9",
+    "page": "http:\/\/www.theawl.com\/2016\/01\/an-afternoon-at-the-death-cafe"
+  },
+  "id": "e2584387-1acc-4ca3-8bf4-59ecc99c58cb",
+  "user": {
+    "id": "d6767f1f716f436b9f4632a122b8b22f"
+  },
+  "device": {
+    "geo": {
+      "country": "USA",
+      "metro": "501",
+      "region": "NY"
+    },
+    "ip": "66.234.239.197",
+    "language": "en-US",
+    "ua": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/49.0.2623.87 Safari\/537.36",
+    "devicetype": 2
+  },
+  "imp": [
+    {
+      "tagid": "36ed65eb-61fb-4a47-86f7-de6cbaf81f83",
+      "native": {
+        "request": "{\"layout\":6,\"plcmtcnt\":1,\"ver\":1,\"assets\":[{\"img\":{\"w\":300,\"h\":300,\"type\":3},\"id\":1,\"required\":1},{\"data\":{\"len\":400,\"type\":2},\"id\":2,\"required\":1},{\"data\":{\"len\":400,\"type\":1},\"id\":3,\"required\":0},{\"data\":{\"len\":400,\"type\":11},\"id\":4,\"required\":0},{\"data\":{\"len\":400,\"type\":12},\"id\":5,\"required\":0},{\"id\":6,\"title\":{\"len\":100},\"required\":1},{\"id\":7,\"video\":{\"protocols\":[3]},\"required\":0}],\"adunit\":501}",
+        "ver": "1"
+      },
+      "id": "1"
+    }
+  ]
+}

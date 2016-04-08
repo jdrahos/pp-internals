@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0">
+    <Ad id="12345">
+        <Wrapper>
+            <AdSystem>PulsePoint Primary AdServer</AdSystem>
+            <VASTAdTagURI><![CDATA[http://www.google.com]]></VASTAdTagURI>
+            <Error><![CDATA[http://tagserver/TagPublish/videoError.aspx?p=100&i=12345&b=-1&s=2&e=[ERRORCODE]&v=54321]]></Error>
+        </Wrapper>
+    </Ad>
+</VAST>

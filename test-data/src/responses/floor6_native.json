@@ -1,0 +1,662 @@
+[
+  {
+    "cur": "USD",
+    "id": "9sAIL9QlvQhI",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1q5vjurxips/b1_gumgum/890/55303/?_b_rzuid=edc67b5a-efa7-11e5-a5b5-b31e521921c1&_b_bzuid=edc67b5a-efa7-11e5-a5b5-43848776bdc1&_r_publisherdomain=www.esquire.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"3-Ingredient Slow-Cooker Pulled Pork Sandwiches\"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436990\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4M6KRVZBYQTGYXFOGPVCVES2AD5JCOO6LQUMCFKFQDLT3AB5EUO6RXNEHY4HDKEPCMT35XXJAUBBPX3QKOS7ZTVTBLWZPUVP6AUI6ZQXQQSYK6FAHCJBYADTU3LQCX4NYVYPJRB3CKDCEBFHFS5JBPXNPHVPI5BDXEKPEIXW5ZQSDRFK2RND64FBJXXH74XUIDFJM3D7HNLNAI367IS4BDAK5P7V24PI3SAZK2E6LPLPXQJC2LGQMWXTUSXBZ7K4ITXFZZD3Q7QC2FSM4WRUYBHD3UR4O6QZSO3WSV47SGOGKIX46FNVLWQ6H3NVKGNTFAM2AIEFP4LMCEXWJ7VOP5KNOQK6EY7D4OMIRX7XOEONEGTCRSVKC7UFJXGG2O7MLBNGS5D5GDZV4AA&price=0.86&rzuid=edc67b5a-efa7-11e5-a5b5-b31e521921c1\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4yt9voo6oSTWpjUaBfhebLYC2pgIie8VugRf7zveHuL3uo5ycpX1J0ThirYbtSMvQYIqz6AxceJ8nenKkX674mnHTOpGIQrVE7bMdYkquLv_ORBXi4urnBWXyX0DNL9clJmYXHPMN1MDSI8hSc2ujQHXbpO2BcyG5yAc9wF6aXaCPd4yU3wYtpeBIHCqWALFA7oZEzbZ0I1NGcrgRWWkEZQkitat7yj4u7DwU3SxHNzfoEkaxKryIn8s_wctzOosBOMqlSBRSnGRnL3WI3iY3VWSBA1l-MRbCABY8i__hU7Cxy4ftENbN61RtsrBkNoGfvgAjj_FUfST7AQbIW4V6iU?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "55303",
+            "id": "e004ac58-a16c-42a0-8efa-4e04089e727e",
+            "impid": "9sAIL9QlvQhI",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "GiqcF8rSD5HU",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1u8xlzc7ojk/b1_gumgum/890/167305/?_b_rzuid=eea141b6-efa7-11e5-ba69-be0153e99bde&_b_bzuid=eea141b6-efa7-11e5-ba69-b2e4741f5ede&_r_publisherdomain=friv.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":6,\"data\":{\"value\":\"We’re dishing up quick, tasty ideas we think you’ll love – fresh from our kitchen to yours.\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436990\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHG2REXOVH2BDX3JOGPVCVES2AD5L7IKYR7XIPKQL23Z4OPL7ETTNIO6W4M34HWL3NJ7UXBTQ5WYWYUTONSKPWITH26P65COKK5362STULL77HKYFXGPK3J5CMIHAR2OU67YPJRB3CKDCEBGUPA2B4UPS7N6DEHJGSVXMYT5SCDLCB5KHCPDVL4FYEQEDTW7TKBWNYZHXBNSILQ6AYBJ2PFFEJ4BBWPOBRGBNCIFQNMGNKZZPS7UK2KS4VF4AJSFVPVU5O4QUR3YIK4UJNOCLCCTWH4MX3MAT2I3VCQGMSL5JPAHPCOY7XFRYT4CZLNGDWWHEHDQSAXUJ4MRLTP3246FSUFLSNBTDCUESCALDWHGCJ4TOMZBSVQYQQKFOXHDTXM&price=0.86&rzuid=eea141b6-efa7-11e5-ba69-be0153e99bde\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4xMJnFoRGrKl0CEfwsLRagOeuy2LxJoYqs5lnz8tr3v_qRU_I2tynV-vSTmsUzTEQIIqz6AxceJ8dq9dwDJ-Wx3Trbt1U9BPmYBCv4kCYbhnYo8bLOSEV44lcD3_SZplHqKLJ3cIjq7ZF1QXE2UEqVJASQ8ucQQRrOj-iydvXbAWRzuXOWaGsZOBv_6w5y8-QQ-eGXCG_YglqGINJcbUJKwIRur-dwGSjkphsDWEYatJ7AQbIW4V6iU?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167305",
+            "id": "b77f2a3b-8893-4e77-9fc0-617966405ed1",
+            "impid": "GiqcF8rSD5HU",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "S5Aq8ATbCzWS",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1qgg2st6lmo/b1_gumgum/885/167189/?_b_rzuid=ee31dc3b-efa7-11e5-9016-2fae8bdf0b8d&_b_bzuid=ee31dc3b-efa7-11e5-9016-46bad2c8108d&_r_publisherdomain=www.goodhousekeeping.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Slow-Cooker Three Bean and Turkey Chili \"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHGASUGV3I6FPGWJOGPVCVES2AD5OHAUS3X6NZQIQ6JPBFCBKTGMLGDYLLWP332ZDNJX4XCEN2QR2MMMVIENR5QGCPCJEVF4AYON22RK2CNAQW7X536CKIT2THJKEUQTBKRYPJRB3CKDCEBEJIRARCZPMDVQNZLYG6AD3OMEESVZ3LCUCVWBRJB3KFSILINTNNLOOZTALQQCGAHZPRBNB4PKJUT5LXNKVXAHUJWB7LKXOTUDHO6X7GGZ5YGEYFUJAWAK3D6DOFKJVP33ES7V4XACYPJ2OTV3SCSHPBBLSQUTI24YEO34CS7NQCPJDOUKAZSSKTUCRCHBKJXQSQEWNPTGUBUGPAGDOIAVA4UVDP4ZW7T3IIFQKJA5RDGWRVEG6QVPQDYEMOX6544R4TVAQD4LQZSJY&price=1.26&rzuid=ee31dc3b-efa7-11e5-9016-2fae8bdf0b8d\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T46OgkcGLk6E_Rl7XLGR6w6xhhOsagwMa8jvI2j_3YYv70xP1hjjXNBS6t6w6FA89lYIqz6AxceJ8nenKkX674mkN5BXV-2pwRKYrmoDa3XFBU6oVw9Wa2KRq0eU_x-X7QeWsCjc6it9cu2_heSSkmxvaqyFw9I1BJTBJbbaxRbAdXaX7scZFGZw13D-hOSFm3gbFyhPFzk1qvzVxogIWu5NH0QkAJfPQHHwcVxbEP2PMbWyKWgPWaV06Ub5G9SdDKB6UoR8nxoC631OmeH9Tkq9UC44xj9AA8CDkK6KKgLUNFfH-jtcjXpK1gl2ORvALO-etqhnjdN1qMUF5hz7EZxFKTbLNWuvjjw?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167189",
+            "id": "bdb3c83d-32e6-4c67-8bc7-998429c273b2",
+            "impid": "S5Aq8ATbCzWS",
+            "price": 0.945
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "BseeclO8nHYo",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1qgg2st6lmo/b1_gumgum/885/167189/?_b_rzuid=ed887251-efa7-11e5-ba66-874691cea713&_b_bzuid=ed887251-efa7-11e5-ba66-606469164613&_r_publisherdomain=www.countryliving.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Slow-Cooker Three Bean and Turkey Chili \"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4NFHOCPFUL6ZAL5OGPVCVES2AD5OQADBKIIC2HKDBDTSJKHGCKDGIO5ZWLZJZNUQNU4H7TCOWFSIOROSH26LDMQPYPQ6T74VPCWMGYHYOPYZC54E2AG4NLTKASXKQWYUNHYPJRB3CKDCEBERJLKPRIXJE5MDG47N5NOVST7SSDLCB5KHCPDVLF5DE4OMOE5FLIBRKJESBPJUSSNHTQQCLOTASCLLECNMJDZ6EWRIE6DYSHRAOQ76NADTEPYQ2SWIT4DGSODT2AKO43K7TP2J24CBCG5P3CNEOSWT3PR2GOJ2ZNMGBFSQXNXMVHPWVVGLPAJC6ARJIJAIV26KO5BJI5FQ6JIHMT7K472U25AV4JR6HY4YRDP7O4I42INGFDFKUF7IKTOMNU56YWBT2TPA3NGQBKNY&price=0.45999998&rzuid=ed887251-efa7-11e5-ba66-874691cea713\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4-afont8nNENWNwXkijY4mFFuqYS6zioDeCfWC68oGZCbkt4QJQLx-qRx8Ys-tUJmoIqz6AxceJ8nenKkX674mkr2p7In0CnklRsHYmJW-hO0eomJS4hBFggrjrzjKkj1I23xB36BWvMtXHUVQcaP0CQ4lBWMh7dDUei1MSSFyaa81yeNQaXYHKBIHCqWALFA7oZEzbZ0I1N212c6oTHHpaSWUADKabLDdnUfgxejsXc7Kp6_HxcfC1keng8t7d2lonOGULSt2oO0rNQ6TNlqrCqxClGVQ1gdheIJ5iLoCOjjoHtxXM6h88jEfmzsy4xSjTkpbE_jDzs8J5TeP2y3lKzGautcpCXSLgjqo2vrHpq?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167189",
+            "id": "1dafc03a-daca-4c3b-bb24-79b040d2b42c",
+            "impid": "BseeclO8nHYo",
+            "price": 0.345
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "bzttqhcw56wc",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1qgg2st6lmo/b1_gumgum/885/167189/?_b_rzuid=edd7658e-efa7-11e5-a16d-915c88640142&_b_bzuid=edd7658e-efa7-11e5-a16d-82dd961b4f42&_r_publisherdomain=www.roadandtrack.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Slow-Cooker Three Bean and Turkey Chili \"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4NFUMFFQ6H2N4C5OGPVCVES2AD5J4J6HOH2S5G4VDYR7UWJ4I7M23LARBL7QP5NNJGCMN37ZX6WNW26HI2274HWUPN3WNVLWKMFUV2H24WRR7CX4WRKECABKNXWE7R2MLXYPJRB3CKDCEBGTZ3IN7KJU3WNMYD24NRC5IMSY6T4OMJ54TDQI27OKG42USU3GMLPILUSGTYTGE4NQBPSMMYD3CZHY4AVXKKE7EWI7RBW7FNJP7EH2HHTSLAR4CW3AFNT3IBKZNMJBRDWMYWTN5SF4TAZRHXPCXDG4YGRY5M3Z5YWAT374CLCOJ2D3Q6F2HJ6Z2GUWMHANA42BUQ4JOZRDYVSIIZCAQQGVP4HVAOSKCHTYOQNP3JTMBK4OPG4OVXOFDQMAT2BFUURTKLEIVTPDKJ6I&price=0.86&rzuid=edd7658e-efa7-11e5-a16d-915c88640142\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T43zl6vOLEdZKw2kyYAI3GG3GDnCs0n3utNVVv0FfIQ6i5DfoFA_jAyjrXMBzJDlL-oIqz6AxceJ8nenKkX674mmgFehlSD8xxE4HdG5DEnn3b6SMK5Gn8Yst5i0p707VErNv3uAjEkKdupTm8rPzfXqhJkRd1dNd1TkkwMnU0zlZhog6WfCpzPpCRX60OZUXIWkzVdViKE_oDm-kafcczLpCol51W8ug0R2nyP5zHtx_4qxzUJZpTSR3ssGbXG1Dk72a26h9Pm-KnPwSaC40UDuY0Ki37sXdylQpi3O_6hUGjKibaXksmPT8mXaHWJhF4XjKF197xGCPIxH5s7MuMUoEMzQGh0t-DBTO3seniKsf9st_Z5FfBYHX3RZfle9oqQ?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167189",
+            "id": "def3668c-62d3-4573-bd0a-49d9e93b5c90",
+            "impid": "bzttqhcw56wc",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "XNcnDA499HNN",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1q5vjurxips/b1_gumgum/890/55303/?_b_rzuid=eda6e048-efa7-11e5-9de5-61a7f14ff0fd&_b_bzuid=eda6e048-efa7-11e5-9de5-db9afd72c0fd&_r_publisherdomain=www.popularmechanics.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"3-Ingredient Slow-Cooker Pulled Pork Sandwiches\"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436990\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4NWQFMDTCHTQMSJOGPVCVES2AD5P4MQXX4XYM7UZBEHR3KX77FI4QHFZ3YQ5GVAR7A5EX64MOI3Z3Z332WNW6WXMWE3IS67NAOB6DHIXNPBHBC4LNY6WHYA2L3Q3HIONV3YPJRB3CKDCEBH66TDENXDKDHGJ4QOWSTJ37LINQYL5KW4XHT3KGLMEKMEAQAUNYSQCMMEMWDMGWLSRWPWZJAIKHCQDUTKXPHRTNEKGATZLCLIWXAS5HGZ5YGEYFUJAWBVQZVLHF6L6RLIL4QFZ5BYMMWHVWTW57FHATGV3O6WVFOGDWVIYS4QSQTZEKAYZHJWWWRT345QY2XSRCCT2THFXEXKCFMKXJCGET7W3SDKNZ4GKA5KSEBFFRCRS2ON7H4KN7LLNEFYL2IN4TXZEYJYNDABQ&price=0.86&rzuid=eda6e048-efa7-11e5-9de5-61a7f14ff0fd\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4zMwRx0nNQXXsXAXfC_cIM8ZEWvLz8xbHnWlbr_bBDjEpbw8S_juTevotTCm44BcT4Iqz6AxceJ8nenKkX674mnDEediYxeBlCz--5hmuISLSpUo49VsLsFPXELqlQtnmbRE4fGTaE_bWDRSvEwPP9VqnN8z86gsHtczVkWRHCZ6y3CyhV9QIN6PZ0tjra_Bej3YHMv35pzSCX5eXMhxgxwqOIwZIRMsfzAJ_NC7PpMeGKoLM5oHrtDzKbd8HyUsTSDmAdGQb7kkD2OofwqTUS-Qcz5bNMJPV4O_Sun1sMiTz_quaGMngGW6Wt05Zj6UnJa7DYXNr3LSwxHnYmMXgZQs_vuYZriEi7MZq61ykJdIuCOqja-semo?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "55303",
+            "id": "e032172e-d8cf-4321-8998-a7487113e64f",
+            "impid": "XNcnDA499HNN",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "tmZEevQcUwsR",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1kaxhgfti4g/b1_gumgum/705/175182/?_b_rzuid=ee92de2a-efa7-11e5-8730-13a8187b6146&_b_bzuid=ee92de2a-efa7-11e5-8730-247792424546&_r_publisherdomain=www.goodhousekeeping.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Red Oak Hardwood Flooring: Setting The Standard\"}},{\"id\":5,\"data\":{\"value\":\"builddirect.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436991\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHGMSONVYWIIV7OJOGPVCVES2AD5K4XEBQGWR3G7N5VOBJZFL3OYPHT2YK75MK776D4QRPNAV7YQZNDYOGYCA5TEFFHEKDBJQMUNLAW5MKMBVJLJNWMF66SMZ47VB7EQNNLYPJRB3CKDCEBGVP55NVAFKMORETS46M2XPE7RUY3VZS57ACUCS6YNFYM2G5OTGFCWWSJGMOH33QABPRBNB4PKJUT5LXNKVXAHUJWB7LKXOTUDHO6X7GGZ5YGEYFUJAWARREAVIWM4ETAZDYCOIVBQZ2SUQVFSOX7DPGQQXLMLDJEV6RMJSDEAUO4UQLJXEQD66G7Z2GBTEER6SFOYA2QKREDAQ4Q4OCIC6RHRSFON7PLTYWKQVOJUGMMKQSIIBMOY4YJHSNZTEGKUCUQB2P3JVZ4UI&price=1.26&rzuid=ee92de2a-efa7-11e5-8730-13a8187b6146\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T489p5cUoGBbFi_c5v_ptJw8YuTtTIKA7AT_JxGHp7hbQYZNG-sL1i9Ey_D09cZI-hYIqz6AxceJ8nenKkX674mkN5BXV-2pwRKYrmoDa3XFBJmHbL2oBVNKCBsdmUgHLJ0BjMyfLkiHM735W21VKnu_Ia0kIUoA3u59lgJ4hGY_8w0QwiA7FVsv5Zsx3gZvMIrbRJpUroywNdWgrl4g8U8OAQr-JAmG4Z2KPGyzkhFeOqRzAjDaIxjgvAdP_MZdMJRdUFxNlBKlSGiiqpCc_pI_KB-WxN_TRJVy6EJ4qfrj5RZSGKEszm8LYyJr0VQytJsm3gDK92uQrCEbq_ncBko58VzOgC4XAAmyP0--3gUK2nYMjOGBTCrPsBBshbhXqJQ?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "builddirect.com"
+            ],
+            "attr": [],
+            "crid": "175182",
+            "id": "721abdd0-4343-4b29-b5e8-c66bafea56b4",
+            "impid": "tmZEevQcUwsR",
+            "price": 0.945
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "5XhYSJ7277Bg",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1qgg2st6lmo/b1_gumgum/885/167189/?_b_rzuid=edbe8036-efa7-11e5-b760-416e6fe08256&_b_bzuid=edbe8036-efa7-11e5-b760-3004c5709456&_r_publisherdomain=www.delish.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Slow-Cooker Three Bean and Turkey Chili \"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4NEJEHNWZIZAEZJOGPVCVES2AD5JV7PT2UYVI6RVC4FXH6I2VOTPZL5ERZUOH2J2NONLNPKDHFI64RJMJS7AMUKR5HQCUADT2JUKEHBXM5TEGOAVV4WGQX5ZZFV2FWCDU7YPJRB3CKDCEBHXG44PNJFHXOU64IWYAXCRBRNIQ3DFWBIWTNWN5STSE6TFFYM5EP2656BC4Z54ZPREIXFAT63YL7RLT4XNHIE7E7HHMLED5XUL6QY6SARXO5I2ZN43XXQDAEGGCKQOWAGM4WRUYBHD3UR4UPAWTZWV42TB7QBB4V6OWYAZ23NA4LXDEJIFIJKCFZYP3VSCIEVCWFLURDCJ73NZBVG46DFAOVJCASSYRIZNHG7T6FG7VVWSC4F5EH2CQNS67XXIANQ&price=0.45999998&rzuid=edbe8036-efa7-11e5-b760-416e6fe08256\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T43xXDkcibk6hzwlDVjr9WakH5BznDE5T0HgYdCTAcxgLIeUXm_6B6BZtSKt1ItWDj4Iqz6AxceJ8nenKkX674mkvErjX9p3MI-Fc1gT32Un0K8yncOklfYiL59ZffSiewZUG7bvOgIrIr_m0wjQ_XtzlxIoml7h-u7JKqoh17VG4v6m4_GGBtKICKa7O6CNPEKbelmynxlAvQqJedVvLoNEdp8j-cx7cf5FQ_lG-VSMX5sOHOvTKqS2j8x8qs-hGLu0qugYsfcQSuHEjyREgYzjUcW2nK8lnUvV-FjVLzPgEFDVbJbk1SIBk_ZQv0qVIcslJRaKnLvVu54RbPI6aY_LXU4pmxzfmqvbLf2eRXwWB190WX5XvaKk?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167189",
+            "id": "be8262fb-2550-4e42-90a0-88a3a5da473f",
+            "impid": "5XhYSJ7277Bg",
+            "price": 0.345
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "fKHiQVQAUPFp",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1u8xlzc7ojk/b1_gumgum/890/167305/?_b_rzuid=ee8a5c29-efa7-11e5-a5b5-6c0d41d930c2&_b_bzuid=ee8a5c29-efa7-11e5-a5b5-50a3042f24c2&_r_publisherdomain=www.delish.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"3-Ingredient Slow-Cooker Pulled Pork Sandwiches\"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436990\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHGM6Z4LIRUMDUIVOGPVCVES2AD5LVTTR4YEHYQENMUT27YVUCWZPFEK22IRJJ474GJ6UWFZLAYJJNFU5DX42ZLZHI5YNSMUREV7ZBYN522APOL7A3W5X34Z3W7IGMAQ3SNYPJRB3CKDCEBGIK3MRK2VBVP7E2NMSZVWVY57WNZQSDRFK2RND6BPM2IXQIVVFSDORNW3JHTKVH7FEIXFAT63YL7RLT4XNHIE7E7HHMLED5XUL6QY6SEFDZD22ZSR2HFDFIPYNXNSROZ4LSMDLAZLKBJYVWV3KWASWJH5TSGOGKIX46FNVLAWZUJQEMP2YWTAYM6UEOI3X6ATWJ7VOP5KNOQK6EY7D4OMIRX7XOEONEGTCRSVKC7UFJXGG2O7MLBNGS5D5GDZV4AA&price=0.45999998&rzuid=ee8a5c29-efa7-11e5-a5b5-6c0d41d930c2\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4xMJnFoRGrKl6okW1_m9VWYOb3-JZCPyNdStudww1euelw4K5h6XhmpThBOxDoo6XoIqz6AxceJ8nenKkX674mkvErjX9p3MI4qbX9SpFIl-91jFIlRm95_-Baty6gEHZfd6RgKQ3TMosNXd8i7pzJf5XRU_yaQz_4e7oM8EgqURgSBwqlgCxQO6GRM22dCNTZ0zf29KLwnRkllAAymmyw3Z1H4MXo7F3OGha9AL0kcoGPgeAeV3guCDRs7pa9IADQQqELKvcPFQy5cMnFKkmvAY4BwMJsJCu46B7cVzOofPIxH5s7MuMUr4CztOadKGprG3TpTiYX9XshSTpEKnLOc?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167305",
+            "id": "42bb52ff-058f-40fe-a5e8-f97ab2224a9d",
+            "impid": "fKHiQVQAUPFp",
+            "price": 0.345
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "iaTMVo0XqaD4",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1q5vjurxips/b1_gumgum/890/55303/?_b_rzuid=ede05265-efa7-11e5-a711-ae268d005379&_b_bzuid=ede05265-efa7-11e5-a711-dc8d02c32d79&_r_publisherdomain=www.cosmopolitan.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"3-Ingredient Slow-Cooker Pulled Pork Sandwiches\"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436990\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4MFTM2FIEHXHV4VOGPVCVES2AD5KFO3DVDBNZ7BYSHB5W5JWFCSSIXINXTRSYOUS6GKD6OH2HAJ2TCCXDFWHBLBH4NRP7OEJJWVPWO3T2FB2KMK2V5ZFIPWGR6VNWFWAKNYPJRB3CKDCEBFOXBOX3YOZGDTOV2ZMAAA7SM2GGXKZTT7BXJGK4UXEFZLTMPRIGRXJTAMPHHLOYUJHTQQCLOTASCLM23R4G4C23CFYRZDXBJKIAJPPCU6NRLGMOYZGSLEMTLFJL4LLHUQKE7ELQJYRCSO37Y2K77AJAMDK6LIUJDDJUWXFU2P2TZ4Q7MWYIEXY3AKDNNPHK2PDPRESKSPC5TMEOALWNMOJGC64BIGTUXW2UMPESPZ67ZVMW5GDOUDWI6RXK3OHNXLBE7WHHIRGLTLI&price=0.26&rzuid=ede05265-efa7-11e5-a711-ae268d005379\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T46OgkcGLk6E_AzeMGnRrSldpAKblvFwCeBA9w3epIlJ3kj137VK6yI-yjGWPrQnnKIIqz6AxceJ8nenKkX674mlnqz0q46iLlm2U9-isgc52SowDGWeBrKdcRvTSfaYkAjJcQBK2Uo2-AlRL8Kn8D5t0oh9VOK2eLLfsqLglhgX5GL3zu1Hu1avbWfMjotWmAc02ti9YnSSlPdgcy_fmnNIJfl5cyHGDHOwzzlXeYJzNEHoPV9sWgtcYqgszmgeu0IRA5BFuIzu6y3dAa3OTtZWFVRspoU1oI4Gyp9ocKA4G2-e0R0_-kurLSbYXcbZMM7pa3TlmPpSclrsNhc2vctJnqz0q46iLlm2U9-isgc527AQbIW4V6iU?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "55303",
+            "id": "658eac43-9c5a-4992-b8d7-ce0be4b6195b",
+            "impid": "iaTMVo0XqaD4",
+            "price": 0.195
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "SiCOJtCN3r0y",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1u8xlzc7ojk/b1_gumgum/890/167305/?_b_rzuid=ee59aab9-efa7-11e5-9de5-a0c8e02dc47d&_b_bzuid=ee59aab9-efa7-11e5-9de5-55fb7e6f467d&_r_publisherdomain=www.ancient-origins.net&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436990\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHHWDURR4L6C6ZAROGPVCVES2AD5PDLRQD3ATINVR7VVTS3XIBBXLSATTRGIBJQZM6RTIUF5JURSFO4HYD4BPMHKPQRSE4ITIGZ5YLYVM6XOX23B2MX4GS6YGAC5E34KAKXYPJRB3CKDCEBEP6GPYHLX7LKPNOMTLZ42SKHQBQYL5KW4XHT3KGSV37OX2NBIPE7EBHVM557KD74NDRQJXOEPGECDNMFUKJCTJAEJX2P7MQ2MAEZPNEBAPALVVIJETURNPHJFODT6VYRHQ32VP5VNM3AP5WTW57FHATGV3ONVIZHCJYWDWQ4QSQTZEKAYZHJWWWRT345QY2XR2NCJFPUK7BKBKFMKXJCGET7W3SDKNZ4GKA5KSEBFFRCRS2ON7H4KN7LLNEFYL2IN4TXZEYJYNDABQ&price=0.86&rzuid=ee59aab9-efa7-11e5-9de5-a0c8e02dc47d\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T46ltDImyhzhTyjjUYXHXpK_0j4KQUd653r91KFZgJSI0T4eonS83zvwEpfkP2TGlnoIqz6AxceJ8nenKkX674mmwUPAhoSgMXUfgw_iWJmDFoAkIi6MseYFvftcsujesQVxy9hd-QIXAK2MmuisPP_VASf6pRmgQ5V4IdhkjhzMDl7t3ygQMX9mEe3-DLOiTrIzGo7Fdwe69tOzf4dghOgLVHuoc2C7BZaes4ChtCtUCRnmAUjXrsjuomfQgTLVTBvnPzZsm5bjIlTb97ZI7-j6WeCkXhxDXVBprWgX28BNpyLUgL2_EMzLs4u_Qsed4uusrIpaJ5SJJQ2yeBbUPyUCterqanBKl6e5FCIN0qX72NcZDwoylvQQqa9jqS-Y2Xw?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167305",
+            "id": "8105866e-36df-4f77-be53-9676aec316c0",
+            "impid": "SiCOJtCN3r0y",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "EhBdGn6XrgZT",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1h9yf41brb4/b1_gumgum/1170/170927/?_b_rzuid=ee2fb650-efa7-11e5-a16e-393be1b5bc00&_b_bzuid=ee2fb650-efa7-11e5-a16e-b5335f14f200&_r_publisherdomain=www.goodhousekeeping.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Easy Stromboli\"}},{\"id\":5,\"data\":{\"value\":\"pillsbury.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436990\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHGKACWIRCORYJOZOGPVCVES2AD5M7ESUOLJGBVV34CLV4Q27DYETJR455JZTIVEAPEH2SFDYOQKTA4676F2TESVB2XGHY6SUNIXR7UZCRINUU4YXGJB7JG4SIKZ5GRQ35FYPJRB3CKDCEBHXDGC7H7VADE52LBOILNDJF5AEOT4OMJ54TDQI2OHCWHIDIDZTL7HJ2BXKT57DEFVPRBNB4PKJUT5LXNKVXAHUJWB7LKXOTUDHO6X7GGZ5YGEYFUJAWB4TL5QPTD47UIIBFJDPWAEPFTNZTDBAIQYLREKQIDXCL5H5QMKFKKGQ3T4KJH6CLTSFJJZVESU2T2ALUWDCEXWTSSDOWBGEOSDKR6ZWHCIJSJIKNRBPHZDR2IX42LM6NBHKXFQPD4TBMWT2UGXWUD2EVSBLZ77LVHZOADR4Q&price=1.26&rzuid=ee2fb650-efa7-11e5-a16e-393be1b5bc00\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T40HgxtyZHLQuYocMOIPY50imzi5S9XWTJp6SOHqi3tKlCQ_k0BcuH6r2qAZZe80TIYIqz6AxceJ8nenKkX674mkN5BXV-2pwRKYrmoDa3XFB4kYJrSiuehe9l3MWlZkfjKS2uPk4issoV3faxaZHG-QwxlxRUcARWaKBJuNC6QZlOcYZtNjJKWOKpO2KPM3CgD3YHMv35pzSCX5eXMhxgxw4wmIANOOKgkczZtp3xvdXGKoLM5oHrtDwrQbGAfzFzK7WPQuLyYsM3GnMEk3JPS_06_3-8HcHzpsoO1CIuUpB34ZNH8_Rw6O6Wt05Zj6UnJa7DYXNr3LSDeQV1ftqcESmK5qA2t1xQbMZq61ykJdIuCOqja-semo?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "pillsbury.com"
+            ],
+            "attr": [],
+            "crid": "170927",
+            "id": "e7b8410c-92e4-4fb7-b066-fc9a9fb30dc0",
+            "impid": "EhBdGn6XrgZT",
+            "price": 0.945
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "bWMXEa5Rg6H3",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1u8xlzc7ojk/b1_gumgum/890/167305/?_b_rzuid=ee8d44ee-efa7-11e5-b762-b46447715b2e&_b_bzuid=ee8d44ee-efa7-11e5-b762-6126402f552e&_r_publisherdomain=m.babesinhairland.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"3-Ingredient Slow-Cooker Pulled Pork Sandwiches\"}},{\"id\":6,\"data\":{\"value\":\"Tablespoon\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436990\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHHNKHFJLNZGFBV5OGPVCVES2AD5LC4AJWDKC7MJYZKGGZXWF6ULZDATP7N6NHVRIOR3CPEONVXDKS6CCT4QBBF6FYDMGBPZVBJB22SKLJGPUEZZSKJI2ONIBPCODBHF6UXYPJRB3CKDCEBEPB7VABCVJI6VBMBK26ACXHEFBA3DFWBIWTNWN5JQ7RJURLWPJLT2KLZ7T6LMCTXKLQO7RX4XZYDSISD7LJWL3OLTU37D2LEOYVYL6UQUGHN45S5VVBKLGZZFYVFCWXVHE7WXPLYXSV73LHDF7CM3XEZC4YLLXNFN4B3ZXRECZSONHCIRGJIV6KROHW6WIMRQXU5AJ6NFSOSVQIZCAQQGVP4HVAOSKCHTYOQNP3JTMBK4OPG4OVX2P4FTN77VV2LNK7Z3QYF2WLN5Y&price=0.86&rzuid=ee8d44ee-efa7-11e5-b762-b46447715b2e\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T43xXDkcibk6hh0LhzPGIbf_2WCQ5p_9t50jST-p-rtzal3mZA8p_0vRsl_0GQxoqAYIqz6AxceJ8EXP7_m2-PdC-HB5RCtzwEUdMmdJEnug8x4HYhYVlQldb965ZrCD_7k_-b_xDaotNKPppS4Q_C0PDVFQNI-BljKANXz2_hHXkOlHo8RDwmPgymqSLmxes9z3YHMv35pzSCX5eXMhxgxzvtdSy9yNM1t4ob_vJK0BcGKoLM5oHrtAeN4vrkeB0Y1gzeMl_EZMXM8cIeTeHOlF55ZaDgW743KPdLQufqifGz_quaGMngGW6Wt05Zj6UnOLEFVfwLDbmvhweUQrc8BFHTJnSRJ7oPK3aW63dYs7vKmvY6kvmNl8?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167305",
+            "id": "1c6ea127-818a-48e4-a88b-2e8a845fa34c",
+            "impid": "bWMXEa5Rg6H3",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "LTBPaOD9yPN2",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1h9yf41brb4/b1_gumgum/1170/170927/?_b_rzuid=eda00052-efa7-11e5-a16d-84504b692cd2&_b_bzuid=eda00052-efa7-11e5-a16d-b373694d62d2&_r_publisherdomain=www.popularmechanics.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Easy Stromboli\"}},{\"id\":5,\"data\":{\"value\":\"pillsbury.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436990\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4MU5CDQGL6G7TOFOGPVCVES2AD5IZJNMUTOIN7OENVRIDPTV4B72T32J6LC3Q7ZB3OZGUHO6UQNDXW7QMG25PUO25QATL47TTAJBSNXAB7U56ZY4WNBDHLVKHTRE7MZRZPYPJRB3CKDCEBG7WIIBWSSBMLDED5BWPAWTMKEQOT4OMJ54TDQI2VTLM7GFPBDKBKUUVSAQIB6YUM6RWPWZJAIKHCQDUTKXPHRTNEKGATZLCLIWXAS5HGZ5YGEYFUJAWB4TL5QPTD47UIIBFJDPWAEPFTNZTDBAIQYLREKQCPELW2TAWEVACKGQ3T4KJH6CLTSFJJZVESU2T2ALUWDCEXWTSSDOWBGEOSDKR6ZWHCIJSJIKNRBPHZDR2IX42LM6NBHKXFQPD4TBMWT2UGXWUD2EVSBLZ77LVHZOADR4Q&price=0.86&rzuid=eda00052-efa7-11e5-a16d-84504b692cd2\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T46ltDImyhzhTvMZ3NbG4BpmECSoLuayjxHV1kC0RbY99u34b5daEACM2sPTQVeSWH4Iqz6AxceJ8nenKkX674mnDEediYxeBlCz--5hmuISL4kYJrSiuehfH5tBn7TBV5ZMx55X6Rg4pI173UbxUd8W9brxUmnC89GBfyNNkSrfQLJ-IKyn4pve-KuSGPRrlvA3d7VrdC2Vc3yXL4c7L6O813D-hOSFm3tbm-YnI-hTmmq9K6fKDF2J8st8w9wp6wYYA2n9MMENPmpSt4hxcgMKHZ4ZOVEGer10M6el-onyFPv7DrqKVYu1d1GlwjXf9-1G8LsF_YpKyFfH-jtcjXpJTNbiCHbiouK1oAnjRMay7zWeDvBv-cKlKTbLNWuvjjw?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "pillsbury.com"
+            ],
+            "attr": [],
+            "crid": "170927",
+            "id": "100192a8-49c9-43fa-a9ae-163b21ca0531",
+            "impid": "LTBPaOD9yPN2",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "1gYNM7ULk5Ek",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1gac9texse8/b1_gumgum/885/55166/?_b_rzuid=ed918c8a-efa7-11e5-a711-5bb2cf34777c&_b_bzuid=ed918c8a-efa7-11e5-a711-0b4473af0c7c&_r_publisherdomain=www.delish.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Slow-Cooker Three Bean and Turkey Chili \"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4NGKYL5OIBUXWSROGPVCVES2AD5MKSETYMHFLLDRXK7SWX7MP3CEVLXTBSKOJLB2LGDGBFU4OYGWIHGCSIZGFZEXVWGL4IJO6OCDA46VN35RAQGZMGROCSOTAIRP7GUTSZYPJRB3CKDCEBFBBZNAOHUM4EWX4WZBZM46UFNHWXKZTT7BXJGK4GNXGTZN4JYLQ7R7VMNUGAQPQCNEIXFAT63YL7RLT4XNHIE7E7HHMLED5XUL6QY6S4PMAHPSW6Z3SGVVRWOPGBG4JM34HQ56LJQU4P7DH6FV2WHT7WCWG3WKTX3K2TFXQD442KEZXNKGTSMMYT47JBSVFFPWJ7VOP5KNOQK6EY7D4OMIRX7XOEONEGTCRSVKC7UFJXGG2O7MLA4JVM2DJGL5XWM&price=0.45999998&rzuid=ed918c8a-efa7-11e5-a711-5bb2cf34777c\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4w6PItO--p7C4Yx4JOVTlrF2hM7NJUDwdoYgQZH3VBa8Zg4jtnlXEWtXGcWlpeD0q4Iqz6AxceJ8nenKkX674mkvErjX9p3MI0sM7TyCqTXaSqSDSAae4D45Qg5-XIGEnWrR5T_H5ftB5m4ikifmVAlzXswRrRMxnypoJZ-9hAdPtOzf4dghOgLVHuoc2C7BZVg0PwDa9wu26QoNkATN8vwGpWrEYjFmzhdUFxNlBKlSPxTqgVogWi1lsLtMTlq5zK4zbk12szFgzhw7pyw4g5XZ_Lo-5-Y83v_jeN3a-9JPCEbq_ncBko5sBW2SPOvB-q9CTfpGk2sQSk2yzVrr448?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "55166",
+            "id": "f8432416-6951-40ad-a35e-a1f3468dff58",
+            "impid": "1gYNM7ULk5Ek",
+            "price": 0.345
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "sv5tZQCMMfhe",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1qgg2st6lmo/b1_gumgum/885/167189/?_b_rzuid=eea489d8-efa7-11e5-ab30-0e76144854fd&_b_bzuid=eea489d8-efa7-11e5-ab30-b0a2e03c46fd&_r_publisherdomain=www.marieclaire.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Slow-Cooker Three Bean and Turkey Chili \"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHGHKDSATZMRFDTVOGPVCVES2AD5NATOYMHHCIQENNWRPVYR5EUEFJRCS4PE2PLXNWT456EA2YT6T3MKCCZ7I7YC5LB7ESTM7ANYTRY4YLA33CSMZHQ7Z6E4TDXDPVKTSX5YPJRB3CKDCEBHUCQWZWQY5IIAIYUXA3EVNZMIGKCMDUOSTAASFF5Z3ZC3FHZIIJU4G5HJUAPAVPNWTVWXD35GPC3DAXWQ5YU7G7NF2ZRFJGH52WDFFEJ5YLJBZM6JRUSEVSB5M66Z6GVYCOBRIP6S3KJO3GCIFZAA6WFAOBU2WRK43KO2D63RFSB6Q2U4JMZBHJQKSH6TWCPMHTSGN4TPK76BGJ5PS7UFKVQYPTMOZWKTYFKNRU55S6YVHJQ5TDZAXK2ZPITKJBPQXVITZSM6IG62Y&price=0.86&rzuid=eea489d8-efa7-11e5-ab30-0e76144854fd\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4zMwRx0nNQXXMOgEx6cX0k0vvRJXb6PtBa_gM74OrlHYPOCg79nJzoFpcClwV52QvoIqz6AxceJ8nenKkX674mnYHeneERjq1l66dWiBcvJ9RA1sYzFJu8G8hwU3VGUOrDMLXmD6gTpuVQebv25UlMnnF8g4JuJV7fFYcKMZ-N17xl-vbV0VK8atZA9998yI3rX1bzRckkAVQqJedVvLoNEdp8j-cx7cf6_akzXJb6dfd7LBm1xtQ5NQ0GU2tLiq5usJSqkAJ3KY891So3UYAtKVxuL4vddMikYFLpZXisWzuQaAmQ7sict4yhdfe8RgjyMR-bOzLjFKyiqOjzKzHvarsY4lQjhhyRsLs3MWMNjohFepfEVNIw4?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167189",
+            "id": "1d386258-0020-4397-9687-0064d4ffb282",
+            "impid": "sv5tZQCMMfhe",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "y9FQFRIoPf5W",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1qgg2st6lmo/b1_gumgum/885/167189/?_b_rzuid=ed97f1bc-efa7-11e5-8730-c4bd6150509d&_b_bzuid=ed97f1bc-efa7-11e5-8730-380c246c7b9d&_r_publisherdomain=www.goodhousekeeping.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Slow-Cooker Three Bean and Turkey Chili \"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4N2GYEUJUYSJ3TNOGPVCVES2AD5OQ5SJSZJD25U4BCBRNOPEAL7BCDCNF5PNBVBALG6VFZAUOS5DLVPD5ZFTV7EURVLDEAIBGXLNI2LBG3AP7BBNCOFX4VGRTHZPULKRDFYPJRB3CKDCEBGSN6TZSPAGI4WPBVP6BBW3ATUMY3VZS57ACUCS6SMLKYOR3Q6D6VMX76FSDKJNOTNPRBNB4PKJUT5LXNKVXAHUJWB7LKXOTUDHO6X7GGZ5YGEYFUJAWAK3D6DOFKJVP33ES7V4XACYPJ2OTV3SCSHPBBLS5WEJ4VYHUWR4W7NQCPJDOUKAZSSKTUCRCHBKJXTT6FBGNU5YANIXAGDOIAVA4UVDP4ZW7T3IIFQKJA5RDGWRVEG6QVPQDYEMOX6544RD4TYJCIVPY7TY&price=1.26&rzuid=ed97f1bc-efa7-11e5-8730-c4bd6150509d\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T40HgxtyZHLQuNvYEG2Rtt_8v9KPIEeCftvO01gr6yjsMHgYUF-rhr8952eOEPmfrFYIqz6AxceJ8nenKkX674mkN5BXV-2pwRKYrmoDa3XFB3ECloQS_g7NimT1DRjS-UQDzFKZNxZJmvvBwd9Wm1ErzhGoD-yfsk4_NBcKdAmki6-BQjwbg0vxRvvHSXxUFisEAZ2VbawQ9q69lBAd5yqA13D-hOSFm3tbm-YnI-hTmFuUh6l61TJpH0QkAJfPQHFFhBNlVfT33aFtQpkG3a0X3KTEwKMsQ0vXPS-Pq-A5e_ogU0wTKtiDIoO2tp2JkDSDkK6KKgLUNFfH-jtcjXpK1gl2ORvALO-etqhnjdN1qMUF5hz7EZxFKTbLNWuvjjw?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167189",
+            "id": "a40603b8-b4ad-44cb-9b91-8c87269a4619",
+            "impid": "y9FQFRIoPf5W",
+            "pr,ice": 0.945
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "YzxrbWabT9Fx",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1u8xlzc7ojk/b1_gumgum/890/167305/?_b_rzuid=ee7d486f-efa7-11e5-ba69-5262dc3fd8f1&_b_bzuid=ee7d486f-efa7-11e5-ba69-930d5fb191f1&_r_publisherdomain=www.womansday.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"3-Ingredient Slow-Cooker Pulled Pork Sandwiches\"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436990\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHH5XTEI6272ZQHROGPVCVES2AD5L3337IO7NMNCLDYXSXE6QLX4ORZD345OQA7FKHD4M24YE627OAUK4LCAPIOLOI2XQ5LVQM67SUL5KNS35QBI6GJUEOPTFQ57CLJN5LZYPJRB3CKDCEBGTWWZUX47JG7XKCJXULXCCTXGXCDLCB5KHCPDVL57ZQTQQDPRCQSBVKEWLTMJRSWN5VPUSUE3PSOXDKNY762D4HL4KMD2DLRDU2LWSXU4ZN7LFB3QP5XON55W52JKKAUYZRQQEIMFYSFIHX4MG34PNGMNQFDINZ6FET7BFZ54KIXFMDO5J6F3NBZXEYKVI7CLQDBXEAKQOKKRX6M3PZ5UECYFEQOYRTLI2SDPIKXYB4CGHL7O6OIPBRJVUQKGK54Q&price=0.86&rzuid=ee7d486f-efa7-11e5-ba69-5262dc3fd8f1\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4yt9voo6oSTWe8Ct71ytxIWemNwywlwCnZlAXnA8g_6729MPyR9gd_wuqElxf0yNt4Iqz6AxceJ8nenKkX674mmDpvFByG65QfZL2og8inyWRSWM33YyfJHpgSzVFCxjnh1LUj7D8KsXFLCkfSZ6QqIMA39fu4mGnpxDpJB1Xes2IJAUawlenp5_ZBYQVhYtbUKiXnVby6DRHafI_nMe3H-Snt78i9wUG3eywZtcbUOToClF7vHYAkpfkvAIPQCTPcxvoBerX_1CvFj2tgC9kfJCkqwtp16NvzMm_YKs7sX-eMoXX3vEYI8jEfmzsy4xSurfcC_4Dw0TcYZ-_bugxOHsBBshbhXqJQ?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167305",
+            "id": "094548a5-06ec-408f-817e-aeece4cbfc14",
+            "impid": "YzxrbWabT9Fx",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "LWNLHbwMdWkI",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1qgg2st6lmo/b1_gumgum/885/167189/?_b_rzuid=edf5a245-efa7-11e5-ab2e-6493999a9b8d&_b_bzuid=edf5a245-efa7-11e5-ab2e-84da32aac18d&_r_publisherdomain=www.harpersbazaar.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Slow-Cooker Three Bean and Turkey Chili \"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4M32D5TCZCMR73VOGPVCVES2AD5P2NONNEBBGDSROFWHC2ROPD3RL6LSJ3KHL5HEQ7LUUJBZKVQIFHY6K4IOB7MQ2LGWIJTNAZCUP22PV4C6PCYESXKJLMQYJZ3C7U7H2RYPJRB3CKDCEBH52QYUT62SFEZFR2ZNB2L2WSDDXNXDQ2QDGNFVX5MKTZSVNAYEJVJ56V64KIB7XODNQUXIP24OQJMMDLUKGMLCEK64FIYRQIPZNGOYKADTEPYQ2SWIT4DGSODT2AKO43K7TP2J24CBCG5MFOXGLNIYYFH3XJ5YJ76JHFIBWNXMVHPWVVGLPAYELYBANKUVQFPXYRBVR3QOG6JXMT7K472U25AV4JR6HY4YRDP7O4I42INGFDFKUF7IKTOMNU56YWBPFA3DSMIXHERQ&price=0.45999998&rzuid=edf5a245-efa7-11e5-ab2e-6493999a9b8d\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T43zl6vOLEdZKovDwmAgy9xZ_cHjm6A-rp0Z9dHT6rpN9pNZibvCtG37VYiC2ccoX9IIqz6AxceJ8nenKkX674mm4GKxKaxy4Tw1MPGZ6sQEd6mFlYSR7Eg2vXkT2pVTuTROfEnw0efD0UhfiUD-Ku4U4aS37xR68QHDvALpE0XCfWZdncY9gTAdQUO31V4cYnXbB2Zjtq7yo6X2Dqhlf6IkJA3HnznCREPh0Cox38EMNBrjLQlz97VrqPmWUDL16c4ghVqKeYyWabt4CvcaG5OPK_WbMwj9jOrDwU3SxHNzf7Y-taUM4XvCVOhXBgIg6xCYsG5Ja5uJjcfeddadO3ULJrabYIDMLtvCt2N9XHBQnxy4ftENbN63SLbrkgaa1A8apWx2WXO_uecl_UUSCGJpKTbLNWuvjjw?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167189",
+            "id": "a4cde501-f165-43f8-b38c-0d029292b577",
+            "impid": "LWNLHbwMdWkI",
+            "price": 0.345
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "TahNeCs2oi2R",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1h9yf41brb4/b1_gumgum/1170/170927/?_b_rzuid=edf3ce85-efa7-11e5-a16d-81bc507fac76&_b_bzuid=edf3ce85-efa7-11e5-a16d-6f6cc6d76c76&_r_publisherdomain=www.delish.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Easy Stromboli\"}},{\"id\":5,\"data\":{\"value\":\"pillsbury.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436990\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4MSNFFUF5IUDFKVOGPVCVES2AD5NB2VNQMFAITGDRBBYZXY4SG6UUHR3KOIBSZ5R4HX5J633XODL2GUVLALQ3IX2NRJYHGRA6PCE5UOVPOJE4XP4DSFJQQ6X5LI5XK7UOLYPJRB3CKDCEBFEZHC2WXZBUV2BO3RX54CU7CRL6T4OMJ54TDQI2UYUTZXROSUQRHXHLX4PD4UTGZREIXFAT63YL7RLT4XNHIE7E7HHONJ6VWZGTYCFFDNP67NCUIXQ3YA6DVY7YTTQDKG3J3O7STQJTK5WXTO7M6WMGF6VW4Y6XHEQ6KUJQEX2S6AO6E5R7P62ILHGZC7SFTMOIOHBEBPITYZCXG7XVZ4LFIKXE2DGGFIJEEAWHMOMETZG4ZSDFLGDKZTV6ESE63Q&price=0.45999998&rzuid=edf3ce85-efa7-11e5-a16d-81bc507fac76\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4xMJnFoRGrKlDHbQgbD1QmMegidx2legj6wJbII9OVwp7T0lkAdfDt4slLJuS35bz4Iqz6AxceJ8nenKkX674mkvErjX9p3MI4qbX9SpFIl-jdDhi4S0bg7MlwiBjKVpOb2mITcin_sD6p2RFz9qjoOnwqfPXII0iYHO_zA067cwEIQO5uH9zKaewT2G7Hx8YiQtV-ZK7gOXgSBwqlgCxQO6GRM22dCNTU6vNKobSCGVkllAAymmyw3Z1H4MXo7F3Oyqevx8XHwtFjtqEN32Tp0O6sz9iDJCQkExwskTvt8Tsmxt1MPf6FJKSZvGqC0ObI6B7cVzOofPIxH5s7MuMUr4CztOadKGprG3TpTiYX9XshSTpEKnLOc?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "pillsbury.com"
+            ],
+            "attr": [],
+            "crid": "170927",
+            "id": "c47591a2-bcc9-4dd2-97eb-57de7d46c6ed",
+            "impid": "TahNeCs2oi2R",
+            "price": 0.345
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "QKiCVX2vtYut",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u19f7kj3teyo/b1_gumgum/885/167177/?_b_rzuid=ee33de1e-efa7-11e5-a5b5-d41e4cc98ca6&_b_bzuid=ee33de1e-efa7-11e5-a5b5-a5eb98005ea6&_r_publisherdomain=www.countryliving.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Make Rainbow Cake In A Jar For Your Party\"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHHIBJPSUJ65S7GBOGPVCVES2AD5IMQBZRPTTMAYFLGJDCCXI2XFSDNSB2K3HMC5BA5UTDQAKIWVXVIB6SZYAZHWVOOR6Q75SIGV6BOTTWKYNVAWKER6JOIXUKEFGH63Q4NYPJRB3CKDCEBF5B5NTCAO6X6LACOI2LXVECYEXNZQSDRFK2RND6DMMXQMUZCNV4XGXLN226S7TTQRHTQQCLOTASCLLECNMJDZ6EWRIE6DYSHRAOQ76NADTEPYQ2SWIT4DGSODT2AKO43K57CRPSNU423Z5EKEMC365ZF76ZMCXVDOIWQRZUNXMVHPWVVGLPAJC6ARJIJAIV24K7VZWJBCIHVLHMT7K472U25AV4JR6HY4YRDP7O4I42INGFDFKUF7IKTOMNU56YWB25AJUQBDL4IDA&price=0.45999998&rzuid=ee33de1e-efa7-11e5-a5b5-d41e4cc98ca6\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T489p5cUoGBbFyMPu7o--OAUre9kKWLUjoITHZC0ugkXE-Ix9-Mq_bkhH8H_Dynq02oIqz6AxceJ8nenKkX674mkr2p7In0CnklRsHYmJW-hO9r9lkcyaQanJN9zEvF54cZ3vf6Lku_Gwr5o9MUP9NxqKgp79FZAiwcNmRWcq9HNogSBwqlgCxQO6GRM22dCNTcuWcG0ZFPFxkllAAymmyw3Z1H4MXo7F3KApRe7x2AJKyAf0uu3fLS2yvwlaG0pvvBvzlb8Nd4ir_G4RhdPiNCKhSu-RJscDIo6B7cVzOofPIxH5s7MuMUo05KWxP4w87PCeU3j9st5SsxmrrXKQl0i4I6qNr6x6ag?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167177",
+            "id": "2c345b38-e0c4-4af5-a4f1-ddb77d09bdfa",
+            "impid": "QKiCVX2vtYut",
+            "price": 0.345
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "1EOwvQO1cVZ9",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1u8xlzc7ojk/b1_gumgum/890/167305/?_b_rzuid=ee54f2a2-efa7-11e5-8730-5375f83ba923&_b_bzuid=ee54f2a2-efa7-11e5-8730-69b66c570b23&_r_publisherdomain=www.womansday.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"3-Ingredient Slow-Cooker Pulled Pork Sandwiches\"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436990\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHGGEUDUNJBMAYFFOGPVCVES2AD5JRC76AWHYQLNRZDD7E3HTWSZ6OD2HEFVPRMSB4D343JBBXKLUMVUAIL4IOR6ZGF62GUTCCOW35GXY5GH2ID2QSOM44KJRQNMYN7OQOBYPJRB3CKDCEBH2T7HIZQOHZR4JRBANILVK7QKAY3VZS57ACUCS6DBY4HID62BIGFWOKVPEFUUTETN5VPUSUE3PSOXDKNY762D4HL4KMD2DLRDU2LWSXU4ZN7LFB3QP5XON55W52JKKAUYZRQQEIMFYSFID7YAR6E6ELE3QFDINZ6FET7BFZ54KIXFMDO5J6FCQVNYUNDRLUTLQDBXEAKQOKKRX6M3PZ5UECYFEQOYRTLI2SDPIKXYB4CGHL7O6OJJRGD2IUJ2HXP4&price=0.16000001&rzuid=ee54f2a2-efa7-11e5-8730-5375f83ba923\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T46OgkcGLk6E_eosJNzNbXllOZgOVQwu_pWlEsfY30AJM5oqqPZiKH2neXil9bYx1RoIqz6AxceJ8nenKkX674mmDpvFByG65QfZL2og8inyWvvkUNJMoQA4brc40RWko_bgqUIahNH6xN-mMLjqTNvd2KrWNnIEtJVOX3yU6kx_BbWzKCApLQiSAQr-JAmG4Z2KPGyzkhFeO8GG8BTFnn54ISmHpk5Zfgvy4uHMy5npnWW4RoI9faCHaTfFy50ewoPQTe70sWKOezmOlEmBj1ACfHt3AczRS_xZqZDBp1f1mdgajR50FrjAV8f6O1yNekvwCQdlU23Q0Q7qeoZezZKXojrZg-XpRrw?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167305",
+            "id": "9ef0d759-3148-43d6-96f7-8245111f9de0",
+            "impid": "1EOwvQO1cVZ9",
+            "price": 0.120000005
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "CTMC466UDEmi",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1gac9texse8/b1_gumgum/885/55166/?_b_rzuid=ee8a8953-efa7-11e5-ba69-ce0fda12ee46&_b_bzuid=ee8a8953-efa7-11e5-ba69-e61bbfd56946&_r_publisherdomain=sportsfascination.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHGQ5IANR6OJKCWROGPVCVES2AD5LBBHBBZJ5AXBU3FIWUMWZHU7J2RJVCRHNUALDHEB3PHNCIRBIMYMFOFOJJULBVIAN45DAY3OXTUB6QOD22NLXRMHGMAK4TXHHIFLJTPYPJRB3CKDCEBHNJ6XIUVWX6NVIWQBWERBLBAVQCDLCB5KHCPDVL62HUI7IRAXHFDZZJ4NVOOQGREA7YIVMXU56XVAT76WXNNL3L4IAQNLFMYHMG7K53ADTEPYQ2SWIT5R6FN465I76VV4YHLFASYJ4AGQXGGB5OIEPSLP5Y6EIYKER2W7HJLCOJ2D3Q6F2HJCKQLGFE4U52U7MW5OIGVWQCHCAIZCAQQGVP4HVAOSKCHTYOQNP3JTMBK4OPG4OVX2P4FTN77VV2LNDQ5PO3VEUAUXQ&price=0.86&rzuid=ee8a8953-efa7-11e5-ba69-ce0fda12ee46\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T40HgxtyZHLQusfsomjEoUKeOAOsXHLiPeDyKbKMzfIZnq5JAvFH97tR7oKSdyMhxioIqz6AxceJ8kt42CiGPtc7Ys6HxebJupalG7r8KJVqwi6TtYVqQV_Yrb6lVCmjOUD-OP3Vz0TwN0HeEf_Mw2ZMjE6zv4tZASIe-Z-yRd_aJ6r4grYpSTlbfvmj1o-FpCZTErwKf-pCuCmG34d74vxIQwOc0eCWvSjXcP6E5IWbeBsXKE8XOTWqRm0cJpFCWNXyy3zD3CnrBWRJ-yLnL2qbCBpSFrxN4EVTzb4c9mHneTquZkzkbh8hXfbonMzRlkxqFlkgXhHiqUbwuwX9ikrKHG_OXMUuN0NbVYmVRxdBz1MaTIPxXkDD2y39nkV8FgdfdFl-V72ip?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "55166",
+            "id": "7977260d-e9d4-45bf-8c22-4a98ec15f21f",
+            "impid": "CTMC466UDEmi",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "huuwIwvTK6FO",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u19f7kj3teyo/b1_gumgum/885/167177/?_b_rzuid=ee4a7e04-efa7-11e5-a5b5-1e2a6a44a574&_b_bzuid=ee4a7e04-efa7-11e5-a5b5-49c4f6e05174&_r_publisherdomain=www.sheridanhoops.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHG463L3ZAJG4AJZOGPVCVES2AD5NEKCHIVSWO5PCDOQX5DNJNRCSRKE7ASSWUJQDDGYYQNSXGRXLQSWELRDTDPINFQI5K57TKEZJ2TBTE55PNDQD75F7NBHM5ZYNDCWZXPYPJRB3CKDCEBE2NG2JDGI3RJTKVFLSXPKC7F7YNZQSDRFK2RND6D4HVJ4752IV6FICQZ7Y65GBMHSV6V4JE4IDR4ESSAZXBNN7XT6CSI75RC54TXBZOADTEPYQ2SWIT4DGSODT2AKO43K57CRPSNU423ZZ3T45GVH7U4NGJ67OUZQCG2JK7NXMVHPWVVGLPBZSEFGXWVU6XSORXTGEAAZXIXP7MT7K472U25AV4JR6HY4YRDP7O4I42INGFDFKUF7IKTOMNU56YWB25AJUQBDL4IDA&price=0.86&rzuid=ee4a7e04-efa7-11e5-a5b5-1e2a6a44a574\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4z2d_cSRcoaFCzfcKulAuyvVAPVAj0_pcP0EbpYKhjUE8PkJtyq-y2PCaZo1jYxNXoIqz6AxceJ8nenKkX674mngttN6RXbslNU50uyvhO_ChdXTDZetOdIJ4zcaR3fED16ZuiutuC21S37UPWZvE0kLOJUpjsED7C7WKKm4Jfd65OReQOuvxxh_4EKiaZOWKga4y0Jc_e1a6j5llAy9enNk2ilwhpNyQezC76WO7ex4KIg_rK6QwBVuKyashTwrUXtj8HIt8BP4bzwdnIfvIzPOZrKMzAN9rNiqks2VGztTzToXiOKDtfTXgckJdY9kd3yyJH_homZON_hVERsMJ3Pr1e5k2huKyewEGyFuFeol?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167177",
+            "id": "ed2b566d-ebba-4e16-a385-2ea645e86708",
+            "impid": "huuwIwvTK6FO",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "WmetYayoeVPb",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1gac9texse8/b1_gumgum/885/55166/?_b_rzuid=ee243169-efa7-11e5-a16e-4502a7bd7658&_b_bzuid=ee243169-efa7-11e5-a16e-bd094ca18158&_r_publisherdomain=www.magiquiz.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Slow-Cooker Three Bean and Turkey Chili \"}},{\"id\":6,\"data\":{\"value\":\"Tablespoon\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436991\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHGZH5LFDQSTWMDJOGPVCVES2AD5M6FCSCN5EUTMTT22QEPNRAJISHMDZE4LLO6HUQP67QONKLR2WDJUL4NHLEU6PPNMFWH5DCBYLV7GLS2GBY3N3UWN5G5LY4VFCEGA2ZTYPJRB3CKDCEBHWHULXKZWEWNVK6SXYV4O5MMTW6T4OMJ54TDQI2LCOT2OXLDBMZA262RBQVZOQD4KTVWXD35GPC3DCCBLD7QFHD3WZTM64DCMC2EQLAFNR7BXCVE2X55NRWSE3XAUVZQS3J3O7STQJTK5SXHQEFYLV7MKM6IJIJ4SFAMMTULWITVTZQ7TVU6CNYAJKXGRJCPUOIOHBEBPITYZCXG7XVZ4LFIKXE2DGGFIJEEAWHMOMETZG4ZSDFK64JK7P6NAE2VU&price=1.26&rzuid=ee243169-efa7-11e5-a16e-4502a7bd7658\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4w6PItO--p7CVk3zZtHVNODK_pfVVICLNAFNQYu0mJjCYm9hCaNJkFysu8piTmY4x4Iqz6AxceJ8nenKkX674ml50EqNO268lADvpNcPHuQzH3uK7b1g1-ivOq4uNTyMRkaWVlwMKl2muDgyYPgjh6C4hCuIABWg_49-c_GtH2r0No3m71mSWVUOb6Rp9xzMukKiXnVby6DRHafI_nMe3H-EdO7jEM7rkrKllU78U9C6UNBlNrS4quY-G0l8vTpgtL1yOCkgxr6aIm6mNtxw0fE0vsdVRaP76LySGXc7roFl3aSn8I5FTE8jEfmzsy4xSgxOv2rsOFAGJell6GMT4-PojrZg-XpRrw?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "55166",
+            "id": "e7928a20-9353-4f83-9c21-a18d4cf222d9",
+            "impid": "WmetYayoeVPb",
+            "price": 0.945
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "9wkWHnENXr46",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1dma9xbw4xs/b1_gumgum/706/30297/?_b_rzuid=edf752b7-efa7-11e5-a16d-dc97b177666e&_b_bzuid=edf752b7-efa7-11e5-a16d-4d5b2966866e&_r_publisherdomain=www.countryliving.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"A Closer Look at Buying Laminate Flooring\"}},{\"id\":5,\"data\":{\"value\":\"builddirect.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4NQ33OG3HQTAX4JOGPVCVES2AD5MD7R2JDQXMQX2PGWBDIXVXEN275SEPXDXFFVFVNT6QZEHWX4SBKHWRPCSGP4GT6M4GFMJXI4ZVXDEYTLPGWV4IAY6ZHRHEPM7OX56YJYPJRB3CKDCEBFL6YRN3HGLTROROGRHAGHKWZKSOT4OMJ54TDQI26GE6IQVXCTQRF2RIHNEMN44FANHTQQCLOTASCLLECNMJDZ6EWRIE6DYSHRAOQ76NHVUFSYQQZ336WJCQX7JYTFOLXYACKWIANU337MF3Y7HW7YGVO2ZYUUQFNJHD3LXFYN5D5M2SJOMNVTM57A2HY7ARCUHTSGN4TPK76BGJ5PS7UFKVQYPTMOZWKTYFKNRU55S6YVHJQ5TDY2LNOA5VAXMJVI6LOJT2EWEX36Y&price=0.45999998&rzuid=edf752b7-efa7-11e5-a16d-dc97b177666e\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4yt9voo6oSTWi6AH2YHdpyvprHjcnL-BH2UZwyUfTU79M8c71858bA5Feln6yqx4IIIqz6AxceJ8nenKkX674mkr2p7In0CnklRsHYmJW-hOgh2nTGay_NEEmYzzOrjhTWPd6swqZzUb_nYz6bKLwTTvcg_7kCFGyNCnf7hQzvk34q5PbTPXje9Col51W8ug0R2nyP5zHtx_UiF5res15ebmw4c69MqpLaPzHyqz6EYuADaBlwEZJ-TEHoCvw-IW27VpAZYO6TDw4i1LuuQrdM68YZkvNd1SNBqUCfnYaeQQyUlFoqcu9W7nhFs8jppj8ouEGlZccITb1WT_2MWOyeobC7NzFjDY6IRXqXxFTSMO?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "builddirect.com"
+            ],
+            "attr": [],
+            "crid": "30297",
+            "id": "8c7a16af-be88-43c2-9ce4-c491c9e28f6d",
+            "impid": "9wkWHnENXr46",
+            "price": 0.345
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "0OtTdA7Cqunr",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1qgg2st6lmo/b1_gumgum/885/167189/?_b_rzuid=ee3e0d39-efa7-11e5-8730-2c1f0ccff223&_b_bzuid=ee3e0d39-efa7-11e5-8730-015cc0aca123&_r_publisherdomain=www.redbookmag.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Slow-Cooker Three Bean and Turkey Chili \"}},{\"id\":5,\"data\":{\"value\":\"tablespoon.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHGJY32LIND7FV7FOGPVCVES2AD5LRHUAU62MN7OZRBULAYLFABXMJXWCVSQDBN4HPISHFS372NVKRXG6E66IDW4BXVFMVBBL4GKDKF7QARNSFHKMQN6BIPYUZZIKLGZ5Y3YPJRB3CKDCEBFK5472LYEFYWTBOAZDKB4P6GGZY3VZS57ACUCS6O5KA7KP74BKVPQBNNK7IQCPSUBQBPSMMYD3CZH3GP4T37UWOGX3DER647TVRPZPGVM7RYVRX6BQ564MLDA2Q5W4LZD2QQ5ZJKFHSOMZJZEDMOJLLNUTP57RD6PZN7WPWYD6HQ6A2P2ND6M3DEYF22NSLJTDPRESKSPC5TMEOALWNMOJGC64BIGTUXW2UMPESPZ67ZVMW5GDOULH3BSNNSOESXT5T5ZCJCOY2RCY&price=0.86&rzuid=ee3e0d39-efa7-11e5-8730-2c1f0ccff223\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4z2d_cSRcoaFOZKsNgTjmQTsiJ3zGQpseSaH5AAPvXtM_LqRzvwt_1-zTUmo7I_upIIqz6AxceJ8nenKkX674mk96K-ctHwfG6H0m4uTQGF7hpuq28ASHEHkr0bfpOZNTIYT3hJoZtL9XD3qQT58AnS0a-hAFi8Q3ik_nxvz1xxofv7JkdQOomxWLxIPwKBW6210Di8pOl-qxDnJdOANTaUdQAe33ZpkZhEsB0b4bf5_VtqdNNByVjazInjAmgjAS-spwOrTyHJD7XWaJWTnFK_H_GdRR7sbc4Fb5ZZr-wchNd5Zjm8Y2Y2KBvv_Lmuo0XSMdhW1jqqtGpQJ-dhp5BBaGXTYN43P3OeEWzyOmmPyUmtYBhbKOTeM6UdBWx3kxOiOtmD5elGv?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "167189",
+            "id": "e2077ed0-16e3-4dcd-9a7c-ca3e16659319",
+            "impid": "0OtTdA7Cqunr",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "fNeegd2JrLw3",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1be5sqiwc8w/b1_gumgum/885/174588/?_b_rzuid=edc97eaa-efa7-11e5-9de5-62f79e3e7dd3&_b_bzuid=edc97eaa-efa7-11e5-9de5-297ae06ee5d3&_r_publisherdomain=www.tmj4.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Strawberry Daiquiri Jelly Shots\"}},{\"id\":6,\"data\":{\"value\":\"Tablespoon\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436991\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4MDUXPZTZ4DHO2VOGPVCVES2AD5OYR6NQV27NOYZHK2CC6LJ445IKUYILJORJ7KM63Q7KMVQKKZYCDNNZBCZFHYHOZUSVKQH6TWBEL2HJ575DQZKFM2FL2VYCDMDTMPZDRYPJRB3CKDCEBESKNNCEBVAVYERJHYEJVLYMSMPAYL5KW4XHT3KG3LQHW5IM72URCGILVUZNMHKJHATBVLQCKTZRT77UJYR5VKKYYFLDZZFQI6BLNQCWWJILPJOKT72U7BBZ6YNMYMWISMIQBTCP53PCY237NH5O6MARMU5VRHE5B5YPC5DULTRF2GXSS4S2G2AJOSW7MOK7F4EMRAIIDKX6D2QHJFBDZ4HIGX5UZWAVOHHTOHK3XCRYGAJ5AS2KJWTHNMVVZ4LHWA&price=0.86&rzuid=edc97eaa-efa7-11e5-9de5-62f79e3e7dd3\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T40HgxtyZHLQuTDYBL6Q0hsEarGn7235HcPt0-t7Eayk0V0x339XsWc42BBYoM8nLjoIqz6AxceJ8nenKkX674ml9KsGNBLmwlntNVqXQgqJthcXis_8Xueq-_9Fk2HEfYgvHO5Lshe5mBrOm1r2YHk-iifqPRVAOcEI1zE6qgHjttLvQzSZf0b9f0_MeUnLs2cZ6qQ2xgbhJNRRMDIygC5013D-hOSFm3tbm-YnI-hTmWl89b2VRUUh8st8w9wp6wQ8nCCIWo6yhnWq1qKSjupn5hkKHdZxb7CX5OpNDDxlepNVGWw38EKtPI7CrMrEC1lG8LsF_YpKyFfH-jtcjXpIYQ6iCbEKVIBsLs3MWMNjohFepfEVNIw4?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "tablespoon.com"
+            ],
+            "attr": [],
+            "crid": "174588",
+            "id": "6521d2f1-ce9a-45f5-8a7d-b6eadaf558b8",
+            "impid": "fNeegd2JrLw3",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "Cz7gmgRX6PIb",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1kaxhgfti4g/b1_gumgum/705/175182/?_b_rzuid=ee37e562-efa7-11e5-ba67-7cec2815d2b1&_b_bzuid=ee37e562-efa7-11e5-ba67-43a3c543cfb1&_r_publisherdomain=sportsfascination.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=4CVAL2QPDBJHGGL4ADKE4XESY5OGPVCVES2AD5NA5HCJG5E5R4BSLLRGWCC45TNKGFRITYHMK2RT4CSEKTMBIXGO4ACQB7P2REYOFD7U45MB5BWBLDCMTQSNJYMU2WQ3HXN3LRMO555LDYPJRB3CKDCEBH6MNH4H2BV3UXKHHG5JFBGJE6GSDLCB5KHCPDVL2NJC3KYEZMONVL7BXPI7U3DYEQ7YIVMXU56XVAT76WXNNL3L4IAQNLFMYHMG7K53HVUFSYQQZ336XAB6DKIGMGUEU3QJ5Z5W76QLRPWZBQAI3BDDLWXQBAILHNQ3CWTNK2GYAG4SVVK5VZM4TO6A6XRCTHMW5OIGVWQCHCAIZCAQQGVP4HVAOSKCHTYOQNP3JTMBK4OPG4OVXOFDQMAT2BFUUQ3YCDZWHFJNNXY&price=0.86&rzuid=ee37e562-efa7-11e5-ba67-7cec2815d2b1\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4z2d_cSRcoaF1rOrLxI1pSC_UclflFetDEkZBI91zYoKCRqbhykZl2FBpTkQlF20wYIqz6AxceJ8kt42CiGPtc7Ys6HxebJupalG7r8KJVqwi6TtYVqQV_Yrb6lVCmjOUI9mtuk4eNwz0-vBX5oP1ao7yfaS1dA8d3xS73w4LP0Edut1XZWt-XXfvmj1o-FpCZTErwKf-pCuCmG34d74vxKpsNBYqF4Q3TXcP6E5IWbeBsXKE8XOTWrQwaFTfY8rGHyy3zD3CnrBGB8f6ZgxzbWdCT-F6fhPEYIU_MWrE3R-8A1LPLILUFwF0Rl7X3KCXWCsvTi43fe4UbwuwX9ikrKHG_OXMUuN0NbVYmVRxdBz1MaTIPxXkDD2y39nkV8FgdfdFl-V72ip?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "builddirect.com"
+            ],
+            "attr": [],
+            "crid": "175182",
+            "id": "3e306d31-2591-4bdf-b7d2-eb86e6254ed8",
+            "impid": "Cz7gmgRX6PIb",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cur": "USD",
+    "id": "2vVHAn1Xmdg9",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "adid": "32266-null",
+            "adm": "{\"native\":{\"link\":{\"url\":\"http://r1.zemanta.com/r/u1kaxhgfti4g/b1_gumgum/705/175182/?_b_rzuid=ed84ec04-efa7-11e5-a16d-a5fa26f86c8d&_b_bzuid=ed84ec04-efa7-11e5-a16d-e1e3bb8f3b8d&_r_publisherdomain=www.popularmechanics.com&_b_ab=chubby_fox&_b_ctrl=1\"},\"assets\":[{\"id\":1,\"title\":{\"text\":\"Red Oak Hardwood Flooring: Setting The Standard\"}},{\"id\":5,\"data\":{\"value\":\"builddirect.com\"}}],\"imptrackers\":[\"https://sp.analytics.yahoo.com/spp.pl?a=1000157933821&.yp=436986\",\"http://b1.zemanta.com/api/bidder/gumgum/win/?enc=5J3TOOP66HX4MGIT6OYJHYV5E5OGPVCVES2AD5LF7XM2NYRTRE4ELZJEOC5LILKFU53F5Z6UQ7OVO6RK7LH2XGPZCCYRZWQTHB3SPYWOGRSSHIU4UO2TOFGP33O6JW5W4PLTJFFZNX4Q7YPJRB3CKDCEBFR2EA2HX5SPQ72VFLSXPKC7F7YOT4OMJ54TDQI2TIMB2QXDLXYQX4RYNHVQ2AOHG6RWPWZJAIKHCQDUTKXPHRTNEKGATZLCLIWXAS5HGZ5YGEYFUJAWARREAVIWM4ETAZDYCOIVBQZ2SUQVFSOX7DPGQQXCQ5CGW4JN5N6UEAUO4UQLJXEQD66G7Z2GBTEER66GMEIG4ZLCWIQ4Q4OCIC6RHRSFON7PLTYWKQVOJUGMMKQSIIBMOY4YJHSNZTEGKVBAG2ETKXKOQZY&price=0.86&rzuid=ed84ec04-efa7-11e5-a16d-a5fa26f86c8d\"]}}<img src=\"http://va-g2.gumgum.com/ad/view/enc/yb5ZvBJSOP4X8uEIOT_T4yt9voo6oSTWjSLO36q8cWp4QTwarht03tHsqUGRAVp19b98JoCL43lXzOBllD6yPIIqz6AxceJ8nenKkX674mnDEediYxeBlCz--5hmuISLA9Bp2MXCXYME-xWDbxBEHYfzrvcdnUjk2dho5r82bSbNP6rk35RKeBLDqwjqnZHSwKnek_BiTFCAQr-JAmG4Z2KPGyzkhFeOTneDI0dL35Siiyd3CI6u2RdUFxNlBKlSGSQSLCownxUTACPXhlNUyU6CF59qovlWH6BSkNhjMXusRY6u9cmCEKhiDSXG1CSsCEbq_ncBko6MiqFUU-JU1lIGZMAnWSHGlt7nq0NEAUfsBBshbhXqJQ?c=${AUCTION_PRICE}\" style=\"visibility:none;display:none;\"/>",
+            "adomain": [
+              "builddirect.com"
+            ],
+            "attr": [],
+            "crid": "175182",
+            "id": "2a993812-21c0-4c5c-a386-93bf0c0cb7d0",
+            "impid": "2vVHAn1Xmdg9",
+            "price": 0.645
+          }
+        ]
+      }
+    ]
+  }
+]

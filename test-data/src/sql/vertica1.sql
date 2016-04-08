@@ -44,73 +44,45 @@ group by impsrcid,deflevelid
 order by 1,2;
 
 
+
 -- Native stats
-select  coalesce(ntf.dt, rts.dt) as dt,
-        coalesce(ntf.publisherid, rts.publisherid) as pubid,
-        ma.accountname,
-        coalesce(rts.total,0) as rts_total,
-        coalesce(ntf.total,0) as ntf_total,
-        coalesce(rts.filtered,0) as rts_filtered,
-        coalesce(rts.passbacks,0) as rts_passbacks,
-        coalesce(ntf.passbacks,0) as ntf_passbacks,
-        coalesce(rts.total_unfiltered,0) as rts_unfiltered_total,
-        coalesce(rts.bids,0) as rts_bids,
-        coalesce(ntf.bids,0) as ntf_bids,
-        coalesce(rts.wins,0) as rts_wins,
-        coalesce(ntf.wins,0) as ntf_wins,
-       cast(case when ntf.total > 0 then coalesce(ntf.bids/ntf.total, 0) else -1 end as decimal(5,2)) as ntf_bid_rate,
-       cast(case when rts.total > 0 then coalesce(rts.bids/rts.total, 0) else -1 end as decimal(5,2)) as rts_bid_rate,
-       cast(case when rts.total_unfiltered > 0 then coalesce(rts.bids/rts.total_unfiltered, 0) else -1 end as decimal(5,2)) as rts_unfiltered_bid_rate,
-       cast(case when ntf.bids > 0 then coalesce(ntf.wins/ntf.bids, 0) else -1 end as decimal(5,2)) as ntf_win_rate,
-       cast(case when rts.bids > 0 then coalesce(rts.wins/rts.bids, 0) else -1 end as decimal(5,2)) as rts_win_rate,
-       cast(coalesce(ntf.rev, 0) as decimal(10,2)) as ntf_rev,
-       cast(coalesce(rts.rev, 0) as decimal(10,2)) as rts_rev,
-       cast((coalesce(rts.rev, 0)/(coalesce(ntf.rev, 0)+coalesce(rts.rev, 0))) * 100 as decimal(5,2)) as rts_rev_percentage,
-       cast(coalesce((rts.total/(rts.total+ntf.total))*100, 0) as decimal(5,2)) as rts_supply_percentage
+select  rpt.*,
+       ma.accountname,
+       cast(case when rpt.rts_total+rpt.rts_filtered > 0 then 100*rpt.rts_total/(rpt.rts_total+rpt.rts_filtered) else 0 end as decimal(5,2)) as rts_filter_rate,
+       cast(case when rpt.ntf_total > 0 then 100*rpt.ntf_bids/rpt.ntf_total else 0 end as decimal(5,2)) as ntf_bid_rate,
+       cast(case when rpt.rts_total > 0 then 100*rpt.rts_bids/rpt.rts_total else 0 end as decimal(5,2)) as rts_bid_rate,
+       cast(case when rpt.ntf_bids > 0 then rpt.ntf_wins/rpt.ntf_bids else 0 end as decimal(5,2)) as ntf_win_rate,
+       cast(case when rpt.rts_bids > 0 then rpt.rts_wins/rpt.rts_bids else 0 end as decimal(5,2)) as rts_win_rate,
+       cast(100*rpt.rts_rev/(rpt.ntf_rev+rpt.rts_rev) as decimal(5,2)) as rts_rev_percentage,
+       cast(100*rpt.rts_total/(rpt.rts_total+rpt.ntf_total) as decimal(5,2)) as rts_supply_percentage
 from 
 (select date(dt) as dt,
-        (case when publisherid = 559955 then 558355 else publisherid end) as publisherid,
-        sum(serverimpression) as total,
-        sum(case when deflevelid = 23 then serverimpression when deflevelid = 22 and deflevelreason = 120 then serverimpression else 0 end) as total_unfiltered,
-        sum(case when deflevelid = 22 then serverimpression else 0 end) as passbacks,
-        sum(case when deflevelid = 22 and not deflevelreason = 120 then serverimpression else 0 end) as filtered,
-        sum(case when deflevelid = 23 then serverimpression else 0 end) as bids,
-        sum(case when deflevelid = 8 then impressions else 0 end) as wins,
-        sum(impressions*winprice)/1000 as rev
-from rpt
-where dt > date('2016-02-01')
-and adformatid = 18
-and impsrcid = 2
--- RTS-triplelift, RTS-sharethrough, RTS-Adknowledge
-and publisherid not in (558356,558357,559922)
--- My6Sens
-and publisherid = 558602
-group by 1,2
-) rts
-full join
-(select date(dt) as dt, 
         publisherid,
-        sum(serverimpression) as total,
-        sum(case when deflevelid = 22 then serverimpression else 0 end) passbacks,
-        sum(case when deflevelid = 23 then serverimpression else 0 end) bids,
-        sum(case when deflevelid = 8 then impressions else 0 end) as wins,
-        sum(impressions*winprice)/1000 as rev
+        sum(case when impsrcid = 2 and (deflevelid = 23 or (deflevelid = 22 and deflevelreason = 120)) then serverimpression else 0 end) as rts_total,
+        sum(case when impsrcid = 2 and deflevelid = 22 and deflevelreason=120 then serverimpression else 0 end) as rts_passbacks,
+        sum(case when impsrcid = 2 and deflevelid = 22 and not deflevelreason = 120 then serverimpression else 0 end) as rts_filtered,
+        sum(case when impsrcid = 2 and deflevelid = 23 then serverimpression else 0 end) as rts_bids,
+        sum(case when impsrcid = 2 and deflevelid = 8 then clientimpression else 0 end) as rts_wins,
+        sum(case when impsrcid = 2 then impressions*winprice/1000 else 0 end) as rts_rev,
+        sum(case when impsrcid = 3 then serverimpression else 0 end) as ntf_total,
+        sum(case when impsrcid = 3 and deflevelid = 22 then serverimpression else 0 end) as ntf_passbacks,
+        sum(case when impsrcid = 3 and deflevelid = 23 then serverimpression else 0 end) as ntf_bids,
+        sum(case when impsrcid = 3 and deflevelid = 8 then clientimpression else 0 end) as ntf_wins,
+        sum(case when impsrcid = 3 then impressions*winprice/1000 else 0 end) as ntf_rev
 from rpt
-where dt > date('2016-02-01')
+where dt = date('2016-03-29')
 and adformatid = 18
-and impsrcid = 3
-and publisherid not in (558356,558357,559922)
--- My6Sens
-and publisherid = 558602
+and advertiserid not in (558734) -- floor6
 group by 1,2
-) ntf
-on rts.publisherid = ntf.publisherid
-and rts.dt = ntf.dt
+) rpt
 join reference.masteraccount ma
-on ma.accountid = coalesce(ntf.publisherid, rts.publisherid)
---where ntf.win_rate > 0  or rts.win_rate > 0
-order by 1,2 desc
+on ma.accountid = rpt.publisherid
+where ntf_rev>0
+order by dt asc, ntf_rev desc
 ;
+
+
+
 
 ---- Floor 6
 --select joined.rpt.*, joined.ma.accountname from
@@ -132,12 +104,14 @@ on ma.accountid = rpt.publisherid
 
 
 -- Check publisher statistics
+-- 558356 - TripleLift
+-- AdYouLike/559921
 select date(dt),
         sum(serverimpression) as bid_requests,
         sum(case when deflevelid = 23 then serverimpression else 0 end) as bids,
         sum(case when deflevelid = 8 then impressions else 0 end) as wins
 from public.Rpt
-where dt >= date('2016-03-16') and publisherid=558356
+where dt >= date('2016-03-15') and publisherid=559921
 group by 1
 order by 1
 ;
@@ -194,23 +168,19 @@ group by 1
 ;
 
 
--- check advertiser
-select * from
-(
-select date(dt) date, advertiserid,
-    sum(case when deflevelid=8 then clientimpression else 0 end) win,
-    sum(case when deflevelid=23 then serverimpression else 0 end) offer,
-    sum(case when deflevelid=22 then serverimpression else 0 end) passbacks
+-- check publisher
+select date(dt) date,
+    sum(serverimpression) bid_requests,
+    sum(case when deflevelid=23 then serverimpression else 0 end) bid_responses,
+    sum(case when deflevelid=22 then serverimpression else 0 end) passbacks,
+    sum(case when deflevelid=8 then clientimpression else 0 end) win
 from public.Rpt
 where --month(dt) = '03'
-dt = date('2016-03-16')
---and advertiserid=558734
+dt >= date('2016-03-20')
+and publisherid=559922 -- Adknowledge
 and adformatid=18
-group by 1,2
-order by 1,2
-) rpt
-join (select accountname, accountid from reference.masteraccount) ma
-on rpt.advertiserid=ma.accountid
+group by 1
+order by 1
 ;
 
 
@@ -237,3 +207,26 @@ from rtb.rtbsummarydaily
 --day = date('2016-03-16')
 --limit 100
 ;
+
+select coalesce(publisherdomain, '-'), coalesce(rootdomain, '-'), sum(clientimpression+serverimpression)
+from public.rpt
+where publisherid=558362
+and dt=date('2016-03-23')
+group by 1,2
+;
+
+rollback;
+SET SESSION AUTOCOMMIT TO ON;
+
+-- Check tags for Adknowledge (559922)
+select dt,sum(serverimpression) offered_bids, 
+        sum(case when deflevelid = 22 then serverimpression else 0 end) passbacks,
+        sum(case when deflevelid = 23 then serverimpression else 0 end) bids,
+        sum(case when deflevelid=8 then clientimpression else 0 end) wins,
+        sum(clientimpression) wins_all
+from rpt
+where publisherid=559922
+and dt>=date('2016-03-15') 
+group by 1
+order by 1;
+

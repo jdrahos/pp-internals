@@ -1,0 +1,144 @@
+Request1:
+=========
+{
+  "cur": "USD",
+  "bidid": "5df96cb5-76f5-465b-82f5-b24526156823",
+  "seatbid": [
+    {
+      "seat": "17",
+      "bid": [
+        {
+          "price": 0.04,
+          "id": "17-5df96cb5-76f5-465b-82f5-b24526156823-1",
+          "impid": "f26GzoFGKrJh",
+          "nurl": "http://us-east-user.bidswitch.net/win_notice/pulsepoint_bid_ortb?rid=6P0YA4GN0FnvvIvvFohS8j9Vzv9PKfNOg-PRpZMLzIqQIBOWr8HhgpDLk-VlG_A4HeH8PY20QGX3OuQT7tTIaVgSiuVu15ged6OaGhKSgkJeujiS4b9gjtMccH7589EtIBNlNF_iH4zl9I_VAVI4yYvG_LvXO3cjigHFLfhtbJLRiJ56F8yueGQ42TDQufxoVyN0d-48qa4Jw4_C0i1aYvnr6v01aJom4kp9EFGG7_ne2OpzGx-9qdyvq0JysqsGgU8twWV42JbdtEOioN5Aw8qyRHwNz4yVEzcl5bO4RUwNQVnZtUQP8ZKql0WgxUZPXDsbWLKBAAW0Jk34S54ebt9o-i3sMrUre_cBYOiehuxA20yPoj4DRvjk8wqAgDA2k32CbKaYWpe3TYc6Na2EbGUx2T2a2aqkuCiodHcDDWZ0Sm6iGrDMlvC7masCMxTO0p9XXqYczLgOgMByQiTMdy5uoHXD1fFIhMWnIDVoTtnb9Rdsg8xFYeSMAJIEVRJRj1azfOhdXxNaTA&p=${AUCTION_PRICE}&aid=",
+          "cid": "5823",
+          "iurl": "http://rtb-va.wtp101.com/bidswitch/preview_page?creative_id=2317775",
+          "adomain": [
+            "digilant.com"
+          ],
+          "adm": "{\"native\":{\"ver\":1,\"link\":{\"url\":\"http://rtb-va.wtp101.com/bidswitch/click?bc=MR4OGNY5WFWBJZiYwN8ZLyd2KDdZcNb6zVmYv.jzqgGPOoIBPJuM7F3vgcSss-AURPbS4CrdZxMdl6yoJL-0heIwJr0C4ukik7TVykuRzYn9QgCitSe58jGN7aGRuT.MRtOAtihYRKbqMq.Q7YR2E4U3oaODJHWixhfZUCfEmkVipxFB7.3H6RLnlkPnuyHvL4PEz3l-5m.xNQGLQLNlc4Kx9mUYYSOedReJ8gaOZ4x91kxedBAnOhgYyQeIVF6mPGVfzmnfGYO7PmN2OhQ7oegUKPJupf0DJFtLNQRmD7tfni8yLCc2hGLZkLn1tAmkeohKD0CTryQQIvBeWT0SjbxQax16tMxbGaX8oh0VcdCsbmtXP2.Xflrvp.1V1tr6auwz548xiqHEHY85Ke30ZghaWluQV44o9b2BBiWHC.e2lwqCYEIn.Ld7SJcBWINNRFNS.xRs2k3OLG3qInSmJoWZYUg.d4wvYdpi0F-WR1.t26nNxiB-vNSiS74sG.qavWo-sxLlFX9OPbUOsh0lqRdjbkrgnelQAJ4qTgGi4gzX.C.xK6HTfslHpQyd8bmlsGMYTtXQcsF6dVLiDE3NmsW40ROYq7OpTAGkqv4YQVNf6XU-6--L29zXFKT43zD81TvwZzAzzi4Jr.TD3FW8uOIXbcQqjFbFRbLeLpavFoc58M5f5Q9gsVCApjoM.fiVwFD9P1xvW0I2fkeO6d-uMH5ImdpnIqSX4S.8KtBj3aSci1W-33euEYDp5HBhFzr1Nx-C.GMSDtjLborCooLfrTM31EU6D-Sm1gTeqBEfcTF78lWYIdPKiAxIq6k1VM0C4X49gqjr28pkoEYMH4ZI7P3C1UG0EorhE8U9f2O2sE9MGevh4dJ.Vz1cZEIgs2uWPatE7F7GMg%3D%3D&redir=http%3A%2F%2Fwww.digilant.com%2Fwhitepaper%2Ftechreview\"},\"assets\":[{\"required\":1,\"title\":{\"text\":\"Research Paper: Programmatic\"},\"id\":1},{\"id\":2,\"img\":{\"url\":\"https://cdn.wtp101.com/4353-resize_digilant_bus.jpg\",\"h\":1200,\"w\":1200}},{\"data\":{\"value\":\"Digilant\"},\"id\":5},{\"data\":{\"value\":\"Cross-platform. Big Data. Attribution. Retargeting. Break down programmatic confusion, read our paper by MIT Tech Review.\"},\"id\":6}],\"imptrackers\":[\"http://us-east-user.bidswitch.net/imp/${AUCTION_PRICE}/http%3A%2F%2Frtb-va.wtp101.com%2Fbidswitch%2Fimp%3Fbc%3DMR4OGJ-vNPnNHnJbarkuI3KBsW6LHTE5ToiuKfPm8SDMGHXAfnLGSbBIQzwCJ3iCSIhaUmg.cdwcjGVmJ2L5Lftaprp0pXbK4paKG3.oahOzhd4Jl0c-pRVkuydGuLkYZAi0grgBpweqNNrXa8Iv5BQ2K3sU5AJzHA07Fzx3Hplb9l7bwCgJzuj8PLRW72bxvbKbJ7-gqGBARDRAvp.SJ.TvL2ezigsF64dhu4nE.eCnnHNg4lHYzmpC1GIXeTBkC7Z7UM6V3FQJtZbYE.iT-bojw-2QhzOjL7o0IfYGzTwUu3OlumYNZ3xUYYC1rlefzGKMvxyqmcD7P6mSVZTG0eGQ2gIIf-JJq3CKwwNnnLq4NsHuzbFrLpMsg8Z7sfvT4WEpUZuC46uAk.hzbYMuMqbMrDue94o37EMT-.g1cmoY7L7WNDg5e-1N1jwYNHhIuM9h5RmCppXgMnuykFLB-INVMddea71miPCnMzyORDRX6VIsx.4erbX8qfiHoBjDbNV1IazoMcV1rU1d-8qrOsYp4Wyd.CU97XsyyetJNQTjtxRepRZKGwlvDDPOfOJUBTXkv5Hij1JtZvf8lcUkBgDpS5TFbDijfZl6XQEq-ha16uzUzZ1KCOURZNUtSZz9gWPCx0gdrXKAQIKlXIHQPbai4TApkZh-gIlD6qer1lQu.-q.NNxSCt-WfOpXKvikZ6gbheoN6tKGdXbq2fCSL4KQnbCecBI7GCYRNa8xZO5oBQoRStdWp8DV7LfmNNekYS4EM6VJjS-Z093EnHEWBnyavFsHxNr7RCoOh2j9MuUm.GrmfeA.yn4EldhlEm.8ejksv1WaFvUkaCtFfmrbu9W3dkwIjjv.WhvG8zTDT.Yfnxfwuh2qgvu4cXQHsNzkS43dspSh5w%253D%253D%26prc%3D%24%7BAUCTION_PRICE%7D%263p%3D%24%7BCLICK_URL%3AURLENCODE%7D/6P0YA4GN0FnvvIvvFohS8j9Vzv9PKfNOg-PRpZMLzIqQIBOWr8HhgpDLk-VlG_A4HeH8PY20QGX3OuQT7tTIaVgSiuVu15ged6OaGhKSgkJeujiS4b9gjtMccH7589EtIBNlNF_iH4zl9I_VAVI4yYvG_LvXO3cjigHFLfhtbJLRiJ56F8yueGQ42TDQufxoVyN0d-48qa4Jw4_C0i1aYvnr6v01aJom4kp9EFGG7_ne2OpzGx-9qdyvq0JysqsGgU8twWV42JbdtEOioN5Aw8qyRHwNz4yVEzcl5bO4RUwNQVnZtUQP8ZKql0WgxUZPXDsbWLKBAAW0Jk34S54ebt9o-i3sMrUre_cBYOiehuxA20yPoj4DRvjk8wqAgDA2k32CbKaYWpe3TYc6Na2EbGUx2T2a2aqkuCiodHcDDWZ0Sm6iGrDMlvC7masCMxTO0p9XXqYczLgOgMByQiTMdy5uoHXD1fFIhMWnIDVoTtnb9Rdsg8xFYeSMAJIEVRJRj1azfOhdXxNaTA/\",\"http://us-east-user.bidswitch.net/sync?ssp=pulsepoint&dsp_id=17&imp=1\"]}}",
+          "crid": "17_2317775"
+        }
+      ]
+    }
+  ],
+  "id": "f26GzoFGKrJh"
+}
+
+Request 1 - Native Part
+========================
+{
+  "native": {
+    "ver": 1,
+    "link": {
+      "url": "http://rtb-va.wtp101.com/bidswitch/click?bc=MR4OGNY5WFWBJZiYwN8ZLyd2KDdZcNb6zVmYv.jzqgGPOoIBPJuM7F3vgcSss-AURPbS4CrdZxMdl6yoJL-0heIwJr0C4ukik7TVykuRzYn9QgCitSe58jGN7aGRuT.MRtOAtihYRKbqMq.Q7YR2E4U3oaODJHWixhfZUCfEmkVipxFB7.3H6RLnlkPnuyHvL4PEz3l-5m.xNQGLQLNlc4Kx9mUYYSOedReJ8gaOZ4x91kxedBAnOhgYyQeIVF6mPGVfzmnfGYO7PmN2OhQ7oegUKPJupf0DJFtLNQRmD7tfni8yLCc2hGLZkLn1tAmkeohKD0CTryQQIvBeWT0SjbxQax16tMxbGaX8oh0VcdCsbmtXP2.Xflrvp.1V1tr6auwz548xiqHEHY85Ke30ZghaWluQV44o9b2BBiWHC.e2lwqCYEIn.Ld7SJcBWINNRFNS.xRs2k3OLG3qInSmJoWZYUg.d4wvYdpi0F-WR1.t26nNxiB-vNSiS74sG.qavWo-sxLlFX9OPbUOsh0lqRdjbkrgnelQAJ4qTgGi4gzX.C.xK6HTfslHpQyd8bmlsGMYTtXQcsF6dVLiDE3NmsW40ROYq7OpTAGkqv4YQVNf6XU-6--L29zXFKT43zD81TvwZzAzzi4Jr.TD3FW8uOIXbcQqjFbFRbLeLpavFoc58M5f5Q9gsVCApjoM.fiVwFD9P1xvW0I2fkeO6d-uMH5ImdpnIqSX4S.8KtBj3aSci1W-33euEYDp5HBhFzr1Nx-C.GMSDtjLborCooLfrTM31EU6D-Sm1gTeqBEfcTF78lWYIdPKiAxIq6k1VM0C4X49gqjr28pkoEYMH4ZI7P3C1UG0EorhE8U9f2O2sE9MGevh4dJ.Vz1cZEIgs2uWPatE7F7GMg%3D%3D&redir=http%3A%2F%2Fwww.digilant.com%2Fwhitepaper%2Ftechreview"
+    },
+    "assets": [
+      {
+        "required": 1,
+        "title": {
+          "text": "Research Paper: Programmatic"
+        },
+        "id": 1
+      },
+      {
+        "id": 2,
+        "img": {
+          "url": "https://cdn.wtp101.com/4353-resize_digilant_bus.jpg",
+          "h": 1200,
+          "w": 1200
+        }
+      },
+      {
+        "data": {
+          "value": "Digilant"
+        },
+        "id": 5
+      },
+      {
+        "data": {
+          "value": "Cross-platform. Big Data. Attribution. Retargeting. Break down programmatic confusion, read our paper by MIT Tech Review."
+        },
+        "id": 6
+      }
+    ],
+    "imptrackers": [
+      "http://us-east-user.bidswitch.net/imp/${AUCTION_PRICE}/http%3A%2F%2Frtb-va.wtp101.com%2Fbidswitch%2Fimp%3Fbc%3DMR4OGJ-vNPnNHnJbarkuI3KBsW6LHTE5ToiuKfPm8SDMGHXAfnLGSbBIQzwCJ3iCSIhaUmg.cdwcjGVmJ2L5Lftaprp0pXbK4paKG3.oahOzhd4Jl0c-pRVkuydGuLkYZAi0grgBpweqNNrXa8Iv5BQ2K3sU5AJzHA07Fzx3Hplb9l7bwCgJzuj8PLRW72bxvbKbJ7-gqGBARDRAvp.SJ.TvL2ezigsF64dhu4nE.eCnnHNg4lHYzmpC1GIXeTBkC7Z7UM6V3FQJtZbYE.iT-bojw-2QhzOjL7o0IfYGzTwUu3OlumYNZ3xUYYC1rlefzGKMvxyqmcD7P6mSVZTG0eGQ2gIIf-JJq3CKwwNnnLq4NsHuzbFrLpMsg8Z7sfvT4WEpUZuC46uAk.hzbYMuMqbMrDue94o37EMT-.g1cmoY7L7WNDg5e-1N1jwYNHhIuM9h5RmCppXgMnuykFLB-INVMddea71miPCnMzyORDRX6VIsx.4erbX8qfiHoBjDbNV1IazoMcV1rU1d-8qrOsYp4Wyd.CU97XsyyetJNQTjtxRepRZKGwlvDDPOfOJUBTXkv5Hij1JtZvf8lcUkBgDpS5TFbDijfZl6XQEq-ha16uzUzZ1KCOURZNUtSZz9gWPCx0gdrXKAQIKlXIHQPbai4TApkZh-gIlD6qer1lQu.-q.NNxSCt-WfOpXKvikZ6gbheoN6tKGdXbq2fCSL4KQnbCecBI7GCYRNa8xZO5oBQoRStdWp8DV7LfmNNekYS4EM6VJjS-Z093EnHEWBnyavFsHxNr7RCoOh2j9MuUm.GrmfeA.yn4EldhlEm.8ejksv1WaFvUkaCtFfmrbu9W3dkwIjjv.WhvG8zTDT.Yfnxfwuh2qgvu4cXQHsNzkS43dspSh5w%253D%253D%26prc%3D%24%7BAUCTION_PRICE%7D%263p%3D%24%7BCLICK_URL%3AURLENCODE%7D/6P0YA4GN0FnvvIvvFohS8j9Vzv9PKfNOg-PRpZMLzIqQIBOWr8HhgpDLk-VlG_A4HeH8PY20QGX3OuQT7tTIaVgSiuVu15ged6OaGhKSgkJeujiS4b9gjtMccH7589EtIBNlNF_iH4zl9I_VAVI4yYvG_LvXO3cjigHFLfhtbJLRiJ56F8yueGQ42TDQufxoVyN0d-48qa4Jw4_C0i1aYvnr6v01aJom4kp9EFGG7_ne2OpzGx-9qdyvq0JysqsGgU8twWV42JbdtEOioN5Aw8qyRHwNz4yVEzcl5bO4RUwNQVnZtUQP8ZKql0WgxUZPXDsbWLKBAAW0Jk34S54ebt9o-i3sMrUre_cBYOiehuxA20yPoj4DRvjk8wqAgDA2k32CbKaYWpe3TYc6Na2EbGUx2T2a2aqkuCiodHcDDWZ0Sm6iGrDMlvC7masCMxTO0p9XXqYczLgOgMByQiTMdy5uoHXD1fFIhMWnIDVoTtnb9Rdsg8xFYeSMAJIEVRJRj1azfOhdXxNaTA/",
+      "http://us-east-user.bidswitch.net/sync?ssp=pulsepoint&dsp_id=17&imp=1"
+    ]
+  }
+}
+
+
+Request2:
+=========
+{
+  "cur": "USD",
+  "bidid": "d5e485e0-df9a-4349-89b7-95829cd6aab1",
+  "seatbid": [
+    {
+      "seat": "17",
+      "bid": [
+        {
+          "price": 0.04,
+          "id": "17-d5e485e0-df9a-4349-89b7-95829cd6aab1-1",
+          "impid": "B9aNo90uXpX2",
+          "nurl": "http://us-east-user.bidswitch.net/win_notice/pulsepoint_bid_ortb?rid=xFBE_ZJrC5qpLMZVldsFKkpFUF8KPbSAy7wW-jvnkfRQyTIUsLHawogJXE0hBChxWEfqiXQj_jr84-87Rjn7ABE4LDGxGEGMCCJUpZ1iEGZ_QWq66IaSSIWi6MjhRfTkLwXX8g7mxaMO3VQGFosrC2SSHOLriFeogyGfavlOVj4EOVORwLheYUGjvwKGtuY1uvz5_-dYk4DZNAlLis9rbhMyk1C6z4bjQvY_-GYL8uDWxkJBcRcRLfOT7pzaxHWPvZQFLM96gzgVf5TX3-Vj3b5nh_BDtxNDw5rAfeqnUzGUBnSRUGx1jHKAfv01vVj89zi9PDbGFR4tYyJp6eZ3kFAR-nOPB-Nb-GYtROQ-l2JVXtuldDRABkZsuowXwxOCu2KJBW9oYVE2Bxz5gvp0qTOrDhxTqhQuMkNIODz0xQ3UdaEzE93k_hzaEviESeJgE8JOEpDMVmmSQdr6PcUn4KBO5nkD_bn0ahZS78Yo2LgfH2MpAUtqIm_HnZE1BHIX5JXaAywqCg&p=${AUCTION_PRICE}&aid=",
+          "cid": "5823",
+          "iurl": "http://rtb-va.wtp101.com/bidswitch/preview_page?creative_id=2304240",
+          "adomain": [
+            "digilant.com"
+          ],
+          "adm": "{\"native\":{\"ver\":1,\"link\":{\"url\":\"http://rtb-va.wtp101.com/bidswitch/click?bc=xp-SbXUUpbVP.-PxEoDcJFLCE1FyXxAEzdkalzfhk14VGHJRlJAVvmPkF17yp911a3bSy.6CDs-hgsCUBv09r5nwrSUINcce41vbEaDe0b9csoDGlV.vH4MwevT.N8diPiiDNX8LFND-9jf5OTmCENzhYPuzOhB6jJEhf-4n4eMaM5b1sdI8HBGua0o5RFl8g8EKfBz6SBxZYY2-rfjYQjEHVqj.20eBXAvMw43ofVa6wTIWMkNWTi5TY1fRg2syJ5lNoHD5oEGM5A4M5wWNKau.SckhcYp-e7dhBWhp-q5Pq7D3NnK9JX2vHCkEAScivPRYh-HeDgCmy7ZyCx4CqScgyvf-NbK3VuDkUMRG1wtcx0zq3P7BCbRQJYUeXYyxluQrH1YaIRkpycG3xeqrlRLORUtho8CsMsR68O6U0LIinGsXM1iT4mGgY5l2YDZLpjRj5kf.oRvqSLlRQhqs7mprgOeg0rLt7PSL.0914dqd0LZgEKatU9lWfeVCvsqfHEJ877PF1wm50yDDCCGGwXgbTPnYKNex2HarjP02MUwEsLsmVReZwXL.OeJ-mtdn0bLwdQmiNXDShI6fkbnCWzvoeTmtFHSMquneibBuXXEmdvogTBq8S1K-QcIB4JGIQNV8dvxl6GEK1MOx6m6w.8P9.1KE7DB3vgQXdkydBU2ftPGeoNpHQgtSQ8LT7PTjtVLtvb8XjYAjkGrQtUzzqsr6Eo2eFOExuJyJ3IHOOkqIURFtBAciI-jrVvSYzGx8IAORWqvvhcIpR2B9mL7dlX8eIfNd7ssMEE8Qadk7K2nUMATZ5PgalI3dAvsNwaqL8BM2k2fw1ySDx6HCpqBeXZITYdIlnSMOa7ZJEGH0PAkk8AuJmrlJcwuyyJ31Bo.SaUbfwhyznNSbzPr36F3-xJLir08RvCYihlwVeOjXKBcpaghTSrO4QurCwM.JAJ1aeylLXw%3D%3D&redir=http%3A%2F%2Fwww.digilant.com%2Fwhitepaper%2Ftechreview\"},\"assets\":[{\"required\":1,\"title\":{\"text\":\"Research Paper: Programmatic\"},\"id\":1},{\"id\":2,\"img\":{\"url\":\"https://cdn.wtp101.com/4154-resize_digilant_bus.jpeg\",\"h\":1200,\"w\":1200}},{\"data\":{\"value\":\"Digilant\"},\"id\":5},{\"data\":{\"value\":\"Cross-platform. Big Data. Attribution. Retargeting. Break down programmatic confusion, read our paper by MIT Tech Review.\"},\"id\":6}],\"imptrackers\":[\"http://us-east-user.bidswitch.net/imp/${AUCTION_PRICE}/http%3A%2F%2Frtb-va.wtp101.com%2Fbidswitch%2Fimp%3Fbc%3Dxp-SbfjCco8X10NiSx5JcRnRW37cFK6al5wiKVeEdQiE5nyMZhr3bH2ELGfkYf.Zp9jI0ezKXJEQYidnEPcoZYkB7undX9EnE8HtUQPIn5z3kKnQlvTWFk9.47OFjn-DvwK2kUSs9EgfAr6ZrjSX-IaafD9Ih.-ndTba6otzrhlc9P7IAp2IkwTJ32qQdujvHHuUsf80D9jRM8GJ2sX5WdHqkT.akYouG1jQ7.FEOHqg97SPs9iEbaC7MkPzSNJBuiig.sgA7YkkM8oeneojmALcwaXrC4jPu2SX7D33jpuOrQ6qgMrKvlVZBcNC0Qo.ob1Jyaf5Gn8Oy024Rt1NSwzPTa0K.-A7pXbp91LxDhAmlCseeFWTQ9nN6wFNj5LEMrfOBtOPQ5n29eUknu0hHaWdwJylHHopEMsmgVE.a5ZglDpaLXhkVyd4kJyemR2.SuPF-KhFYLUWlnn5R-LrpwjmGZQaI4VhvJQvoqmk4-jc.slSDIkM9RcqP7iNYT5ddcQVilhHdcepRMecMoXuEjvMIEuCyHW728hWBpMYtVpXeNod.rUPYK3uC02j87ggeiakh08Ar6NbWMU.28E2LGtwMpHR5Upa6QrdSzFZKHkULJIloGeoyDEdjtDZ.z01iNX9eaRgU1L4QC4fErN9Qy5W67CdoWD4AdXSEjrhwJ7tTi16dgclXXoi6rXzXKYCHN2WmbI2C0XwEBh8FDo.oLvGK54KAxQ9djs0mDmrIyHFOmZ7LQeO7dmlI7ps4.yXfeigFUN523W7jr44KwvNcV8e09WHYj3kSSXAy912hN8b6fQlbH3ybTHpJijHBep7Zoy0yQ7FHuYw7KPFgMKNdbFYCwriXh1h8WzlQwINXmpBUgnR4y3KXjAs1sgL4tSsTBFyM0Ww2929ds9CJgMJmkgtearAO78zrTSUQKZQjFocr3bLIMK74B.8TVp21lzOZPpMNw%253D%253D%26prc%3D%24%7BAUCTION_PRICE%7D%263p%3D%24%7BCLICK_URL%3AURLENCODE%7D/xFBE_ZJrC5qpLMZVldsFKkpFUF8KPbSAy7wW-jvnkfRQyTIUsLHawogJXE0hBChxWEfqiXQj_jr84-87Rjn7ABE4LDGxGEGMCCJUpZ1iEGZ_QWq66IaSSIWi6MjhRfTkLwXX8g7mxaMO3VQGFosrC2SSHOLriFeogyGfavlOVj4EOVORwLheYUGjvwKGtuY1uvz5_-dYk4DZNAlLis9rbhMyk1C6z4bjQvY_-GYL8uDWxkJBcRcRLfOT7pzaxHWPvZQFLM96gzgVf5TX3-Vj3b5nh_BDtxNDw5rAfeqnUzGUBnSRUGx1jHKAfv01vVj89zi9PDbGFR4tYyJp6eZ3kFAR-nOPB-Nb-GYtROQ-l2JVXtuldDRABkZsuowXwxOCu2KJBW9oYVE2Bxz5gvp0qTOrDhxTqhQuMkNIODz0xQ3UdaEzE93k_hzaEviESeJgE8JOEpDMVmmSQdr6PcUn4KBO5nkD_bn0ahZS78Yo2LgfH2MpAUtqIm_HnZE1BHIX5JXaAywqCg/\",\"http://us-east-user.bidswitch.net/sync?ssp=pulsepoint&dsp_id=17&imp=1\"]}}",
+          "crid": "17_2304240"
+        }
+      ]
+    }
+  ],
+  "id": "B9aNo90uXpX2"
+}
+
+Request2 - Native Part
+======================
+{
+  "native": {
+    "ver": 1,
+    "link": {
+      "url": "http://rtb-va.wtp101.com/bidswitch/click?bc=xp-SbXUUpbVP.-PxEoDcJFLCE1FyXxAEzdkalzfhk14VGHJRlJAVvmPkF17yp911a3bSy.6CDs-hgsCUBv09r5nwrSUINcce41vbEaDe0b9csoDGlV.vH4MwevT.N8diPiiDNX8LFND-9jf5OTmCENzhYPuzOhB6jJEhf-4n4eMaM5b1sdI8HBGua0o5RFl8g8EKfBz6SBxZYY2-rfjYQjEHVqj.20eBXAvMw43ofVa6wTIWMkNWTi5TY1fRg2syJ5lNoHD5oEGM5A4M5wWNKau.SckhcYp-e7dhBWhp-q5Pq7D3NnK9JX2vHCkEAScivPRYh-HeDgCmy7ZyCx4CqScgyvf-NbK3VuDkUMRG1wtcx0zq3P7BCbRQJYUeXYyxluQrH1YaIRkpycG3xeqrlRLORUtho8CsMsR68O6U0LIinGsXM1iT4mGgY5l2YDZLpjRj5kf.oRvqSLlRQhqs7mprgOeg0rLt7PSL.0914dqd0LZgEKatU9lWfeVCvsqfHEJ877PF1wm50yDDCCGGwXgbTPnYKNex2HarjP02MUwEsLsmVReZwXL.OeJ-mtdn0bLwdQmiNXDShI6fkbnCWzvoeTmtFHSMquneibBuXXEmdvogTBq8S1K-QcIB4JGIQNV8dvxl6GEK1MOx6m6w.8P9.1KE7DB3vgQXdkydBU2ftPGeoNpHQgtSQ8LT7PTjtVLtvb8XjYAjkGrQtUzzqsr6Eo2eFOExuJyJ3IHOOkqIURFtBAciI-jrVvSYzGx8IAORWqvvhcIpR2B9mL7dlX8eIfNd7ssMEE8Qadk7K2nUMATZ5PgalI3dAvsNwaqL8BM2k2fw1ySDx6HCpqBeXZITYdIlnSMOa7ZJEGH0PAkk8AuJmrlJcwuyyJ31Bo.SaUbfwhyznNSbzPr36F3-xJLir08RvCYihlwVeOjXKBcpaghTSrO4QurCwM.JAJ1aeylLXw%3D%3D&redir=http%3A%2F%2Fwww.digilant.com%2Fwhitepaper%2Ftechreview"
+    },
+    "assets": [
+      {
+        "required": 1,
+        "title": {
+          "text": "Research Paper: Programmatic"
+        },
+        "id": 1
+      },
+      {
+        "id": 2,
+        "img": {
+          "url": "https://cdn.wtp101.com/4154-resize_digilant_bus.jpeg",
+          "h": 1200,
+          "w": 1200
+        }
+      },
+      {
+        "data": {
+          "value": "Digilant"
+        },
+        "id": 5
+      },
+      {
+        "data": {
+          "value": "Cross-platform. Big Data. Attribution. Retargeting. Break down programmatic confusion, read our paper by MIT Tech Review."
+        },
+        "id": 6
+      }
+    ],
+    "imptrackers": [
+      "http://us-east-user.bidswitch.net/imp/${AUCTION_PRICE}/http%3A%2F%2Frtb-va.wtp101.com%2Fbidswitch%2Fimp%3Fbc%3Dxp-SbfjCco8X10NiSx5JcRnRW37cFK6al5wiKVeEdQiE5nyMZhr3bH2ELGfkYf.Zp9jI0ezKXJEQYidnEPcoZYkB7undX9EnE8HtUQPIn5z3kKnQlvTWFk9.47OFjn-DvwK2kUSs9EgfAr6ZrjSX-IaafD9Ih.-ndTba6otzrhlc9P7IAp2IkwTJ32qQdujvHHuUsf80D9jRM8GJ2sX5WdHqkT.akYouG1jQ7.FEOHqg97SPs9iEbaC7MkPzSNJBuiig.sgA7YkkM8oeneojmALcwaXrC4jPu2SX7D33jpuOrQ6qgMrKvlVZBcNC0Qo.ob1Jyaf5Gn8Oy024Rt1NSwzPTa0K.-A7pXbp91LxDhAmlCseeFWTQ9nN6wFNj5LEMrfOBtOPQ5n29eUknu0hHaWdwJylHHopEMsmgVE.a5ZglDpaLXhkVyd4kJyemR2.SuPF-KhFYLUWlnn5R-LrpwjmGZQaI4VhvJQvoqmk4-jc.slSDIkM9RcqP7iNYT5ddcQVilhHdcepRMecMoXuEjvMIEuCyHW728hWBpMYtVpXeNod.rUPYK3uC02j87ggeiakh08Ar6NbWMU.28E2LGtwMpHR5Upa6QrdSzFZKHkULJIloGeoyDEdjtDZ.z01iNX9eaRgU1L4QC4fErN9Qy5W67CdoWD4AdXSEjrhwJ7tTi16dgclXXoi6rXzXKYCHN2WmbI2C0XwEBh8FDo.oLvGK54KAxQ9djs0mDmrIyHFOmZ7LQeO7dmlI7ps4.yXfeigFUN523W7jr44KwvNcV8e09WHYj3kSSXAy912hN8b6fQlbH3ybTHpJijHBep7Zoy0yQ7FHuYw7KPFgMKNdbFYCwriXh1h8WzlQwINXmpBUgnR4y3KXjAs1sgL4tSsTBFyM0Ww2929ds9CJgMJmkgtearAO78zrTSUQKZQjFocr3bLIMK74B.8TVp21lzOZPpMNw%253D%253D%26prc%3D%24%7BAUCTION_PRICE%7D%263p%3D%24%7BCLICK_URL%3AURLENCODE%7D/xFBE_ZJrC5qpLMZVldsFKkpFUF8KPbSAy7wW-jvnkfRQyTIUsLHawogJXE0hBChxWEfqiXQj_jr84-87Rjn7ABE4LDGxGEGMCCJUpZ1iEGZ_QWq66IaSSIWi6MjhRfTkLwXX8g7mxaMO3VQGFosrC2SSHOLriFeogyGfavlOVj4EOVORwLheYUGjvwKGtuY1uvz5_-dYk4DZNAlLis9rbhMyk1C6z4bjQvY_-GYL8uDWxkJBcRcRLfOT7pzaxHWPvZQFLM96gzgVf5TX3-Vj3b5nh_BDtxNDw5rAfeqnUzGUBnSRUGx1jHKAfv01vVj89zi9PDbGFR4tYyJp6eZ3kFAR-nOPB-Nb-GYtROQ-l2JVXtuldDRABkZsuowXwxOCu2KJBW9oYVE2Bxz5gvp0qTOrDhxTqhQuMkNIODz0xQ3UdaEzE93k_hzaEviESeJgE8JOEpDMVmmSQdr6PcUn4KBO5nkD_bn0ahZS78Yo2LgfH2MpAUtqIm_HnZE1BHIX5JXaAywqCg/",
+      "http://us-east-user.bidswitch.net/sync?ssp=pulsepoint&dsp_id=17&imp=1"
+    ]
+  }
+}

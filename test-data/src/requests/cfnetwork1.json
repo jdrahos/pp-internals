@@ -1,0 +1,85 @@
+{
+  "id": "d4f2264c9601e7af5b7403ab6de10034",
+  "tmax": 280,
+  "at": 2,
+  "badv": [
+    "appflood.go2cloud.org",
+    "appflood.go2cloud.org",
+    "appflood.go2cloud.org",
+    "appflood.go2cloud.org",
+    "appflood.go2cloud.org",
+    "appflood.go2cloud.org",
+    "appflood.go2cloud.org",
+    "appflood.go2cloud.org",
+    "appflood.go2cloud.org",
+    "appflood.go2cloud.org",
+    "appflood.go2cloud.org",
+    "https://play.google.com/store/apps/details?id=com.machinezone.gow",
+    "https://itunes.apple.com/us/app/game-of-war-fire-age/id667728512?mt=8",
+    "http://www.gameofwarapp.com/"
+  ],
+  "bcat": [
+    "IAB26",
+    "IAB25",
+    "IAB24"
+  ],
+  "imp": [
+    {
+      "id": "1",
+      "instl": 0,
+      "secure": 0,
+      "banner": {
+        "w": 320,
+        "h": 50,
+        "btype": [
+          4
+        ],
+        "api": [],
+        "battr": [
+          10
+        ]
+      },
+      "instl": 0,
+      "bidfloor": 0.16
+    }
+  ],
+  "app": {
+    "id": "ccf593e18f56",
+    "storeurl": "https://itunes.apple.com/app/id635896473",
+    "domain": "ask.fm.com",
+    "name": "Ask.fm Non-premium iOS banners",
+    "bundle": "635896473",
+    "cat": [
+      "IAB9"
+    ],
+    "publisher": {
+      "id": "31305"
+    }
+  },
+  "device": {
+    "dnt": 0,
+    "connectiontype": 0,
+    "carrier": "Unet Telecommunication Ltd",
+    "dpidsha1": "d91f60f06163d19ec609d01f06e66e08182ab775",
+    "dpidmd5": "f6219d225008bcd4a53d9efe9fd4fe37",
+    "ifa": "96ECB3CF-26A2-47F9-9B41-D5BAE8F1D54C",
+    "osv": "7.1",
+    "os": "iOS",
+    "ua": "askfm/1913 CFNetwork/672.1.15 Darwin/14.0.0",
+    "ip": "176.100.44.197",
+    "devicetype": 1,
+    "geo": {
+      "type": 1,
+      "lat": 59.894394,
+      "lon": 30.264206,
+      "country": "RUS",
+      "city": ""
+    }
+  },
+  "user": {
+    "id": "f63b1d3ed022102406aefca192523c7e"
+  },
+  "cur": [
+    "USD"
+  ]
+}

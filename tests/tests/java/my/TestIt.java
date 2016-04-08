@@ -13,7 +13,7 @@ import java.util.List;
 public class TestIt {
     @Test
     public void testStringUn() {
-        String aaa = "{\"assets\":[{\"id\":1,\"title\":{\"len\":70},\"required\":1},{\"id\":2,\"data\":{\"len\":300,\"type\":2},\"required\":1},{\"id\":3,\"img\":{\"w\":300,\"mimes\":[\"image/png\"],\"type\":3,\"h\":250},\"required\":1},{\"id\":4,\"data\":{\"len\":30,\"type\":1},\"required\":0},{\"id\":5,\"data\":{\"len\":300,\"type\":11},\"required\":1}],\"layout\":6,\"adunit\":2}";
+        String aaa = "{\"layout\":6,\"plcmtcnt\":1,\"ver\":1,\"assets\":[{\"img\":{\"w\":300,\"h\":300,\"type\":3},\"id\":1,\"required\":1},{\"data\":{\"len\":400,\"type\":2},\"id\":2,\"required\":1},{\"data\":{\"len\":400,\"type\":1},\"id\":3,\"required\":0},{\"data\":{\"len\":400,\"type\":11},\"id\":4,\"required\":0},{\"data\":{\"len\":400,\"type\":12},\"id\":5,\"required\":0},{\"id\":6,\"title\":{\"len\":100},\"required\":1},{\"id\":7,\"video\":{\"protocols\":[3]},\"required\":0}],\"adunit\":501}";
     }
 
     @Test

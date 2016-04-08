@@ -1,0 +1,27 @@
+{
+  "bidid": "e2584387-1acc-4ca3-8bf4-59ecc99c58cb",
+  "cur": "USD",
+  "id": "e2584387-1acc-4ca3-8bf4-59ecc99c58cb",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "adm": "{\"native\":{\"assets\":[{\"id\":1,\"img\":{\"h\":300,\"type\":3,\"url\":\"http://advertisers.admedia.com/campaign_images/6979_nat_1438085220.jpg\",\"w\":300}},{\"data\":{\"type\":2,\"value\":\"Simply enter a name and state of anyone you know, what will you learn today?\"},\"id\":2},{\"data\":{\"type\":1,\"value\":\"instantcheckmate.com\"},\"id\":3},{\"id\":6,\"title\":{\"text\":\"Forget Googling Them, This Site Reveals All\"}},{\"id\":7,\"video\":{\"vasttag\":\"\\t<VAST version='2.0'>\\r\\n    <Ad id='VPAID'>\\r\\n    \\t<InLine>\\r\\n    \\t\\t<AdSystem version='3.1'>AdMedia</AdSystem>\\r\\n            <AdTitle>VPAID Ad Manager</AdTitle>\\r\\n            <Impression></Impression>\\r\\n\\t\\t\\t<Creatives>\\r\\n\\t\\t\\t\\t<Creative sequence='1'>\\r\\n            \\t\\t<Linear>\\r\\n            \\t\\t\\t<Duration>00:00:30</Duration>\\r\\n                        <MediaFiles>\\r\\n\\t       \\t\\t\\t\\t\\t<MediaFile delivery='progressive' width='640' height='480' scalable='1' type='application/x-shockwave-flash' apiFramework='VPAID'>\\r\\n    \\t       \\t\\t\\t\\t\\t<![CDATA[http://v.admedia.com/vpaid_app.swf?ver=1.0&key=NativeVast&subid=vast_80457&page_url=theawl.com&jwplayer=0&cb=1459182882]]></MediaFile>\\r\\n           \\t\\t\\t\\t</MediaFiles>\\r\\n    \\t\\t\\t\\t</Linear>\\r\\n    \\t\\t\\t</Creative>\\r\\n                \\r\\n                <Creative sequence='1'>\\r\\n                    <CompanionAds>\\r\\n                        <Companion width='300' height='250'>\\r\\n                            <HTMLResource><![CDATA[<div id='lr_comp_300x250' style=' width: 300px; height: 250px; display: none;'></div>]]></HTMLResource>\\r\\n                        </Companion>\\r\\n                        <Companion width='300' height='60'>\\r\\n                            <HTMLResource><![CDATA[<div id='lr_comp_300x60' style=' width: 300px; height: 60px; display: none;'></div>]]></HTMLResource>\\r\\n                        </Companion>\\r\\n                        <Companion width='728' height='90'>\\r\\n                            <HTMLResource><![CDATA[<div id='lr_comp_728x90' style=' width: 728px; height: 90px; display: none;'></div>]]></HTMLResource>\\r\\n                        </Companion>\\r\\n                    </CompanionAds>\\r\\n                </Creative>\\r\\n    \\t\\t</Creatives>\\r\\n    \\t</InLine>\\r\\n    </Ad>\\r\\n</VAST>\"}}],\"imptrackers\":[\"http://w.admedia.com/cr/?native=1&pid=1003&reqid=Az4DcQavYEJA&br_id=1003-1459182882.3608-288&impid=Az4DcQavYEJA&cid=32588&crid=129419&s=ec&domain=theawl.com&country=USA&siteid=112631.9&win_price=0.109&cb=763407620&bp=0.1275\",\"http://w.admedia.com/nurl/?native=1&pid=1003&reqid=Az4DcQavYEJA&br_id=1003-1459182882.3608-288&impid=Az4DcQavYEJA&cid=32588&crid=129419&s=ec&domain=theawl.com&country=USA&win_price=0.109&bp=0.1275\",\"http://bh.contextweb.com/bh/drts?drts=true&ck=\"],\"link\":{\"url\":\"http://32588.click.scouring.com/cad.php?mc=Iy49PDMpMy8tOiY6MSEoJis7NzcpOS0jZ3B8bWJ8KCBTREtVXC0jPyg_PS4jISg9PTorOyYrMCU5PS4jIjQ4MDMhMScjM3l8cGQjPTV8d2Nyan53bj9hamdtc3R8Zmp0Ynx0aGVtKnd2fzU3ZD8iMic_ZnI1NTJ6Lyg8MyR1aGckL2I5OVh4Z2htazgrMCMsMCAwMiAtISAyPzgrOy0jOSsyR0RaKCA9MDcmMi0jOCsyPi4o&adv=6979&utm_source=32588&aid=1003&subid=559922.11\"},\"ver\":1}}",
+          "adomain": [
+            "instantcheckmate.com"
+          ],
+          "attr": [],
+          "cat": [
+            "IAB11"
+          ],
+          "crid": "836442",
+          "id": "e2584387-1acc-4ca3-8bf4-59ecc99c58cb",
+          "impid": "1",
+          "nurl": "https://v1-tr.lga.contextweb.com/bh/it?bf=kqMbvjRI0s0%3D&di=kqMbvjRI0s0%3D&dl=18m_GbkblfA%3D&nid=Bsbhl5vtHlY%3D&advid=Mhf3W8YZdYc%3D&dm=theawl.com&crpc=G7wbuWRrfME%3D&bp=D3zvs_N672o%3D&dt=0EYdXevGxh0%3D&rcpc=-EiyC7zUu4E%3D&vgd=srqT1rMH9Cv0&vend=openRtb&rcpa=-EiyC7zUu4E%3D&ddgpr=kqMbvjRI0s0%3D&wp=KcrY-iT_Hfg%3D&rcpm=KcrY-iT_Hfg%3D&key=SpMKYMWiKRoyO1Kd2APZYscW1Vn-OTcr&cc=e8gDS9e7b5E%3D&st=kqMbvjRI0s0%3D&svc=Nnm8om4SgFw%3D&ad=816700&campid=E-p9Le7_RWw%3D&ci=true&i=Az4DcQavYEJA&dlr=3dgarZR96dk%3D&cp=-EiyC7zUu4E%3D&p=559922&ct=422405&srv=RiXIYj7ylBG610edWPsvag%3D%3D&ts=AvVACEuhmXrZ4Ss2lVOaVA%3D%3D&ewp=${AUCTION_PRICE}&dc=1",
+          "price": 0.098
+        }
+      ],
+      "seat": "558758"
+    }
+  ]
+}

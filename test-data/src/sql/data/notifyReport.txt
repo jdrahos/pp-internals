@@ -1,0 +1,8 @@
+                      bid   win
+556010 RTB-IPonWeb
+558472 BidsTalk
+
+558189 RTB-RhythmOne   N3    N3
+558225 BidTellect      N1    N1
+558734 RTB-Floor6      N3    -?
+558758 AdMedia         N1    N1
