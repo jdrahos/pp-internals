@@ -230,3 +230,54 @@ and dt>=date('2016-03-15')
 group by 1
 order by 1;
 
+
+--- Check DBM stats 547259 RTB-DBM
+select dt,
+sum(case when impsrcid=1 then serverimpression else 0 end) tag, 
+sum(case when impsrcid=2 then serverimpression else 0 end) rts, 
+sum(case when datacenter=1 then serverimpression else 0 end) lga, 
+sum(case when datacenter=3 then serverimpression else 0 end) ams, 
+sum(case when datacenter=4 then serverimpression else 0 end) sjc
+from rpt
+where dt >= date('2016-04-01')
+and advertiserid=547259
+group by 1
+order by 1;
+
+
+-- check NativeAds
+select date(dt) date,
+    sum(serverimpression) bid_requests,
+    sum(case when adformatid=18 then serverimpression else 0 end) requests_native,
+    sum(case when impsrcid=2 then serverimpression else 0 end) requests_rts,
+    sum(case when impsrcid=3 then serverimpression else 0 end) requests_ntf,
+    sum(case when deflevelid=23 then serverimpression else 0 end) responses,
+    sum(case when deflevelid=23 and adformatid=18 then serverimpression else 0 end) responses_native,
+    sum(case when deflevelid=23 and impsrcid=2 then serverimpression else 0 end) responses_rts,
+    sum(case when deflevelid=23 and impsrcid=3 then serverimpression else 0 end) responses_ntf,
+    sum(case when deflevelid=22 then serverimpression else 0 end) passbacks,
+    sum(case when deflevelid=8 then clientimpression else 0 end) win,
+    sum(case when deflevelid=8 and adformatid=18 then clientimpression else 0 end) win_native,
+    sum(case when deflevelid=8 and impsrcid=2 then clientimpression else 0 end) win_rts,
+    sum(case when deflevelid=8 and impsrcid=3 then clientimpression else 0 end) win_ntf,
+    sum(case when deflevelid=8 then clientimpression*costcpm else 0 end) pub_rev
+from public.Rpt
+where --month(dt) = '03'
+dt >= date('2016-03-21') and dt<= date('2016-03-25')
+and publisherid=558530 -- NativeAds
+--and adformatid=18
+group by 1
+order by 1
+;
+
+select date(dt) date, deflevelreason,
+    sum(serverimpression) passbacks
+from public.Rpt
+where
+dt = date('2016-03-21')
+and publisherid=558530 -- NativeAds
+and deflevelid=22
+--and adformatid=18
+group by 1,2
+order by 1,2
+;
