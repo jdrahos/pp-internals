@@ -1,0 +1,69 @@
+{
+  "bcat": [
+    "24000",
+    "26000",
+    "51000",
+    "54000"
+  ],
+  "cur": [
+    "USD"
+  ],
+  "device": {
+    "geo": {
+      "type": 2,
+      "country": "usa"
+    },
+    "js": 1,
+    "language": "en",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36",
+    "ip": "75.142.220.196"
+  },
+  "at": 2,
+  "user": {
+    "buyeruid": "vsH0ZBymkwQS",
+    "id": "56DFBBE96E650E44E7AAEBE6F0FE9476"
+  },
+  "site": {
+    "publisher": {
+      "id": "10348"
+    },
+    "mobile": 0,
+    "page": "http://www.mocospace.com/",
+    "id": "10348-264463"
+  },
+  "imp": [
+    {
+      "ext": {
+        "secure": 0
+      },
+      "secure": 0,
+      "banner": {
+        "api": [
+          3,
+          4,
+          5
+        ],
+        "battr": [
+          9,
+          10,
+          12,
+          14
+        ],
+        "btype": [
+          1,
+          2
+        ],
+        "format": [
+          {
+            "w": 300,
+            "h": 250
+          }
+        ],
+        "h": 250,
+        "w": 300
+      },
+      "id": "1"
+    }
+  ],
+  "id": "erlangcluster@rtb-select011.us-ec.adtech.com-2-44441460542349021830"
+}

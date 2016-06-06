@@ -1,0 +1,76 @@
+{
+  "native": {
+    "plcmtcnt": 1,
+    "assets": [
+      {
+        "id": 1,
+        "required": 1,
+        "title": {
+          "len": 140
+        }
+      },
+      {
+        "id": 4,
+        "required": 0,
+        "img": {
+          "hmin": 315,
+          "wmin": 600,
+          "type": 3
+        }
+      },
+      {
+        "id": 3,
+        "required": 0,
+        "img": {
+          "hmin": 48,
+          "wmin": 48,
+          "type": 2
+        }
+      },
+      {
+        "id": 11,
+        "required": 0,
+        "data": {
+          "len": 2000,
+          "type": 501
+        }
+      },
+      {
+        "id": 12,
+        "required": 0,
+        "data": {
+          "len": 2000,
+          "type": 502
+        }
+      },
+      {
+        "id": 2,
+        "required": 1,
+        "img": {
+          "hmin": 0,
+          "wmin": 0,
+          "type": 1
+        }
+      },
+      {
+        "id": 5,
+        "required": 1,
+        "data": {
+          "len": 140,
+          "type": 1
+        }
+      },
+      {
+        "id": 6,
+        "required": 1,
+        "data": {
+          "len": 140,
+          "type": 2
+        }
+      }
+    ],
+    "adunit": 2,
+    "ver": "1",
+    "layout": 3
+  }
+}

@@ -1,0 +1,126 @@
+560097	RTS - Adapt.tv	OPEN_RTB
+452492 - video tagid
+
+
+{
+  "id": "cuZfZKoG",
+  "imp": [
+    {
+      "id": "cuZfZKoG",
+      "tagid": "452492",
+      "instl": 0,
+      "secure": 1,
+      "video": {
+        "mimes": [
+          "video/mp4"
+        ],
+        "minduration": 5,
+        "maxduration": 30,
+        "protocols": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "w": 640,
+        "h": 480,
+        "startdelay": 0,
+        "linearity": 1,
+        "sequence": 1,
+        "battr": [
+          3,
+          6,
+          1
+        ],
+        "maxextended": 30,
+        "minbitrate": 300,
+        "maxbitrate": 1500,
+        "boxingallowed": 0,
+        "playbackmethod": [
+          1,
+          3,
+          4
+        ],
+        "delivery": [],
+        "api": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "pos": 2
+      },
+      "pmp": {
+        "private_auction": 0,
+        "deals": [
+          {
+            "id": "111",
+            "bidfloor": 1.23
+          },
+          {
+            "id": "222",
+            "bidfloor": 2.34,
+            "wseat": [
+              "seat-1",
+              "seat-2"
+            ]
+          },
+          {
+            "id": "333",
+            "bidfloor": 3.45,
+            "bidfloorcur": "EUR",
+            "wseat": [
+              "seat-2",
+              "seat-3",
+              "seat-4"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "device": {
+    "geo": {
+      "country": "GBR",
+      "region": "England",
+      "city": "London",
+      "type": 2,
+      "metro": "LA-SFO",
+      "zip": "18339",
+      "lat": 54.606,
+      "lon": -150.9
+    },
+    "ua": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11",
+    "language": "es",
+    "ip": "129.218.24.139",
+    "dnt": 1,
+    "make": "",
+    "model": "iPhone",
+    "carrier": "Verizon",
+    "ifa": "dc898dff-5c37-4b14-ab9d-fc3b75efac0f",
+    "dpidsha1": "BFxgirSNfRDHCjpaDYriYgfguAcHTNrXIgzSfzQA",
+    "dpidmd5": "ayGORKAKRmClTeGThhehPAShPAnkgdAO",
+    "devicetype": 4,
+    "connectiontype": 2
+  },
+  "user": {
+    "id": "iqcIAahW",
+    "gender": "O",
+    "yob": 1590
+  },
+  "badv": [],
+  "site": {
+    "id": "530681",
+    "ref": "buzzlie.com",
+    "page": "buzzlie.com",
+    "keywords": "cfazUeJp",
+    "domain": "buzzlie.com",
+    "pagecat": [
+      "IAB1"
+    ],
+    "publisher": {
+      "id": "560097",
+      "domain": "buzzlie.com"
+    }
+  }
+}

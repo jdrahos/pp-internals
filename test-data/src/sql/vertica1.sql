@@ -281,3 +281,26 @@ and deflevelid=22
 group by 1,2
 order by 1,2
 ;
+
+
+-- check Native for Radik
+select --date(dt) date,
+    --serviceTypeId,
+    --ma.accountname,
+    --sum(serverimpression) bid_requests,
+    sum(case when deflevelid=23 then serverimpression else 0 end) responses,
+    --sum(case when deflevelid=22 then serverimpression else 0 end) passbacks,
+    sum(case when deflevelid=8 then clientimpression else 0 end) win,
+    cast(sum(case when deflevelid=8 then clientimpression*costcpm else 0 end)/1000 as decimal(6,5)) cost
+from public.Rpt
+join reference.masteraccount ma
+on ma.accountid = rpt.publisherid
+where --month(dt) = '03'
+dt >= date('2016-05-19') and dt<= date('2016-05-25')
+and impsrcid=3
+and serviceTypeId=5
+--and adformatid=18
+--group by 1
+--order by 1
+;
+

@@ -1,0 +1,114 @@
+{
+  "site": {
+    "domain": "barstoolsports.com",
+    "page": "http://www.barstoolsports.com/",
+    "id": "6Yv3Ftsoa1RnY185H3s1vqqT",
+    "publisher": {
+      "id": "3ffdf256"
+    },
+    "cat": [
+      "IAB1",
+      "IAB9"
+    ]
+  },
+  "device": {
+    "connectiontype": 0,
+    "devicetype": 4,
+    "ip": "69.64.102.18",
+    "model": "iPhone",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1",
+    "geo": {
+      "type": 2,
+      "metro": "521",
+      "country": "US"
+    },
+    "os": "iOS",
+    "osv": "9",
+    "make": "Apple",
+    "js": 1,
+    "dnt": 0
+  },
+  "imp": [
+    {
+      "secure": 0,
+      "bidfloor": 5.12,
+      "native": {
+        "plcmtcnt": 1,
+        "assets": [
+          {
+            "id": 1,
+            "required": 1,
+            "title": {
+              "len": 140
+            }
+          },
+          {
+            "id": 4,
+            "required": 0,
+            "img": {
+              "hmin": 315,
+              "wmin": 600,
+              "type": 3
+            }
+          },
+          {
+            "id": 3,
+            "required": 0,
+            "img": {
+              "hmin": 48,
+              "wmin": 48,
+              "type": 2
+            }
+          },
+          {
+            "id": 11,
+            "required": 0,
+            "data": {
+              "len": 2000,
+              "type": 501
+            }
+          },
+          {
+            "id": 12,
+            "required": 0,
+            "data": {
+              "len": 2000,
+              "type": 502
+            }
+          },
+          {
+            "id": 2,
+            "required": 1,
+            "img": {
+              "hmin": 0,
+              "wmin": 0,
+              "type": 1
+            }
+          },
+          {
+            "id": 5,
+            "required": 1,
+            "data": {
+              "len": 140,
+              "type": 1
+            }
+          },
+          {
+            "id": 6,
+            "required": 1,
+            "data": {
+              "len": 140,
+              "type": 2
+            }
+          }
+        ],
+        "request": "{\"native\":{\"plcmtcnt\":1,\"assets\":[{\"id\":1,\"required\":1,\"title\":{\"len\":140}},{\"id\":4,\"required\":0,\"img\":{\"hmin\":315,\"wmin\":600,\"type\":3}},{\"id\":3,\"required\":0,\"img\":{\"hmin\":48,\"wmin\":48,\"type\":2}},{\"id\":11,\"required\":0,\"data\":{\"len\":2000,\"type\":501}},{\"id\":12,\"required\":0,\"data\":{\"len\":2000,\"type\":502}},{\"id\":2,\"required\":1,\"img\":{\"hmin\":0,\"wmin\":0,\"type\":1}},{\"id\":5,\"required\":1,\"data\":{\"len\":140,\"type\":1}},{\"id\":6,\"required\":1,\"data\":{\"len\":140,\"type\":2}}],\"adunit\":2,\"ver\":\"1\",\"layout\":3}}",
+        "adunit": 2,
+        "ver": "1",
+        "layout": 3
+      },
+      "id": "1"
+    }
+  ],
+  "id": "11ab501f-3bc2-4c7c-a89e-ad75cf8fe020"
+}
