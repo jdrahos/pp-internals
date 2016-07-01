@@ -11,6 +11,8 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
+import java.io.LineNumberReader;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -25,20 +27,49 @@ public class FindUsedDatasources {
 
     private static final Logger LOG = LogManager.getLogger();
 
+//    private static final String ROOT_LOCATION = "/opt/projects/pulsepoint";
+    private static final String ROOT_LOCATION = "/Public/Projects/PulsePoint/github";
+
+    private static final String[] dataserviceDirs = {
+        /*
+/Batch/automated-datasets
+/Web/BH
+/Web/CDS/Predict/ActiveClickTrees
+/Web/CDSLogger
+/Web/DataServices
+*/
+"dashboards/sql/",
+"dashboards/text/",
+"dataAggregator",
+"datascience/datasets/sql",
+"datascience/datasets/text",
+"datascience/sql",
+"datascience/text",
+"datateam/file/",
+"datateam/sql/",
+"fraud",
+"mpc-support",
+"quality-service",
+"sql",
+"text",
+"xt3"            
+    };
+
     private static final int MAX_PROJECT_SEARCH_DEEP = 4;
 
 
 
     private Map<String, Project> projects = new HashMap<>();
     private Map<String, DataserviceFile> existedDataservices = new HashMap<>();
+    private Set<String> existedHttpDataservices = new HashSet<>();
     private Map<String, Set<String>> globalProperties = new HashMap<>();
 
 
 
-    private void find() {
+    private void find() throws Exception {
         // Cycle through projects to find all spring files for this project
-        findProject(new File("/opt/projects/pulsepoint/ad-serving-and-commons"));
-        readGlobalProperties(new File("/opt/projects/pulsepoint/ad-serving-configuration"));
+        findProject(new File(ROOT_LOCATION + "/ad-serving-and-commons"));
+        readGlobalProperties(new File(ROOT_LOCATION + "/ad-serving-configuration"));
 
         // Find all spring files (including imports) for each project
         for (Project project : projects.values()) {
@@ -115,12 +146,23 @@ public class FindUsedDatasources {
 
         // Find real datasets -> existedDataservices
         findAllFiles();
+        findAllHttpFiles();
+
+        LOG.debug("Dataset files [{}]: {}", existedDataservices.size(), existedDataservices.keySet());
+        LOG.debug("Http files [{}]: {}", existedHttpDataservices.size(), existedHttpDataservices);
 
         LOG.debug("Implicitly listed beans: {}", repositoryBeanList.stream().filter(b -> !explicitlyListedRepositoryBeanSet.contains(b)).collect(Collectors.toSet()));
         LOG.debug("Unused beans: {}", repositoryBeanList.stream().filter(r -> r.projectsUsed.isEmpty()).collect(Collectors.toSet()));
 
-        LOG.debug("Unused datasets: {}", existedDataservices.entrySet().stream().filter(d -> !datasetRepositoryBeanMap.containsKey(d.getKey())).map(d -> d.getValue().file).collect(Collectors.toSet()));
         LOG.debug("Not found beans datasets: {}", datasetRepositoryBeanMap.entrySet().stream().filter(k -> !existedDataservices.containsKey(k.getKey())).flatMap(d -> d.getValue().stream()).collect(Collectors.toSet()));
+
+        Set<File> unusedBySpringDatasets = existedDataservices.entrySet().stream().filter(d -> !datasetRepositoryBeanMap.containsKey(d.getKey())).map(d -> d.getValue().file).collect(Collectors.toSet());
+        LOG.debug("Unused bySpring datasets[{}]: {}", unusedBySpringDatasets.size(), unusedBySpringDatasets);
+        Set<File> unusedByHttpDatasets = existedDataservices.entrySet().stream().filter(d -> !existedHttpDataservices.contains(d.getKey())).map(d -> d.getValue().file).collect(Collectors.toSet());
+        LOG.debug("Unused http datasets [{}]: {}", unusedByHttpDatasets.size(), unusedByHttpDatasets);
+        Set<File> unusedBothDatasets = new HashSet<>(unusedBySpringDatasets);
+        unusedBothDatasets.retainAll(unusedByHttpDatasets);
+        LOG.debug("Unused in both datasets[{}]: {}", unusedBothDatasets.size(), unusedBothDatasets);
     }
 
     private void readGlobalProperties(File dir) {
@@ -433,16 +475,22 @@ public class FindUsedDatasources {
     }
 
 
-    private void findAllFiles() {
-        File root = new File("/opt/projects/pulsepoint/dataservice-configurations");
-        for (File file1 : root.listFiles()) {
-            if (file1.isDirectory()) {
-                findAllFiles(file1);
+    private void findAllFiles() throws IOException {
+        File root = new File(ROOT_LOCATION + "/dataservice-configurations");
+        for (String dataserviceDir : dataserviceDirs) {
+            File dir = new File(root, dataserviceDir);
+            File[] files = dir.listFiles();
+            if (files == null) {
+                LOG.error("Unknown dir: " + dir.getCanonicalPath());
+            } else {
+                for (File file : files) {
+                    findAllFiles(file, false);
+                }
             }
         }
     }
 
-    private void findAllFiles(File file) {
+    private void findAllFiles(File file, boolean subdirs) {
         String name = file.getName();
         if (name.equals(".git") || name.equals("README.md")) return;
         if (file.isFile()) {
@@ -454,12 +502,38 @@ public class FindUsedDatasources {
             }
             existedDataservices.put(dsname, new DataserviceFile(dsname, dsext, file));
         }
-        if (file.isDirectory()) {
-            for (File file1 : file.listFiles()) {
-                findAllFiles(file1);
+        if (subdirs) {
+            if (file.isDirectory()) {
+                for (File file1 : file.listFiles()) {
+                    findAllFiles(file1, subdirs);
+                }
             }
         }
     }
+
+    private void findAllHttpFiles() throws Exception {
+        File httpFiles = new File(ROOT_LOCATION, "pp-internals/test-data/src/misc/ET-70-UnusedDatasets/http-access");
+        for (File dir : httpFiles.listFiles()) {
+            for (File file : dir.listFiles(f -> f.getName().startsWith("access.log"))) {
+                LineNumberReader in = new LineNumberReader(new FileReader(file));
+                String inString;
+                while ((inString = in.readLine()) != null) {
+                    String[] split = inString.split(" ");
+                    String fileName = split[2];
+                    if (fileName.endsWith(".metadata") || fileName.endsWith(".md5")) continue;
+                    if (fileName.endsWith(".gz")) {
+                        fileName = fileName.substring(0, fileName.length() - 3);
+                    }
+                    fileName = fileName.substring(1);
+                    if (fileName.length() > 0) {
+                        existedHttpDataservices.add(fileName);
+                    }
+                }
+            }
+        }
+
+    }
+
 
     private Project getProject(String name) {
         Project project = projects.get(name);
@@ -622,7 +696,7 @@ public class FindUsedDatasources {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         FindUsedDatasources finder = new FindUsedDatasources();
         finder.find();
     }
