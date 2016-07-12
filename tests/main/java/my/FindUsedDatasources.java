@@ -9,8 +9,7 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.File;
-import java.io.FileReader;
+import java.io.*;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -18,6 +17,10 @@ import java.util.stream.Collectors;
 
 /**
  * Parse spring structure
+ *
+ * http://jira.pulse.corp/browse/ET-70
+ *
+ *
  *
  * @author Pavel Moukhataev
  */
@@ -30,15 +33,27 @@ public class FindUsedDatasources {
 
 
     private Map<String, Project> projects = new HashMap<>();
-    private Map<String, DataserviceFile> existedDataservices = new HashMap<>();
+    private Map<String, DataserviceFile> dataservicesConfigurations = new HashMap<>();
     private Map<String, Set<String>> globalProperties = new HashMap<>();
 
+    /** List of [config] folders that contain dataset files */
+    private Set<String> datasetSrcFolders = new HashSet<>();
+    private Set<String> httpdLogDatasets = new HashSet<>();
+    private Map<String, String> datasetSrcFiles = new HashMap<>();
+    private Set<String> datasetDstFiles = new HashSet<>();
 
 
-    private void find() {
+
+    private void find() throws IOException {
         // Cycle through projects to find all spring files for this project
         findProject(new File("/opt/projects/pulsepoint/ad-serving-and-commons"));
         readGlobalProperties(new File("/opt/projects/pulsepoint/ad-serving-configuration"));
+        findHttpdLogDatasets(new File("/opt/projects/pulsepoint/pp-internals/test-data/src/misc/ET-70-dataSetLogs/logs"));
+        readDatasetDstFile(new File("/opt/projects/pulsepoint/pp-internals/test-data/src/misc/ET-70-dataSetLogs/dirs/ds-dst.txt"));
+        readDatasetDstFile(new File("/opt/projects/pulsepoint/pp-internals/test-data/src/misc/ET-70-dataSetLogs/dirs/dsd-dst.txt"));
+        readDatasetSrcFile(new File("/opt/projects/pulsepoint/pp-internals/test-data/src/misc/ET-70-dataSetLogs/dirs/ds-src1.txt"));
+        readDatasetSrcFile(new File("/opt/projects/pulsepoint/pp-internals/test-data/src/misc/ET-70-dataSetLogs/dirs/ds-src2.txt"));
+        readDatasetSrcFile(new File("/opt/projects/pulsepoint/pp-internals/test-data/src/misc/ET-70-dataSetLogs/dirs/dsd-src.txt"));
 
         // Find all spring files (including imports) for each project
         for (Project project : projects.values()) {
@@ -114,13 +129,142 @@ public class FindUsedDatasources {
 //        LOG.debug("Repository Bean List: {}", repositoryBeanList);
 
         // Find real datasets -> existedDataservices
-        findAllFiles();
+        findAllDataservice_ConfigurationsFiles();
 
-        LOG.debug("Implicitly listed beans: {}", repositoryBeanList.stream().filter(b -> !explicitlyListedRepositoryBeanSet.contains(b)).collect(Collectors.toSet()));
-        LOG.debug("Unused beans: {}", repositoryBeanList.stream().filter(r -> r.projectsUsed.isEmpty()).collect(Collectors.toSet()));
+        LOG.info("Implicitly listed beans: {}", repositoryBeanList.stream().filter(b -> !explicitlyListedRepositoryBeanSet.contains(b)).collect(Collectors.toSet()));
+        LOG.info("Unused beans: {}", repositoryBeanList.stream().filter(r -> r.projectsUsed.isEmpty()).collect(Collectors.toSet()));
 
-        LOG.debug("Unused datasets: {}", existedDataservices.entrySet().stream().filter(d -> !datasetRepositoryBeanMap.containsKey(d.getKey())).map(d -> d.getValue().file).collect(Collectors.toSet()));
-        LOG.debug("Not found beans datasets: {}", datasetRepositoryBeanMap.entrySet().stream().filter(k -> !existedDataservices.containsKey(k.getKey())).flatMap(d -> d.getValue().stream()).collect(Collectors.toSet()));
+        LOG.info("Unused datasets: {}", dataservicesConfigurations.entrySet().stream().filter(d -> !datasetRepositoryBeanMap.containsKey(d.getKey())).map(d -> d.getValue().file).collect(Collectors.toSet()));
+        LOG.info("Not found beans datasets: {}", datasetRepositoryBeanMap.entrySet().stream().filter(k -> !dataservicesConfigurations.containsKey(k.getKey())).flatMap(d -> d.getValue().stream()).collect(Collectors.toSet()));
+
+/*
+        LOG.info("Used and found datasets");
+        for (Map.Entry<String, Set<RepositoryBean>> stringSetEntry : datasetRepositoryBeanMap.entrySet()) {
+            String datasetName = stringSetEntry.getKey();
+            DataserviceFile dataserviceFile = dataservicesConfigurations.get(datasetName);
+            if (dataserviceFile != null) {
+                Set<RepositoryBean> beanSet = stringSetEntry.getValue();
+                LOG.info("    {}|{}|{}", dataserviceFile.file, dataserviceFile.name, beanSet);
+            }
+        }
+*/
+
+
+/*
+        LOG.info("Used but not found datasets");
+        for (Map.Entry<String, Set<RepositoryBean>> stringSetEntry : datasetRepositoryBeanMap.entrySet()) {
+            String datasetName = stringSetEntry.getKey();
+            DataserviceFile dataserviceFile = dataservicesConfigurations.get(datasetName);
+            if (dataserviceFile == null) {
+                Set<RepositoryBean> beanSet = stringSetEntry.getValue();
+                LOG.info("    {}|{}", datasetName, beanSet);
+            }
+        }
+*/
+
+
+        Set<String> datasetDstFilesWithoutSrc = new HashSet<>(datasetDstFiles);
+        datasetDstFilesWithoutSrc.removeAll(datasetSrcFiles.keySet());
+        LOG.info("DST dataset files not found in src: {}", datasetDstFilesWithoutSrc);
+        Set<String> datasetUnusedSrcFiles = new HashSet<>(datasetSrcFiles.keySet());
+        datasetUnusedSrcFiles.removeAll(httpdLogDatasets);
+        datasetUnusedSrcFiles.removeAll(datasetRepositoryBeanMap.keySet());
+        LOG.info("SRC datasets not used: {}", datasetUnusedSrcFiles);
+
+
+        Map<String, DataserviceFile> unusedDataservicesConfigurations = new HashMap<>(dataservicesConfigurations);
+        unusedDataservicesConfigurations.keySet().retainAll(datasetUnusedSrcFiles);
+        LOG.info("Files datasets not used: {}", unusedDataservicesConfigurations.keySet());
+    }
+
+    private void readDatasetDstFile(File file) throws IOException {
+        BufferedReader in = new BufferedReader(new FileReader(file));
+        String inLine;
+        while ((inLine = in.readLine()) != null) {
+            if (inLine.isEmpty() || inLine.charAt(0) != '-') continue;
+            String datasetName = inLine.substring(49);
+            if (datasetName.endsWith("__") && datasetName.substring(datasetName.length() - 16, datasetName.length() - 14).equals("__")) {
+                datasetName = datasetName.substring(0, datasetName.length() - 16);
+            }
+            int dotIndex = datasetName.lastIndexOf('.');
+            if (dotIndex != -1) {
+                String extension = datasetName.substring(dotIndex+1);
+                if (extension.equals("gz") || extension.equals("md5") || extension.equals("metadata") || extension.equals("tar")) {
+                    datasetName = datasetName.substring(0, dotIndex);
+                } else {
+//                    LOG.debug("Unknown extension dst: {}", extension);
+                }
+            }
+            datasetDstFiles.add(datasetName);
+        }
+        in.close();
+    }
+
+    private void readDatasetSrcFile(File file) throws IOException {
+        BufferedReader in = new BufferedReader(new FileReader(file));
+        String inLine;
+        boolean dirPresentInConfig = false;
+        String dir = null;
+        while ((inLine = in.readLine()) != null) {
+            if (inLine.isEmpty()) continue;
+            if (inLine.charAt(0) == '/') {
+                dir = inLine.substring(0, inLine.length()-1);
+                dirPresentInConfig = datasetSrcFolders.contains(dir);
+                continue;
+            }
+
+            if (!dirPresentInConfig || inLine.charAt(0) != '-') continue;
+
+            String[] parts = inLine.split(" +");
+            String datasetName = parts[8];
+            int dotIndex = datasetName.lastIndexOf('.');
+            if (dotIndex != -1) {
+                String extension = datasetName.substring(dotIndex+1);
+                if (extension.equals("txt") || extension.equals("csv") || extension.equals("sql") || extension.equals("json") || extension.equals("tar")) {
+                    datasetName = datasetName.substring(0, dotIndex);
+                } else {
+                    LOG.debug("Unknown extension src: {}", extension);
+                }
+            } else {
+                LOG.debug("No extension src: {}", datasetName);
+            }
+            datasetSrcFiles.put(datasetName, dir);
+        }
+        in.close();
+    }
+
+    private void findHttpdLogDatasets(File dir) throws IOException {
+        for (File file : dir.listFiles()) {
+            if (file.isDirectory()) {
+                findHttpdLogDatasets(file);
+            } else if (file.isFile() && file.getName().startsWith("access.log")) {
+                readHttpdLogDatasetsFile(file);
+            }
+        }
+    }
+
+    private void readHttpdLogDatasetsFile(File file) throws IOException {
+        BufferedReader in = new BufferedReader(new FileReader(file));
+        String inLine;
+        while ((inLine = in.readLine()) != null) {
+            if (inLine.isEmpty()) continue;
+            int spaceIndex = inLine.indexOf(' ', 20);
+            if (inLine.charAt(20) != '/') {
+                LOG.warn("Unknown line: {}", inLine);
+            }
+            String datasetName = inLine.substring(21, spaceIndex);
+            int dotIndex = datasetName.lastIndexOf('.');
+            if (dotIndex != -1) {
+                String extension = datasetName.substring(dotIndex+1);
+                if (extension.equals("gz") || extension.equals("md5") || extension.equals("metadata") || extension.equals("tar")) {
+                    datasetName = datasetName.substring(0, dotIndex);
+                } else {
+//                    LOG.debug("Unknown extension httpd: {}", extension);
+                }
+            }
+            httpdLogDatasets.add(datasetName);
+        }
+        in.close();
     }
 
     private void readGlobalProperties(File dir) {
@@ -128,7 +272,7 @@ public class FindUsedDatasources {
             if (file.isDirectory()) {
                 readGlobalProperties(file);
             } else if (file.isFile() && file.getName().endsWith(".properties")) {
-                readPropertiesFile(file, globalProperties);
+                readPropertiesFile(true, file, globalProperties);
             }
         }
     }
@@ -247,17 +391,18 @@ public class FindUsedDatasources {
                 if (file.getName().endsWith(".xml") && !file.getName().contains("log4j") && file.getName().toLowerCase().contains("context")) {
                     readSpringFile(project, file);
                 } else if (file.getName().endsWith(".properties")) {
-                    readPropertiesFile(project, file);
+                    readPropertiesFile(false, project, file);
                 }
             }
         }
     }
 
-    private void readPropertiesFile(Project project, File file) {
-        readPropertiesFile(file, project.properties);
+    private void readPropertiesFile(boolean globalProperties, Project project, File file) {
+        readPropertiesFile(globalProperties, file, project.properties);
     }
 
-    private void readPropertiesFile(File file, Map<String, Set<String>> properties) {
+    private void readPropertiesFile(boolean globalProperties, File file, Map<String, Set<String>> properties) {
+        boolean datasetFile = globalProperties && file.getName().equals("dataservice.properties");
         Properties propertiesFile = new Properties();
         try (FileReader reader = new FileReader(file)) {
             propertiesFile.load(reader);
@@ -268,7 +413,11 @@ public class FindUsedDatasources {
                     strings = new HashSet<>();
                     properties.put(key, strings);
                 }
-                strings.add(objectObjectEntry.getValue().toString());
+                String value = objectObjectEntry.getValue().toString();
+                strings.add(value);
+                if (datasetFile && key.startsWith("data.repository.") && key.endsWith(".dir")) {
+                    datasetSrcFolders.add(value);
+                }
             }
         } catch (Exception e) {
             LOG.error("Error reading properties file {}", file, e);
@@ -433,16 +582,16 @@ public class FindUsedDatasources {
     }
 
 
-    private void findAllFiles() {
+    private void findAllDataservice_ConfigurationsFiles() {
         File root = new File("/opt/projects/pulsepoint/dataservice-configurations");
         for (File file1 : root.listFiles()) {
             if (file1.isDirectory()) {
-                findAllFiles(file1);
+                findAllDataservice_ConfigurationsFiles(file1);
             }
         }
     }
 
-    private void findAllFiles(File file) {
+    private void findAllDataservice_ConfigurationsFiles(File file) {
         String name = file.getName();
         if (name.equals(".git") || name.equals("README.md")) return;
         if (file.isFile()) {
@@ -452,11 +601,11 @@ public class FindUsedDatasources {
                 dsname = name.substring(0, name.length() - 4);
                 dsext = name.substring(name.length() - 3);
             }
-            existedDataservices.put(dsname, new DataserviceFile(dsname, dsext, file));
+            dataservicesConfigurations.put(dsname, new DataserviceFile(dsname, dsext, file));
         }
         if (file.isDirectory()) {
             for (File file1 : file.listFiles()) {
-                findAllFiles(file1);
+                findAllDataservice_ConfigurationsFiles(file1);
             }
         }
     }
@@ -589,7 +738,7 @@ public class FindUsedDatasources {
 
         @Override
         public String toString() {
-            return beanId + "/" + springFile.name + "/" + springFile.project.name;
+            return springFile.project.name + "/" + springFile.name + "/" + beanId;
         }
     }
 
@@ -622,7 +771,7 @@ public class FindUsedDatasources {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         FindUsedDatasources finder = new FindUsedDatasources();
         finder.find();
     }
