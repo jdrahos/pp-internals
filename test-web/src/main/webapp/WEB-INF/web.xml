@@ -42,6 +42,7 @@
         <servlet-name>Jersey</servlet-name>
         <url-pattern>/rtb/opn/*</url-pattern>
         <url-pattern>/rt-seller/bid/*</url-pattern>
+        <url-pattern>/*</url-pattern>
     </servlet-mapping>
 
     <!--servlet-mapping>

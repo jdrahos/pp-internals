@@ -316,3 +316,78 @@ on ma.accountid = coalesce(ntf.publisherid, rts.publisherid)
 order by 1,2 desc
 ;
 
+
+
+-- http://jira.pulse.corp/browse/APPS-1223
+-- Garbage impsrcid        
+select *
+from event.logevent
+where day='2016-07-05'
+and (impsrcid >= 6 or impsrcid < 0)
+;
+
+Select impsrcid,visitoripaddress,sum(clientimpression)
+--impsrcid,publisherid,count(*)
+--sum(impressions), sum(serverimpression), sum(clientimpression)
+from event.logevent
+where day = '2016-07-05' --and hour='14'
+and paid = '0'
+--and publisherid=547916
+and impsrcid>5
+group by 1,2
+;
+
+
+-- http://jira.pulse.corp/browse/APPS-1257
+-- APPS-1257 smartyads seems winprice of 0 sometimes
+-- RTB-SmartyAds 558118
+
+select * 
+from raw.logevent
+where 
+day in('2016-07-21','2016-07-22')
+--and hour>='10'
+--and (imprguid='qaanB0eiqk33' or guid='qaanB0eiqk33')
+and imprguid in('1optdLBmwBge', 'qaanB0eiqk33', 'f5zF1eBBYUN5')
+;
+
+
+
+-- http://jira.pulse.corp/browse/APPS-1223 - Garbage impsrcid
+-- Validate def level
+select ImpSrcId, sum(serverimpression), sum(clientimpression), count(*)
+from raw.logevent
+where --deflevelid=32
+--and 
+day='2016-07-26' and hour='14' 
+group by 1
+;
+
+
+
+-- http://jira.pulse.corp/browse/APPS-1125
+-- May Discrepancy - Bidtellect
+select day,/*publisherid,publisherdomain,deflevelid,impsrcid,*/sum(serverimpression) serverimpression, sum(clientimpression) clientimpression, sum(clientimpression*costcpm/1000) cost, sum(clientimpression*revcpm/1000) rev
+from event.logevent
+where advertiserid=558225 -- Bidtellect
+--and publisherid=558079 -- AdsNative
+--and publisherid=559921 --AdYouLike
+and day>='2016-06-20'
+and day<='2016-07-08'
+and hour='00'
+and paid='1'
+group by 1--,2,3,4,5
+order by 1
+;
+
+
+
+-- GET-150 AdKnowledge Integration
+-- RTS-Adknowledge (559922)
+select day, sum(serverimpression) requests, sum(clientimpression) wins, sum(clientimpression*costcpm/1000) cost
+from rpt.rptdaily
+where day >= '2016-07-21'
+and publisherid=559922 -- RTS-Adknowledge
+group by 1
+order by 1
+;

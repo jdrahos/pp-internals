@@ -5,15 +5,18 @@ import com.fasterxml.jackson.databind.node.POJONode;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.junit.Test;
 
-import java.io.IOException;
+import java.io.*;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.util.List;
+import java.util.concurrent.*;
 
 /**
  */
 public class TestIt {
     @Test
     public void testStringUn() {
-        String aaa = "{\"layout\":6,\"plcmtcnt\":1,\"ver\":1,\"assets\":[{\"img\":{\"w\":300,\"h\":300,\"type\":3},\"id\":1,\"required\":1},{\"data\":{\"len\":400,\"type\":2},\"id\":2,\"required\":1},{\"data\":{\"len\":400,\"type\":1},\"id\":3,\"required\":0},{\"data\":{\"len\":400,\"type\":11},\"id\":4,\"required\":0},{\"data\":{\"len\":400,\"type\":12},\"id\":5,\"required\":0},{\"id\":6,\"title\":{\"len\":100},\"required\":1},{\"id\":7,\"video\":{\"protocols\":[3]},\"required\":0}],\"adunit\":501}";
+        String aaa = "";
     }
 
     @Test
@@ -139,6 +142,115 @@ public class TestIt {
             System.out.println("pojo2:" + pojo2);
             System.out.println("pojo2:" + objectMapper.convertValue(pojo2, Object.class));
         }
+    }
+
+    @Test
+    public void testIpProtocolVersion() throws UnknownHostException {
+        InetAddress inetAddress = InetAddress.getLoopbackAddress();
+        InetAddress localHost = InetAddress.getLocalHost();
+        System.out.println(inetAddress);
+        System.out.println(localHost);
+    }
+
+    @Test
+    public void testExec() throws IOException {
+        Process exec = new ProcessBuilder("/bin/sh", "-c", "ls /var/log")
+                .directory(new File("/var/log"))
+                .redirectErrorStream(true)
+                .start();
+        InputStream inputStream = exec.getInputStream();
+        System.out.println(inputStream);
+
+//        Executors.newWorkStealingPool()submit()
+    }
+
+    private Thread ioReadThread;
+
+    @Test
+    public void testExecutorService() throws Exception {
+        Thread execThread = Thread.currentThread();
+
+        Process exec = new ProcessBuilder("/bin/sh", "-c", "grep aaa")
+                .directory(new File("/var/log"))
+                .redirectErrorStream(true)
+                .start();
+
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
+        Future<Object> submit = executorService.submit(() -> {
+            ioReadThread = Thread.currentThread();
+
+            InputStream in1;// = System.in;
+            in1 = exec.getInputStream();
+            BufferedReader in = new BufferedReader(new InputStreamReader(in1));
+            String inLine;
+            try {
+                while ((inLine = in.readLine()) != null) {
+                    System.out.println(inLine);
+                }
+            } catch (Exception e) {
+                System.out.println("Interrupted");
+                e.printStackTrace(System.out);
+            }
+            System.out.println("IO Finished");
+            return null;
+        });
+
+        System.out.println("Wait...");
+        try {
+            Object o = submit.get(1, TimeUnit.SECONDS);
+        } catch (TimeoutException e) {
+            System.out.println("Timeout");
+        }
+
+        System.out.println("Thread interrupted: " + execThread.isInterrupted());
+        System.out.println("Cancel...");
+        submit.cancel(true);
+        System.out.println("Thread interrupted: " + execThread.isInterrupted());
+
+        Thread.sleep(1000);
+        System.out.println("Kill");
+        exec.destroy();
+        Thread.sleep(1000);
+
+        System.out.println("Kill -9");
+        exec.destroyForcibly();
+        Thread.sleep(1000);
+
+        System.out.println("Kill -9");
+        exec.destroyForcibly();
+        Thread.sleep(1000);
+
+        System.out.println("Close input stream");
+        exec.getInputStream().close();
+
+        Thread.sleep(100000);
+    }
+
+    @Test
+    public void testDoubleEquals() {
+        int a = 4;
+        System.out.println("a = " + a);
+    }
+
+    @Test
+    public void testStandardDeviation() {
+        int n = 1000000;
+        double[] in = new double[n];
+        double sum = 0, sum2 = 0;
+        ThreadLocalRandom random = ThreadLocalRandom.current();
+        for (int i = 0; i < in.length; i++) {
+            in[i] = random.nextGaussian();
+            sum += in[i];
+            sum2 += in[i]*in[i];
+        }
+        double std1 = sum2/n - sum*sum/n/n;
+        double avg = sum/n;
+        double std2 = 0;
+        for (int i = 0; i < n; i++) {
+            double diff = in[i] - avg;
+            std2 += diff*diff;
+        }
+        System.out.printf("1 = " + std1 + ", 2 = " + (std2/n));
     }
 }
 

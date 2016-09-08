@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="properties">
+            <bean class="java.util.Properties" >
+                <constructor-arg>
+                    <props>
+                        <prop key="my_ref">ref1</prop>
+                    </props>
+                </constructor-arg>
+            </bean>
+        </property>
+    </bean>
+
+    <bean class="org.test.spring.Bean1" >
+        <property name="prop" ref="${my_ref}" />
+    </bean>
+
+    <bean id="ref1" class="java.lang.String">
+        <constructor-arg type="java.lang.String" value="Ref1"/>
+    </bean>
+
+
+</beans>
