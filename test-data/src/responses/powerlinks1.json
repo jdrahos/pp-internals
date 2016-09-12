@@ -1,0 +1,31 @@
+{
+  "id": "42201e0b786bf0e52a7bcad2e033fd5c",
+  "bidid": "42201e0b786bf0e52a7bcad2e033fd5c",
+  "cur": "USD",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "02UM3liYTHU",
+          "impid": "ce635372b5ab2aa90d57afab1aee56c4",
+          "price": 0.261,
+          "adid": "0",
+          "adomain": [
+            "hbo.com"
+          ],
+          "cid": "0",
+          "crid": "0",
+          "nurl": "http://dsp-pixel.contextweb.com/rtb/opn/pl/n?s=pl&b=H4sIAAAAAAAAAF2TzW4TMRCAZ7dJS9tQekBC3FZISK1Edjf_LRWqmhRRqUlbSCsKF8vZnSRWnPXK9iaEK1x5Ejj2gLj1xgmVI6-B4MAJvEkqVYysGa_H9nwzngWYSeaq-voH7F5dbJ-vd44APvS1jh97XtxnnIbIjaVu0FFcBJS7gRh6Rb9Q9fyyV9jySnmJVIlI5bt8glLlqR4KFfdRYl7FGDDKvd2AhU-6NMCOEAOyXXQr5Pz0jOTJyY0IRJGGSCItJ6StqWYielj0zYCbYgHYMYfdj5_-3L388hVg4ay9D3Crul3z_UKplO6xAe416m2nmeI6-6zHtLEtDBkFWE89N8Na7Od9e_Pi-bvZ_bY9N1OxLDNSBbDSbu29OD05OD56atnwn_w1AvC-Jd4yzqlXcX1no8mi5M2OsxeFUrDQqbiFHadRrZV9p54wHnrN1qty7XjT2Ytjji-xc8i0VynV3FLV2Tg8OG01HzmcDdB5hsFAbDqNvhRD9Mo113eLlWLV3So5LdFhHJ027VLJ5ofnbDZYPtjF2pQdrBTQsoqfv9UvLuvf05Xfqfp1nckGZHp0iLCqadLra6JlgrCgFYXMGHEA62Oq-izqaRGRgMZMQ3bEQhSwpII-hgmHtfmESOSmISArul2UsJg2EWewMqZyiJKElEHuZmPBg0Rdt4YeM61RTkSikw7qJEIWkQjHcFslMpZMEeOKerA8oTIkBkmneEbnJKpYRCHpSTGG3HSX4YwCQ7Ca5kKGZrP5yM7hA06VMi5FyfwoLKc3mUM8AjvowGqaN5mVAxZSiDta0hFy0pWJMlMTdb6AI4w0rOlkKCQxpCM2EhJypiBCcBJwoRAWu4LzlO3aTwbIIIO0xyE7_XNgRSWmxsQUMYCMYTIBlKlEn8xLuDgLB0vXxFljpDZvnS9Ys8adPvZU_gHwyF5s3AMAAA%3D%3D&w=${AUCTION_PRICE}&nu=http%3A%2F%2Fapi.bttrack.com%2Fwin%3Fts%3D1460997010488%26id%3D3b54bfda-7846-4d01-8fad-4d117acace02%26cid%3D24899%26crid%3D372619%26pid%3D129064637%26data%3DOuJifVtEKZqw3Hz4a5rtW7PqeodS0n9VszkxxQtGoD7ddB5vTw-98uqwYnH9qaeEEAdwwVWOz7sVQ5EUjfgXlJgc4FjUu4lRtjgMwiracGFwbXYDfQ7RuQKn4gWdPgN2KAawIuU-dR0h205psstb4zlswa4Inlgd-TTfetJDPKRgK4SSjzJQQWJh4d2lR4fz9x8hc9PMRI2DwlaavuxpGwm90%26iid%3D0a572a45-049e-4825-989d-2ebf4c55caf3%26price%3D0.274%26reqid%3DQte0oKiV3ytK&edad=byq9&ed=1",
+          "adm": "{\"native\":{\"assets\":[{\"id\":1,\"title\":{\"text\":\"Start Your Free Trial\"}},{\"id\":2,\"data\":{\"value\":\"A New Way To Watch All Of HBO.\",\"type\":2}},{\"id\":3,\"img\":{\"url\":\"http://cdn.bttrack.com/a/310/310/3107044\",\"type\":1,\"w\":310,\"h\":310}},{\"id\":4,\"data\":{\"value\":\"CLICK HERE\",\"type\":12}}],\"ext\":{\"viewabilitytrackers\":[\"http://bttrack.com/Pixel/Viewed/?data=OuJifVtEKZqw3Hz5Y_7tW7Pteoc6uhDzHydLF-1aiaHFNWDIcSVpppdvilkO9-jL2O4t5NK5auSzbCYURWB2Ho7Upke69-DvmwWaq0q5HXsdXJaBwXLpWOI5N-iWS5ySCjzT5G6j07fJLXjjvjyf8L1b_GuQks-75TTFfWP5n7GQC85jWrEunCDnMSkb-iKNF7nmGMe1R6-kuDIRVW7PKlZdvZPmGx7UkXIpUfQkj5qzhYAIUaRVBk9gYbhfvBbUmbwKo9Rfx-lA1k53U6nye0OKOd7-mZyeLBCBA9GrKI1xA5VhZhura3PlhJU2jmGb0DrZzA2&method=3&percentage=1\"]},\"link\":{\"url\":\"http://bttrack.com/Click/Native?data=OuJifVtEKZqw3Cwmaf7tW7NSHutBj1lrj_04DoZW7cKMPIOugr2-qUFtszyqUPHzu27ZDtljJG_VYO4sXgeW4vxip7EOPP9Bn26ZwCZfOu5YXfWr_66dlz1zKT8LL0HxTOHtU7a4P-7S7oxjB4ToXQUsBdBNkuQm3a-kqWwqWZcycDB6M9oAC3y441WO0iJbiu7MehBs-wyvGyR_jGnp-5vec3fe3W4nyA9DLaHv-gyF4YwqW7gj2QoH0P3YVv3WW1o_eh-LV-6kEpSaPVAaYrsiPEJoRrDG2I6NqmfpN_kAaeFCOZbvmSY7lOs0k5w-gbUhyEMKrRJNIX-8XANbUZB7645nikkL_pX9MgSCMKu-syydA306dhrcBwiuV4gb0\"},\"imptrackers\":[\"http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3HzmY_7tW7PteoYFuhDLXydL76xaiaEn1W3IcSVxUX9uykmOmkv1xGa9GFajXx83lTZQmOg4Mh-DLPttZBNDHFbTmuHZmWIfs7RBkWGHAclPnl32C3ohvSoi7KcYB-UGvzEvyV0xvGLmVDjJt_YuBzpqu1jTKJT2cadxwc8yOTIQ6WE_gw34Ld4RkxFibOVaqozV89ZTFiWqfIKtQeexGlXTjOMtCTN-8SmwvAUHj6LIEziWWEYoJJmR0HCU1_hiRKFozRnE6haOMiD4Uebh1bSl77uYSNJpLf79lcwOEH10disQNAY5yC1SlJHU5tqeLE6tyUTxW9um18CBsIfM8GYGsFWrLCMZRGXREKIaDz_NLe7JMVhlpkZPmpdPMjlwgq7T0&type=img\"]}}"
+        },
+        {
+          "id": "5nje5X3NKdo",
+          "impid": "3e18a6b114e82fd3c107e9a0de9bba11",
+          "price": 0.559,
+          "adid": "0",
+          "adomain": [
+            "hotels.com"
+          ],
+          "cid": "0",
+          "crid": "0",
+          "nurl": "http://dsp-pixel.contextweb.com/rtb/opn/pl/n?s=pl&b=H4sIAAAAAAAAAF2TS28TMRCAZ9OkpQ9KD6BeV0hIrSC7m3dLhao2RVRqQivSisfFcnYniRVnvdjehHDmyt9AIPgF3LhxKpyQyq3qb0CIE3jzkCJGlsfrmfF8Hs8CjCX9vfziAnYvrxq_zy_WAd52tI7uu27UYZwGyI2mjt9UXPiUO77ouXkvV3a9opvbcgtZiVSJUGVbfIhSZanuCRV1UGJWRegzyt1dnwUPWtTHphBdsp13SuTZ6RnJkpOZDESRqohDLYekoalmIryT98yAWbEAUhGH3Y-f_tz88vkrwNxZ4wDgWnm74nm5QjHxSQGsV_cbdi3BtQ9Ym2mj6xgwCrCWWGbTWvFp8-f7u9_Ox-enUhM1EssyI5kAlhr1vSenJ4fHjx9aKfhP_hoBeFMXrxnn1C05nr1RY2H8asfeCwMpWGCXnNy

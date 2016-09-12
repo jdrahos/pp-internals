@@ -1,0 +1,62 @@
+{
+  "native": {
+    "assets": [
+      {
+        "id": 0,
+        "title": {
+          "text": "We've redesigned, refashioned, and reinvented the Sportage"
+        }
+      },
+      {
+        "id": 1,
+        "data": {
+          "value": "The all-new 2017 Sportage - completely redesigned with Dynamax AWD, Andriod Auto and Panoramic Sunroof - made for your life's journey.",
+          "type": 2
+        }
+      },
+      {
+        "id": 2,
+        "data": {
+          "value": "All-New 2017 Kia Sportage",
+          "type": 1
+        }
+      },
+      {
+        "id": 3,
+        "data": {
+          "value": "CLICK HERE",
+          "type": 12
+        }
+      },
+      {
+        "id": 4,
+        "img": {
+          "url": "http://cdn.bttrack.com/a/60/60/3107453",
+          "type": 1,
+          "w": 60,
+          "h": 60
+        }
+      },
+      {
+        "id": 5,
+        "img": {
+          "url": "http://cdn.bttrack.com/a/200/200/3107453",
+          "type": 3,
+          "w": 200,
+          "h": 200
+        }
+      }
+    ],
+    "ext": {
+      "viewabilitytrackers": [
+        "http://bttrack.com/Pixel/Viewed/?data=OuJifVtEKZqw3Hz56R7tS7Pq5tY9kEW46n9dMGZ3_ahY1fjOXye9LXAdtgjfUEhpPBREnr2ytMbgGpTQaIf9QfBSbvXTKZ1OAwp3sabFSIXVWN9Ac5ud8Nz4oKTLHzI1hRqPiJD-5GojdNECWE6pHJ2LrBUvN3-Kk3SHdU7sATBYriMFR6o5eg0NJcRqgo2pwM56IT5qcHVhznLpnNugSSmnDuNkSi_RE9wslnG1Qw9Jl9CNAvZnbd2ZMqv9mOz_guUEqlpBCY3z7gzxHiD5OAECtU_cZZk5SvG8Vn_nS7Ea-_FRstI9_TZZdc20y2z60zrZzA2&method=3&percentage=1"
+      ]
+    },
+    "link": {
+      "url": "http://bttrack.com/Click/Native?data=OuJifVtEKZqw3Cz5aR7tS7Or-qKkg6q5CkglrD1yDEqt85DxctBdEtIcaR3aSfvvvaabmr4RJ25otc79UJE2v7KGlgQzhRaIuqLPf7lZfLfbXvMS9eA-4H10Xqk4s8Q_f0z2k7vL4BmnV7mQeKRtfbo5y2ah317Yu4Rg12deFFskXoVVErS6A6u_cjhiCu-MHwfXZqfgdGSRpIp-N3jzTs_P8Ao_d8YOXrQcJTEi8YJ9f-TsYIrBQeavTA7eH7hldXd2w7dDs87YMo64Aa73K2yLKQgBCqLX4WHfxtHgx7cQaPMJGAycGfy8z2nPCiLbGqnNiw0B4u-9tTc3ngvwLsKBfyATCgCZ8R1KzsFrSKFE5QhO1XHEhOrBfFk1"
+    },
+    "imptrackers": [
+      "http://bttrack.com/Pixel/Impression/?data=OuJifVtEKZqw3HzmY_7tW7PteoY9ugDLXydLF-1aiaEn1W3IcSVxdn9uypkOm8sNI6Tn0RxnVJ-3kp97GiWT8HtXx8yawEyZOLMlX0ff9JDiksy7B9uuj3z3dH68wbNh0XxLReVff_NFYUKQXFjWgiJAwSQLe18Nf6eZYf-TuacCeD96vF6v8iXUxQxB80pZ8qf6qkHPD32oyDMQoe04xthYpUalX_uxGlXTjAMtCTN-wclE9eWPtXnfpwuavWylY2X5kNoNcP1eWmNsYiH8wxxPUeqCdp-kZxltRq9mUWvptZdKrqAOQja3amLUBlgwbzJF2RRW-Uska8F5OOHzX8hcpJIyAY1dB9fO7RmzXVnJPJOfGsNGKaE4G2nBKGboDmlV_apO_7il0&type=img"
+    ]
+  }
+}

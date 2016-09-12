@@ -10,6 +10,11 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.List;
 import java.util.concurrent.*;
+import java.io.IOException;
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.TimeZone;
 
 /**
  */
@@ -145,6 +150,7 @@ public class TestIt {
     }
 
     @Test
+<<<<<<< HEAD:tests/test/java/my/TestIt.java
     public void testIpProtocolVersion() throws UnknownHostException {
         InetAddress inetAddress = InetAddress.getLoopbackAddress();
         InetAddress localHost = InetAddress.getLocalHost();
@@ -241,16 +247,28 @@ public class TestIt {
         for (int i = 0; i < in.length; i++) {
             in[i] = random.nextGaussian();
             sum += in[i];
-            sum2 += in[i]*in[i];
+            sum2 += in[i] * in[i];
         }
-        double std1 = sum2/n - sum*sum/n/n;
-        double avg = sum/n;
+        double std1 = sum2 / n - sum * sum / n / n;
+        double avg = sum / n;
         double std2 = 0;
         for (int i = 0; i < n; i++) {
             double diff = in[i] - avg;
-            std2 += diff*diff;
+            std2 += diff * diff;
         }
-        System.out.printf("1 = " + std1 + ", 2 = " + (std2/n));
+        System.out.printf("1 = " + std1 + ", 2 = " + (std2 / n));
+    }
+
+    public void testTime() {
+        long time = 1460561020160l;
+/*
+        Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("EST"));
+        calendar.setTime(new Date(time));
+        System.out.println("Time: " + calendar);
+*/
+        DateFormat dateInstance = DateFormat.getDateTimeInstance(DateFormat.MEDIUM, DateFormat.FULL);
+        dateInstance.setTimeZone(TimeZone.getTimeZone("EST"));
+        System.out.println("Time: " + dateInstance.format(new Date(time)));
     }
 }
 
